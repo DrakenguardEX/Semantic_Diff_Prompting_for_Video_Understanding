@@ -1,0 +1,2 @@
+# Semantic_Diff_Prompting_for_Video_Understanding
+Final Project for cs6180 generative AI
