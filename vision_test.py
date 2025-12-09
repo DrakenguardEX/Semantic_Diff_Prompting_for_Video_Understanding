@@ -17,7 +17,7 @@ def main():
     img_b64 = pil_to_base64(img)
 
     resp = client.chat.completions.create(
-        model="gpt-4.1-mini",
+        model="gpt-4o-mini",
         messages=[
             {
                 "role": "user",

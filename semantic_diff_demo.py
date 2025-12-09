@@ -1,4 +1,5 @@
 import os
+import time
 from typing import List
 from PIL import Image
 from vlm_client import VLMClient
@@ -12,7 +13,6 @@ DIFF_PROMPT = (
 )
 
 def load_images_in_order(folder: str) -> List[Image.Image]:
-    """Load a series of frames in orders of file names"""
     files = sorted(
         f for f in os.listdir(folder)
         if f.lower().endswith((".jpg", ".jpeg", ".png"))
@@ -29,11 +29,11 @@ def run_baseline(vlm: VLMClient, images: List[Image.Image]):
     for i, img in enumerate(images):
         text = vlm.describe_single(img, BASELINE_PROMPT)
         results.append({"frame_idx": i, "mode": "baseline", "text": text})
+        time.sleep(3)  # Delay to prevent hitting TPM limit
     return results
 
 def run_diff(vlm: VLMClient, images: List[Image.Image]):
     results = []
-    # initial frame that has no "previous" frame
     results.append({
         "frame_idx": 0,
         "mode": "diff",
@@ -44,6 +44,7 @@ def run_diff(vlm: VLMClient, images: List[Image.Image]):
         curr_img = images[i]
         text = vlm.describe_pair(prev_img, curr_img, DIFF_PROMPT)
         results.append({"frame_idx": i, "mode": "diff", "text": text})
+        time.sleep(3)  # Delay to prevent hitting TPM limit
     return results
 
 def pretty_print_compare(baseline, diff):
@@ -54,25 +55,27 @@ def pretty_print_compare(baseline, diff):
         print("Baseline:", b["text"])
         print("Diff    :", d["text"])
 
-
-#########
-# Token Consumption evaluation
-def count_total_tokens(texts, model_name="gpt2"):
-    # use gpt2 as tokenizer for rough evaluation here, will introduce more metrics later
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    return sum(len(tokenizer.encode(t)) for t in texts)
-#########
+def count_total_tokens(texts, model_name="gpt-4o-mini"):
+    try:
+        import tiktoken
+        encoding = tiktoken.encoding_for_model(model_name)
+        return sum(len(encoding.encode(t)) for t in texts)
+    except ImportError:
+        print("Warning: tiktoken not installed. Using GPT-2 tokenizer (less accurate).")
+        print("Install with: pip install tiktoken")
+        tokenizer = AutoTokenizer.from_pretrained("gpt2")
+        return sum(len(tokenizer.encode(t)) for t in texts)
 
 def main():
-    vlm = VLMClient(model="gpt-4.1-mini")
-    frames_folder = "test_frame_diff"  # name of folder with a consecutive of frames for testing
+    vlm = VLMClient(model="gpt-4o-mini")
+    frames_folder = "test_frame_diff"
     images = load_images_in_order(frames_folder)
-    
-    baseline_results = run_baseline(vlm, images) # baseline video understanding that describe each frame
 
-    diff_results = run_diff(vlm, images) # semantic diff that describe the changes
+    baseline_results = run_baseline(vlm, images)
+    diff_results = run_diff(vlm, images)
 
     pretty_print_compare(baseline_results, diff_results)
+
     baseline_texts = [x["text"] for x in baseline_results]
     diff_texts = [x["text"] for x in diff_results]
 
