@@ -1,0 +1,81 @@
+{
+  "video_id": "10275",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/10275.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/10275",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person indoors, holding up a piece of fabric or cloth in front of them. The person is wearing a gray hoodie and is facing the camera directly. The room appears to be well-lit with natural light coming in from large windows on the left side. In the background, there are various household items and furniture, including shelves and kitchen appliances. The overall atmosphere suggests a casual, home environment.",
+    "The image shows a young man indoors holding up a gray piece of cloth or towel in front of him. He is wearing a gray hoodie and standing in a well-lit room with large windows to his left. The background includes some furnishings and a clock on the wall. The expression on his face appears neutral.",
+    "The frame shows a person standing indoors, holding a cloth or towel close to their mouth. They are wearing a gray hoodie. The background features a large window on the left, allowing natural light into the room. There appear to be shelves or cabinets with various items on the right side of the image. The overall setting looks like a living room or a common area in a house.",
+    "The image shows a person standing indoors, holding a towel or cloth up to their mouth or face. They are wearing a gray hoodie, and the background includes a window with blinds, a wall clock, and some furniture or household items. The lighting appears to be natural, coming from the window on the left side.",
+    "The frame shows a person indoors, standing near a large window with daylight coming through. The person appears to be holding and possibly using a cloth or towel, with one hand bringing it up towards their face. They are wearing a long-sleeve shirt or sweater. In the background, there is some furniture, including shelves with items on them and a refrigerator or similar appliance. The overall setting looks like a casual home environment.",
+    "The image shows a person indoors, holding a long, thin object that appears to be a cooking utensil, possibly a spatula or a slotted spoon. The person is wearing glasses and a gray hoodie. The background includes a window with sunlight coming through on the left side, and some shelves or a cabinet with various items on the right side of the room. The image is somewhat blurry, especially around the object the person is holding.",
+    "The image shows a person indoors holding a wooden spoon close to their face. They appear to be wearing a gray hoodie and are standing in a well-lit room with large windows on the left side. Some furniture and objects, including shelves with books or items, are visible in the background. The person's expression is neutral or focused.",
+    "The image shows a person standing indoors in what appears to be a kitchen or dining area. They are holding a wooden spoon vertically in front of their face. The person is wearing a light-colored hoodie. The background includes a window with blinds letting in natural light, a wall clock, and some kitchen appliances or items on a counter. The overall lighting is bright due to the natural light coming from the window."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a piece of cloth, has moved from being held closer to the person's left shoulder to being held more centrally in front of their chest. The person's left hand also seems to have moved slightly upwards.",
+    "The main object, a towel held by the person, has moved slightly upwards in the current frame compared to the previous one.",
+    "In the current frame, the person has slightly lowered the towel from his mouth.",
+    "In the current frame, the man has raised his right arm, moving it from a downward position to a bent position near his shoulder. The towel he is holding has shifted slightly due to the arm movement.",
+    "The main object, a cloth, has moved from being held close to the person's face in the previous frame to being lifted and more extended above a wooden spoon in the current frame. The person's arm is raised higher to hold the cloth up.",
+    "The person moved their raised right arm out to the side from an elevated position, while the left hand holding the spoon remained in place.",
+    "The person's right arm, which was extended to the side in the previous frame, is now lowered and closer to their body in the current frame. The position of the wooden spoon held in front of their face remains the same."
+  ],
+  "baseline_tokens": 624,
+  "diff_tokens": 266,
+  "lexical_redundancy_baseline_avg": 0.3588802135612409,
+  "lexical_redundancy_diff_avg": 0.23623277921586308,
+  "lexical_redundancy_baseline_all": [
+    0.4027777777777778,
+    0.2972972972972973,
+    0.42424242424242425,
+    0.3783783783783784,
+    0.2823529411764706,
+    0.352112676056338,
+    0.375
+  ],
+  "lexical_redundancy_diff_all": [
+    0.02857142857142857,
+    0.32432432432432434,
+    0.34782608695652173,
+    0.2903225806451613,
+    0.22448979591836735,
+    0.2,
+    0.23809523809523808
+  ],
+  "info_density_baseline": 0.003966766616691654,
+  "info_density_diff": 0.028993180243180244,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.014492753623188406,
+    0.0,
+    0.0,
+    0.0,
+    0.017241379310344827,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05128205128205128,
+    0.045454545454545456,
+    0.0,
+    0.02702702702702703,
+    0.06818181818181818,
+    0.04,
+    0.0
+  ]
+}

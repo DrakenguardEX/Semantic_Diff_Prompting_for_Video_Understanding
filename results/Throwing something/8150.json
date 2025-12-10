@@ -1,0 +1,81 @@
+{
+  "video_id": "8150",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/8150.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/8150",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a close-up view of a wooden surface, likely a table or desk, occupying the majority of the frame. To the bottom left, part of a person's hand holding a small object is visible. There are some dark objects or clothing items in the background, but they are largely out of focus and not clearly identifiable. The overall lighting is moderate, casting slight shadows on the table surface.",
+    "The image shows a close-up view of a wooden surface, likely a table or desk, occupying most of the frame. In the bottom left corner, there is a hand holding a white object, which appears to be a small piece of chalk or a similar item. Also visible in that corner is part of a backpack or bag resting on the floor. The background is mostly out of focus and not clearly visible. The overall lighting is dim and natural.",
+    "This frame shows a close-up view of a wooden table or desk with a light, natural finish. On the left side of the image, there is a person's hand holding a white cylindrical object, possibly a marker or a pen. In the background, there are some items including a dark-colored jacket or piece of clothing and a partially visible white or light-colored box or container. The focus is primarily on the table's surface and the hand holding the marker.",
+    "This image shows a close-up view of a wooden table surface. In the upper left corner, there is a partially visible hand holding a small white object. The background includes some indistinct dark-colored items, possibly clothing or bags. The overall scene seems casual and indoors.",
+    "The image shows a wooden table taking up most of the frame. In the lower left corner, there is a hand holding a small white bottle or tube, possibly a lip balm or glue stick. Near the hand, there is a yellowish rectangular object, which could be a soft case or pouch. The background is somewhat cluttered with dark-colored clothes or fabric items. The overall lighting is natural but a bit dim.",
+    "The image shows a close-up view of a wooden surface, likely a table or desk, covering most of the frame. To the left, a portion of a person's hand is visible holding a small object that looks like a piece of chalk or a whiteboard marker cap. Below the wooden surface, some indistinct objects are partially visible, including what appears to be clothing or fabric, and something that looks like a beige rectangular item, possibly a case or a box. The photo is slightly tilted, giving a diagonal perspective of the table.",
+    "The image shows a close-up of a wooden table, occupying most of the frame. On the left side near the bottom, a person's arm and hand are partially visible. The person appears to be wearing a dark jacket and is sitting next to the table. There is also a backpack or some dark fabric in the background behind the person. The lighting is natural or fluorescent, creating a neutral tone with some reflections on the table surface.",
+    "This image shows a wooden table or desk surface occupying most of the frame, with a small portion of a person's arm wearing a shirt visible at the bottom right corner. There is also a glimpse of what appears to be a black bag or fabric to the left side of the image. The photo is slightly tilted, and the lighting seems to be natural or ambient indoor light."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a hand holding a pen or pencil, moved slightly downward and to the left in the current frame compared to the previous one.",
+    "The person's hand, previously closer to the bottom edge of the frame, has moved slightly upward and more to the left side of the frame.",
+    "The hand holding the chalk or white object moved slightly upward and closer to the left edge of the frame.",
+    "In the current frame, the hand has moved slightly closer to the bottom edge of the image and is now holding a small white object more prominently.",
+    "The hand holding a small white object moved slightly upwards between the two frames.",
+    "The hand has moved slightly closer to the bottom left corner of the frame, and the small white object held between the fingers has shifted position correspondingly.",
+    "The person's hand on the left side of the frame has moved slightly downward and to the right."
+  ],
+  "baseline_tokens": 692,
+  "diff_tokens": 189,
+  "lexical_redundancy_baseline_avg": 0.3855887414101165,
+  "lexical_redundancy_diff_avg": 0.3305933484504913,
+  "lexical_redundancy_baseline_all": [
+    0.5068493150684932,
+    0.3670886075949367,
+    0.49206349206349204,
+    0.352112676056338,
+    0.23404255319148937,
+    0.3103448275862069,
+    0.43661971830985913
+  ],
+  "lexical_redundancy_diff_all": [
+    0.125,
+    0.25,
+    0.5,
+    0.4642857142857143,
+    0.32142857142857145,
+    0.2962962962962963,
+    0.35714285714285715
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.041189967439967445,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.038461538461538464,
+    0.04,
+    0.05,
+    0.037037037037037035,
+    0.07142857142857142,
+    0.037037037037037035,
+    0.05555555555555555
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "1420",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/1420.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/1420",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a section of a plain wall with a baseboard or skirting board at the bottom. The wall is painted a light color, possibly white or off-white, and the baseboard is a solid grey color. The floor appears to be tiled in a similar grey tone as the baseboard. There is a faint shadow or smudge near the base of the wall, but the scene is otherwise minimalistic and empty, with no prominent objects or decorations visible.",
+    "The frame shows a simple indoor setting with a plain white wall and a beige tiled floor. There are no distinct objects or features in the visible part of the room except for a small pile of some fabric or clothing items lying on the floor near the wall. The lighting is even, suggesting natural or overhead lighting. The overall scene appears minimalistic and uncluttered.",
+    "The image shows a close-up of a hand holding a blue box featuring a white heart shape on the front. Inside the heart shape, there is text, but it's partially blurry and reads \"1\" and \"LACON.\" The packaging seems to be of a consumer product, possibly related to infant formula or food, given the presence of nutritional or promotional information on the box. The box is being held against a plain light-colored wall. The overall image is slightly blurry.",
+    "The frame shows a hand holding and moving a blue and white rectangular box. The motion blur suggests that the box is being waved or moved quickly, making the text and details on the box somewhat unclear. The background is plain with a light-colored wall and a floor visible.",
+    "This frame shows a hand reaching toward a corner of a room with a tiled floor and a plain wall. On the floor near the corner, there is a blue container with a pink lid. The container appears to be partially open or tilted. The image is slightly blurred, especially around the hand, indicating motion.",
+    "This frame shows a plain section of a room with a light color wall—likely white or off-white—and a baseboard at the bottom. The baseboard appears to be a different color, possibly light gray or greenish-gray, and there is a smooth floor surface visible beneath it. The image does not include any other objects, decorations, or furniture.",
+    "This frame shows a plain indoor corner with a white wall and a light gray floor. Part of a colorful object, possibly a book or a box with blue and purple sections, is visible at the bottom edge of the image. The scene is simple and minimalistic without much detail.",
+    "This frame shows a close-up view of a box of laundry detergent, specifically labeled \"LUXEON 7\". The box is placed on a tiled floor against a wall with a light-colored baseboard. To the right side of the frame, part of a wooden furniture piece, possibly a door or cabinet, is visible. The overall setting appears to be indoors."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a blue object has appeared at the bottom edge of the frame, partially covering the floor and wall. The white parts near the blue object also indicate some movement or presence that was not there in the previous frame.",
+    "The main object, a blue Lactose 1 pack, has moved closer to the camera and is now being held by a hand, which was not visible in the previous frame. The object has shifted from lying flat to being held upright.",
+    "In the current frame, the main object, a blue box, is moving rapidly upwards and to the right, causing the image of the box and the hand holding it to become blurred due to motion.",
+    "In the current frame, the main object, a blue box, has moved lower and closer to the floor, no longer held in the hand. The hand is reaching out but is more open and positioned slightly further from the box.",
+    "The hand and the toy object have been removed from the frame in the current image compared to the previous one.",
+    "In the current frame, a multicolored object has entered the bottom right corner of the scene, partially visible on the floor.",
+    "The main object, a Lifebuoy soap box, moved from a position closer to the bottom edge of the frame to a position slightly more centered and to the right, closer to a wooden door frame. The box also appears more flat and less tilted compared to the previous frame."
+  ],
+  "baseline_tokens": 601,
+  "diff_tokens": 301,
+  "lexical_redundancy_baseline_avg": 0.2580986431317026,
+  "lexical_redundancy_diff_avg": 0.19624447702865888,
+  "lexical_redundancy_baseline_all": [
+    0.2987012987012987,
+    0.14130434782608695,
+    0.24324324324324326,
+    0.25,
+    0.2923076923076923,
+    0.3387096774193548,
+    0.24242424242424243
+  ],
+  "lexical_redundancy_diff_all": [
+    0.05555555555555555,
+    0.20754716981132076,
+    0.23404255319148937,
+    0.3023255813953488,
+    0.23684210526315788,
+    0.16666666666666666,
+    0.17073170731707318
+  ],
+  "info_density_baseline": 0.007374768089053803,
+  "info_density_diff": 0.015421229467396715,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.04081632653061224,
+    0.01818181818181818,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.024390243902439025,
+    0.02857142857142857,
+    0.05,
+    0.0,
+    0.0,
+    0.02040816326530612
+  ]
+}

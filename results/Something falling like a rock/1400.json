@@ -1,0 +1,81 @@
+{
+  "video_id": "1400",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/1400.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/1400",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person standing barefoot on a tiled floor inside a room. The person is wearing dark pants and a light blue plaid shirt. Only the lower part of the person’s body is visible, from the waist down. To the left, there is a blue office chair with a black base on wheels. Behind the person, there is a door with a white frame and a black panel. The room appears to be simple with light-colored walls.",
+    "This frame shows part of a room with a tiled floor. On the left side, there is an office chair with a blue seat and backrest near a wooden desk. In the center background, there is a closed white door with a black interior panel. On the right side, a person is partially visible from the waist down, wearing dark pants and a light blue checkered shirt. The person is barefoot and appears to be standing while holding an object in their right hand.",
+    "The image shows the lower half of a man standing indoors on a tiled floor near a closed door with a black panel. The man is wearing a light blue checkered shirt and dark pants, and is barefoot. To the left of the man, there is a blue office chair with wheels positioned near a wooden desk. The setting appears to be an office or a room with minimal furniture.",
+    "The image shows a person standing barefoot on a tiled floor. The person is wearing black pants and a blue and white checkered shirt and is holding a black object in their right hand. In the background, there is a blue office chair on wheels and a white door with a black panel in the center. The setting appears to be indoors, possibly a room in a house or office.",
+    "The image shows a person standing indoors on a tiled floor. The person is wearing a light blue and white checkered shirt and dark pants. They are barefoot. Only the lower part of the person's torso down to their feet is visible. The person is holding a remote control or a similar small object in one hand, which is extended slightly forward. In the background, there is a blue office chair with wheels and a desk at the corner of the room. There is also a closed door or cabinet with a black panel near the person.",
+    "The image shows a person standing indoors on a tiled floor next to a chair with blue upholstery and caster wheels. The person is barefoot, dressed in dark pants and a light blue checkered shirt. Their right hand is slightly raised and blurred, indicating motion. There is a black object on the floor near their feet that also appears blurry, suggesting it might be moving or being thrown. The background features a door with a black panel and white frame.",
+    "The image shows part of a room with a tiled floor and light-colored walls. There is a blue office chair with black legs and wheels to the left side of the frame. A section of a wooden desk is also visible near the chair. In the center-right, a person is standing barefoot wearing dark pants and a light blue and white checkered shirt. The person's face is not visible in the frame. Behind them, there is a closed door with a black panel.",
+    "The image shows part of a room with a tiled floor. On the left side, there is a blue office chair next to a desk or table. A sliding door with a black panel in the middle is visible in the center background. On the right side, a person stands barefoot on the floor; only the lower half of their body is visible. The person is wearing dark pants and a light blue plaid shirt. The upper part of the person's body is mostly out of the frame."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the man has shifted his body slightly forward, moving his right foot closer to the left foot.",
+    "The main object, the person, has shifted their body slightly to the right and their right leg has moved forward, crossing over the left leg. The position of the left hand and feet have also changed slightly.",
+    "In the current frame, the person has moved their right foot slightly forward and their hand is now holding an object closer to the body compared to the previous frame.",
+    "The object in the person's hand has moved downward in the current frame compared to the previous one.",
+    "The main object, a phone, has moved downward and is now closer to the floor, appearing slightly blurred due to motion. The person's hand has also moved slightly downward as they release or drop the phone.",
+    "The small object near the man's feet has moved closer to him and is now slightly more raised off the ground, indicating it is in motion or bouncing.",
+    "The person's left foot has moved slightly forward in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 767,
+  "diff_tokens": 226,
+  "lexical_redundancy_baseline_avg": 0.487707927363818,
+  "lexical_redundancy_diff_avg": 0.27932856808651024,
+  "lexical_redundancy_baseline_all": [
+    0.5211267605633803,
+    0.5072463768115942,
+    0.5344827586206896,
+    0.5,
+    0.4418604651162791,
+    0.3875,
+    0.5217391304347826
+  ],
+  "lexical_redundancy_diff_all": [
+    0.09523809523809523,
+    0.2727272727272727,
+    0.3611111111111111,
+    0.4444444444444444,
+    0.2647058823529412,
+    0.3170731707317073,
+    0.2
+  ],
+  "info_density_baseline": 0.007630993414009498,
+  "info_density_diff": 0.04267576399929341,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.011904761904761904,
+    0.014285714285714285,
+    0.0,
+    0.010309278350515464,
+    0.0125,
+    0.012048192771084338,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.047619047619047616,
+    0.02702702702702703,
+    0.03333333333333333,
+    0.05555555555555555,
+    0.08333333333333333,
+    0.03571428571428571,
+    0.058823529411764705
+  ]
+}

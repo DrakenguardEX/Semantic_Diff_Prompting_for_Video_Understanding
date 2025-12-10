@@ -1,0 +1,81 @@
+{
+  "video_id": "166262",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/166262.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/166262",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a person's hand holding a transparent triangular ruler with measurement markings. The hand is using the ruler to position or measure something on a flat, white surface. The ruler features a red curved line and the brand name \"Combo\" printed on it. The person's thumb and fingers are gripping the ruler near its curved edge, and the focus is on the ruler and the hand.",
+    "The image shows a hand holding a transparent plastic geometry tool that combines a protractor and a set square. The tool has measurement markings in black and a red curved protractor scale. The hand is positioned on the right side of the frame, and the tool is placed on a white surface.",
+    "This image shows a close-up of a person's hand holding a transparent protractor with a red curved measuring scale. The protractor is placed on a white surface and appears to be a combination of a triangle ruler and a protractor, often used for drawing and measuring angles. The brand \"Wobra\" is visible on the protractor. The hand is positioned on the right side of the image, gripping the ruler gently.",
+    "This frame shows a close-up of a person's right hand holding a transparent plastic triangular protractor on a white surface. The protractor has measurement markings and a red curved scale labeled \"WEDO.\" The person's thumb and fingers are gripping the top right side of the protractor. The protractor is positioned flat against the surface.",
+    "This frame shows a close-up of a hand holding a transparent plastic template or stencil against a blank white surface, possibly paper or board. The stencil is shaped like a curved leaf or petal, with a built-in ruler along its edge, marked in millimeters and centimeters. There is also a red semi-circular protractor scale printed on it, likely for measuring or drawing precise angles and curves. The hand is positioned to either trace or measure something on the white surface. The word \"Westcott\" is visible on the stencil, which is a known brand for rulers and measuring tools.",
+    "The frame shows a close-up image of a hand holding a transparent plastic protractor placed on a white surface. The protractor has both a red semicircular degree scale and black centimeter markings. The hand is holding the protractor at one end, tilting it slightly. The background is plain and white.",
+    "This frame shows a person's hand holding a transparent triangular ruler with a built-in protractor on a white surface. The ruler has red markings for the protractor and black markings for the measurements along the edges. The person appears to be positioning or using the ruler, possibly for drawing or measuring an angle.",
+    "The frame shows a person's hand using a transparent plastic protractor with a red marking to measure or draw an angle on a white surface. The protractor is positioned on the edge of the surface, and the hand is holding it steady. The protractor also has a built-in ruler and is labeled with the brand \"Maped.\""
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand has moved slightly downward, adjusting its grip on the protractor.",
+    "In the current frame, the hand has slightly shifted, moving the red arc of the protractor marginally forward along the surface compared to the previous frame.",
+    "The hand has moved slightly downward while still holding the protractor. The protractor itself has rotated a bit clockwise.",
+    "The main change is the protractor being rotated slightly counterclockwise by the hand.",
+    "The main object, a clear protractor ruler held by a hand, has rotated slightly counterclockwise compared to the previous frame.",
+    "The ruler has been rotated slightly counterclockwise while still being held by the hand, with the tip moving closer to the edge of the surface.",
+    "The main object, a transparent protractor, has rotated slightly clockwise, and the hand holding it has moved to adjust the position."
+  ],
+  "baseline_tokens": 623,
+  "diff_tokens": 184,
+  "lexical_redundancy_baseline_avg": 0.3303116227309975,
+  "lexical_redundancy_diff_avg": 0.2149525351495795,
+  "lexical_redundancy_baseline_all": [
+    0.2698412698412698,
+    0.3684210526315789,
+    0.43103448275862066,
+    0.26744186046511625,
+    0.23255813953488372,
+    0.2711864406779661,
+    0.4716981132075472
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.19230769230769232,
+    0.16666666666666666,
+    0.23809523809523808,
+    0.38095238095238093,
+    0.3448275862068966,
+    0.18181818181818182
+  ],
+  "info_density_baseline": 0.011301012219020268,
+  "info_density_diff": 0.032755687295160985,
+  "info_density_baseline_per_frame": [
+    0.028169014084507043,
+    0.019230769230769232,
+    0.014285714285714285,
+    0.018518518518518517,
+    0.01020408163265306,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.08333333333333333,
+    0.038461538461538464,
+    0.05263157894736842,
+    0.0,
+    0.0,
+    0.04,
+    0.047619047619047616
+  ]
+}

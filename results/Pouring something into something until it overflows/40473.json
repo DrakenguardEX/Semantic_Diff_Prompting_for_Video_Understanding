@@ -1,0 +1,81 @@
+{
+  "video_id": "40473",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/40473.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/40473",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows water being poured from a clear glass carafe into a blue-tinted glass placed on a dark wooden surface. Some water droplets are visible on the surface near the base of the blue glass. The focus is on the pouring action and the clarity of the water.",
+    "The image shows a clear glass being filled with water from a transparent pitcher. The glass is blue-tinted and placed on a dark wooden surface. Some water droplets are visible on the surface next to the glass. The water in the glass has ripples indicating it is actively being poured.",
+    "The image shows water being poured from a transparent glass pitcher into a blue-tinted glass. The pouring action creates bubbles and ripples in the water within the glass. The surface underneath appears to be a dark wood or wood-like material. There are a few small water droplets splashed on the surface near the glass.",
+    "This frame shows a close-up of a glass being filled with water from a transparent pitcher. The glass is blue-tinted and is placed on a dark wooden surface. Some water droplets and minor splashes are visible on the surface around the glass. The photo captures the moment the water is being poured.",
+    "The image shows a clear glass being filled with water from a glass pitcher. The water appears to have a blue tint, possibly due to lighting or a coloring agent. The glass is placed on a dark wooden surface, and some water droplets are visible on the surface near the glass.",
+    "The image shows a close-up of a clear glass being filled with water from a transparent pitcher. The water appears slightly blue-tinted, probably due to the lighting or the color of the glass. The surface beneath is a dark wooden texture, with a few water droplets visible next to the glass. The scene captures the moment of water pouring into the glass, creating some small ripples and bubbles.",
+    "This frame shows a close-up of a clear blue glass being filled with water from a glass bottle. The water is pouring into the glass, creating ripples and bubbles on the water surface. The glass is placed on a wooden surface, and there are a few droplets of water spilled around the glass. The image captures the motion of the water pouring.",
+    "This frame shows a small, transparent blue glass filled with water. Water is being poured into the glass, causing some splashing and ripples on the water's surface. The glass is placed on a dark wooden surface, and a few droplets of water can be seen on the surface around the glass. The lighting highlights the water's motion and the glass's texture."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the level of water in the blue glass has risen as more water is poured from the tilted glass container. The water inside the glass is showing increased movement and splashing compared to the previous frame.",
+    "The water level in the blue glass has risen slightly as more water is poured from the glass container. There is also a small splash or ripple forming on the surface of the water inside the glass.",
+    "In the current frame, more liquid has been poured from the jug into the blue glass, causing the liquid inside the glass to rise and swirl further.",
+    "The water level in the glass has risen as more water is being poured into it from the jug. The water surface appears more disturbed with visible ripples.",
+    "The water in the glass has risen and is swirling more vigorously as it continues to be poured from the container above.",
+    "In the current frame, the amount of blue liquid in the glass has increased, reaching near the top edge, and the liquid is visibly swirling more intensely. The water flow from the glass container into the glass has decreased and is now just a thin stream.",
+    "The water being poured into the glass has decreased to a few drops, with a prominent water droplet falling above the glass. The water surface inside the glass shows more ripples and disturbance compared to the previous frame."
+  ],
+  "baseline_tokens": 542,
+  "diff_tokens": 277,
+  "lexical_redundancy_baseline_avg": 0.43883797257723145,
+  "lexical_redundancy_diff_avg": 0.2698431514687157,
+  "lexical_redundancy_baseline_all": [
+    0.4888888888888889,
+    0.41509433962264153,
+    0.3103448275862069,
+    0.4489795918367347,
+    0.4642857142857143,
+    0.47368421052631576,
+    0.47058823529411764
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1,
+    0.42105263157894735,
+    0.23076923076923078,
+    0.2647058823529412,
+    0.4,
+    0.2682926829268293,
+    0.20408163265306123
+  ],
+  "info_density_baseline": 0.03767755662923619,
+  "info_density_diff": 0.033789355271048635,
+  "info_density_baseline_per_frame": [
+    0.04081632653061224,
+    0.02,
+    0.05555555555555555,
+    0.038461538461538464,
+    0.0196078431372549,
+    0.029411764705882353,
+    0.04838709677419355,
+    0.04918032786885246
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05,
+    0.05405405405405406,
+    0.037037037037037035,
+    0.03571428571428571,
+    0.045454545454545456,
+    0.021739130434782608,
+    0.02631578947368421
+  ]
+}

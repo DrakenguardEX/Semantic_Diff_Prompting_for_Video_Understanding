@@ -1,0 +1,81 @@
+{
+  "video_id": "6027",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/6027.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/6027",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a hand holding a white book or box with a colorful emblem or design in the center. The background includes a bed with a blanket that appears to have a floral or patterned design. The setting appears to be indoors, with a plain wall and a dark horizontal edge, possibly a headboard, behind the bed. The image is slightly blurry, making it difficult to read any text or see details clearly on the object being held.",
+    "This frame shows a hand holding a white box with a blurry design or logo that includes a red and black central element. The background includes a patterned or textured surface, possibly a woven basket or mat, and part of a bed or couch with a yellowish blanket or cover. The image is somewhat blurry.",
+    "This frame shows a person sitting or lying on a bed covered with a patterned blanket and wearing blue pants. Near the bed, an object resembling a piece of paper or a small book with an image or design on it, featuring a dark background and a central red detail, appears to be mid-air, possibly being thrown or dropped. The background wall is plain and light-colored. The overall scene looks somewhat blurry, indicating motion.",
+    "The image shows a yellow pillow on a bed with a floral-patterned yellow and green bedspread. In front of the pillow is a white package with some text and a circular red and black design, which is in mid-air, seemingly thrown or dropped. The background is a light green wall. A blurry hand is visible on the right side of the image, suggesting someone just tossed the package.",
+    "The image shows a bed with yellow and orange striped bedding and a matching pillow. There is a black headboard behind the bed. On top of the pillow, there is a card with a large red button image on it. The background wall is plain and light green in color. There is a partial view of a person on the right side of the frame.",
+    "This frame shows a bed with yellowish-green patterned bedding and pillows. There is a book placed on top of one of the pillows. The walls are light green, and part of a person's arm is visible on the right side of the image. The overall lighting suggests it is taken indoors, possibly in a bedroom.",
+    "The image shows a bed with yellow-patterned sheets and pillows. On top of the pillows, there is a rectangular object resembling a deck of cards or a box with a red and black design on the front. To the right of the frame, a person's hand is partially visible, reaching towards the bed. The background consists of a plain, lightly colored wall with visible vertical lines.",
+    "The image shows a bed with yellow and orange patterned bedding, including a pillow and a blanket. On top of the pillow, there is a small booklet or card with an image of a black object featuring a red circle in the center. A hand is visible on the right side of the image, reaching toward the blanket. The headboard of the bed appears to be dark-colored, and the wall behind is light green with vertical paneling."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a book or similar rectangular item held by a hand, has moved slightly downward and to the right in the current frame compared to the previous one. The hand holding the object is now more visible and appears to be in a looser grip or different position.",
+    "The main object, a book, has moved upward and slightly rotated compared to the previous frame. The hand holding the book has also moved further away to the right, releasing the book.",
+    "In the current frame, the paper with the red and black design has moved farther away from the hand and is now higher and more centered above the yellow pillow, showing a clearer upward trajectory. The hand remains in a similar position.",
+    "The main object, a card, has stopped moving through the air and is now resting flat on the pillow. The hand that was previously visible is no longer in the frame.",
+    "The hand on the right side of the frame has moved further inward toward the pillow.",
+    "In the current frame, a hand has moved closer to the right side of the image, appearing more extended compared to the previous frame.",
+    "The hand on the right side has moved slightly closer to the pillow. The position of the card on the pillow has shifted a bit, now being slightly rotated counterclockwise."
+  ],
+  "baseline_tokens": 641,
+  "diff_tokens": 268,
+  "lexical_redundancy_baseline_avg": 0.31354113740911843,
+  "lexical_redundancy_diff_avg": 0.2449562342419485,
+  "lexical_redundancy_baseline_all": [
+    0.2916666666666667,
+    0.27631578947368424,
+    0.2716049382716049,
+    0.3333333333333333,
+    0.3559322033898305,
+    0.2835820895522388,
+    0.38235294117647056
+  ],
+  "lexical_redundancy_diff_all": [
+    0.07692307692307693,
+    0.38095238095238093,
+    0.2,
+    0.20833333333333334,
+    0.18181818181818182,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "info_density_baseline": 0.005365659777424483,
+  "info_density_diff": 0.03450844854070661,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.013513513513513514,
+    0.029411764705882353,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.02,
+    0.0625,
+    0.023809523809523808,
+    0.03225806451612903,
+    0.0625,
+    0.041666666666666664,
+    0.03333333333333333
+  ]
+}

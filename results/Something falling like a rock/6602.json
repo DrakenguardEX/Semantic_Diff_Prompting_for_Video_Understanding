@@ -1,0 +1,81 @@
+{
+  "video_id": "6602",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/6602.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/6602",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a hand holding a small green object, possibly a cap or coin, against a green background. The hand appears to be in motion, positioned above a surface covered with a red-and-white checkered cloth. The lighting and color tones create a somewhat muted and calm atmosphere. The image composition emphasizes the hand and the green object as focal points.",
+    "This frame shows a close-up of a hand holding a small round object, possibly a coin or a button. The background is a muted green wall with a dark wooden panel running horizontally near the bottom of the frame. Below the panel, there is a cloth with a red and white checkered pattern, covering the lower part of the image. The overall lighting is subdued, giving the scene a calm or contemplative atmosphere.",
+    "This frame shows a hand reaching down towards a small round green object, possibly a lime or a similar fruit, which is resting on a surface covered with a red and white checkered cloth. The background is a solid green color. The lighting creates a shadow of the object and part of the hand on the checkered cloth below. The hand appears to be in the process of either picking up or placing down the green object.",
+    "This frame shows a hand reaching out to pick up or place a small round object, possibly a coin, against a green background. The hand is adorned with a black wristband or bracelet. Below the hand is a surface covered with a checkered cloth featuring a red and white pattern. The focus is on the hand and the small object it is interacting with.",
+    "This frame shows a close-up of a hand reaching downwards toward a surface covered with a red and white checkered cloth. The background wall is green, and the lighting is dim, creating a somewhat moody or tense atmosphere. The position of the hand suggests a delicate or careful motion, as if about to pick up or touch something on the cloth-covered surface.",
+    "The frame shows a close-up of a checkered cloth, possibly a tablecloth or bedspread, with a green object on it that resembles a small stone or piece of candy. Above the cloth, there is a hand in motion reaching towards the green object, blurred due to the movement. The background wall is green with a dark baseboard running horizontally across the image. The overall tone of the frame is somewhat dim, suggesting indoor lighting.",
+    "This frame shows the lower part of a green wall above a dark baseboard or skirting board. Below the baseboard, there is a checkered fabric surface with a pattern of small red and white checks. The overall scene appears to be indoors, possibly a corner of a room with a bed or covered surface against the wall.",
+    "This frame shows the lower portion of a wall and a floor area. The wall is painted green with a black baseboard running along the bottom. The floor is covered with a checkered fabric or mat with a pattern of small squares, predominantly white and pinkish or light red in color. The scene appears to be indoors."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand is moving slightly forward and downward while still holding the green coin. The coin appears to have been lifted a bit higher compared to the previous frame.",
+    "The coin held between the fingers has been released and is falling downward toward the surface below.",
+    "The ball is now slightly closer to the fingers, indicating it has moved towards the hand in the current frame.",
+    "The hand has moved slightly downward, bringing the small round object closer to the surface below.",
+    "The object, a small green ball, has moved downward from the hand toward the surface covered with a checkered cloth, indicating it has been released or dropped. The hand has also moved slightly forward and its fingers appear more spread out.",
+    "The green object previously visible on the cloth has disappeared, and the hand that was reaching out in the previous frame is no longer present.",
+    "In the current frame, a small white ball has appeared near the center of the image on the checkered surface, which was not present in the previous frame."
+  ],
+  "baseline_tokens": 625,
+  "diff_tokens": 213,
+  "lexical_redundancy_baseline_avg": 0.3628285752362515,
+  "lexical_redundancy_diff_avg": 0.19381859941370422,
+  "lexical_redundancy_baseline_all": [
+    0.35714285714285715,
+    0.3424657534246575,
+    0.43548387096774194,
+    0.36507936507936506,
+    0.3150684931506849,
+    0.2602739726027397,
+    0.4642857142857143
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1111111111111111,
+    0.18181818181818182,
+    0.14285714285714285,
+    0.2916666666666667,
+    0.23684210526315788,
+    0.1702127659574468,
+    0.2222222222222222
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.03613369180725275,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.06896551724137931,
+    0.058823529411764705,
+    0.05,
+    0.0625,
+    0.04878048780487805,
+    0.0,
+    0.0
+  ]
+}

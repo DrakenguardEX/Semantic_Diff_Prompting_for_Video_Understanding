@@ -1,0 +1,81 @@
+{
+  "video_id": "74417",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/74417.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/74417",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This image shows a close-up view of an open wooden drawer. Inside the drawer, there are kitchen utensils, including a wooden spatula with an oval hole, a metal ladle, and a metal slotted spoon. A hand is pulling or holding the drawer handle, which is metallic. The drawer and utensils appear to be in a kitchen setting.",
+    "The image shows a partially opened wooden drawer containing various kitchen utensils. Inside the drawer, there is a metal spoon, a wooden spoon with a hole in the handle, and a black cooking utensil, possibly a spatula or ladle. A person's hand is visible at the bottom right corner of the image, holding the drawer open. The drawer itself has a simple design with a round knob handle. The photo seems to be taken indoors, possibly in a kitchen setting.",
+    "This frame shows a partially open wooden drawer. Inside the drawer, there are several kitchen utensils, including a metal slotted spoon, a wooden spoon, and a white spatula. The drawer front appears slightly worn, with a faded spot or scuff mark visible. A hand is visible at the bottom right corner, holding or pulling the drawer open. The person wears a ring on their ring finger. The lighting is moderate, suggesting an indoor setting.",
+    "This frame shows a close-up of a person's hand partially opening or closing a wooden cabinet or drawer door. The door has a horizontal wood grain and appears to be medium brown in color. Inside the cabinet, there is a glimpse of a circular saw blade and some other tools or objects stored behind the door. The person's hand has a ring on one of their fingers. The background wall is plain and light-colored.",
+    "This image shows a close-up view of a wooden drawer that is slightly opened. A person's hand is gripping the drawer's handle, which appears to be a metallic knob. The drawer front has a natural wood finish. The background above the drawer features a small gap and a surface that looks like a countertop or tabletop made of a different material. The image likely captures someone about to open or close the drawer.",
+    "The frame shows a close-up of a hand reaching towards or about to grasp a small round knob or handle on a wooden surface, likely a drawer or cabinet door. The wood has a light to medium brown finish, and the background above the wood appears to be a neutral wall or surface.",
+    "This image shows a close-up view of a wooden drawer front with a round metal knob in the center. The wood has a natural finish, and the grain is visible. The drawer front appears to be part of a piece of furniture, such as a dresser or cabinet, with a slightly darker wood trim at the top. The lighting is dim, giving the scene a subdued appearance.",
+    "This frame shows a close-up of a wooden drawer with a round, metallic knob. The drawer has a natural wood finish with visible grain patterns. The overall appearance suggests it is part of a piece of furniture, such as a dresser or cabinet. The background above the drawer appears to be a plain wall."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The drawer has been pulled open slightly, and a hand is now visible gripping the drawer handle.",
+    "The drawer is being pulled open slightly more, and the hand is moving to pull the drawer further out.",
+    "The drawer has been pulled open slightly more, with the hand moving to the right and the gap between the drawer and the cabinet becoming wider.",
+    "The hand has moved slightly to the right and the door has closed a bit more compared to the previous frame.",
+    "In the current frame, the drawer has been pushed further closed. The hand has moved slightly downward, gripping the drawer handle more securely.",
+    "The hand that was touching the drawer handle in the previous frame has moved away in the current frame, and the drawer handle is now slightly pulled outward.",
+    "The drawer handle moved downward slightly in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 642,
+  "diff_tokens": 179,
+  "lexical_redundancy_baseline_avg": 0.3486590736033111,
+  "lexical_redundancy_diff_avg": 0.3023477844906416,
+  "lexical_redundancy_baseline_all": [
+    0.42424242424242425,
+    0.34177215189873417,
+    0.2159090909090909,
+    0.25,
+    0.390625,
+    0.2835820895522388,
+    0.5344827586206896
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.36363636363636365,
+    0.4166666666666667,
+    0.2962962962962963,
+    0.3076923076923077,
+    0.35714285714285715,
+    0.375
+  ],
+  "info_density_baseline": 0.016129879203284035,
+  "info_density_diff": 0.09548098063376029,
+  "info_density_baseline_per_frame": [
+    0.03508771929824561,
+    0.0125,
+    0.02702702702702703,
+    0.02702702702702703,
+    0.0273972602739726,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.11764705882352941,
+    0.21052631578947367,
+    0.11538461538461539,
+    0.09523809523809523,
+    0.08695652173913043,
+    0.07142857142857142,
+    0.06666666666666667
+  ]
+}

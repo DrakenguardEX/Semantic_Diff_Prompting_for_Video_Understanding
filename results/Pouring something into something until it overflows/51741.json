@@ -1,0 +1,81 @@
+{
+  "video_id": "51741",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/51741.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/51741",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a beige-colored mug with a handle placed on a ribbed surface, likely a kitchen sink or a drying rack. A blue bottle is positioned above the mug, pouring a clear liquid, presumably water, into it. Some of the liquid has spilled and is seen dripping down the side of the mug onto the surface below. The lighting is bright, highlighting the action of pouring.",
+    "The image shows water being poured from a blue plastic container into a light brown ceramic cup placed on a ribbed surface, which appears to be a drainboard or drying rack. The cup is partially filled with water, and some water droplets are visible around the cup on the surface. The scene is well-lit, highlighting the water flow and the texture of the cup and surface.",
+    "The image shows a close-up of a golden or beige-colored cup being filled with a clear liquid from a blue container. The cup is placed on a grooved black surface, and some of the liquid has spilled onto the surface around the cup. The liquid appears to be water or a similar clear fluid.",
+    "The frame shows a close-up view of a blue container pouring a clear liquid, likely water, into a beige ceramic mug. The mug is decorated with a floral design and is placed on a grooved, metallic surface that appears to be part of a kitchen sink. Some liquid is spilling over the side of the mug onto the surface below. The scene is well lit, highlighting the action of pouring.",
+    "The image shows a close-up of liquid, likely tea or coffee, being poured from a container with a blue lid into a brownish-yellow ceramic mug. The mug is placed on a dark, ribbed surface, possibly a countertop or sink area. Some of the liquid is overflowing and spilling over the side of the mug onto the surface below.",
+    "The image shows a close-up of a golden-brown ceramic mug being filled with a liquid, likely water, being poured from a blue plastic container. The mug is placed on a black grooved surface, which appears to be a sink or countertop. The liquid is mid-pour, creating some splashes inside the mug. The handle of the mug is visible on the left side. The lighting suggests an indoor setting.",
+    "The frame shows water being poured from a blue-topped plastic bottle into a yellowish-brown ceramic mug. The mug is sitting on a metallic surface with ridges, likely a kitchen sink or drainboard. The water is creating foam as it fills the mug.",
+    "This frame shows a yellow ceramic mug being filled with water from a blue-tinged container or faucet. The mug is placed on a ribbed metal surface, which appears to collect the water spilling around the mug. The water is in the process of pouring into the mug, creating bubbles on the surface inside."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, water is pouring into the cup, creating visible splashes and movement inside the cup, whereas in the previous frame, the water level was just starting to rise.",
+    "In the current frame, more liquid has been poured into the mug, causing the liquid level inside to rise and visible bubbles to form on the surface.",
+    "In the current frame, the liquid being poured from the blue container into the cup has increased in amount, and the liquid inside the cup shows more visible movement and bubbles compared to the previous frame.",
+    "In the current frame, the liquid being poured into the cup has increased in volume and is creating more visible splashes and bubbles inside the cup.",
+    "The liquid being poured into the mug has risen, filling more of the cup and causing more visible splashing and swirling inside the mug.",
+    "The liquid being poured into the cup has increased, causing more foam to form and the liquid level inside the cup to rise closer to the rim. Additionally, some liquid has spilled over and spread further down the cup's side.",
+    "In the current frame, the cup has filled up further with liquid, causing the liquid to spill over the edge and start accumulating on the surface below. The pouring stream of liquid continues into the cup."
+  ],
+  "baseline_tokens": 586,
+  "diff_tokens": 263,
+  "lexical_redundancy_baseline_avg": 0.3537043872633629,
+  "lexical_redundancy_diff_avg": 0.33697084760544627,
+  "lexical_redundancy_baseline_all": [
+    0.2602739726027397,
+    0.4067796610169492,
+    0.3870967741935484,
+    0.40625,
+    0.3939393939393939,
+    0.3125,
+    0.3090909090909091
+  ],
+  "lexical_redundancy_diff_all": [
+    0.11538461538461539,
+    0.3235294117647059,
+    0.42424242424242425,
+    0.5517241379310345,
+    0.4074074074074074,
+    0.3142857142857143,
+    0.2222222222222222
+  ],
+  "info_density_baseline": 0.04262229544068488,
+  "info_density_diff": 0.05807341926293539,
+  "info_density_baseline_per_frame": [
+    0.029850746268656716,
+    0.045454545454545456,
+    0.037037037037037035,
+    0.02857142857142857,
+    0.05172413793103448,
+    0.04411764705882353,
+    0.047619047619047616,
+    0.05660377358490566
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.06451612903225806,
+    0.037037037037037035,
+    0.027777777777777776,
+    0.07692307692307693,
+    0.125,
+    0.05,
+    0.08333333333333333
+  ]
+}

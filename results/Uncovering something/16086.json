@@ -1,0 +1,81 @@
+{
+  "video_id": "16086",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/16086.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/16086",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up view of a crumpled white fabric, likely a bed sheet or similar material. The fabric has visible wrinkles and folds, and it covers most of the frame. There is a partial glimpse of a person's arm and hand on the top left side of the image. The lighting is dim, creating some shadows on the fabric.",
+    "The image shows a white sheet or blanket with some wrinkles on it. There is a blurred white vertical shape in the center, possibly an object or motion blur. In the top left corner, there is a partial view of a brownish-colored object or possibly an animal. The overall scene appears indoors, likely on a bed or couch.",
+    "This frame shows an unmade bed with white bed sheets that appear wrinkled and slightly disturbed. There is a beige or light brown pillow on the upper left side and another white or light-colored pillow near the center top, partially overlapping each other. The overall appearance suggests that the bed was recently used or has not been neatly arranged.",
+    "The image shows a close-up of a white bedsheet or blanket with a pair of eyeglasses resting on it. There is a light-colored pillow or blanket partially visible in the upper left corner and a darker shadow or fabric in the upper right corner. The eyeglasses have a black frame and are positioned near the center-right of the frame. The overall lighting is soft, suggesting an indoor setting.",
+    "This frame shows a close-up view of an unmade bed with white sheets and a blanket. On the bed, there is an object that appears to be an eyeglasses frame placed on top of the sheets near the upper middle of the image. The overall setting looks like a bedroom or a resting area.",
+    "This frame shows a close-up of a bed with white bedding. On the bed, there is a pair of glasses with clear frames placed near the edge of the pillow or blanket. The overall color scheme is light, mainly white and off-white tones, and the setting appears to be calm and simple.",
+    "The image shows a pair of eyeglasses resting on a white fabric surface, which appears to be a bed with white sheets and a white pillow. The glasses have white frames and black temple arms. One of the temple arms is fully extended, while the other is not clearly visible. The lighting is soft, creating a calm and quiet atmosphere.",
+    "The image shows a pair of eyeglasses resting on a white bed sheet. The sheets are slightly wrinkled and appear to be part of a bed setup with a pillow partially visible on the right side. The eyeglasses have transparent or light-colored frames with black temple tips. The overall setting suggests a calm and simple bedroom environment."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a white, blurry object has moved downward across the bed, partially obstructing the view of the sheets. Additionally, a small part of an orange object is now visible on the left side of the frame.",
+    "The white object (likely a cat's paw) that was present in the previous frame is no longer visible in the current frame. The main object has moved out of the frame.",
+    "A pair of eyeglasses has appeared on the bed near the pillow in the current frame.",
+    "In the current frame, the pillow on the right side has shifted slightly upwards and to the right compared to the previous frame.",
+    "The glasses have slightly moved, with the temple arm closer to the right edge and the angle of the glasses adjusted a bit. Additionally, the blanket on the right side has shifted upward revealing more of the bed underneath.",
+    "The dark arm of the glasses has moved slightly upwards and to the right.",
+    "There is no visible change; the glasses remain in the same position on the bed."
+  ],
+  "baseline_tokens": 563,
+  "diff_tokens": 217,
+  "lexical_redundancy_baseline_avg": 0.3224552086893085,
+  "lexical_redundancy_diff_avg": 0.21596944801934728,
+  "lexical_redundancy_baseline_all": [
+    0.3076923076923077,
+    0.2191780821917808,
+    0.28378378378378377,
+    0.359375,
+    0.43636363636363634,
+    0.2857142857142857,
+    0.36507936507936506
+  ],
+  "lexical_redundancy_diff_all": [
+    0.029411764705882353,
+    0.2926829268292683,
+    0.22580645161290322,
+    0.30434782608695654,
+    0.25,
+    0.3225806451612903,
+    0.08695652173913043
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.019371085903343965,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.02564102564102564,
+    0.03225806451612903,
+    0.0,
+    0.0,
+    0.02564102564102564,
+    0.07142857142857142,
+    0.0
+  ]
+}

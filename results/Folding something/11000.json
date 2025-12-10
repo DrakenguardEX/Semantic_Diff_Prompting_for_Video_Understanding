@@ -1,0 +1,81 @@
+{
+  "video_id": "11000",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/11000.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/11000",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person holding up a piece of lined notebook paper towards the camera. The paper appears to have some writing or markings on it, but they are faint and difficult to read. The person is sitting on a bed with a red and white checkered blanket and a white pillow with a design. The background includes a beige wall with a dark cloth or curtain hanging. The person's face is partially obscured by the paper and the low lighting makes it harder to see details clearly.",
+    "The image shows a person holding up a blank or nearly blank sheet of lined notebook paper in front of their face, obscuring their identity. The person appears to be sitting on a bed or couch with a pillow and possibly a blanket featuring a pink and white pattern. The background includes a wall and a dark curtain or fabric. The lighting is warm and dim.",
+    "The image shows a person sitting and holding up a piece of lined notebook paper towards the camera. The paper is held with both hands, obscuring most of the person's torso. The person appears to be wearing a strapless top or is shirtless, and they are seated on a bed or couch with a plain wall and a pillow or blanket visible in the background. The notebook paper is blank and slightly wrinkled. The lighting is soft and the overall setting appears casual and indoors.",
+    "The image shows a person sitting on a bed, holding a piece of lined notebook paper with two hands. The paper is held up close to the camera, obscuring most of the person's face and upper body. The person appears to be wearing a sleeveless top. The bed has a checkered or plaid patterned blanket. The background includes a dark-colored cloth or curtain and a light-colored wall. The notebook paper is slightly curled and has some writing faintly visible on it.",
+    "The frame shows a person sitting down, possibly on a bed covered with a colorful blanket or sheet. They are holding a white rectangular object, which looks like a box or a book, with both hands in front of them. The person's face is mostly obscured by shadows and hair, making it difficult to see their facial features clearly. The background appears to be a plain wall with a dark cloth or curtain hanging on it. The overall lighting is dim.",
+    "The image shows an individual sitting cross-legged on a bed or similar surface. They are holding a blank white piece of paper or a small whiteboard in front of them with both hands. The person has long dark hair and is wearing a sleeveless top and plaid pants. The background features a dark-colored cloth or curtain hanging on the wall. The overall lighting is dim.",
+    "The image shows a person sitting cross-legged, holding up a blank spiral notebook or sketchpad. The person's face is partially visible, but the focus is on the notebook, which is held with both hands. The background includes a dark cloth or curtain hanging on the wall and some pillows or cushions on the right side. The person appears to be wearing casual clothing, including plaid pants. The lighting is dim.",
+    "The image shows a person sitting indoors, holding up a spiral-bound notepad or sketchbook with a blank page visible. The person is wearing a sleeveless top, and their face is partially obscured by shadows and the lighting. The background includes a light-colored wall and some draped fabric or curtains. The person is sitting on a surface covered with a patterned fabric, possibly a blanket or bedsheet. The lighting is dim, making the details less clear."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The paper held by the person moved downward and slightly to the right in the current frame compared to the previous one. The person's hand also shifted position accordingly, appearing more blurred due to motion.",
+    "In the current frame, the notebook is held more steadily with both hands visible on either side, and the notebook has been rotated so that its front side is now fully facing forward. The left hand has moved from the edge of the notebook to a more centered position.",
+    "The main object, a notebook page, is being folded down from the top in the current frame compared to the previous one.",
+    "The person lowered the notebook slightly and rotated it, now holding it more horizontally compared to the previous frame.",
+    "The main object, a white rectangular item held by the person, has moved slightly upward and to the right. The person's grip shifted accordingly, with their fingers repositioned along the top edge.",
+    "The main object, a notebook held by the person, has been slightly lowered and tilted forward in the current frame compared to the previous one. The person's hands have also adjusted their grip accordingly.",
+    "In the current frame, the person's right arm has moved downward and out of the frame, while their left hand continues to hold the notebook in a similar position. The notebook itself remains mostly stationary."
+  ],
+  "baseline_tokens": 725,
+  "diff_tokens": 273,
+  "lexical_redundancy_baseline_avg": 0.37440704376553524,
+  "lexical_redundancy_diff_avg": 0.2033617473880213,
+  "lexical_redundancy_baseline_all": [
+    0.38961038961038963,
+    0.4166666666666667,
+    0.4605263157894737,
+    0.27956989247311825,
+    0.3855421686746988,
+    0.3684210526315789,
+    0.32051282051282054
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0967741935483871,
+    0.2,
+    0.1875,
+    0.20689655172413793,
+    0.1282051282051282,
+    0.3488372093023256,
+    0.2553191489361702
+  ],
+  "info_density_baseline": 0.0015432098765432098,
+  "info_density_diff": 0.01928194573283859,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.012345679012345678,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.02857142857142857,
+    0.02040816326530612,
+    0.045454545454545456,
+    0.0,
+    0.03125,
+    0.0,
+    0.02857142857142857
+  ]
+}

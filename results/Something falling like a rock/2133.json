@@ -1,0 +1,81 @@
+{
+  "video_id": "2133",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/2133.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/2133",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a cozy-looking bed with a chevron-patterned bedspread in gray and white. There are several pillows arranged at the head of the bed, including a white pillow with a panda face design that also has the word \"LOVE\" written on it. A person's arm is extended into the frame from the right side, holding a small, yellow toy helmet with a character's face on it. The room appears to be softly lit, giving a comfortable and inviting atmosphere.",
+    "The frame shows a bed or couch covered with a grey and white chevron-patterned blanket or sheet. There are several pillows arranged at the head of the bed: one is a white pillow with a panda face and the word \"love\" partially visible, and the others are various shades of blue and green. A person's arm is extending into the frame from the right side, holding a small figurine or toy above the bed. The room appears to have a calm, cozy atmosphere.",
+    "This frame shows a person's arm and hand in the process of tossing or dropping a small, yellow, and white toy or object onto a bed. The bed has a zigzag patterned cover in gray and white, with several pillows at the head of the bed. The pillows are in different shades of blue and gray, and there is also a white pillow with a cute panda face design and the word \"LOVE\" partially visible on it. The setting appears to be a cozy, indoor bedroom.",
+    "The frame shows a hand reaching or pointing towards a small yellow object in the middle of a bed. The bed has a light-colored sheet with a gray zigzag pattern. There are several cushions and pillows in the background, including a few solid dark blue and gray ones, a white pillow with a blue geometric pattern, and a plush panda-shaped pillow with the word \"LOVE\" on it. A window or mirror is partially visible on the left side of the image, leaning against the wall. The overall setting appears to be a cozy bedroom.",
+    "This frame shows a bed with a chevron-patterned bedspread in shades of gray and white. On the bed are several pillows in different colors, including teal, light blue, and gray. There is a plush toy shaped like a dog near the corner of the bed, with \"LOVE PUPS\" written on it. A person is extending their arm and hand toward the bed, possibly reaching for a small toy or object lying on the bed near the bottom center of the image. The room has a light color scheme and a cozy appearance.",
+    "The frame shows a bed with a gray and white chevron-patterned bedspread. On the bed are several pillows in different colors, including teal, light blue with a geometric pattern, and gray. There is a plush panda-shaped neck pillow on the left side of the bed. A small Minion toy is lying on the bedspread. A person's arm is extended over the bed, with their hand reaching toward the pillows. The background shows part of a wall and some furniture on the left side.",
+    "The frame shows a bed with a gray and white chevron-patterned bedspread. On the bed, there are several pillows in various shades of blue and gray, along with a plush dog-shaped neck pillow that has the words \"LOVE THIS\" written on it. In the foreground, there is a hand reaching out over the bed. There is also a yellow toy or small object lying on the bedspread near the hand. In the background to the left, part of a TV screen or monitor is visible.",
+    "The frame shows a bed with a chevron-patterned bedspread in gray and white. There are several pillows on the bed in various shades of blue and gray. A plush panda toy is situated among the pillows on the left side of the bed. In the foreground, a person's arm is reaching out toward the pillows. On the bedspread near the bottom center of the image is a small toy figure lying on its side. The background includes part of a wall and possibly a headboard or other furniture."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "There is no visible change in the position or motion of the main object (the yellow toy held by the hand) between the two frames. The arm and toy remain in the same position.",
+    "In the current frame, the hand has moved slightly downward and forward, causing the yellow toy to appear more blurred and tilted compared to the previous frame, indicating it is in motion.",
+    "The main object, a small toy or figure, is now falling downward and appears as a blur in motion on the bed, having been released from the hand which is still visible above.",
+    "The main object, a small spinning top, has moved from an upright spinning position to a tilted, partially fallen position on the bed. The hand that was releasing it remains in the same position.",
+    "In the current frame, the hand is slightly lowered and closer to the edge of the bed compared to the previous frame. The position of the toy on the bed remains unchanged.",
+    "In the current frame, the hand has moved further forward, closer to the pillows. The yellow toy on the bed has shifted slightly to the right.",
+    "The hand has moved closer to the top edge of the frame and is now partially curled, as if about to grasp something."
+  ],
+  "baseline_tokens": 868,
+  "diff_tokens": 257,
+  "lexical_redundancy_baseline_avg": 0.44135411710278166,
+  "lexical_redundancy_diff_avg": 0.20188203092331383,
+  "lexical_redundancy_baseline_all": [
+    0.48148148148148145,
+    0.43209876543209874,
+    0.4470588235294118,
+    0.3404255319148936,
+    0.4805194805194805,
+    0.4473684210526316,
+    0.4605263157894737
+  ],
+  "lexical_redundancy_diff_all": [
+    0.03333333333333333,
+    0.19047619047619047,
+    0.17391304347826086,
+    0.21739130434782608,
+    0.2,
+    0.3793103448275862,
+    0.21875
+  ],
+  "info_density_baseline": 0.0014534883720930232,
+  "info_density_diff": 0.025289544880737338,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.011627906976744186,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.03125,
+    0.030303030303030304,
+    0.058823529411764705,
+    0.0,
+    0.038461538461538464,
+    0.043478260869565216
+  ]
+}

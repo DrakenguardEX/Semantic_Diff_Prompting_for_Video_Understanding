@@ -1,0 +1,81 @@
+{
+  "video_id": "81504",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/81504.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/81504",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a man with short dark hair wearing a blue shirt, sitting indoors on a couch or chair. He is in the act of opening or handling a bottle with a blue cap. The background includes a light-colored wall, a wooden door to the left, and a sofa with cushions. The setting appears to be a casual, home environment.",
+    "This frame shows a man with short dark hair wearing a blue shirt. He appears to be sitting indoors, possibly in a living room or similar setting. The man is opening or closing a bottle with a blue cap, focusing on the bottle with a neutral or slightly concentrated expression. In the background, there is a couch with patterned cushions and a wooden door to the left. The lighting is warm and the overall atmosphere looks casual and relaxed.",
+    "The image shows a man with short dark hair wearing a blue shirt. He is indoors, sitting at a table with a brown couch and a wooden door in the background. The man is in the process of opening or closing a plastic water bottle with a blue cap. The room appears to have a warm color tone, with beige walls.",
+    "The image shows a man wearing a blue shirt sitting indoors on a couch or similar seating. He has short dark hair and is focused on opening a plastic bottle with a blue cap in his hands. The background includes a closed wooden door and part of a patterned sofa. The lighting in the room is warm.",
+    "The frame depicts a man with short dark hair wearing a blue shirt. He appears to be seated at a table indoors. The man is holding a clear plastic bottle with a blue cap, which looks like it might be a water bottle. In the background, there is a brown door, a light brown wall, and a cushioned bench or sofa with a patterned design. The setting seems to be a casual, possibly home environment.",
+    "The frame shows a man with short dark hair wearing a blue shirt. He appears to be seated indoors, with a blurred background showing a closed door and some furniture, including a couch. The man is looking down with a slightly serious or focused expression while holding a plastic bottle with a blue cap, seemingly about to open or close it. The lighting is warm and the atmosphere looks calm and casual.",
+    "The image shows a man with short hair wearing a blue shirt. He is sitting indoors in a room that appears to be a living area. Behind him, there is a beige wall, a cushioned seat with a blanket or cushion on it, and a small round table with a bottle on it. The man is holding a bottle with one hand and appears to be either opening or closing it. The lighting in the room is warm and soft.",
+    "The image shows a man with short dark hair wearing a blue shirt. He is holding a plastic bottle of dark-colored liquid and appears to be in the process of opening or closing it. He is indoors, and the background includes a closed wooden door, a beige wall, and some furniture including a couch or chair and a small round table with a bottle on it. The lighting is warm and subdued."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The man has moved his hand slightly upward and is in the process of twisting the cap off the bottle.",
+    "In the current frame, the man is in the process of unscrewing the bottle cap, which has moved upwards and is now slightly above the bottle's opening.",
+    "The man has moved his hand downwards and is now gripping the bottle cap more firmly, appearing to twist or unscrew it.",
+    "The man in the blue shirt moved his hand downward while continuing to open the bottle.",
+    "The man’s hand and fingers have moved downward slightly on the bottle cap, as if he is starting to twist or unscrew it.",
+    "In the current frame, the man is twisting or unscrewing the cap of the bottle, with his hand slightly raised and the bottle tilted more compared to the previous frame.",
+    "In the current frame, the man has turned the bottle upright and slightly closer to his mouth, positioning it as if he is about to take a drink."
+  ],
+  "baseline_tokens": 636,
+  "diff_tokens": 207,
+  "lexical_redundancy_baseline_avg": 0.4317846637489494,
+  "lexical_redundancy_diff_avg": 0.25609630609630607,
+  "lexical_redundancy_baseline_all": [
+    0.53125,
+    0.45454545454545453,
+    0.5357142857142857,
+    0.3194444444444444,
+    0.38666666666666666,
+    0.2948717948717949,
+    0.5
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.46153846153846156,
+    0.2727272727272727,
+    0.25,
+    0.23333333333333334,
+    0.2777777777777778,
+    0.2972972972972973
+  ],
+  "info_density_baseline": 0.02723972952457924,
+  "info_density_diff": 0.03762123042014347,
+  "info_density_baseline_per_frame": [
+    0.01639344262295082,
+    0.02531645569620253,
+    0.03278688524590164,
+    0.03508771929824561,
+    0.0,
+    0.041666666666666664,
+    0.025,
+    0.041666666666666664
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05,
+    0.037037037037037035,
+    0.045454545454545456,
+    0.125,
+    0.043478260869565216,
+    0.0,
+    0.0
+  ]
+}

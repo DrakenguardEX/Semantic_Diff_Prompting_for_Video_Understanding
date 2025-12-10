@@ -1,0 +1,81 @@
+{
+  "video_id": "93952",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/93952.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/93952",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This image shows a red ceramic or plastic cup placed on a light-colored countertop or table. The cup is positioned roughly in the center of the frame, and the table surface appears clean and smooth. There's a hint of another object, possibly another cup or container, partially visible on the far right edge of the image. The lighting is even and bright, highlighting the cup and surface clearly.",
+    "This frame shows a close-up of a red cup placed on a light-colored countertop. The cup appears to have a small chip on its rim. The lighting suggests indoor ambient light, and part of a metallic object is visible in the upper right corner, though it is unclear what this object is. The overall setting looks like a kitchen or dining area.",
+    "This frame shows a close-up view of a red cup placed on a light-colored countertop. Water is being poured into the cup from a container positioned above it. The background is mostly dark, emphasizing the cup and the pouring water.",
+    "This frame shows a close-up of a red bowl or cup placed on a light-colored countertop. Water is being poured into the bowl, and the water's motion is captured mid-pour, with visible splashes inside the bowl. The background is dark on the right side, indicating the image is taken in a setting with contrasting lighting.",
+    "The frame shows a close-up of a red cup on a countertop being filled with a clear liquid, likely water. The cup contains several ice cubes. The background is a plain, light-colored surface.",
+    "The image shows a red cup placed on a light-colored countertop. Water or a clear liquid is being poured into the cup, and you can see the liquid splashing and creating bubbles inside the cup. The setting appears to be indoors with a simple background.",
+    "The frame shows a close-up view of water being poured into a red plastic cup. The cup is placed on a light-colored surface, possibly a countertop or table. The water stream is visible as it flows into the cup, creating some bubbles and ripples in the liquid inside. The background is mostly dark, which contrasts with the bright red cup and the light surface.",
+    "The image shows water being poured into a red bowl that is placed on a white or light-colored countertop. The water is mid-pour, creating visible splashes inside the bowl. The background is mostly dark on the right side, highlighting the bowl and the countertop."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, water is being poured into the red cup from a glass container positioned above and to the right of the cup.",
+    "In the current frame, water is being poured into the red cup, filling it partially.",
+    "The water being poured into the red cup increased in volume, causing more splashes and bubbles inside the cup.",
+    "The water level in the red bowl has risen slightly as water continues to pour into it. The water inside the bowl appears more agitated with increased bubbles and splashes.",
+    "The water stream pouring into the red bowl has caused the water inside to splash and create ripples, increasing the water turbulence in the current frame compared to the previous one.",
+    "The water stream flowing into the red cup has slightly decreased in height and intensity. The water surface inside the cup shows more ripples, indicating increased water movement.",
+    "The liquid level in the red cup has risen as more water is being poured into it. The water splash and ripples inside the cup have also increased."
+  ],
+  "baseline_tokens": 508,
+  "diff_tokens": 213,
+  "lexical_redundancy_baseline_avg": 0.36086376760522615,
+  "lexical_redundancy_diff_avg": 0.31441442305974326,
+  "lexical_redundancy_baseline_all": [
+    0.30985915492957744,
+    0.2903225806451613,
+    0.4423076923076923,
+    0.33962264150943394,
+    0.3404255319148936,
+    0.40350877192982454,
+    0.4
+  ],
+  "lexical_redundancy_diff_all": [
+    0.08,
+    0.4583333333333333,
+    0.36363636363636365,
+    0.3793103448275862,
+    0.2702702702702703,
+    0.2857142857142857,
+    0.36363636363636365
+  ],
+  "info_density_baseline": 0.02972695707070707,
+  "info_density_diff": 0.06044860134206484,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.05,
+    0.03636363636363636,
+    0.030303030303030304,
+    0.044444444444444446,
+    0.03125,
+    0.045454545454545456
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.04,
+    0.13333333333333333,
+    0.10526315789473684,
+    0.03333333333333333,
+    0.06451612903225806,
+    0.03571428571428571,
+    0.07142857142857142
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "189266",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/189266.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/189266",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows two hands facing each other, with one hand holding a slim, rectangular object horizontally. The background is plain, likely an indoor setting with a light-colored wall and a patterned surface underneath the hands. The object being held appears to be a remote control or a small electronic device.",
+    "This frame shows two hands reaching toward each other. The left hand is holding a thin, flat object (possibly a card or paper) horizontally, while the right hand is about to grasp or take it. The background is plain, with a light-colored wall and a patterned fabric surface below the hands. The left wrist has a white watch or wristband. The perspective is a close-up, focusing mainly on the hands and the object between them.",
+    "The frame shows a close-up view of a person holding a thin rectangular object, possibly a card or a small book, with both hands. The person is holding the object horizontally, gripping it from the top corners. The person's left wrist has a white watch. The background is a plain light pink wall, and there is a patterned surface below, possibly a tablecloth or bedsheet with circular designs.",
+    "The image shows a pair of hands holding and opening an empty black wallet. The person is wearing a white watch on their left wrist. The background includes a pale pink wall and a table or surface with a patterned cloth featuring circular designs in various shades of green and beige. The wallet appears to have no money or cards inside.",
+    "The frame shows two hands pulling apart a black wallet. The person wearing a white wristwatch on their left wrist is attempting to open the wallet to reveal its contents. The background is plain, with a neutral-colored wall and a surface underneath featuring a light-colored cloth that has a subtle pattern. The focus is on the act of opening the wallet.",
+    "The frame shows a close-up of two hands holding a thin, flexible object, possibly a small wire or a piece of string, which is being bent slightly. The background is a plain wall with a light pinkish color. The surface below the hands has a patterned cloth with circular designs. The focus seems to be on the action of bending the object.",
+    "This frame shows a close-up view of a person's hand holding a thin, flexible booklet or card from the side. The booklet or card is bent in the middle, creating a noticeable curve. The background is plain with a light pink or beige wall, and the surface below appears to have a pattern with circular designs. The focus is mainly on the bent object being held.",
+    "The image shows a hand holding a slightly bent card or piece of paper horizontally. The card or paper is thin and bent in the middle, creating a shallow V shape. The background appears plain with a light-colored wall and a surface with a light-colored cloth that has a subtle pattern. Another hand is partially visible on the right side, slightly blurred, as if it is moving."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the right hand has moved closer to the object held by the left hand. The object is now positioned flatter, appearing more horizontal compared to the previous frame.",
+    "In the current frame, the right hand has moved closer to the object, now gripping the opposite side of the card or thin item being held. The object has shifted orientation slightly, tilting downward compared to the previous frame.",
+    "The object, previously held flat between the hands, is now being bent or folded in the current frame. The hands are pulling it towards the center, causing it to form a V-shape.",
+    "The wallet in the current frame is being pinched closer together at the top, narrowing the opening compared to the previous frame. The hands have slightly moved inward to press the wallet more tightly.",
+    "The main object, a black wallet, has been unfolded and is now bent in the current frame, with both hands holding the ends apart compared to the previous frame where it was pinched and closed.",
+    "In the current frame, the hands have moved closer together and the object being held is being bent upward into a more pronounced arch.",
+    "In the current frame, the object in the hand is moving to the right and is partially blurred, indicating motion in that direction. The hand and the object have shifted slightly to the right compared to the previous frame."
+  ],
+  "baseline_tokens": 608,
+  "diff_tokens": 284,
+  "lexical_redundancy_baseline_avg": 0.34412769438235674,
+  "lexical_redundancy_diff_avg": 0.2346390535074068,
+  "lexical_redundancy_baseline_all": [
+    0.3333333333333333,
+    0.4166666666666667,
+    0.29333333333333333,
+    0.34285714285714286,
+    0.2676056338028169,
+    0.40298507462686567,
+    0.352112676056338
+  ],
+  "lexical_redundancy_diff_all": [
+    0.11538461538461539,
+    0.40540540540540543,
+    0.21739130434782608,
+    0.18181818181818182,
+    0.25,
+    0.24390243902439024,
+    0.22857142857142856
+  ],
+  "info_density_baseline": 0.01974820144745242,
+  "info_density_diff": 0.039470042824822235,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.01639344262295082,
+    0.04918032786885246,
+    0.03225806451612903,
+    0.030303030303030304,
+    0.029850746268656716
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03125,
+    0.02564102564102564,
+    0.0625,
+    0.058823529411764705,
+    0.02857142857142857,
+    0.08333333333333333,
+    0.02564102564102564
+  ]
+}

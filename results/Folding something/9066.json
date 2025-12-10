@@ -1,0 +1,81 @@
+{
+  "video_id": "9066",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/9066.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/9066",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a hand beginning to fold a plain white sheet of paper. The paper is placed on a wooden surface, and the person is holding the top right corner of the paper, lifting it slightly as if to start folding it. The hand is positioned from the left side of the image.",
+    "The image shows a close-up of a hand holding the corner of a blank white sheet of paper. The hand appears to be in the process of folding the paper, and the surface underneath is a light wooden table or desk. The person is wearing a light-colored long-sleeve shirt or sweater.",
+    "The image shows a person's left hand holding and lifting the corner of a white sheet of paper on a wooden surface, possibly a table or desk. The paper is being lifted from the top-right corner. The background is plain and the focus is on the hand and the paper.",
+    "The image shows a close-up of a person's left hand holding and peeling back a corner of a white sheet of paper on a wooden surface, likely a table or desk. The hand is positioned near the top left corner of the paper, lifting it slightly.",
+    "The image shows a close-up of a person's hand holding and slightly lifting the corner of a white sheet of paper. The background is a wooden surface, likely a table or desk. The hand is positioned on the left side of the frame, with fingers gently grasping the paper's corner. The paper appears to be blank.",
+    "The image shows a close-up of a person's left hand holding the corner of a piece of white paper, lifting or peeling it up slightly. The background is a wooden surface, likely a tabletop. The lighting is even, and the focus is primarily on the hand and the paper corner.",
+    "The frame shows a person's left hand holding and lifting the edge of a white sheet of paper. The paper is placed on a light wooden surface, likely a table or desk. The hand is positioned near the bottom left corner of the sheet, gently curling the corner upwards.",
+    "This frame shows a close-up of a person's left hand holding the top corner of a white sheet of paper. The person is lifting and curling the corner of the paper upwards. The surface beneath the paper appears to be a wooden table or desk. The image focuses on the hand and the paper, with the rest of the scene being out of focus or not visible."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The thumb and index finger have moved slightly closer together, pinching the top corner of the paper more tightly. The top corner of the paper is bent a bit further upward.",
+    "The hand has folded the top right corner of the paper further inward compared to the previous frame.",
+    "The hand has lifted the upper corner of the paper higher, causing the paper to bend more noticeably compared to the previous frame.",
+    "The main change is that the hand is pulling the corner of the paper further up and away from the surface, increasing the fold and lifting the paper higher.",
+    "The paper's corner is being lifted slightly higher by the hand, increasing the fold's prominence. The thumb and fingers have adjusted to grip the paper more firmly in the current frame.",
+    "The main change is that the hand has lifted the folded corner of the paper further upward, increasing the fold's height and visibility.",
+    "In the current frame, the hand has slightly lifted the corner of the paper more than in the previous frame, creating a more pronounced fold."
+  ],
+  "baseline_tokens": 497,
+  "diff_tokens": 216,
+  "lexical_redundancy_baseline_avg": 0.4865715449023527,
+  "lexical_redundancy_diff_avg": 0.2318973613328452,
+  "lexical_redundancy_baseline_all": [
+    0.33962264150943394,
+    0.3877551020408163,
+    0.5853658536585366,
+    0.6363636363636364,
+    0.5319148936170213,
+    0.43478260869565216,
+    0.49019607843137253
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.1875,
+    0.45454545454545453,
+    0.1935483870967742,
+    0.24324324324324326,
+    0.2777777777777778,
+    0.26666666666666666
+  ],
+  "info_density_baseline": 0.026261651048046293,
+  "info_density_diff": 0.04924434288232228,
+  "info_density_baseline_per_frame": [
+    0.05555555555555555,
+    0.0196078431372549,
+    0.04,
+    0.021739130434782608,
+    0.017857142857142856,
+    0.02,
+    0.02040816326530612,
+    0.014925373134328358
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03225806451612903,
+    0.05555555555555555,
+    0.043478260869565216,
+    0.10344827586206896,
+    0.03225806451612903,
+    0.08695652173913043,
+    0.04
+  ]
+}

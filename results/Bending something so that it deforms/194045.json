@@ -1,0 +1,81 @@
+{
+  "video_id": "194045",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/194045.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/194045",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a close-up of a person's hand holding a thin, straight object, possibly a wire or a pin, against a bright pink background. The left hand is gripping the object near one end with fingers visible, and a ring can be seen on one of the fingers. The right side of the image shows a blurred hand in motion, possibly reaching to grab or adjust the object. The overall focus is on the hand holding the thin object.",
+    "The image shows a close-up of two hands holding a thin, straight object, possibly a needle, thread, or thin wire, against a bright pink background. One hand is on the left side, and the other is on the right side, with fingers grasping the object delicately. The left hand also has a ring on the ring finger.",
+    "This image shows two hands positioned over a pink surface. The hands appear to be holding or pinching something very small or maybe just preparing to pick something up. The left hand has a ring on the ring finger. The pink surface provides a bright, solid background.",
+    "The frame shows a close-up view of two hands holding a thin, flexible wire or thread against a bright pink background. The hands are positioned near the center of the image, with the wire/thread being gently bent or manipulated between the fingers.",
+    "This frame shows a close-up of two hands holding a needle and thread against a bright pink background. The person appears to be threading the needle, as the thread is positioned close to the needle's eye. The focus is on the hands and the needle, highlighting the action of threading.",
+    "In this frame, two hands are holding a thin black wire or thread against a solid bright pink background. The person appears to be manipulating or shaping the wire/thread with their fingers. The image is close up, focusing on the hands and the wire/thread.",
+    "This frame shows a close-up of two hands working with a thin piece of metal wire against a bright pink background. One hand is holding the wire steady while the other hand appears to be shaping or bending it into a curved form. The wire forms an arch-like shape in the center of the image. The focus is on the hands and the wire, with no other objects visible.",
+    "This frame shows a close-up of a hand holding a thin, curved object against a bright pink background. The object appears to be a short piece of hair or thread. The hand is positioned on the left side of the frame, gripping the object between the thumb and finger."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The right hand moved closer to the center, grasping the thin metal rod. The left hand remained in a similar position but is holding the rod more firmly.",
+    "The needle held by the right hand is no longer visible in the current frame, indicating it was pulled out or moved away from its previous position. The left hand remains in a similar position.",
+    "The right hand moved from being pinched closed to holding and slightly bending a thin black wire or string. The left hand shifted slightly but remains close to the object.",
+    "In the current frame, the right hand has moved downward and slightly to the right, causing the wire to bend more prominently near the center. The left hand remains relatively steady, holding the wire tighter as the wire curves.",
+    "The right hand moved slightly closer to the left hand, and the thread is being pulled tighter between the fingers.",
+    "In the current frame, the right hand has moved to the right and is now out of focus, while the left hand remains in a similar position holding the string. The string is more extended and curved upward compared to the previous frame.",
+    "The hand on the right moved slightly closer to the left hand and is more blurred, indicating motion. The curve of the thin object held between the hands has straightened slightly."
+  ],
+  "baseline_tokens": 519,
+  "diff_tokens": 266,
+  "lexical_redundancy_baseline_avg": 0.3817792131657089,
+  "lexical_redundancy_diff_avg": 0.21315128849459655,
+  "lexical_redundancy_baseline_all": [
+    0.5,
+    0.32142857142857145,
+    0.24074074074074073,
+    0.3333333333333333,
+    0.45652173913043476,
+    0.43333333333333335,
+    0.3870967741935484
+  ],
+  "lexical_redundancy_diff_all": [
+    0.037037037037037035,
+    0.24390243902439024,
+    0.2,
+    0.2682926829268293,
+    0.2647058823529412,
+    0.21621621621621623,
+    0.2619047619047619
+  ],
+  "info_density_baseline": 0.014491308381059933,
+  "info_density_diff": 0.06106253555147028,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.023809523809523808,
+    0.02,
+    0.022727272727272728,
+    0.028985507246376812,
+    0.02040816326530612
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03571428571428571,
+    0.05714285714285714,
+    0.13333333333333333,
+    0.05128205128205128,
+    0.1,
+    0.046511627906976744,
+    0.06451612903225806
+  ]
+}

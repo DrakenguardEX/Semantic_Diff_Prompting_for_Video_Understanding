@@ -1,0 +1,81 @@
+{
+  "video_id": "20098",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/20098.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/20098",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person wearing a beige or light brown t-shirt sitting at a dark table. The person is holding a blue plastic cup in their right hand and has a green plastic cup placed on the table near their left hand. The background is plain and light-colored, possibly white or off-white. The person's face is not visible in the frame.",
+    "The frame shows a person sitting at a table. The person is wearing a light brown or beige t-shirt. On the table in front of them, there are two plastic cups: one green cup positioned upright on the left, and a blue cup being lifted or moved by the person's right hand on the right side of the image. The person's left hand is resting on the table near the green cup. The background appears plain and light-colored.",
+    "The image shows a person wearing a light gray t-shirt seated at a table with a black surface. The person is holding a blue plastic cup in their right hand and appears to be in the process of pouring or moving the cup. In front of them on the table is a green plastic cup. Only the torso and arms of the person are visible, with their head out of the frame. The background is a plain off-white wall.",
+    "The frame shows a person pouring water from a blue plastic cup into a green plastic cup. The person's upper body is visible, wearing a light-colored shirt, and the scene is set against a plain, light-colored background. The cups are placed on a dark surface or table. The focus is on the action of pouring water.",
+    "The image shows a person pouring water from a blue cup into a green cup. The person is wearing a short-sleeved beige or light brown shirt, and their upper torso and arms are visible. The green cup is placed on a dark-colored surface, and the water can be seen flowing from the blue cup into the green cup. The background is plain and light-colored.",
+    "The image shows a person pouring water from a blue container into a green translucent cup. The person's upper body is visible, wearing a light brown or beige short-sleeved shirt. Only the arms and part of the torso are visible, and the person's face is not shown in the frame. The scene appears to be set on a dark-colored table or surface with a plain, light-colored background.",
+    "This frame shows a person pouring blue liquid from a container into a bright green cup placed on a dark surface. The person is wearing a light brown or gray short-sleeved shirt. The upper part of their body is visible, but their face is not shown in the frame. The background appears plain and light-colored.",
+    "This frame shows a person sitting at a table, holding a blue plastic container or cup in their right hand. The focus is on the person's torso and hands, with the person's face not visible. On the table in front of them is a green transparent plastic cup. The background appears to be out of focus, drawing attention to the person and the cups. The person is wearing a light brown or beige short-sleeved shirt."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the person's right hand has lifted the blue cup off the table, holding it mid-air compared to its resting position in the previous frame.",
+    "The blue cup is being tilted and moved closer to the green cup, as if it is about to pour or transfer something into it. The person's hand is also lifting and angling the blue cup accordingly.",
+    "In the current frame, water is being poured from the blue cup into the green cup. The blue cup has tilted further downwards, and water flow is visible between the two cups.",
+    "In the current frame, the blue cup has been tilted further, causing more liquid to pour into the green cup. The green cup is now filling up with the liquid.",
+    "In the current frame, the blue container has been lifted higher and tilted more, causing the water stream pouring into the green cup to become narrower and longer. The hand holding the blue container is raised further above the cup compared to the previous frame.",
+    "In the current frame, the person has tilted the blue container upward, and the liquid is pouring into the green cup. The blue container and the person's arm have moved upward compared to the previous frame.",
+    "In the current frame, the person has lifted the blue cup higher and tilted it more compared to the previous frame, indicating a pouring or moving motion. The left hand has also moved slightly away from the green cup."
+  ],
+  "baseline_tokens": 652,
+  "diff_tokens": 295,
+  "lexical_redundancy_baseline_avg": 0.500400740946772,
+  "lexical_redundancy_diff_avg": 0.3067875227471609,
+  "lexical_redundancy_baseline_all": [
+    0.5333333333333333,
+    0.42857142857142855,
+    0.36363636363636365,
+    0.5294117647058824,
+    0.5964912280701754,
+    0.6271186440677966,
+    0.42424242424242425
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1111111111111111,
+    0.18604651162790697,
+    0.21951219512195122,
+    0.36363636363636365,
+    0.42105263157894735,
+    0.4358974358974359,
+    0.41025641025641024
+  ],
+  "info_density_baseline": 0.018878619795957553,
+  "info_density_diff": 0.05884354478104477,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.02564102564102564,
+    0.02531645569620253,
+    0.03571428571428571,
+    0.03125,
+    0.014925373134328358,
+    0.01818181818181818,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03571428571428571,
+    0.08108108108108109,
+    0.0625,
+    0.06666666666666667,
+    0.06666666666666667,
+    0.05555555555555555,
+    0.10256410256410256
+  ]
+}

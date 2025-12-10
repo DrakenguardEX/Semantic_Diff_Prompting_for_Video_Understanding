@@ -1,0 +1,81 @@
+{
+  "video_id": "72071",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/72071.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/72071",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This image shows a person's hands holding a small bottle with a black cap and orange label in their right hand, while their left hand holds a white cap or lid. The surface beneath their hands is covered with a fabric featuring a floral pattern in shades of purple, lavender, and white on a dark background. The scene appears to be indoors with relatively low lighting.",
+    "In the frame, two hands are visible over a dark-colored fabric with a floral pattern in light purple and white. The left hand is holding a small white object, possibly a cotton ball or a similar item. The right hand is holding a dark brown bottle with a label that appears to be red and orange, likely containing a liquid, possibly medicine or some other substance. The scene suggests that the person might be about to use the white object with the liquid from the bottle.",
+    "The image shows a close-up of two hands on a floral-patterned surface. One hand is holding a cotton ball soaked in a liquid, and the other hand is holding a small bottle with a red label, which appears to be the source of the liquid. This suggests someone is likely preparing to use the liquid on the cotton ball, possibly for cleaning or applying something.",
+    "The image shows a close-up of a person's hands over a black tablecloth with a floral pattern featuring purple and white flowers. One hand is holding a small brown bottle with a black cap, while the other hand is holding a small white cotton ball or pad. The scene appears to be a preparation for some activity involving the bottle and cotton.",
+    "The image shows a pair of hands opening or about to open a black plastic bottle with a white cap. The bottle has a red and yellow label on it. The hands are positioned over a dark surface with a floral pattern, featuring outlines of large flowers and leaves in white and purple. The lighting is somewhat dim.",
+    "In this frame, a pair of hands is seen holding a small bottle with a dark brown or black body and a red label. One hand is grasping the bottle near the base, while the other is touching or about to twist the white cap. The background features a black fabric with a floral pattern in shades of purple and white. The design includes large flower and leaf motifs scattered across the surface. The scene suggests someone is about to open or has just opened the bottle.",
+    "This frame shows a close-up of two hands opening a bottle with a white cap. The bottle appears to be a small dark glass container, possibly for a liquid like medicine or sauce. The background has a black cloth with a floral pattern in purple and white. The hands are positioned on the cap and the bottle body, suggesting the action of twisting or pulling the cap off.",
+    "The image shows a close-up of two hands holding a small dark-colored glass bottle with a white cap. The bottle has a label with some red and yellow colors on it. The hands appear to be in the process of either opening or closing the bottle. The background is a fabric surface with a floral pattern featuring purple and white flowers and leaves on a dark base."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "There is no visible change between the two frames; the positions of the hands, bottle, and object in the left hand remain the same.",
+    "There is no visible change between the two frames; the positions of the hands and objects remain the same.",
+    "In the current frame, the left hand has moved slightly upward while still holding the cotton ball-like object, and the right hand has shifted closer to the bottle, appearing to hold it more securely.",
+    "In the current frame, the left hand has moved closer to the bottle's opening, as the fingers now grip the cap, which is being positioned directly onto the bottle's neck. The right hand remains holding the bottle steady.",
+    "The hand on the right has turned the bottle slightly clockwise. The bottle's label has rotated a bit as a result. The left hand holding the bottle cap remains in the same position.",
+    "The right hand has rotated the object slightly, changing the angle at which the label is held. The left hand's fingers have adjusted their grip on the top of the object, pulling or twisting the cap.",
+    "The left hand has moved upward and is now lifting the bottle cap off the bottle, while the right hand remains holding the bottle in place."
+  ],
+  "baseline_tokens": 632,
+  "diff_tokens": 257,
+  "lexical_redundancy_baseline_avg": 0.34913649428392785,
+  "lexical_redundancy_diff_avg": 0.26390847247990107,
+  "lexical_redundancy_baseline_all": [
+    0.34615384615384615,
+    0.36486486486486486,
+    0.38461538461538464,
+    0.3181818181818182,
+    0.3466666666666667,
+    0.2804878048780488,
+    0.40298507462686567
+  ],
+  "lexical_redundancy_diff_all": [
+    0.04,
+    0.7142857142857143,
+    0.047619047619047616,
+    0.29545454545454547,
+    0.3,
+    0.275,
+    0.175
+  ],
+  "info_density_baseline": 0.014591721917794395,
+  "info_density_diff": 0.020053551110052657,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.034482758620689655,
+    0.022988505747126436,
+    0.029411764705882353,
+    0.029850746268656716
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.029411764705882353,
+    0.02631578947368421,
+    0.0,
+    0.027777777777777776,
+    0.07692307692307693
+  ]
+}

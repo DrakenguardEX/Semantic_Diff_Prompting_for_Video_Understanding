@@ -1,0 +1,81 @@
+{
+  "video_id": "170774",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/170774.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/170774",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows the very top of a Christmas tree with a curved, green artificial branch sticking up. In the background, there is wallpaper with a decorative pattern featuring swirls and heart-like shapes. The overall setting suggests an indoor scene with festive decorations.",
+    "The frame shows a close-up of the top part of an artificial Christmas tree. The background features a wall with decorative patterns that resemble stylized hearts or curls. The tree appears to be unlit and undecorated, and there is a blurry object or hand on the right side of the image.",
+    "The frame shows a hand reaching out towards the top of a small artificial Christmas tree. The tree is dark green and has a slightly sparse appearance. The background features wallpaper with a beige color and a decorative pattern consisting of symmetrical, curved lines forming heart-like shapes. The hand appears to be positioned as if about to place or adjust something at the top of the tree.",
+    "The frame shows a close-up of a person's hand holding or adjusting a small artificial Christmas tree. The tree is green and appears to be made of synthetic materials. The background features a wall with a beige or light brown wallpaper that has a decorative, swirling pattern. The scene appears to be indoors, likely during holiday decoration.",
+    "The frame shows a person's hand placing a small decorative black item onto a Christmas tree. The background features a beige wall with a decorative pattern consisting of swirls and loops. The hand is in the center of the image, and the Christmas tree is partially visible at the bottom.",
+    "The frame shows a person's hand placing or adjusting what appears to be a green garland or some type of foliage against a background with a decorative pattern. The background has vertical stripes and heart-like ornate designs in a muted color. The hand is positioned near the center of the image.",
+    "This frame shows a close-up of a person’s hand reaching toward or touching the top of a small artificial Christmas tree. The tree is dark green and appears to be in the early stages of being decorated or assembled. The background features wallpaper with a decorative, symmetrical pattern in a light color scheme. The image focuses on the interaction between the hand and the tree.",
+    "The frame shows the top of a Christmas tree with artificial green branches. The tip of the tree is bent to the side. In the background, there is beige wallpaper featuring an elegant, symmetrical scrolling pattern with curls and heart shapes. The image is simple and focuses on the tree's top against the decorated wall."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a green artificial tree branch, has moved slightly to the right. Additionally, a hand appears on the right side of the frame in the current image, which was not present in the previous one.",
+    "In the current frame, a hand has moved into the scene and is reaching toward the tip of the main object, which is a branch with dark green needles.",
+    "In the current frame, the hand has moved downward and to the right, grasping or positioning the tip of the small Christmas tree.",
+    "In the current frame, the hand has moved downward and slightly to the left, causing the top part of the Christmas tree branch to shift position as it is being handled.",
+    "The hand has moved downward and slightly inward, now grasping the small branch of the pine garland instead of holding it above. The motion implies the hand is adjusting or pulling the garland.",
+    "The hand has moved from gripping the top of the green branch to pulling it downward, resulting in the green branch bending and lifting upward slightly. The hand appears more open and is positioned to the right of the branch than before.",
+    "In the current frame, the hand that was previously visible near the main object (the branch of the artificial plant) has moved away and is no longer in the frame. The branch now appears without the hand near it."
+  ],
+  "baseline_tokens": 519,
+  "diff_tokens": 278,
+  "lexical_redundancy_baseline_avg": 0.3263316013824812,
+  "lexical_redundancy_diff_avg": 0.28102334173762744,
+  "lexical_redundancy_baseline_all": [
+    0.2833333333333333,
+    0.2857142857142857,
+    0.35714285714285715,
+    0.3389830508474576,
+    0.3157894736842105,
+    0.3283582089552239,
+    0.375
+  ],
+  "lexical_redundancy_diff_all": [
+    0.09375,
+    0.358974358974359,
+    0.30303030303030304,
+    0.40625,
+    0.275,
+    0.2857142857142857,
+    0.24444444444444444
+  ],
+  "info_density_baseline": 0.004138398914518318,
+  "info_density_diff": 0.042817602041014535,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.014925373134328358,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01818181818181818
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.02702702702702703,
+    0.034482758620689655,
+    0.043478260869565216,
+    0.03225806451612903,
+    0.06060606060606061,
+    0.11904761904761904,
+    0.02564102564102564
+  ]
+}

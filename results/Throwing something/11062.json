@@ -1,0 +1,81 @@
+{
+  "video_id": "11062",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/11062.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/11062",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a room with a yellow-green wall in the background and a wooden floor. There is a window covered by a dark curtain that lets some light through, casting a bright patch on the floor. In the foreground, there is a bed with patterned bedding, including a blue and yellow pillow and a blanket with blue and white designs. The scene appears to be inside a bedroom.",
+    "The frame shows part of a bedroom with wooden flooring and a yellow-green painted wall. There is a bed with a pillow that has a blue cover with yellow spots on it. The bedding or blanket visible on the bed has a white and light blue pattern. A black curtain or covering is hanging over the window on the wall. There is also a door slightly open on the left side of the image. Light is coming through the window, casting a bright spot on the floor.",
+    "The frame shows part of a bedroom with wooden flooring and a greenish-yellow wall. There is a bed with a blue pillow that has yellow patterns on it, and a patterned bedspread in shades of blue and white. On the left side of the image, near the bed, a hand is reaching toward the pillow. There is a window with a black curtain on the wall, and some light is streaming in through the bottom edge of the curtain. The door to the room is open, and some part of the hallway or another room is visible in the background.",
+    "The frame shows a close-up of a person holding a blue pillow with a light yellow spotted pattern. The person is wearing a greenish wristband or watch on their left wrist. The setting appears to be a bedroom with wooden floors, a bed covered with a patterned blanket, and walls painted green. There is a door slightly open in the background on the left, and a black cloth covering a window on the right wall.",
+    "This frame shows a room with light wood or laminate flooring and walls painted in a greenish-yellow color. A window on the wall is covered by a black curtain. There is a visible power outlet on the wall near the floor. In the foreground, there is a bed or couch with a light blue and white patterned cover or blanket. The image is slightly blurred or the camera is in motion, making some details less distinct.",
+    "This frame shows a person tossing or flipping a pillow in a bedroom. The pillow appears to be in mid-air, with the person’s hand visible on the left side of the image. The room has wooden flooring, a bed with a patterned bedspread featuring light blue and white colors, and yellow-green walls. There is a window with dark curtains on the far wall, allowing some natural light into the room. The scene suggests a casual moment, possibly during cleaning, organizing, or playful activity.",
+    "This frame shows a room with bright green walls and a wooden floor. There is a window with a dark curtain hanging over it on the wall, allowing some light to filter through at the bottom. On the left side of the image, some small wall decorations are partially visible. On the floor, there appears to be a blurred object in motion that is difficult to identify clearly. The image is slightly out of focus and has a low resolution.",
+    "This image shows part of a room with light green walls and a wooden floor. There's a small black couch or chair on the right side of the image. A dark curtain is covering a window centered on the back wall. Near the bottom left corner, part of a light blue and white patterned bedspread or blanket is visible, suggesting that the photo was taken from the perspective of someone on or near a bed. There appear to be some framed pictures or artwork hanging on the wall to the left of the window. The room looks tidy and simple with natural daylight filtering through the window."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The pillow on the bed has shifted slightly to the left in the current frame compared to the previous one.",
+    "In the current frame, a hand has appeared on the left side, reaching toward the pillow. The pillow itself has slightly shifted position, indicating motion.",
+    "The main object, a pillow, is now being grasped firmly by a hand, indicating that it is being picked up or moved in the current frame compared to the previous one.",
+    "The pillow that was being held in the previous frame is now moving downward and away from the hand, appearing to be dropped or released.",
+    "In the current frame, the main object, which appears to be a pillow or cushion, has moved from the left side of the image towards the center. A hand is now visible, appearing to throw or push the pillow into the room.",
+    "The pillow has moved from being held in the air to falling toward the floor. The hand that was holding the pillow is no longer visible.",
+    "In the current frame, the main object, which appears to be a cushion or pillow, has moved from a blurred mid-air position near the center of the floor to resting on the floor closer to the right side of the room, near the black furniture."
+  ],
+  "baseline_tokens": 788,
+  "diff_tokens": 257,
+  "lexical_redundancy_baseline_avg": 0.3656794372068094,
+  "lexical_redundancy_diff_avg": 0.2590207448224584,
+  "lexical_redundancy_baseline_all": [
+    0.39436619718309857,
+    0.49295774647887325,
+    0.3717948717948718,
+    0.31645569620253167,
+    0.29545454545454547,
+    0.33707865168539325,
+    0.3516483516483517
+  ],
+  "lexical_redundancy_diff_all": [
+    0.16666666666666666,
+    0.4,
+    0.21052631578947367,
+    0.32432432432432434,
+    0.27906976744186046,
+    0.23255813953488372,
+    0.2
+  ],
+  "info_density_baseline": 0.004609472372247611,
+  "info_density_diff": 0.025546299578557644,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.011494252873563218,
+    0.0,
+    0.013333333333333334,
+    0.0,
+    0.012048192771084338,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.03225806451612903,
+    0.04,
+    0.07142857142857142,
+    0.038461538461538464,
+    0.022222222222222223
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "61249",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/61249.webm",
+  "num_frames": 7,
+  "frame_dir": "frames/closing something/61249",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a hand holding an open small decorative box. Inside the box are two blue Baoding balls, each featuring a yin-yang symbol. The box has a red interior lining and a purple exterior with a patterned design. In the background, there is a wooden surface with parts of a keyboard, a mouse, and some papers or items partially visible.",
+    "The image shows a close-up of a hand opening a small decorative box containing two blue balls. Each ball has a yin-yang symbol on it. The box appears to be made of fabric with a floral pattern in blue and gold, and it is lined with a red material inside. The setting seems to be on a wooden surface, possibly a desk or table, with part of a computer keyboard visible in the background.",
+    "This frame shows a close-up view of a hand opening a small decorative box with a clasp. The box has a dark blue pattern with small, colorful designs. Inside the box, there is a small figurine or toy with a face resembling the yin-yang symbol, peeking out. The setting appears to be on a desk or table, with other objects like papers and a white device nearby.",
+    "The frame shows a close-up of a small, decorative box on a wooden surface, possibly a desk. The box is blue with a floral or ornate pattern and has a metal latch on the front. A person's hand, slightly blurred due to motion, is reaching toward or touching the box. In the background, there is part of a keyboard and some papers or a book visible on the desk.",
+    "The image shows a close-up of a person's hand reaching for or holding a small, dark blue box with an intricate, decorative pattern on it. The box appears to have a clasp or latch in the front. The setting seems to be a desk or table, visible objects around include some papers, a keyboard, and possibly some electronic or office equipment. The lighting is moderate, and the focus is on the hand and the box.",
+    "The image shows a close-up of a person's hand holding a small, blue decorative box with gold patterns and a metal clasp. The box is placed on a wooden surface, possibly a desk. In the background, part of a computer keyboard and some documents or brochures can be seen on the desk. The scene suggests someone is about to open the box or examining its contents.",
+    "The image shows a person's hand reaching towards or holding a small, ornate, blue box on a wooden surface, likely a desk or table. The blue box appears to have an intricate decorative pattern and a metallic latch or clasp on the front. In the background, there are various office items including a keyboard and some papers or booklets. The setting suggests an indoor workspace or office environment."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the hand has moved to lift the lid of the small box slightly higher compared to the previous frame. The box itself is now tilted upward more, revealing more of the interior.",
+    "The lid of the box is being closed, and the hand is moving downward to cover the box. The yin-yang balls inside the box are partially obscured as the lid moves.",
+    "The box's lid was open in the previous frame and is now closed in the current frame. The hand moved from lifting the lid to resting on the closed box.",
+    "The hand has moved from hovering over the blue box to grasping the latch of the box, starting to open it.",
+    "The hand in the current frame moves slightly to the right and appears to be in the process of opening the latch on the blue box, causing the box's lid to lift slightly.",
+    "In the current frame, the hand is slightly more lifted, and the fingers appear to be beginning to open or release the latch of the blue box. The blue box itself has moved slightly upward compared to the previous frame."
+  ],
+  "baseline_tokens": 574,
+  "diff_tokens": 228,
+  "lexical_redundancy_baseline_avg": 0.3718419985543273,
+  "lexical_redundancy_diff_avg": 0.21748381370091896,
+  "lexical_redundancy_baseline_all": [
+    0.3835616438356164,
+    0.3918918918918919,
+    0.3108108108108108,
+    0.42857142857142855,
+    0.3783783783783784,
+    0.33783783783783783
+  ],
+  "lexical_redundancy_diff_all": [
+    0.10714285714285714,
+    0.175,
+    0.22857142857142856,
+    0.23333333333333334,
+    0.21875,
+    0.34210526315789475
+  ],
+  "info_density_baseline": 0.008569120631758263,
+  "info_density_diff": 0.0700896389836482,
+  "info_density_baseline_per_frame": [
+    0.01639344262295082,
+    0.013513513513513514,
+    0.014925373134328358,
+    0.0,
+    0.0,
+    0.015151515151515152,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05555555555555555,
+    0.03225806451612903,
+    0.16666666666666666,
+    0.09523809523809523,
+    0.09090909090909091,
+    0.05
+  ]
+}

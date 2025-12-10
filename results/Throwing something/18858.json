@@ -1,0 +1,81 @@
+{
+  "video_id": "18858",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/18858.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/18858",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a person standing indoors near a door. The person is wearing a blue shirt and black pants. They are facing the wall and reaching up with their right hand, as if trying to touch or place something high on the wall. The door next to them is open, revealing another room. The lighting in the room is bright, with a light source visible near the ceiling in the upper left corner of the image.",
+    "The image shows a person standing indoors near a doorway with one arm raised, seemingly reaching towards the ceiling or something above. The person is dressed in a blue shirt and dark pants. The door next to them is open, revealing part of another room or hallway in the background. The lighting in the room is bright, with a glare or light source visible near the top left of the image. The overall setting appears to be a home environment.",
+    "The frame shows a person standing indoors near an open door. The individual is wearing a blue shirt and dark pants and appears to be raising one arm upwards, possibly reaching or pointing at something. The room is lit with a bright, diffused light source coming from the upper left corner of the image. The walls are plain and light-colored, and there is a partially visible doorway or closet area behind the person. The overall setting appears to be a simple, sparsely decorated interior space.",
+    "The image shows a person standing indoors near an open door. The individual is positioned sideways, with one arm raised as if they are about to touch or adjust something on the door or wall. The lighting is dim, and the person's face is not clearly visible. The person is wearing a short-sleeved shirt and pants. The room appears to be plain with light-colored walls.",
+    "The frame shows a person standing indoors next to a partially open wooden door. The person is facing the door and appears to be in the act of opening or closing it. The lighting in the room is bright, coming from a light source above and to the left of the person, creating a strong glare in that area. The walls are light-colored, and part of a wooden wardrobe or cabinet is visible on the right side of the image. The overall atmosphere suggests a residential or similar indoor setting.",
+    "The image shows a person standing indoors near an open door. The person appears to be looking in the direction of the camera and is wearing a blue shirt. The lighting in the room is somewhat bright, possibly from a light source on the ceiling. The room has beige-colored walls and wooden doors. The overall image quality is a bit low, making it slightly difficult to see finer details.",
+    "The frame shows a person standing in a room. The lighting is bright from behind the person, causing some backlighting and making the figure appear somewhat silhouetted. The person is wearing a blue shirt and dark pants. The background includes a partially open wooden door and a wall with light-colored paint. There seems to be some furniture or shelving partially visible through the doorway. The overall image quality is a bit blurry.",
+    "The frame shows a person standing indoors near a slightly open door. The lighting is bright from above and behind the person, causing their face and upper body to appear somewhat shadowed and less clear. The person is wearing a dark blue or teal shirt and dark pants. The walls and doorframe are light-colored, and there is some shelving or furniture visible through the doorway. The person seems to be looking towards the camera or in its direction."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a person, has slightly moved their left arm upward, with their hand reaching higher in the current frame compared to the previous one.",
+    "In the current frame, the person has raised their right arm higher and closer to the door frame compared to the previous frame.",
+    "The person's raised arm has moved slightly downward in the current frame compared to the previous one.",
+    "In the current frame, the person has lowered their raised left arm from a higher position to a more horizontal position. Their right arm has also moved slightly forward. The overall posture suggests a downward motion of the left hand.",
+    "The person moved their right arm downward and slightly backward, while their body and head shifted slightly forward.",
+    "The person has shifted their weight slightly forward and turned their head more towards the camera. Their left arm has moved down and further back compared to the previous frame.",
+    "The person has moved their left arm downward and slightly backward. Their body has also shifted slightly forward."
+  ],
+  "baseline_tokens": 712,
+  "diff_tokens": 206,
+  "lexical_redundancy_baseline_avg": 0.39269262113990194,
+  "lexical_redundancy_diff_avg": 0.3406545642129531,
+  "lexical_redundancy_baseline_all": [
+    0.4594594594594595,
+    0.42168674698795183,
+    0.3855421686746988,
+    0.27058823529411763,
+    0.35,
+    0.3684210526315789,
+    0.4931506849315068
+  ],
+  "lexical_redundancy_diff_all": [
+    0.11538461538461539,
+    0.42857142857142855,
+    0.5,
+    0.35294117647058826,
+    0.25,
+    0.3448275862068966,
+    0.39285714285714285
+  ],
+  "info_density_baseline": 0.01271060124161147,
+  "info_density_diff": 0.03334118903971845,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.011764705882352941,
+    0.015384615384615385,
+    0.03333333333333333,
+    0.014492753623188406,
+    0.013888888888888888,
+    0.01282051282051282
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.038461538461538464,
+    0.0,
+    0.058823529411764705,
+    0.025,
+    0.05555555555555555,
+    0.03333333333333333,
+    0.05555555555555555
+  ]
+}

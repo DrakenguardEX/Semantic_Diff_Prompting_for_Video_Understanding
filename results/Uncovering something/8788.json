@@ -1,0 +1,81 @@
+{
+  "video_id": "8788",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/8788.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/8788",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a square-shaped orange cushion placed on a patterned fabric surface, which appears to be a bedspread or quilt with a floral design in shades of white, pink, and beige. The cushion has a slight indentation in the center, giving it a tufted appearance. The edges of the cushion are slightly rounded and the fabric of the cushion looks smooth.",
+    "The image shows a square-shaped cushion or pillow with a reddish-orange color. The cushion has a central tuft or button that creates a slight indentation. It is placed on a patterned fabric surface with a floral design in shades of beige, pink, and white. The cushion appears soft and plush.",
+    "This frame shows a square red cushion or pillow placed on a patterned fabric surface. The cushion appears to have a tufted center with slight indentations spreading outwards. The fabric underneath seems to have a floral or decorative design with various light colors including white, pink, and hints of gray.",
+    "The image shows a red cushion placed on a bed with a patterned bedspread. The cushion is square and has a central tuft, creating a small dimple in the middle. The bedspread beneath the cushion features intricate designs in shades of red, gold, and white, adding a decorative background to the scene.",
+    "The image shows a red cushion placed on a patterned fabric surface. The cushion is square-shaped with a central tuft that creates a slight dimple. A hand is partially visible at the bottom right corner, holding or touching the cushion. The fabric under the cushion has a detailed, ornate design in shades of red, pink, and beige.",
+    "The image shows a person holding a square red cushion. The cushion appears to be soft and has a tufted design with a button in the center creating a dimple. The background features a bed or fabric surface with a floral pattern in shades of red, white, and possibly light green. The person's fingers are visible on the right side of the cushion, indicating they are in the process of either placing or picking it up.",
+    "The image shows a red book or notebook placed on a patterned fabric surface. The fabric has a detailed floral and paisley design in shades of red, pink, and blue on a light background. The book is positioned near the center of the image.",
+    "The image shows a patterned fabric or bedspread with an intricate design in shades of red and white. In the center of the image, there is a small reddish-brown book or notebook lying on the fabric. The fabric's design includes floral and paisley elements, giving it an ornate appearance. There is also a small portion of a solid red object visible near the top right edge of the image."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The red cushion has shifted slightly upward and to the right in the current frame compared to the previous one.",
+    "The red cushion has slightly shifted downward compared to the previous frame.",
+    "The red cushion has shifted slightly to the right in the current frame compared to the previous one.",
+    "In the current frame, a hand has appeared and is touching the red cushion, which was previously undisturbed. The cushion shows slight deformation near the point of contact.",
+    "The red cushion is being lifted and tilted slightly to the right by the hand. The center indentation of the cushion also appears more pronounced in the current frame.",
+    "The red cushion present in the first frame has been replaced by a small red book in the second frame. The main object changed from the cushion to the book.",
+    "In the current frame, a red object (likely a hand or sleeve) has entered from the top left corner, moving toward the red book-like object in the center. The red book remains in the same position."
+  ],
+  "baseline_tokens": 569,
+  "diff_tokens": 212,
+  "lexical_redundancy_baseline_avg": 0.3518421707392508,
+  "lexical_redundancy_diff_avg": 0.33618826627914816,
+  "lexical_redundancy_baseline_all": [
+    0.5272727272727272,
+    0.3559322033898305,
+    0.2459016393442623,
+    0.3448275862068966,
+    0.3055555555555556,
+    0.30158730158730157,
+    0.38181818181818183
+  ],
+  "lexical_redundancy_diff_all": [
+    0.15789473684210525,
+    0.5882352941176471,
+    0.6666666666666666,
+    0.22580645161290322,
+    0.2702702702702703,
+    0.19444444444444445,
+    0.25
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.007782567049808429,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.034482758620689655,
+    0.0,
+    0.027777777777777776
+  ]
+}

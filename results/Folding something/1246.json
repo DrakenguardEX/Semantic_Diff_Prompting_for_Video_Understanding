@@ -1,0 +1,81 @@
+{
+  "video_id": "1246",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/1246.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/1246",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person folding a red and white checkered long-sleeve shirt on a tiled floor. The person is wearing a striped long-sleeve top with a watch on their left wrist. The shirt is being folded neatly, with one hand holding the collar area and the other adjusting the sleeve. The shirt appears to be in the process of being folded, with one sleeve already folded inward.",
+    "The image shows hands holding and displaying a piece of red and white checkered fabric, possibly a shirt. The fabric is neatly folded, and the person appears to be demonstrating or arranging it on a patterned floor surface. The person is wearing a striped shirt and a watch.",
+    "This frame shows a person folding a red and white checkered shirt on a stone or tiled floor. The person is wearing a striped shirt and a wristwatch on their left wrist. Their hands are in the process of folding the shirt neatly. The shirt appears to have long sleeves with a solid pink contrasting inner side of the cuff.",
+    "This frame shows a close-up of a person holding and arranging a red and white checkered long-sleeved shirt or blouse. The shirt is laid flat on a stone or tiled surface, and the person's hands, wearing a striped long sleeve and a wristwatch, are positioned to smooth or fold the shirt. The focus is on the shirt and the hands, with no other objects clearly visible.",
+    "The frame shows a pair of small red and white checked shorts with pink cuffs on a stone or tiled floor. A person's hands are visible, working on the shorts, possibly sewing or performing some kind of tailoring or mending work. The person appears to have dark skin and is wearing a watch on their left wrist.",
+    "The frame shows a person folding a red and white checkered long-sleeve shirt. The shirt has red buttons and a solid red lining on the cuffs. The person's hands are actively folding the shirt on a stone-tiled floor. The person is wearing a wristwatch on their left wrist and a shirt with a similar checkered pattern but slightly different colors. The focus is on the process of folding the shirt.",
+    "The image shows a close-up of a person's hands folding a red and white checkered cloth or shirt on a mosaic-style stone floor. The person is wearing a striped long-sleeve shirt and a wristwatch on their left wrist. The hands are in the process of neatly folding the fabric.",
+    "In this frame, a person is folding a red and white checkered shirt on a tiled floor. The hands are visible, with one wearing a watch and a striped shirt sleeve, carefully folding the shirt. The person's fingers are positioned to align the fabric neatly. The tiles on the floor are a mix of dark and light shades with irregular shapes."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the person's left hand has moved closer to the bottom edge of the shirt, adjusting it slightly. The right hand remains near the collar area but appears less involved in holding the shirt.",
+    "There is no noticeable change or motion in the main object between the two consecutive frames. The shirt and the hands remain in the same positions.",
+    "There is no noticeable change in the main object or its position between the two frames.",
+    "In the current frame, the person's right hand has moved closer to the collar of the shirt, and the shirt has been slightly lifted or raised compared to the previous frame.",
+    "In the current frame, the person's right hand has moved from holding the fabric to unfolding or lifting part of the shirt, causing the shirt's fabric to be slightly lifted and stretched compared to the previous frame. The left hand has also shifted closer to the shirt’s edge.",
+    "In the current frame, the person's hands have moved to fold the sleeve of the shirt, covering more of the checkered fabric with the pink inner side of the sleeve.",
+    "In the current frame, the person's left hand has moved to lift and open the pink flap on the checkered cloth, while the right hand remains near the cloth, stabilizing it."
+  ],
+  "baseline_tokens": 589,
+  "diff_tokens": 270,
+  "lexical_redundancy_baseline_avg": 0.3904915137429063,
+  "lexical_redundancy_diff_avg": 0.2644561929549375,
+  "lexical_redundancy_baseline_all": [
+    0.42592592592592593,
+    0.35714285714285715,
+    0.4032258064516129,
+    0.30434782608695654,
+    0.359375,
+    0.49056603773584906,
+    0.39285714285714285
+  ],
+  "lexical_redundancy_diff_all": [
+    0.06060606060606061,
+    0.06382978723404255,
+    0.5652173913043478,
+    0.08571428571428572,
+    0.5555555555555556,
+    0.25,
+    0.2702702702702703
+  ],
+  "info_density_baseline": 0.026132856272166095,
+  "info_density_diff": 0.03968550203429236,
+  "info_density_baseline_per_frame": [
+    0.04411764705882353,
+    0.0,
+    0.03333333333333333,
+    0.015151515151515152,
+    0.0,
+    0.04285714285714286,
+    0.04081632653061224,
+    0.03278688524590164
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.02702702702702703,
+    0.0,
+    0.0,
+    0.06451612903225806,
+    0.0625,
+    0.06666666666666667,
+    0.0967741935483871
+  ]
+}

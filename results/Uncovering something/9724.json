@@ -1,0 +1,81 @@
+{
+  "video_id": "9724",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/9724.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/9724",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This image shows a small, round, portable fire pit placed on a concrete surface next to a patch of grass and reddish stones. The fire pit contains ashes and partially burnt wood, indicating that a fire was recently burned and is now extinguished or almost out. There is a metal crossbar structure over the top of the fire pit, and part of a person's hand is visible on the right side of the image. The setting appears to be outdoors, possibly in a backyard or garden area.",
+    "This frame depicts a close-up view of a round metal fire pit or container with ashes and charred wood remnants inside. A person wearing a blue long-sleeved garment is seen holding a metal rod or tool, likely used for stirring or managing the fire. The fire appears to have been recently extinguished or is burning very low, as most of the wood is turned into ash. The surrounding area shows some grass and soil.",
+    "The frame shows a close-up view of a round metal fire pit with a mesh screen cover. The fire pit contains ashes and burnt remnants from a previous fire. A hand wearing a blue sleeve is lifting the mesh cover, revealing the inside of the fire pit. The ground around the fire pit has some fallen leaves and natural outdoor debris.",
+    "This frame shows a close-up of a round fire pit or grill filled with ashes. A person, wearing a blue sleeve, is holding a black metal tool or grate inside the fire pit. The ashes appear mostly white and gray, indicating the fire has been mostly extinguished or the coals have burned down. The area around the fire pit has some green grass and dirt.",
+    "This frame shows a close-up view of a round barbecue grill that contains ashes and some charred remains of burned items. The grill is set on a grassy area with a small patch of paved ground next to it. A black dog is visible on the left side of the image, appearing to be approaching or sniffing around the grill. A person’s hand is holding the grill lid or cover above the grill.",
+    "This frame shows an outdoor scene where a black dog is walking on the grass near a fire pit filled with ashes. The fire pit is positioned close to a tiled or paved surface, and there is a mesh screen or cover partially visible on the right side of the image. The background consists of green grass.",
+    "The frame shows a black dog standing on a grassy area near a concrete surface. In the foreground, there is a metal fire pit containing ashes and some partially burnt wood. To the right side of the frame, there is a round metal cover or screen, likely for the fire pit. The setting appears to be an outdoor area, possibly a backyard or garden.",
+    "The frame shows a small, round fire pit containing ashes, charred wood, and some partially burnt remains of wood. The fire pit is situated on a patch of concrete or paved surface next to a grassy area. A black dog is standing on the grass near the fire pit, looking towards it. To the right of the fire pit, part of a circular metal mesh cover is visible on the ground. The setting appears to be an outdoor area, possibly a backyard or garden."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a person's hand wearing a blue sleeve has entered the scene and is holding the edge of the fire pit's screen, lifting it slightly compared to the previous frame.",
+    "The hand in the blue sleeve has moved the round mesh cover further across the fire pit, revealing more of the ashes inside. The cover is now positioned more to the right compared to the previous frame.",
+    "In the current frame, the main object, which appears to be a grilling basket held by a hand in a blue sleeve, has been lifted slightly higher compared to the previous frame. The angle of the basket has also changed, tilting more upward. The ashes or burned material inside the basket appear to have shifted slightly due to the motion.",
+    "In the current frame, the main change is that the metal grate has been lifted higher and tilted more prominently, creating a noticeable arc. Additionally, a black dog has entered the scene from the left side, approaching the fire pit.",
+    "The dog has moved slightly forward, closer to the fire pit. The hand holding the metal grate has shifted downward and to the right, and the grate itself is now more vertical.",
+    "The black dog moved slightly forward and adjusted its posture, turning its head downward in the current frame compared to the previous one.",
+    "The black dog has moved closer to the fire pit, with its head lowered and appearing to be sniffing or inspecting the ashes."
+  ],
+  "baseline_tokens": 651,
+  "diff_tokens": 296,
+  "lexical_redundancy_baseline_avg": 0.3469495448157015,
+  "lexical_redundancy_diff_avg": 0.2229458279496061,
+  "lexical_redundancy_baseline_all": [
+    0.21649484536082475,
+    0.2727272727272727,
+    0.34375,
+    0.2857142857142857,
+    0.28378378378378377,
+    0.4032258064516129,
+    0.6229508196721312
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0967741935483871,
+    0.34146341463414637,
+    0.2545454545454545,
+    0.171875,
+    0.21739130434782608,
+    0.22857142857142856,
+    0.25
+  ],
+  "info_density_baseline": 0.006291343111878056,
+  "info_density_diff": 0.03052878409536018,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.03278688524590164,
+    0.0,
+    0.0,
+    0.017543859649122806,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.030303030303030304,
+    0.05405405405405406,
+    0.016666666666666666,
+    0.025,
+    0.03125,
+    0.043478260869565216,
+    0.043478260869565216
+  ]
+}

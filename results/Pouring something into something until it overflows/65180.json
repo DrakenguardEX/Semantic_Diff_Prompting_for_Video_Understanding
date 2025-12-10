@@ -1,0 +1,81 @@
+{
+  "video_id": "65180",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/65180.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/65180",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a person's hand pouring a clear liquid from a glass jar into a small drinking glass on a kitchen countertop. The user is wearing a pink shirt. Various kitchen appliances and items are visible in the background, including a blender and other containers. The surface is a light-colored speckled countertop.",
+    "In this frame, a person is pouring a liquid from a small glass jar into a clear glass that has colorful polka dots on it. The scene appears to be set on a kitchen countertop, with some kitchen appliances visible in the background. The person’s hand and part of their pink clothing are visible.",
+    "The frame shows a person pouring water from a glass jar into a clear glass with a pattern of colorful dots. The scene takes place on a countertop, which appears to be in a kitchen. The person's hand is visible, holding the jar at an angle to pour the water. Some kitchen appliances and utensils can be seen in the background.",
+    "The frame shows a close-up of a person’s hand pouring water from a clear glass jar into a transparent drinking glass that has a polka dot pattern. The setting appears to be a kitchen countertop with various appliances and items partially visible in the background. The person's arm is visible, wearing a pink sleeve.",
+    "The frame shows a close-up of a person pouring water from a transparent glass jug into a glass tumbler. The glass tumbler already has some water in it and features a colorful polka dot pattern. The scene takes place on a beige kitchen countertop with some kitchen appliances, such as a mixer grinder, visible in the background. The person pouring the water is wearing a red or pink garment.",
+    "This frame shows a close-up of a person's hand pouring a clear liquid, likely water, from a glass container into a tall glass. The glass already has some liquid in it, with visible bubbles inside. The setting appears to be a kitchen countertop with various kitchen appliances and items partially visible in the background. The person is wearing a pink sleeve.",
+    "The frame shows a person holding a glass jar filled with clear water. The jar has a decorative pattern with small colorful dots. The scene appears to be set on a kitchen countertop with a light-colored speckled surface. In the background, there are some kitchen appliances partially visible, including a metallic container and a wire leading to an electrical device. The person appears to be pouring or tilting the jar.",
+    "The image shows a close-up of a person's hand holding a clear, empty glass jar. The hand is positioned above a transparent drinking glass, which is placed on a kitchen countertop. The drinking glass contains some liquid. The countertop is light-colored, and kitchen items such as an appliance and another container are visible in the background. The person is wearing a pink garment."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The jar in the current frame has tilted further to the right compared to the previous frame, with the hand adjusting to maintain the grip. The water inside the jar has started to pour into the glass below.",
+    "The jar is being tilted further, and water is being poured from it into the glass.",
+    "In the current frame, the glass being held has been tilted further, causing more water to pour into the glass on the counter. The water level in the glass has visibly risen.",
+    "In the current frame, water continues pouring from the tilted glass container into the glass, with the angle of the container slightly adjusted and the water level inside the container lowered compared to the previous frame.",
+    "In the current frame, the liquid level in the spotted glass has risen as more liquid is being poured from the transparent jug. The jug is tilted further downward compared to the previous frame.",
+    "The jar in the current frame has been tilted more and is now partially empty as water is being poured into the glass. The hand holding the jar has also moved slightly downward and outward compared to the previous frame.",
+    "The hand has moved the glass jar further downward and slightly rotated it clockwise over the glass filled with water."
+  ],
+  "baseline_tokens": 596,
+  "diff_tokens": 251,
+  "lexical_redundancy_baseline_avg": 0.418284684450098,
+  "lexical_redundancy_diff_avg": 0.2658346316241053,
+  "lexical_redundancy_baseline_all": [
+    0.43333333333333335,
+    0.5263157894736842,
+    0.4666666666666667,
+    0.4603174603174603,
+    0.42424242424242425,
+    0.3333333333333333,
+    0.28378378378378377
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1111111111111111,
+    0.23333333333333334,
+    0.25,
+    0.2777777777777778,
+    0.2972972972972973,
+    0.42105263157894735,
+    0.2702702702702703
+  ],
+  "info_density_baseline": 0.02020393044760472,
+  "info_density_diff": 0.040906916494668044,
+  "info_density_baseline_per_frame": [
+    0.017857142857142856,
+    0.018518518518518517,
+    0.03278688524590164,
+    0.018518518518518517,
+    0.028985507246376812,
+    0.01639344262295082,
+    0.02857142857142857,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.02631578947368421,
+    0.0625,
+    0.03125,
+    0.027777777777777776,
+    0.029411764705882353,
+    0.05,
+    0.1
+  ]
+}

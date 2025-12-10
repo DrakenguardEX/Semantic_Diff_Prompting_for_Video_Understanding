@@ -1,0 +1,81 @@
+{
+  "video_id": "13846",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/13846.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/13846",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a folded piece of fabric or clothing with a blue and white paisley pattern placed on a light-colored countertop. To the left, part of a stainless steel sink is visible. The overall setting appears to be a kitchen or a similar area with a countertop and sink.",
+    "This frame shows a folded kitchen towel or cloth with a blue and white intricate paisley and floral pattern. The cloth is placed on a light-colored countertop near the edge of a sink. The sink is partially visible on the left side of the image, and a blue plastic bowl or container is inside the sink. The countertop appears to have some small stains or marks on it.",
+    "This frame shows a close-up of a person's hand holding a blue plastic cup, positioned above a folded cloth with a blue and white paisley design. The cloth is placed on what appears to be a light-colored countertop or table surface. The lighting is even, and the scene seems to be indoors.",
+    "The frame shows a close-up of a hand holding a blue cup above a folded white cloth with a blue intricate paisley pattern. The cloth is placed on a marble or light-colored countertop. The hand appears to be tilting or about to pour something from the cup.",
+    "This frame shows a hand pouring a clear liquid, likely water, from a blue cup onto a folded piece of fabric with a blue and white paisley pattern. The fabric is placed on a light-colored, speckled surface, such as a countertop or table.",
+    "The frame shows a close-up of a hand holding a blue cup tilted downward, pouring water onto a rectangular piece of fabric with a detailed paisley pattern in black and white. The fabric is placed on a beige countertop or table surface. The water is visible as it streams from the cup onto the fabric.",
+    "The frame shows a hand holding a blue object, possibly a phone or camera, positioned over a folded cloth or fabric with a detailed blue and white paisley pattern. The fabric is placed on a light-colored, slightly speckled countertop or surface. The scene appears to be well-lit with a shadow cast on the countertop.",
+    "The frame shows a close-up view of a countertop or table surface with a white background featuring some small dark marks or stains. On the surface, there is a fabric item, possibly a cloth or napkin, with a blue and white intricate floral or paisley pattern. To the left of the frame, a hand is holding a blue cup or container, which is partially visible. The setting appears to be indoors, likely a kitchen or dining area."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a blue object (possibly a cup) has appeared near the left edge of the image, partially overlapping the area near the sink. The towel on the countertop remains stationary.",
+    "In the current frame, a hand holding a blue cup has moved into the scene from the top left corner, casting a shadow on the cloth below.",
+    "The hand holding the blue cup has moved slightly closer to the cloth on the counter.",
+    "In the current frame, water is being poured from the blue cup onto the folded cloth, whereas in the previous frame, the water was not yet pouring out.",
+    "In the current frame, the liquid being poured from the blue cup onto the cloth has increased in amount and is more spread out compared to the previous frame.",
+    "Water is being poured from the blue cup onto the cloth.",
+    "The blue object in the hand has moved slightly closer to the cloth on the surface."
+  ],
+  "baseline_tokens": 553,
+  "diff_tokens": 195,
+  "lexical_redundancy_baseline_avg": 0.4262129494655005,
+  "lexical_redundancy_diff_avg": 0.25353677853677853,
+  "lexical_redundancy_baseline_all": [
+    0.44642857142857145,
+    0.359375,
+    0.54,
+    0.42,
+    0.5510204081632653,
+    0.3333333333333333,
+    0.3333333333333333
+  ],
+  "lexical_redundancy_diff_all": [
+    0.03333333333333333,
+    0.2702702702702703,
+    0.34615384615384615,
+    0.13333333333333333,
+    0.4666666666666667,
+    0.375,
+    0.15
+  ],
+  "info_density_baseline": 0.010112005757725698,
+  "info_density_diff": 0.04485718224942363,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.02127659574468085,
+    0.023255813953488372,
+    0.03636363636363636,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.037037037037037035,
+    0.0625,
+    0.07142857142857142,
+    0.034482758620689655,
+    0.09090909090909091,
+    0.0625
+  ]
+}

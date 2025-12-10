@@ -1,0 +1,81 @@
+{
+  "video_id": "173889",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/173889.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/173889",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a close-up of a person’s hands as they appear to be threading or handling a needle. The person is wearing a red and black patterned garment and several bangles on their wrist. The background features a wooden cabinet with closed doors and a floor with a light-colored surface. The scene seems to take place indoors.",
+    "The frame shows a close-up view of a person's hands holding a toothpick. The person is wearing a red and black patterned garment, along with multiple bracelets on their wrist and a ring on one finger. In the background, there is a wooden wardrobe with two doors and handles, and a glimpse of a room with patterned wallpaper. The floor appears to be tiled.",
+    "The image shows a close-up of a person's hands engaging in some detailed activity. The person appears to be holding a small thin object, possibly threading a needle or working with a small tool. The individual is wearing traditional clothing with a red and black pattern and several bangles on one wrist. A golden ring is visible on one finger. In the background, there is a wooden cupboard and a part of a door frame. The overall setting looks like an indoor room.",
+    "The frame shows a close-up view of a person's hands engaged in some activity, possibly threading a needle or holding a small object. The person is wearing multiple bangles on their wrist and a ring on one of their fingers. They are dressed in a red and black patterned garment. In the background, there is a wooden cabinet with closed doors and a wall with a patterned design partially visible. The floor appears to be tiled. The image seems to be taken indoors.",
+    "The frame shows a close-up of a person's hands as they appear to be threading a needle or handling a small object, possibly thread or string. The person is wearing multiple bangles on their wrist and a red and black patterned garment. In the background, there is wooden furniture, including a cabinet with handles, and a white door slightly ajar with some items partially visible behind it. The setting appears to be indoors, likely in a home or similar environment.",
+    "The image shows a close-up of a person holding a small cylindrical object, possibly a rolled cigarette or a similar item, between their fingers. The person is wearing a red patterned garment and several bangles on their wrists. The background reveals a wooden wardrobe, an open door leading to another room with tiled flooring, and some household items partially visible.",
+    "The frame shows a close-up of a person's hands. The person is holding a small stick or thin object between their fingers. They are wearing a red and black patterned garment, and several colorful bangles are visible on their wrist. In the background, there are wooden cabinets and a partially visible doorway or hallway area. The setting looks like an indoor room, possibly a home.",
+    "The image shows a person wearing a red and black patterned garment, possibly a sari or traditional clothing, with several bangles on their wrist. They are holding a small, thin object with both hands, which appears to be a matchstick. The background features wooden cabinets and part of a room with a tiled floor. The person's face is not visible in the frame."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a hand has entered from the right side, reaching toward the person holding the object. The person's hands and the object they are holding remain in the same position.",
+    "In the current frame, the hand holding the cotton swab has moved slightly upward and closer to the fingers of the other hand. The position of the cotton swab has shifted accordingly.",
+    "In the current frame, the person's left hand has moved slightly upward, and the fingers of the right hand have adjusted their grip on the thin object being held. The positioning of the thin object itself has shifted slightly between the two frames.",
+    "The fingers of the left hand moved slightly downward, and the right hand adjusted its grip on the string or thread between the fingers.",
+    "In the current frame, the main object, which appears to be a stick or a thin rod held between the person's hands, has moved slightly to the right. The person's fingers have adjusted their grip accordingly.",
+    "In the current frame, the person has rotated their hands slightly, moving the wooden stick slightly closer to their fingers. The position of the fingers has adjusted to hold the stick more firmly.",
+    "The main object, the cotton swab in the person's hands, has moved slightly closer to the fingers, with the person adjusting their grip on it. The fingers are positioned a bit differently around the cotton swab."
+  ],
+  "baseline_tokens": 680,
+  "diff_tokens": 289,
+  "lexical_redundancy_baseline_avg": 0.4380955310006684,
+  "lexical_redundancy_diff_avg": 0.25706286051113636,
+  "lexical_redundancy_baseline_all": [
+    0.3880597014925373,
+    0.38961038961038963,
+    0.47560975609756095,
+    0.525,
+    0.36585365853658536,
+    0.4225352112676056,
+    0.5
+  ],
+  "lexical_redundancy_diff_all": [
+    0.034482758620689655,
+    0.25,
+    0.3333333333333333,
+    0.3611111111111111,
+    0.23076923076923078,
+    0.3333333333333333,
+    0.2564102564102564
+  ],
+  "info_density_baseline": 0.005744529843511979,
+  "info_density_diff": 0.022753883309842612,
+  "info_density_baseline_per_frame": [
+    0.017241379310344827,
+    0.0,
+    0.0,
+    0.012048192771084338,
+    0.0,
+    0.016666666666666666,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.03125,
+    0.023255813953488372,
+    0.041666666666666664,
+    0.027777777777777776,
+    0.030303030303030304,
+    0.027777777777777776
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "11919",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/11919.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/11919",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a hand holding a green object, possibly a fruit like an apple or a lime. The background features a bed with a colorful blanket that has a black base with red and white floral patterns. There are several pillows on the bed, including one with a dark cover and a light-colored pillow with a floral pillowcase propped up against the wall. On a surface near the bed, there is a bottle with an orange cap, which looks like a sports drink bottle. The overall room appears to be a bedroom with a casual, lived-in setting.",
+    "In this frame, a person is holding a greenish, pear-shaped object in their hand. The background shows a bed with a patterned bedspread featuring red, white, and black floral designs. There is a large, light-colored pillow propped up against the wall behind the bed. To the left side, there is a plastic bottle with an orange cap placed on a surface near the bed. Various other items, including some pillows and possibly clothes or blankets, are scattered around the bed area. The overall setting appears to be a bedroom or personal living space.",
+    "The image shows a hand holding a green tennis ball in the foreground. In the background, there is a bed with black, red, and white floral-patterned bedding. Next to the bed, there is a chair with a cushion that has a light floral design. There is also a bottle, possibly a water bottle or sports drink, placed near the chair. The overall setting appears to be a bedroom or a cozy personal space.",
+    "This frame shows a close-up of a person's hand holding an object, which is slightly out of focus. The background reveals a bed with a black, white, and red floral patterned bedspread. There are some pillows and a blanket on the bed, along with some objects on a bedside table, including a bottle that appears to be a sports drink. The room has a simple and casual appearance.",
+    "This image shows a person's hand holding a round greenish object, possibly a fruit, in the foreground. In the background, there is a bed or sofa covered with a black and red blanket featuring floral patterns. There are also some pillows and other objects on the bed or sofa. The setting appears to be indoors, likely in a bedroom or a living space.",
+    "The image shows a bed with a dark-colored blanket or bedspread that has a floral or leaf pattern in red, white, and beige tones. There are several pillows on the bed, including a large beige one with a subtle floral design, a smaller round gray pillow, and another pillow that appears to be blue and white. The bed is positioned against a plain off-white wall. Additionally, there seems to be a black item, possibly a bag or clothing, near the head of the bed. The overall setting appears to be a simple and cozy bedroom.",
+    "This frame shows a portion of a bed with a dark-colored bedspread featuring a decorative floral pattern with prominent red and white leaves and shapes. There are pillows at the head of the bed, including a large floral-patterned pillow on the left. The setting appears to be a cozy bedroom environment. The lighting is warm and somewhat dim.",
+    "This frame shows a section of a bed or seating area covered with a dark fabric that has a decorative floral or leaf pattern in red, gray, and white. There is a light-colored pillow with a floral print placed on top, and the bed or seating surface is surrounded by other items or fabrics, including something blue on the right side. The setting appears to be indoors, likely part of a bedroom or living room."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand holding the green object has moved slightly upward and forward. The grip on the green object is maintained, but the position of the hand and object shifted closer toward the camera.",
+    "The hand is moving upward, raising the green ball higher compared to the previous frame.",
+    "The hand holding the ball has moved slightly downward and more to the left, and the ball has also shifted position slightly lower and to the left in the current frame compared to the previous one.",
+    "The hand is moving slightly upward, and the ball appears to have moved up and slightly to the right in the current frame compared to the previous one.",
+    "In the current frame, the hand and the ball are no longer visible; the ball has been released and is moving downward toward the bed. The hand is moving downward and becoming less visible.",
+    "The object, a green ball, has moved from the lower left edge of the bed near the gray elephant to a position closer to the center of the bed. The ball is slightly raised above the bed surface compared to the previous frame.",
+    "The gray cat in the center of the image has shifted slightly forward toward the bottom left corner in the current frame."
+  ],
+  "baseline_tokens": 755,
+  "diff_tokens": 245,
+  "lexical_redundancy_baseline_avg": 0.3575051739553748,
+  "lexical_redundancy_diff_avg": 0.2145633755246827,
+  "lexical_redundancy_baseline_all": [
+    0.45263157894736844,
+    0.3522727272727273,
+    0.3116883116883117,
+    0.3698630136986301,
+    0.2976190476190476,
+    0.3717948717948718,
+    0.3466666666666667
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.16666666666666666,
+    0.25,
+    0.4482758620689655,
+    0.28125,
+    0.13953488372093023,
+    0.21621621621621623
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.034781923692662406,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.030303030303030304,
+    0.06666666666666667,
+    0.027777777777777776,
+    0.07142857142857142,
+    0.058823529411764705,
+    0.023255813953488372,
+    0.0
+  ]
+}

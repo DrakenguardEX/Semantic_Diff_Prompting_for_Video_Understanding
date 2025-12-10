@@ -1,0 +1,81 @@
+{
+  "video_id": "9941",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/9941.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/9941",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a fabric-covered chair with a floral pattern. The background color of the fabric is dark, possibly black or deep brown, and it is decorated with orange and yellow flowers with green leaves. The flowers are scattered across the fabric in a somewhat repeating design. The chair has wooden armrests visible on the left side. The lighting in the frame is dim, making the colors appear a bit muted. There is also a hint of another similar chair in the background on the right side.",
+    "The frame shows a cushioned chair with a dark fabric upholstery adorned with a floral pattern. The flowers are predominantly orange with yellow highlights, and green stems and leaves are also visible. The chair has wooden armrests on both sides. The surrounding environment appears to be dimly lit.",
+    "The image shows a wooden armchair with dark fabric cushions that have an orange and yellow floral pattern. The chair's armrests are visible, and the fabric design includes flowers and winding stems. There is an indistinct blue object in the foreground that is out of focus. The setting appears to be indoors.",
+    "The image shows part of a room with a cushioned armchair that has a dark fabric cover featuring a floral pattern in orange, yellow, and beige colors. In the foreground, there is a partially blurred blue object held by a hand, which is out of focus. The background also includes a wooden armrest and part of another chair or piece of furniture. The overall setting appears to be indoors.",
+    "This frame shows a hand holding a small rectangular object, possibly a device or a bar of soap, but it is out of focus and unclear. In the background, there is a chair with a floral pattern cushion featuring orange and white flowers on a dark base. To the right, there is a wooden surface with a drawer, partially visible. The overall image is somewhat blurry.",
+    "The frame shows a close-up of a cushioned armchair with a dark fabric featuring a floral pattern in shades of orange, yellow, and green. The armrests of the chair are wooden. In front of the chair, there is a blurry white object or movement, which is indistinct and difficult to identify clearly. The background is dimly lit.",
+    "This frame shows a close-up of a cushioned chair with a floral pattern. The cushion fabric features large orange and yellow flowers with green leaves on a dark background. In the foreground, a hand is holding a small blue bird-like object, possibly a toy or decoration, positioned near the center of the chair. The armrests of the chair are wooden, and there is another similar chair partially visible on the right side of the image.",
+    "The frame shows a close-up of a cushioned chair with a floral pattern. The fabric on the chair features orange and yellow flowers with green leaves on a dark background. The armrests of the chair are made of wood. The lighting is dim, and the image seems to be taken indoors. Near the bottom center of the frame, there is a blurry shape, possibly a small pet or an object, but it is difficult to identify clearly due to motion blur."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, the armrest on the left side of the chair, moved slightly upward and to the left in the current frame compared to the previous one.",
+    "A blue and white object has moved into the lower right part of the frame, partially covering the seat of the chair.",
+    "In the current frame, a hand holding the blue object has moved closer to the camera, making the object appear larger and more centered compared to the previous frame.",
+    "In the current frame, the main object, a blue remote control or device held in a hand, has moved closer to the camera, appearing larger and more out of focus. The hand holding the object has also shifted position slightly.",
+    "In the current frame, the hand and the blue object it was holding have moved away from the camera and are no longer clearly visible, with the object now positioned farther back on the chair.",
+    "The main object, a small bird, has moved from near the center of the chair cushion to a higher position above it, appearing to be in flight or jumping upward in the current frame.",
+    "The blue bird that was flying above the chair cushion in the previous frame has moved to the right side of the chair, closer to the armrest. The hand in the lower right corner has also shifted slightly, indicating motion toward the bird."
+  ],
+  "baseline_tokens": 643,
+  "diff_tokens": 274,
+  "lexical_redundancy_baseline_avg": 0.3820725473783951,
+  "lexical_redundancy_diff_avg": 0.24832141708503203,
+  "lexical_redundancy_baseline_all": [
+    0.32857142857142857,
+    0.35,
+    0.47692307692307695,
+    0.34210526315789475,
+    0.3382352941176471,
+    0.391304347826087,
+    0.4473684210526316
+  ],
+  "lexical_redundancy_diff_all": [
+    0.13043478260869565,
+    0.22580645161290322,
+    0.25,
+    0.4722222222222222,
+    0.22916666666666666,
+    0.19148936170212766,
+    0.2391304347826087
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.02773632462754002,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03571428571428571,
+    0.045454545454545456,
+    0.034482758620689655,
+    0.025,
+    0.02857142857142857,
+    0.029411764705882353,
+    0.023255813953488372
+  ]
+}

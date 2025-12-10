@@ -1,0 +1,81 @@
+{
+  "video_id": "75862",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/75862.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/75862",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a clear, empty plastic container placed on a wooden surface. Next to it, on the left side of the frame, is its blue lid, which is not attached to the container. The wooden surface has a light to medium brown color with visible grain patterns. The lighting creates a shadow from the container on the surface.",
+    "The image shows a clear, empty plastic container placed on a wooden surface. To the left, a blue translucent lid, which appears to match the container, is being held by a hand. The container is square-shaped with rounded corners, and the wood grain of the surface beneath is clearly visible. The lighting creates reflections on the container and the table.",
+    "The image shows a transparent square plastic container without its lid, sitting on a wooden surface. A person's hand is holding the blue lid near the container, positioned to close it or just removed it. The background surface is wooden with a light brown finish. The image is taken from a top-front angle.",
+    "This frame shows a person's hand placing or holding down a clear plastic container with a blue lid on a wooden surface, such as a table. The hand is slightly blurred, indicating motion, while the container appears transparent and empty. The wooden surface has a natural finish with visible knots and grain patterns.",
+    "The image shows a hand pressing down on a small, square-shaped plastic container with a blue rimmed lid. The container is placed on a wooden surface with a visible wood grain pattern. The lighting in the image is bright and even.",
+    "This frame shows a close-up of a person's left hand resting on the lid of a square, transparent plastic container with a blue rim. The container is placed on a wooden surface, possibly a table or countertop. The lighting suggests an indoor setting with a clear and focused view of the hand and container.",
+    "The image shows a hand resting on top of a translucent, square plastic container with a blue lid. The container is placed on a wooden surface with a natural wood grain pattern. The hand appears to be gently pressing down on the container's lid.",
+    "The frame shows a transparent plastic container with a blue lid placed on a wooden surface, possibly a table or countertop. The container appears to be empty, and the lid has a small circular protrusion in the center. The lighting casts a shadow of the container onto the wooden surface. The wood grain is visible and has a light to medium brown color."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a hand has appeared and is reaching towards or touching the blue lid on the left side of the image. The plastic container itself remains in the same position.",
+    "The blue lid has been lifted and moved slightly upward and to the left compared to the previous frame.",
+    "In the current frame, the hand has moved to place the blue lid on top of the plastic container. The lid, previously held to the side, is now positioned over the container.",
+    "The hand has moved slightly forward, positioning the fingers more spread out and resting more calmly on the lid of the container, which appears to be more securely placed compared to the previous frame.",
+    "The hand moved slightly forward and downward, causing the plastic container's lid to become more upright and the container itself to shift forward on the table.",
+    "The hand has shifted slightly to the right, and the plastic container lid has rotated a bit counterclockwise.",
+    "The hand that was previously touching the container has moved away, leaving the container now resting alone on the table."
+  ],
+  "baseline_tokens": 498,
+  "diff_tokens": 219,
+  "lexical_redundancy_baseline_avg": 0.33282720402158333,
+  "lexical_redundancy_diff_avg": 0.20815092165898616,
+  "lexical_redundancy_baseline_all": [
+    0.42857142857142855,
+    0.25,
+    0.3114754098360656,
+    0.3148148148148148,
+    0.3269230769230769,
+    0.34615384615384615,
+    0.35185185185185186
+  ],
+  "lexical_redundancy_diff_all": [
+    0.03125,
+    0.2,
+    0.22580645161290322,
+    0.25,
+    0.3055555555555556,
+    0.2962962962962963,
+    0.14814814814814814
+  ],
+  "info_density_baseline": 0.0023584905660377358,
+  "info_density_diff": 0.03179830763276971,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.018867924528301886,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.10526315789473684,
+    0.03125,
+    0.029411764705882353,
+    0.038461538461538464,
+    0.0,
+    0.05
+  ]
+}

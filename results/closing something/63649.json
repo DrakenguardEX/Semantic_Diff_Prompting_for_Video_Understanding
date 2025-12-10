@@ -1,0 +1,81 @@
+{
+  "video_id": "63649",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/63649.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/63649",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows an open wooden jewelry box placed on a floral-patterned surface. Inside the box, there are several pieces of jewelry, including a blue and purple beaded necklace and a chain or bracelet. The inside lid of the jewelry box has a mirror, reflecting some of the contents. The overall setting suggests a personal or decorative display of jewelry items.",
+    "This frame shows an open jewelry box placed on a fabric surface with a floral pattern. Inside the jewelry box, there is a mirror on the lid. The interior contains several pieces of jewelry, including what appears to be a bracelet made of blue beads, a string of pearls or similar beads, and other small jewelry items. The background surface appears to be a patterned cloth or bedspread, and part of a carpeted floor is also visible.",
+    "This frame shows a small wooden jewelry box with an open lid that has a mirror on the inside. Inside the box, there are multiple pieces of jewelry including a black bracelet on the left, a silver bracelet or watch, and two beaded necklaces - one with blue beads and the other with metallic beads. The box is resting on a fabric surface with a floral pattern.",
+    "The image shows a dark wooden jewelry box with a mirror on the inside of the lid. The box is open and contains a flexible beaded bracelet with beads in alternating blue and greenish colors, a ring with a pink stone, and a dark circular band or ring. The background appears to be a patterned fabric surface in muted earth-tone colors. A hand is reaching towards the jewelry box from the top right corner of the image.",
+    "This image shows a hand with green-painted nails holding open a small wooden jewelry box with a glass mirror on the inside of the lid. Inside the box, there are several pieces of jewelry including a black ring on the left, a silver ring, and a beaded necklace or bracelet with blue and green beads arranged in a circular pattern. The jewelry box is resting on a fabric surface with a floral pattern. The reflection in the mirror shows a similar view of the objects inside the box.",
+    "The frame shows a close-up of a person's hand opening a small, rectangular wooden jewelry box with a hinged lid. Inside the box, there are various pieces of jewelry, including a blue beaded necklace, a ring, and a bracelet or chain. The jewelry box is placed on a patterned fabric surface. The person's fingernails are painted light blue.",
+    "The image shows a close-up of a hand reaching towards or touching a small, rectangular wooden box with a floral inlay design on the lid. The box is resting on a surface covered by a patterned fabric, which appears to have a leafy or floral design. The background shows a portion of a carpeted floor and possibly a foot or shoe. The lighting is dim but sufficient to see the details on the box and the hand clearly.",
+    "The image shows a wooden box with intricate inlay work on the lid, placed on a patterned surface, possibly a tablecloth or fabric. The inlay features a design of leaves and what looks like a bird perched on a branch. In the top right corner of the frame, a hand is moving, slightly blurred due to motion. The overall setting suggests a decorative or handcrafted item in focus."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "There is no visible change in the main object or its position between the two frames. The jewelry box and its contents remain the same.",
+    "The main object, a wooden jewelry box with a mirror, has been opened between the two frames. The lid with the mirror is raised in the current frame, revealing the contents inside the box.",
+    "In the current frame, a hand with blue-painted nails has appeared in the upper right corner, reaching toward or moving near the jewelry box. The position of the jewelry inside the box remains unchanged.",
+    "In the current frame, the hand with painted nails has moved slightly downward and closer to the jewelry box compared to the previous frame. The position of the jewelry inside the box remains unchanged.",
+    "The lid of the jewelry box has been lifted halfway up by the hand, and the box is now partially closed compared to being fully open in the previous frame.",
+    "The wooden jewelry box lid has been closed by the hand, covering the objects inside the box. The hand moved slightly to the right while closing the lid.",
+    "The hand has moved away from the wooden box and is now higher and further to the right."
+  ],
+  "baseline_tokens": 678,
+  "diff_tokens": 241,
+  "lexical_redundancy_baseline_avg": 0.35400557198999355,
+  "lexical_redundancy_diff_avg": 0.28416721792413535,
+  "lexical_redundancy_baseline_all": [
+    0.38235294117647056,
+    0.44776119402985076,
+    0.3013698630136986,
+    0.36486486486486486,
+    0.4307692307692308,
+    0.28169014084507044,
+    0.2692307692307692
+  ],
+  "lexical_redundancy_diff_all": [
+    0.038461538461538464,
+    0.3235294117647059,
+    0.24390243902439024,
+    0.45714285714285713,
+    0.32432432432432434,
+    0.29411764705882354,
+    0.3076923076923077
+  ],
+  "info_density_baseline": 0.010737232175660794,
+  "info_density_diff": 0.043866713352007466,
+  "info_density_baseline_per_frame": [
+    0.01639344262295082,
+    0.012987012987012988,
+    0.014925373134328358,
+    0.012987012987012988,
+    0.011363636363636364,
+    0.017241379310344827,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.029411764705882353,
+    0.029411764705882353,
+    0.029411764705882353,
+    0.1,
+    0.10714285714285714,
+    0.05555555555555555
+  ]
+}

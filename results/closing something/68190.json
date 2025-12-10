@@ -1,0 +1,81 @@
+{
+  "video_id": "68190",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/68190.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/68190",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up of a hand with red-painted nails holding a small, empty glass jar. The background features an outdoor porch area with chairs, a railing, and part of a house, including windows and siding. The perspective is at table level, and there is natural daylight illuminating the scene.",
+    "The image shows a close-up view of two hands interacting with a small, clear glass jar. One hand, with painted nails, is holding the jar steady on a clear glass surface, while the other hand is in the process of unscrewing or placing the metal lid on the jar. The scene appears to be outdoors on a porch or patio, as there is a house with windows and a siding wall in the background, along with some greenery and a clear sky visible in the distance. The lighting suggests it is daytime, with natural light illuminating the scene.",
+    "The frame shows a close-up of two hands holding a small glass jar with a textured pattern. One hand is holding the jar steady on the left side, while the other hand is opening or closing the lid of the jar. The person holding the jar has polished, bright red nails. The scene appears to be outdoors on a porch or patio, with a table in the foreground and a chair and railing visible in the background. The lighting suggests it is daytime.",
+    "The image shows a close-up of two hands working together to place a small empty glass jar with a silver lid on a glass table. The background shows an outdoor setting with columns, a porch, a bench, and some plants, indicating that the scene takes place outside a house or on a patio. The lighting suggests it might be daytime. One hand, with painted nails, is holding the jar from the top, while the other is steadying it from the side.",
+    "This frame shows a close-up of two hands, one holding and the other reaching for a small glass jar with a silver lid. The hands both have red-painted fingernails. The background includes an outdoor patio scene with a glass table, a white pillar, part of a white chair, and a house siding. The lighting suggests it's daytime.",
+    "This frame shows a close-up of a person's hands holding a small glass jar with a silver lid. The person has red nail polish on their nails. The background reveals an outdoor setting with a patio area, including some chairs, a column, and a house with siding. The surface below the hands appears to be a glass tabletop. The lighting suggests it might be daytime.",
+    "The frame shows two hands holding a small, clear glass container with a white lid. One hand is gripping the side of the container, while the other hand appears to be twisting the lid. The container is held just above a glass table outdoors, with a porch, a small table, and some outdoor furniture visible in the background. The lighting suggests it is daytime, and the overall setting looks like a residential outdoor area.",
+    "The image shows two hands interacting with a small glass jar with a silver metal lid. One hand, with red-painted nails, is holding the jar steady, while the other hand is in the process of unscrewing or placing the lid on the jar. The scene appears to be outdoors on a sunny day, with part of a porch, chairs, and railings visible in the background. The surface beneath the jar seems to be a glass table."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a second hand appears holding the lid of the jar and is moving it toward the jar held by the first hand. The jar itself remains in the same position.",
+    "In the current frame, the lid has been lifted higher above the jar, revealing the jar's opening more clearly. The hand holding the lid has moved upward compared to the previous frame.",
+    "The main change is that the hand on the right has rotated the jar lid and is now placing it onto the jar, moving it downwards to close the jar.",
+    "The jar has been lifted slightly higher and tilted more, with the fingers adjusting their grip on the lid.",
+    "In the current frame, the main object, a glass jar with a metal lid, has been lifted slightly higher by the hand compared to the previous frame. The position of the fingers holding the jar has also adjusted accordingly.",
+    "In the current frame, the right hand has moved slightly upward and is now positioned more above the lid of the jar compared to the previous frame. The left hand and jar remain mostly steady.",
+    "The hand holding the jar has moved the jar slightly upward and to the right. The hand above the jar is gripping the lid, appearing to twist or unscrew it."
+  ],
+  "baseline_tokens": 700,
+  "diff_tokens": 259,
+  "lexical_redundancy_baseline_avg": 0.3985206560774447,
+  "lexical_redundancy_diff_avg": 0.22374952597599737,
+  "lexical_redundancy_baseline_all": [
+    0.31645569620253167,
+    0.48717948717948717,
+    0.45454545454545453,
+    0.410958904109589,
+    0.4393939393939394,
+    0.32,
+    0.3611111111111111
+  ],
+  "lexical_redundancy_diff_all": [
+    0.034482758620689655,
+    0.20512820512820512,
+    0.15789473684210525,
+    0.1875,
+    0.2777777777777778,
+    0.30952380952380953,
+    0.3939393939393939
+  ],
+  "info_density_baseline": 0.0030120481927710845,
+  "info_density_diff": 0.041250724733213125,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.024096385542168676,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.029411764705882353,
+    0.09375,
+    0.06666666666666667,
+    0.05263157894736842,
+    0.02564102564102564,
+    0.02857142857142857,
+    0.03333333333333333
+  ]
+}

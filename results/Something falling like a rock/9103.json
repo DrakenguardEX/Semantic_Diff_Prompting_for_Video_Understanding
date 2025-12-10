@@ -1,0 +1,81 @@
+{
+  "video_id": "9103",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/9103.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/9103",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a wooden table surface with some visible wear on the right edge. On the left side of the image, part of a black laptop keyboard is visible. Towards the top right of the table, there is a black object that appears to be a tape dispenser. The setting looks like an indoor environment, possibly a home or office workspace.",
+    "This image shows a wooden table with a reddish-brown finish. On the table, there is a black, handheld electric device, possibly an electric tape dispenser or a label maker. The table has some visible wear and tear along the edges, and in the background, there are wooden chairs and part of a bookshelf or storage unit. The lighting creates reflections on the table surface.",
+    "The image shows a wooden surface, likely a table, with a hand holding a small white object near the top right corner. The object appears to be a piece of paper or a card with some drawing or artwork on it. The hand is positioned as if showing or presenting the object. Some reflections of lights are visible on the table surface, and part of a black item, possibly a laptop or book, is seen on the left edge of the image.",
+    "This frame shows a close-up of a wooden table with a portion of a black electronic device, possibly a stapler or similar office tool, placed on it. There is a hand or fingers visible in the upper right corner of the image, slightly blurred, suggesting movement. The surface of the table is shiny, reflecting some light. There is also a part of a laptop or keyboard seen on the left edge of the image. The background includes a glimpse of carpeted floor.",
+    "The frame shows a wooden table with a slightly reflective surface. On the table, there is a black stapler positioned near the top center, a black cloth or object nearby, and a few playing cards scattered closer to the bottom left corner. Part of a laptop is visible on the left side of the image. In the background, there are some shelves or a piece of furniture, possibly with books or other items on it, and the edge of a chair on the right side. The scene appears to be indoors, likely in a home or office setting.",
+    "This frame shows a wooden table with a reddish-brown finish. On the table, there is a stapler positioned towards the top right. Near the bottom left, there is a small box or packet with an illustration on its surface. The edge of a laptop is visible on the left side of the frame. Additionally, on the far right, you can see part of a chair. The table surface appears smooth with some reflections from light.",
+    "This frame shows a close-up view of a wooden table. On the table, there is a laptop partially visible on the left side. Near the center, there is a white object with a QR code on it. Towards the upper right, there is a black item that appears to be a stapler. The lighting creates some reflections on the table's surface. The focus is mostly on the objects placed on the wooden table.",
+    "The image shows a wooden table with a deck of playing cards placed near the center. There is a black laptop partially visible on the left edge of the table. A black object, possibly a case or a small bag, is seen near the top edge of the table. The table surface appears to be worn with some scratches and lighter patches. The overall lighting is warm and moderately bright."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The stapler moved slightly to the left compared to the previous frame.",
+    "In the current frame, a hand has appeared holding a small book or notebook above the table surface, where previously there was only a stapler. The stapler is no longer visible in the current frame.",
+    "The hand holding the small box moves out of the frame to the right, revealing a black clip or stapler-like object on the table that was not visible before.",
+    "In the current frame, a hand that was previously above the desk has moved out of the frame, and a white rectangular object with some design on it has appeared on the desk near the bottom left area.",
+    "The main object, a book or a box with a floral design, has moved slightly closer to the bottom left corner of the table.",
+    "The main object, a white item with a QR code, has moved slightly closer to the bottom edge of the table compared to the previous frame.",
+    "There is no visible change in the main object or its motion between the two frames. The playing card remains in the same position on the table."
+  ],
+  "baseline_tokens": 710,
+  "diff_tokens": 235,
+  "lexical_redundancy_baseline_avg": 0.32836910826360083,
+  "lexical_redundancy_diff_avg": 0.23678928262987498,
+  "lexical_redundancy_baseline_all": [
+    0.3382352941176471,
+    0.2597402597402597,
+    0.30864197530864196,
+    0.3448275862068966,
+    0.34146341463414637,
+    0.3380281690140845,
+    0.36764705882352944
+  ],
+  "lexical_redundancy_diff_all": [
+    0.25,
+    0.09375,
+    0.2682926829268293,
+    0.2222222222222222,
+    0.2564102564102564,
+    0.4642857142857143,
+    0.10256410256410256
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.02803251081948904,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.08333333333333333,
+    0.0,
+    0.034482758620689655,
+    0.02631578947368421,
+    0.041666666666666664,
+    0.038461538461538464,
+    0.0
+  ]
+}

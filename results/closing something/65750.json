@@ -1,0 +1,81 @@
+{
+  "video_id": "65750",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/65750.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/65750",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a close-up of a microwave oven placed on a wooden countertop. A hand is partially visible, opening the microwave door. The microwave has a digital control panel with various buttons, and the door has a reflective surface. To the right of the microwave, there appears to be a box or bag labeled \"Nipples.\" The scene is set in a kitchen environment.",
+    "This frame shows a close-up image of a microwave oven placed on a wooden countertop. A person's hand is reaching towards the microwave's door, appearing to either open or close it. The microwave has a digital keypad on the right side, with several buttons and a display. There is a napkin box and other items visible in the background on the right side of the microwave. The overall setting seems to be a kitchen or a similar food preparation area.",
+    "This image shows a hand opening the door of a stainless steel microwave oven. The microwave is placed on a wooden countertop. To the right of the microwave, there is a package labeled \"NADA,\" which appears to be a food product. The background includes a window sill with a light-colored surface. The scene suggests a kitchen environment.",
+    "This frame shows a microwave oven placed on a wooden countertop. A hand is seen touching or about to open the microwave door. The microwave has a digital control panel on the right side with various buttons and a keypad for entering cooking times and settings. In the background to the right, there appears to be a box or carton, possibly food-related, set against the wall. The surface beneath the microwave looks like a kitchen counter or table.",
+    "This frame shows a close-up of a kitchen countertop with a microwave oven placed on it. A person's hand is visible, pointing or reaching toward the microwave. To the right of the microwave, there is a bag of Nestlé Nesquik cereal or powder. The background shows a reflective surface, likely a glass or glossy material, partially reflecting the surroundings including some chairs. The countertop appears to be wooden or a wood-like surface.",
+    "This frame shows a close-up of a microwave oven on a countertop. A person's hand is reaching toward or touching the microwave door handle. The microwave has a digital control panel with buttons, including a numeric keypad. Some objects are visible in the background, including a chair and a box of \"Napolina\" on the right side. The countertop appears wooden, and the microwave has a stainless steel finish.",
+    "This frame shows a close-up of a microwave oven with a stainless steel exterior and a black control panel featuring numerous buttons. A person's hand is pointing or reaching toward the microwave door or control panel. The microwave is placed on a wooden countertop. In the background, on the right side of the image, a box of Nabisco Wheat Thins crackers is partially visible. There is also a glimpse of a chair or part of a dining area reflected or seen through a window.",
+    "This frame shows a stainless steel microwave oven placed on a wooden countertop. To the right of the microwave, there is a bag of food, possibly a snack or cereal, and a white or light-colored container partially visible. The microwave has a digital keypad with several buttons for different functions and numbers. There is a motion blur indicating that someone's hand is moving quickly in front of the microwave's door."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The microwave door has opened slightly more in the current frame compared to the previous one. The hand is also in a slightly different position, as if pulling the door open further.",
+    "The microwave door is opening further compared to the previous frame.",
+    "The microwave door has been slightly pushed open further by the hand in the current frame compared to the previous one.",
+    "The hand is closing the microwave door further compared to the previous frame.",
+    "The hand in the current frame has moved slightly downward and closer to the microwave door handle compared to the previous frame.",
+    "The person's hand has moved slightly downward and closer to the microwave door handle.",
+    "The hand in front of the microwave has moved downward and is now blurred, indicating motion."
+  ],
+  "baseline_tokens": 696,
+  "diff_tokens": 156,
+  "lexical_redundancy_baseline_avg": 0.36430282056892127,
+  "lexical_redundancy_diff_avg": 0.37900820983527755,
+  "lexical_redundancy_baseline_all": [
+    0.43478260869565216,
+    0.3150684931506849,
+    0.3108108108108108,
+    0.2891566265060241,
+    0.375,
+    0.5,
+    0.3253012048192771
+  ],
+  "lexical_redundancy_diff_all": [
+    0.10714285714285714,
+    0.34615384615384615,
+    0.4,
+    0.45,
+    0.4,
+    0.631578947368421,
+    0.3181818181818182
+  ],
+  "info_density_baseline": 0.01065938584441874,
+  "info_density_diff": 0.0670254224941725,
+  "info_density_baseline_per_frame": [
+    0.015625,
+    0.025,
+    0.017543859649122806,
+    0.01282051282051282,
+    0.0,
+    0.0,
+    0.0,
+    0.014285714285714285
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.09375,
+    0.09090909090909091,
+    0.09523809523809523,
+    0.07692307692307693,
+    0.045454545454545456,
+    0.07142857142857142,
+    0.0625
+  ]
+}

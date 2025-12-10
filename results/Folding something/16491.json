@@ -1,0 +1,81 @@
+{
+  "video_id": "16491",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/16491.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/16491",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person with a wristband on their left wrist, using their hand to touch or adjust a piece of red fabric laid out on a dark-colored surface. The fabric appears to be placed on a bed or a similar flat area, with a pillow or another textile with white star patterns visible in the background. There is also a small container or jar partially visible on the top left corner of the image.",
+    "The image shows a close-up of a person's hand holding or smoothing a piece of red cloth or fabric. The background includes a bed or surface covered with a blue and white star-patterned blanket or sheet. There are a few other items visible, such as a can and some electronic device cables or earphones. The focus is primarily on the hand and the red fabric.",
+    "The frame shows a close-up of a surface, possibly a bed, with a dark blue bedspread featuring large white star-like patterns. On top of the bedspread, there is a piece of bright pink fabric spread out. In the lower right corner, part of a person's arm with a wristband or bracelet is visible, reaching toward the fabric. In the upper left corner, a bottle or container is partially visible. There are also some light-colored wires or cords resting on the pink fabric.",
+    "The frame shows a close-up of a person's hand reaching towards or touching a folded red cloth or garment that is placed on a bed. The bedspread underneath has a dark blue and white star pattern. There is also a can and some cords or strings visible near the top edge of the image.",
+    "The frame shows a close-up of a person's hand holding or touching a piece of bright pink fabric. The fabric appears to be laid out on a dark surface, possibly a bed with a dark blanket or sheet. In the background, there are some cylindrical objects, wires or cords, and a yellow object partially visible. The focus seems to be on the fabric and the hand interacting with it.",
+    "The frame shows a close-up view of a pink fabric on what appears to be a bed. Someone's hand is holding or spreading out the fabric from the left side of the image. The bedspread underneath has a design with dark blue and white colors. Some cables or cords are also partially visible on top of the pink fabric.",
+    "The frame shows a close-up of a person's hand working on a piece of red fabric. The hand appears to be manipulating or adjusting the fabric on a surface. The person is wearing a wristband or bracelet on their wrist. The fabric is placed over a background that includes blue and white colors, possibly part of another textile or a surface underneath.",
+    "The image shows a close-up of a person's hand resting on a piece of fabric with multiple colors, including red, orange, and purple. The person is wearing a wristband with a design that includes the colors red, white, and blue. The fabric appears to be spread out on a surface, possibly a bed or table, and there are some small wires and a connector visible near the top of the image."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand picked up the red cloth and started lifting it up from the surface.",
+    "In the current frame, the hand has moved slightly downward and to the right, spreading out the red fabric more compared to the previous frame.",
+    "In the current frame, a hand has moved onto the red fabric, partially covering it, whereas in the previous frame, the fabric was unobstructed. The hand is in motion, indicated by the blur.",
+    "In the current frame, the hand has moved from the center of the red fabric to the edge, starting to pull or lift the fabric. The fingers are grasping the edge, causing the fabric to bunch up slightly.",
+    "The red fabric has been slightly pulled further to the right, causing more wrinkles and folds to appear.",
+    "In the current frame, the hand has moved forward and is now grasping and lifting the pink fabric compared to the previous frame where it was just placed on the fabric.",
+    "In the current frame, the hand has moved slightly to the right while still grasping the red fabric, causing the folds in the fabric to shift accordingly."
+  ],
+  "baseline_tokens": 638,
+  "diff_tokens": 227,
+  "lexical_redundancy_baseline_avg": 0.3322292004542039,
+  "lexical_redundancy_diff_avg": 0.19188388253514302,
+  "lexical_redundancy_baseline_all": [
+    0.2692307692307692,
+    0.2804878048780488,
+    0.3333333333333333,
+    0.28169014084507044,
+    0.40298507462686567,
+    0.31343283582089554,
+    0.4444444444444444
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.14814814814814814,
+    0.3125,
+    0.23076923076923078,
+    0.20588235294117646,
+    0.14285714285714285,
+    0.30303030303030304
+  ],
+  "info_density_baseline": 0.0023148148148148147,
+  "info_density_diff": 0.0582022974510241,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.018518518518518517,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.06666666666666667,
+    0.04,
+    0.030303030303030304,
+    0.07894736842105263,
+    0.1111111111111111,
+    0.06451612903225806,
+    0.07407407407407407
+  ]
+}

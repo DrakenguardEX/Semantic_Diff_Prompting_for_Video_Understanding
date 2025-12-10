@@ -1,0 +1,81 @@
+{
+  "video_id": "79573",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/79573.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/79573",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows an open refrigerator filled with various fresh produce, containers, bottles, and jars. On the left side is a kitchen countertop with a knife rack and some utensils, as well as a blue bowl. To the right, a young girl with a contemplative or curious expression is looking towards the fridge. The kitchen appears to be well-lit and organized.",
+    "The frame shows a kitchen scene where a refrigerator is open, revealing various food items inside, including bowls, containers, and produce such as apples. To the right, a young person with braided hair is standing and looking into the open fridge. The kitchen has wooden cabinets and a countertop with some kitchen utensils seen on the left side. The person appears to be considering what to take or just examining the contents of the refrigerator.",
+    "The image shows a young girl wearing a pink hoodie and a headband, standing in a kitchen. She is opening or reaching into a refrigerator that is filled with various food items. The kitchen has brown cabinets and a countertop with a blue bowl or container on it. The girl appears to be focused on the contents of the fridge.",
+    "The frame shows a young girl standing in a kitchen, opening the door of a refrigerator. She is wearing a pink long-sleeve top and a dark headscarf with a pattern. The refrigerator door has various magnets and papers attached to it. On the kitchen counter next to the refrigerator, there is a blue cooking pot. The kitchen cabinets are wooden and have a reddish-brown color. The scene appears to be indoors and well-lit.",
+    "The frame shows a person wearing a pink hoodie and a brown patterned headscarf opening a refrigerator door. The refrigerator has photos and magnets on it, including a child's photo and some other small colorful items. To the left of the refrigerator is a kitchen counter with a blue bowl and other kitchen items. The setting appears to be a kitchen.",
+    "The frame shows a young person wearing a pink hoodie and a patterned headscarf, standing in a kitchen. They appear to be reaching for or opening the handle of a silver refrigerator. On the refrigerator door, there are a few photos or pictures attached. The kitchen surroundings include wooden cabinets and a countertop with a blue bowl.",
+    "This frame shows a young person wearing a pink hoodie and a patterned headscarf, opening the door of a refrigerator in a kitchen. On the refrigerator door, there are some colorful children's drawings or photos attached with magnets. The kitchen has wooden cabinets and a blue bowl on the countertop. The overall setting appears to be a home kitchen environment.",
+    "In the image, a young girl wearing a pink hoodie and a patterned headscarf is reaching up to open the door of a silver refrigerator. The kitchen setting includes wooden cabinets and a counter with a blue bowl on it. The refrigerator door has various colorful papers and magnets attached to it. The girl appears focused on opening the refrigerator."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main change is that the refrigerator door is being closed, moving from a fully open position to mostly shut. The person’s hand is also moving closer to the door handle as they push the door closed.",
+    "In the current frame, the refrigerator door has been closed compared to being open in the previous frame. The girl's hand has moved from resting on the door to pulling it shut.",
+    "The main change is that the girl has closed the refrigerator door slightly after previously opening it.",
+    "The girl has moved the refrigerator door from being slightly open to more widely open, and she is grasping the handle with her right hand, pulling the door further open.",
+    "In the current frame, the person has pulled the refrigerator door open slightly further compared to the previous frame. Their arm is extended more outward, and their gaze remains focused on the fridge.",
+    "The person moved their hand and slightly opened the refrigerator door.",
+    "In the current frame, the girl has pulled the refrigerator door open slightly compared to the previous frame where she was just about to pull the handle."
+  ],
+  "baseline_tokens": 610,
+  "diff_tokens": 224,
+  "lexical_redundancy_baseline_avg": 0.41886476655859256,
+  "lexical_redundancy_diff_avg": 0.20003306878306878,
+  "lexical_redundancy_baseline_all": [
+    0.3888888888888889,
+    0.3472222222222222,
+    0.39705882352941174,
+    0.36764705882352944,
+    0.3770491803278688,
+    0.5714285714285714,
+    0.4827586206896552
+  ],
+  "lexical_redundancy_diff_all": [
+    0.03125,
+    0.275,
+    0.21875,
+    0.21875,
+    0.275,
+    0.23333333333333334,
+    0.14814814814814814
+  ],
+  "info_density_baseline": 0.018003671879001343,
+  "info_density_diff": 0.1005363150583739,
+  "info_density_baseline_per_frame": [
+    0.01639344262295082,
+    0.013333333333333334,
+    0.016666666666666666,
+    0.0136986301369863,
+    0.01639344262295082,
+    0.017543859649122806,
+    0.016666666666666666,
+    0.03333333333333333
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.10810810810810811,
+    0.125,
+    0.11764705882352941,
+    0.1,
+    0.06060606060606061,
+    0.18181818181818182,
+    0.1111111111111111
+  ]
+}

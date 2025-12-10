@@ -1,0 +1,81 @@
+{
+  "video_id": "5784",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/5784.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/5784",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person's left hand placed flat on a light-colored surface. The fingers are extended and held close together, and the hand is viewed from above. The skin tone is medium brown. There is a small black cord or wire visible in the top left corner of the frame. The lighting is soft, and there are no other objects or distinct features visible on the surface.",
+    "This frame shows a person's left hand resting on a white surface. The fingers are extended and close together, with the palm facing downwards. The lighting casts a slight shadow of the hand on the surface. In the upper left corner of the image, part of a black earphone cable is visible.",
+    "This frame shows a person's right hand placed flat on a light-colored surface. The hand is oriented with the fingers together and stretched out, palm facing down. The person's nails are trimmed and appear slightly pink. The background surface looks smooth and possibly reflective. A black cord or wire is partially visible in the upper left corner of the image.",
+    "The image shows a close-up of a person's left hand resting on a smooth, light-colored surface, possibly a table or countertop. The hand is positioned with the palm facing down and fingers extended and close together. The lighting creates a faint shadow of the hand on the surface. Part of a black cord is visible in the upper left corner of the image.",
+    "This frame shows a close-up of a hand resting on a flat surface, likely a table or desk. Above the hand, there is a red pen placed horizontally on the surface. In the upper left corner, a small portion of a black wire or cable is visible. The background is a plain, light-colored surface. The image is slightly blurred, especially around the hand.",
+    "The image shows a red pen with a white tip placed on a light-colored surface, possibly a table or desk. In the upper left corner, there is a partial view of a black cable or wire. The lighting casts a shadow on the surface near the pen.",
+    "The frame shows a red ballpoint pen lying on a flat, light-colored surface. In the top left corner, there is a part of a black cable visible. There is also a shadow cast on the surface near the pen.",
+    "The frame shows a red retractable pen with a white clicker lying on a light-colored surface. There also appears to be a black wire or cable partially visible in the upper left corner of the image. There is a shadow cast on the surface, suggesting a light source from the right side."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "There is no visible change in the main object or its motion between the two frames; the hand remains in the same position.",
+    "The thumb of the hand moved slightly upward and away from the surface in the current frame compared to the previous one.",
+    "The hand has moved slightly to the right and downward, causing a slight blur indicating motion. The fingers appear less aligned and more spread out compared to the previous frame.",
+    "In the current frame, a red pen has appeared above the table near the hand, which has moved slightly downwards and to the right.",
+    "The hand that was previously covering the pen has moved away, revealing the red pen lying on the surface.",
+    "The pen has shifted slightly to the right in the current frame compared to the previous one.",
+    "The red pen has moved slightly to the right in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 528,
+  "diff_tokens": 182,
+  "lexical_redundancy_baseline_avg": 0.43716252502739694,
+  "lexical_redundancy_diff_avg": 0.25817409722509693,
+  "lexical_redundancy_baseline_all": [
+    0.3870967741935484,
+    0.4262295081967213,
+    0.4918032786885246,
+    0.3492063492063492,
+    0.4528301886792453,
+    0.4418604651162791,
+    0.5111111111111111
+  ],
+  "lexical_redundancy_diff_all": [
+    0.041666666666666664,
+    0.08823529411764706,
+    0.2647058823529412,
+    0.2857142857142857,
+    0.20689655172413793,
+    0.12,
+    0.8
+  ],
+  "info_density_baseline": 0.0062262084320907855,
+  "info_density_diff": 0.03515915736310473,
+  "info_density_baseline_per_frame": [
+    0.014705882352941176,
+    0.019230769230769232,
+    0.0,
+    0.015873015873015872,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.045454545454545456,
+    0.03333333333333333,
+    0.041666666666666664,
+    0.10526315789473684,
+    0.0,
+    0.05555555555555555
+  ]
+}

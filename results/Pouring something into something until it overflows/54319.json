@@ -1,0 +1,81 @@
+{
+  "video_id": "54319",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/54319.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/54319",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This image shows a close-up view of a person's hand holding a clear glass under a stream of water, which is being filled from a tap. The person's hand has a ring on the middle finger. The background features a brownish-red tiled wall and a white sink basin. The glass is partially filled with water, and the action of pouring is clearly visible with bubbles and splashes in the water inside the glass.",
+    "The image shows a close-up of a person's hand holding a clear glass under a running water tap. The glass is being filled with water. The background features a granite or stone textured wall above a kitchen or bathroom sink. The person is wearing a gold ring with a chain-like design on their middle finger.",
+    "This frame shows a hand holding a clear glass under a running tap, filling the glass with water. The hand is wearing a ring on one of the fingers. The background includes a brown, speckled countertop and a white sink. The water appears to be splashing slightly as it fills the glass.",
+    "This frame shows a hand holding a clear glass cup under a stream of flowing water, likely being filled from a faucet. The background appears to be a marbled countertop with a sink underneath. The hand is wearing a ring on the ring finger.",
+    "This frame shows a close-up of a hand holding a clear glass under running water, which is filling the glass. The hand appears to be of an adult wearing a gold-colored ring on the index finger. The background includes a brown textured countertop or backsplash and a white sink. The water is in motion, creating a splash inside the glass.",
+    "The image shows a close-up of a hand holding a glass under a water faucet. The glass is being filled with clear water. The background features a reddish-brown speckled countertop and a white sink basin. The person holding the glass is wearing a ring on their ring finger.",
+    "This frame shows a close-up of a hand holding a transparent glass under a running tap. The glass is being filled with water. In the background, there is a beige or brownish marble or stone countertop with a white kitchen or bathroom sink. The person's hand has rings on their fingers.",
+    "The image shows a close-up of a person's hand holding a transparent glass cup filled with water. The hand has a ring on the ring finger. The background appears to be a kitchen sink area with a brownish marble or granite countertop and backsplash. The glass looks like it is being filled or has just been filled with water from the faucet."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The water level in the glass has risen as more water is being poured, causing increased turbulence and bubbles inside the glass. The hand holding the glass remains steady.",
+    "In the current frame, the water level inside the glass has risen slightly due to the continuous flow of water being poured into it. The water also appears more turbulent and bubbly.",
+    "In the current frame, the glass held by the hand has filled with more water from the flowing stream compared to the previous frame. The water level inside the glass has increased, showing the glass is being filled.",
+    "In the current frame, the water level in the glass has risen slightly as more water is being poured into it. The water flow appears to continue actively filling the glass.",
+    "The water level in the glass has risen slightly as more water is being poured into it. The water's motion appears more turbulent and splashing has increased inside the glass.",
+    "The water level in the cup has risen slightly as it continues to be filled. The motion of the water pouring into the cup is more pronounced in the current frame.",
+    "In the current frame, the water level inside the glass has risen compared to the previous frame, indicating that more water has been poured into the glass. The water flow appears continuous, and the glass remains held in the same position."
+  ],
+  "baseline_tokens": 547,
+  "diff_tokens": 273,
+  "lexical_redundancy_baseline_avg": 0.4168698522795729,
+  "lexical_redundancy_diff_avg": 0.31195471195471197,
+  "lexical_redundancy_baseline_all": [
+    0.4444444444444444,
+    0.3114754098360656,
+    0.46938775510204084,
+    0.4107142857142857,
+    0.4107142857142857,
+    0.4230769230769231,
+    0.4482758620689655
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.3333333333333333,
+    0.3076923076923077,
+    0.3333333333333333,
+    0.5333333333333333,
+    0.3939393939393939,
+    0.28205128205128205
+  ],
+  "info_density_baseline": 0.037285599806841464,
+  "info_density_diff": 0.04495137393542866,
+  "info_density_baseline_per_frame": [
+    0.0547945205479452,
+    0.01818181818181818,
+    0.057692307692307696,
+    0.045454545454545456,
+    0.03333333333333333,
+    0.020833333333333332,
+    0.0196078431372549,
+    0.04838709677419355
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0625,
+    0.05263157894736842,
+    0.0967741935483871,
+    0.06666666666666667,
+    0.03225806451612903,
+    0.04878048780487805
+  ]
+}

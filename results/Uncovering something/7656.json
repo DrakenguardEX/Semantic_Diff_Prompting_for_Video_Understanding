@@ -1,0 +1,81 @@
+{
+  "video_id": "7656",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/7656.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/7656",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a piece of green cloth placed on a wooden table. In the background, there is a ceramic cup with a white floral pattern. Additionally, there is a pen and a piece of white paper with some writing on them on the right side of the table. The edge of a person's arm resting on the table is also partially visible on the left.",
+    "This frame shows a close-up of a hand adjusting or placing a green cloth on a wooden surface, such as a table or desk. On the table, there is also a patterned mug, a magazine or book with a colorful cover, and some white papers or documents with writing and a pen on top. The overall setting appears indoors and seems to be a casual or work-related environment.",
+    "The frame shows a close-up of a person's left hand resting on a green cloth placed on a wooden surface. In the background, there is a green cup with a white pattern, some scattered papers, and a yellow pencil. Part of the person's wrist and forearm is also visible, and they are wearing a dark wristwatch on their left wrist. The setting appears to be a desk or table, possibly in a casual or study environment.",
+    "The image shows a hand reaching toward or placing something on a green square cloth on a wooden surface, likely a table or desk. On the left side of the image, a part of an arm wearing a black wristwatch is visible. In the background, there is a green patterned cup and some papers with handwritten notes on the right side. The overall setting appears to be indoors, possibly at a workspace or study area.",
+    "The image shows a close-up of a hand holding two pieces of green fabric, placed on a light wooden surface, possibly a table or desk. The thumb and fingers are pinching the fabric, suggesting some sort of sewing or fabric manipulation activity. In the background, part of a green patterned container and some papers or a notebook and a pen can be seen. The setting appears to be a workspace or crafting area.",
+    "The image shows a close-up of a person's left hand holding a piece of green fabric or cloth. The cloth is partially covering a black lighter with a visible red button, which is lying on a wooden surface, possibly a desk or table. There are some papers and a small part of another object visible in the top right corner of the image. The focus appears to be on the hand and cloth in the foreground.",
+    "The frame shows a wooden surface on which a black lighter with a red top is placed. Part of a green object or cloth is visible in the foreground, slightly obscuring the view. Also, there is a cup with a floral pattern and part of a pen and a piece of paper with some writing on it in the background. Additionally, a small portion of a hand and a darker item is visible on the left side.",
+    "The frame shows a close-up of a light-colored wooden table. On the table, there is a black lighter with a red ignition button placed near the center. To the upper right of the lighter, there is a partly visible object that appears to be a cup or a mug with a floral pattern. In the top right corner, there are some papers and what looks like a yellow pen or pencil partially visible. The background includes some dark fabric or clothing on the left side."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a hand has appeared in the lower-left area of the cloth, moving toward or interacting with the green cloth on the table. The cloth has slightly shifted or wrinkled where the hand approaches.",
+    "The hand has moved closer to the green cloth, with fingers slightly more spread and positioned above the cloth in the current frame compared to the previous one.",
+    "The hand moved slightly to the right and forward, with the fingers spreading out more over the green cloth.",
+    "The hand has moved to pinch and lift a corner of the green cloth, causing the cloth to fold and rise off the surface.",
+    "The hand lifted the green cloth from the table and is now holding it up in the current frame.",
+    "The green cloth that was being held above the lighter in the previous frame is now moved away, uncovering the lighter which is fully visible on the surface.",
+    "The green object that was partially covering the lighter in the previous frame is no longer present, revealing the lighter fully on the table."
+  ],
+  "baseline_tokens": 687,
+  "diff_tokens": 214,
+  "lexical_redundancy_baseline_avg": 0.3691485103493998,
+  "lexical_redundancy_diff_avg": 0.2467099339003794,
+  "lexical_redundancy_baseline_all": [
+    0.25,
+    0.40540540540540543,
+    0.44594594594594594,
+    0.35526315789473684,
+    0.36,
+    0.4084507042253521,
+    0.358974358974359
+  ],
+  "lexical_redundancy_diff_all": [
+    0.03225806451612903,
+    0.2631578947368421,
+    0.4074074074074074,
+    0.25925925925925924,
+    0.1724137931034483,
+    0.22580645161290322,
+    0.36666666666666664
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.04555413025807762,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.02702702702702703,
+    0.03571428571428571,
+    0.05263157894736842,
+    0.08333333333333333,
+    0.05263157894736842,
+    0.07142857142857142,
+    0.041666666666666664
+  ]
+}

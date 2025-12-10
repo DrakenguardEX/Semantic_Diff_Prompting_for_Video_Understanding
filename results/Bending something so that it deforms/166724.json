@@ -1,0 +1,81 @@
+{
+  "video_id": "166724",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/166724.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/166724",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a close-up view of a hand gripping a black cylindrical object against a background of carpeted floor tiles in shades of beige and gray. There is a dark piece of furniture or equipment on the left side of the frame. The hand is positioned near the right edge of the image, holding the object firmly.",
+    "This frame shows a close-up of two hands gripping what appears to be a black cylindrical handle, possibly part of a piece of equipment or a chair. In the background, there is a carpeted floor with a pattern of different shades of gray and beige. On the left side of the image, there is a black vertical surface, likely part of a piece of furniture or an appliance. The hands are positioned near the bottom center of the frame.",
+    "The frame shows a close-up view of a pair of hands gripping the backrest of a chair. The chair's backrest appears to be padded and covered with a dark fabric or material. In the background, you can see a section of a carpeted floor with a striped pattern and part of a cabinet or piece of furniture to the left. The image is taken from a perspective that looks down slightly at the hands and chair backrest.",
+    "The image shows a close-up view of a person's hands gripping the headband of a pair of black, over-ear headphones. The background includes a carpeted floor with a two-tone pattern and a piece of dark-colored furniture. The headphones appear to be made of a soft, cushioned material.",
+    "The image shows a person's hands holding and bending a black, foam-covered object, possibly a handle or a flexible pipe. The background includes a carpeted floor with two different colors and patterns: a light brown/tan and a darker brown/tan. Part of a desk or table leg is visible on the left side of the image. The setting appears to be an indoor office or workspace.",
+    "The image shows a close-up view of a person's hands holding and bending a black, cylindrical object. The object appears flexible and is slightly bent into a curved shape. The background includes a carpeted floor with two different patterns or sections and part of a black piece of furniture or equipment. The lighting indicates an indoor setting.",
+    "This image shows a close-up of a hand holding a rolled-up black cable or hose. The background includes a carpeted floor with a striped pattern and part of a gray desk or cabinet. A small portion of a white shoe is visible on the left side near the bottom of the image.",
+    "This frame shows a close-up view of a person's hand gripping the backrest or armrest of a dark-colored office chair. The floor has a carpet with a striped pattern in neutral tones. Part of a piece of dark furniture, possibly a desk or cabinet, is visible in the top left corner. Additionally, a foot wearing a white sock can be seen on the bottom left side of the frame. The overall setting appears to be an office or workspace."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the left hand has moved closer to the object, reaching towards it from the previous position. The right hand remains gripping the object in a similar position.",
+    "In the current frame, the main object, a black handle being held by two hands, has been lifted closer to the camera, showing more of its curved surface compared to the previous frame. The hands have also moved slightly upward along the handle.",
+    "The main object, a padded item held by two hands, has been bent upward in the current frame compared to the previous one. The padding is now curved rather than straight.",
+    "The main object, a cushioned headband, has been bent more sharply in the current frame compared to the previous one, indicating it is being flexed or squeezed further. The hands holding the headband have adjusted slightly to accommodate this increased bend.",
+    "In the current frame, the hands have slightly shifted their grip on the black cushioned object, moving it a bit higher and tilting it more upward compared to the previous frame.",
+    "The object, a black foam piece, has been rotated slightly, showing a different angle with more of its inner curved surface visible. The hands holding the object have also adjusted their grip, moving to accommodate this rotation.",
+    "The main object, a black circular or curved item held by the hand, has been moved slightly downward and to the right. The fingers have shifted position, now gripping it differently with the thumb more visible."
+  ],
+  "baseline_tokens": 623,
+  "diff_tokens": 305,
+  "lexical_redundancy_baseline_avg": 0.3604088736404405,
+  "lexical_redundancy_diff_avg": 0.2779095701297366,
+  "lexical_redundancy_baseline_all": [
+    0.4838709677419355,
+    0.36,
+    0.375,
+    0.2571428571428571,
+    0.4461538461538462,
+    0.28125,
+    0.3194444444444444
+  ],
+  "lexical_redundancy_diff_all": [
+    0.12,
+    0.24444444444444444,
+    0.4090909090909091,
+    0.3404255319148936,
+    0.32608695652173914,
+    0.2553191489361702,
+    0.25
+  ],
+  "info_density_baseline": 0.008502024291497975,
+  "info_density_diff": 0.04464872466743361,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.015384615384615385,
+    0.05263157894736842,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03225806451612903,
+    0.06976744186046512,
+    0.06451612903225806,
+    0.04878048780487805,
+    0.03225806451612903,
+    0.05405405405405406,
+    0.05555555555555555
+  ]
+}

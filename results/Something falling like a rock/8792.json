@@ -1,0 +1,81 @@
+{
+  "video_id": "8792",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/8792.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/8792",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a person sitting with their legs crossed on a chair or sofa, with their knees bent upwards. The focus is on their hands and the tabletop. One of their hands is on the right side of the table, holding a small round object, which looks like a small container or a coin. The tabletop is wooden and plain, with a smooth surface. The person is wearing a long-sleeved shirt or jacket. The overall setting appears casual.",
+    "This image shows a close-up shot of a person's hands on a wooden table. The person is wearing a long-sleeved garment, and they are holding a small round object, possibly a coin, in their right hand. The person's legs, clad in dark blue jeans, are visible in the background, positioned behind the table. The scene suggests that the person might be about to place the coin on the table or is engaged in some activity involving the coin. The background is plain and uncluttered.",
+    "This image shows a close-up view of a wooden table with a person's hand and part of their body visible near the top of the frame. The person appears to be wearing a grey sleeve on one arm and dark pants. The hand is slightly blurred, suggesting movement. The setting seems indoors with a plain background.",
+    "The image shows a portion of a wooden table occupying the bottom half of the frame, appearing light brown with a subtle grain texture. Above the table, part of a person's torso and arms are visible. The person is wearing a jacket or hoodie with a gray sleeve on the left arm and a lighter colored sleeve on the right arm. The background is plain and out of focus, with no distinct objects or features visible. The overall setting appears to be indoors.",
+    "This frame shows a close-up of a person's hand tossing a small round object, likely a coin, into the air above a wooden surface such as a table. The coin is captured mid-air, slightly blurred due to motion. The person's arm is visible, wearing a long-sleeved garment. The background is out of focus, emphasizing the coin and the hand.",
+    "The image shows a close-up view of a wooden table with an orange and green spinning top in motion on its surface. A person's hand is positioned above the spinning top, possibly having just spun it or about to interact with it. The person is wearing a dark-colored long-sleeve garment. The background is plain and unobtrusive, focusing attention on the spinning top and the hand.",
+    "The frame shows a close-up of a wooden table surface with a small, round, brown object placed on it. In the background, a person is partially visible from the waist down, sitting behind the table. The person's legs, clad in dark pants, and part of their arms resting on the table are visible. The scene appears to be indoors with natural or neutral lighting.",
+    "This frame shows a close-up of a wooden table with a small, round, sandwich-like object on it, which appears to be a miniature model or a toy resembling a hamburger. In the background, there are parts of someone's arms and legs visible, indicating that the person is seated behind the table. The overall scene seems casual and indoors."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The object in the person's hand, which appears to be a small stack of coins, has moved slightly to the right and is being held more upright in the current frame compared to the previous one.",
+    "In the current frame, the hand has moved upward and slightly to the right, and the object previously held on the table is no longer in contact with the surface, indicating it has been lifted or thrown. The fingers appear more spread out compared to the previous frame.",
+    "The hand in the right part of the frame has moved slightly downward and to the right, with the fingers more spread out. The object being held is less visible and appears to have shifted position.",
+    "The main object, a small round item, has been thrown into the air and is now hovering above the table, having just left the person's hand. The hand has also moved upward and is more open compared to the previous frame.",
+    "The main object, a small round item, has moved slightly forward and to the left on the table. It is now more clearly visible and less blurred, indicating it is slowing down or about to land. The person's hand above it has also shifted slightly leftward and upward.",
+    "The main object, a small round item on the table, has moved slightly to the left and appears less blurred, indicating it has slowed down. The person's hand on the right is also less blurred, showing reduced motion.",
+    "The small round object on the table has rolled slightly to the right. The hand on the right has moved closer to the object."
+  ],
+  "baseline_tokens": 670,
+  "diff_tokens": 322,
+  "lexical_redundancy_baseline_avg": 0.32284758881285125,
+  "lexical_redundancy_diff_avg": 0.3437183456104068,
+  "lexical_redundancy_baseline_all": [
+    0.3048780487804878,
+    0.3116883116883117,
+    0.3561643835616438,
+    0.2375,
+    0.29577464788732394,
+    0.27631578947368424,
+    0.47761194029850745
+  ],
+  "lexical_redundancy_diff_all": [
+    0.09090909090909091,
+    0.3469387755102041,
+    0.391304347826087,
+    0.19607843137254902,
+    0.4489795918367347,
+    0.5681818181818182,
+    0.36363636363636365
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.02935231243759806,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.027777777777777776,
+    0.041666666666666664,
+    0.027777777777777776,
+    0.04878048780487805,
+    0.020833333333333332,
+    0.02631578947368421,
+    0.041666666666666664
+  ]
+}

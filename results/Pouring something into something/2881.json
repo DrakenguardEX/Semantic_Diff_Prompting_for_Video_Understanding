@@ -1,0 +1,81 @@
+{
+  "video_id": "2881",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/2881.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/2881",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a woman with her hair tied back, wearing a sleeveless black top, standing in a kitchen. She is holding a clear glass of water in her right hand. The background includes wooden cabinets, a white refrigerator with some magnets on it, and a counter with two rolls of paper towels. The woman’s expression is neutral, and she is looking slightly to her left. The lighting suggests it is daytime.",
+    "The image shows a person standing in a kitchen. They are holding a glass in their right hand. The person is wearing a sleeveless black top and has their hair pulled back. In the background, there are wooden kitchen cabinets with some cups and bowls inside. To the right, there is a white refrigerator with a couple of magnets on it and two rolls of paper towels on top of the refrigerator. The kitchen appears to be well-lit.",
+    "The image shows a woman standing in a kitchen holding a clear glass pitcher filled with water in her left hand and a small glass with some water in her right hand. She is wearing a black sleeveless top and has her hair pulled back. Behind her, there are wooden kitchen cabinets, a white refrigerator with a few magnets and some paper towels on top, and a dish rack near the sink. The woman appears to be looking at the camera with a slight smile.",
+    "The frame shows a woman in a kitchen pouring water from a clear bottle into a glass she is holding. She has her hair pulled back and is wearing a sleeveless black top. In the background, there are wooden cabinets, a refrigerator with some magnets and stickers on it, and some kitchen items like paper towels and containers. The setting appears to be a casual home environment.",
+    "The image shows a woman in a kitchen setting, pouring water from a clear bottle into a clear glass. She is wearing a sleeveless black top and has dark nail polish. The background includes wooden cabinets, a white refrigerator with a few magnets, and some kitchen utensils on the counter. The lighting suggests it is indoors with natural or ceiling light.",
+    "The frame shows a woman in a kitchen environment pouring water from a bottle into a glass. She has dark hair tied back and is wearing a sleeveless black top. The kitchen features wooden cabinets, a white refrigerator decorated with magnets and stickers, and some paper towels on top of the fridge. The woman is looking directly at the camera while pouring the water.",
+    "The frame shows a woman with dark hair tied back, standing in a kitchen. She is pouring water from a clear glass bottle into a clear drinking glass that she is holding with her other hand. The kitchen has wooden cabinets, a white refrigerator with some magnets and papers on it, and a countertop with various items, including paper towels and kitchen utensils. The woman appears focused on pouring the water.",
+    "This frame shows a person in a kitchen setting. The person appears to be holding a dark bottle in one hand and a clear glass in the other, seemingly in the process of pouring a drink. The background features wooden kitchen cabinets with some dishes inside, along with a white refrigerator that has a few magnets on it. There is also a towel or paper towel roll on top of the fridge. The overall scene suggests a casual, everyday moment."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the woman has moved her head and upper body slightly to face more forward, and she is holding the glass lower and closer to her body compared to the previous frame.",
+    "In the current frame, the woman has raised a second glass filled with water in her left hand, while her right hand still holds the first glass. Her facial expression also changed to a slight smile.",
+    "In the current frame, the woman is pouring water from the container into the glass, which has moved closer to her mouth compared to the previous frame. The container is tilted more, allowing the water to flow into the glass.",
+    "The woman has tilted the glass bottle further, causing water to start pouring into the glass she is holding.",
+    "The water level in the glass has increased as the woman pours water from the bottle into it.",
+    "In the current frame, the woman has tilted the bottle further, causing more water to pour into the glass, which is now filling up with visible water.",
+    "In the current frame, the woman has moved the bottle away from the glass after pouring water, and the water is now inside the glass. Her hand holding the bottle has shifted position, resulting in a motion blur. The glass is slightly tilted."
+  ],
+  "baseline_tokens": 668,
+  "diff_tokens": 260,
+  "lexical_redundancy_baseline_avg": 0.47545920905134015,
+  "lexical_redundancy_diff_avg": 0.24957671306242277,
+  "lexical_redundancy_baseline_all": [
+    0.5223880597014925,
+    0.5142857142857142,
+    0.5070422535211268,
+    0.4626865671641791,
+    0.453125,
+    0.49206349206349204,
+    0.37662337662337664
+  ],
+  "lexical_redundancy_diff_all": [
+    0.10714285714285714,
+    0.20454545454545456,
+    0.23255813953488372,
+    0.3225806451612903,
+    0.30434782608695654,
+    0.27586206896551724,
+    0.3
+  ],
+  "info_density_baseline": 0.01931414094516666,
+  "info_density_diff": 0.04501525535414763,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.01282051282051282,
+    0.023529411764705882,
+    0.029850746268656716,
+    0.01639344262295082,
+    0.03125,
+    0.028169014084507043,
+    0.0125
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.02857142857142857,
+    0.027777777777777776,
+    0.075,
+    0.05263157894736842,
+    0.05555555555555555,
+    0.07407407407407407,
+    0.046511627906976744
+  ]
+}

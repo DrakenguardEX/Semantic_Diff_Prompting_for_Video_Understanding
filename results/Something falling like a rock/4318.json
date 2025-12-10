@@ -1,0 +1,81 @@
+{
+  "video_id": "4318",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/4318.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/4318",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a wooden desk or table. On the left side, there are some papers or documents and a pair of glasses resting on top. A black strap with the Adidas brand name repeatedly printed in white is held by a hand in the top left part of the frame. On the right side, part of an electrical cord is visible hanging down. The desk has a drawer with a handle, and there is a small dark spot or stain on the surface near the drawer. The background wall appears plain and white.",
+    "The image shows a wooden desk surface with a hand holding a black object, possibly a pen or a small tool, above the desk. On the left side of the desk, there are some eyeglasses and a stack of papers. The desk has a drawer with a handle on the right side. The desk appears to be in a room with tiled flooring. There is also a white cable running along the right edge of the desk. The lighting in the room is bright, suggesting the presence of natural or artificial light.",
+    "The image shows a hand holding a black item with the Adidas logo and name repeatedly printed on it in white. The item appears to be either a fabric headband or wristband. In the background, there is a wooden desk with some papers, a pair of eyeglasses, and a white object on it. A cable is visible running across the right side of the desk. The setting looks like an indoor workspace or study area.",
+    "This frame shows a close-up view of a wooden desk or table surface. On the desk, there is a black Adidas wallet with the brand's name and logo prominently displayed in white and red. In the background, on the left side, there are some papers, a pair of eyeglasses, and a white box or packaging material. A hand is visible at the top left corner, partially entering the frame. The scene appears to be indoors, likely on a workspace or study area.",
+    "The image shows a wallet placed on a wooden desk. The wallet is black with the Adidas logo featuring prominently in red and white on the front. Around the edges of the wallet, the word \"ADIDAS\" is repeated in white text. In the background, there are some papers, a pair of glasses, and part of an electronic device or printer resting on the desk. There is also a power cable visible on the right side extending towards a power outlet. The setting appears to be a tidy workspace or study area.",
+    "The image shows a close-up of a wooden desk with several items on it. In the foreground, there is a black wallet or pouch with the Adidas logo and text repeated on it. On the left side of the desk are a pair of eyeglasses resting on some scattered papers. Near the back of the desk, there is a white electronic device, possibly a printer or scanner. A person's hand is partially visible at the upper left corner of the image, appearing to reach towards the desk. The background shows part of a white wall and a cord plugged into an outlet.",
+    "The image shows a wooden desk with some items on it. There is a black rectangular object with the Adidas logo and name repeatedly printed on it, lying on the desk. To the left, there is a stack of papers with a pair of eyeglasses resting on top. A hand is partially visible at the top left corner of the image. The background includes a white wall and the edge of the desk, which has two drawer handles visible on the right side. There is also a white cable hanging from the right side of the desk.",
+    "The image shows a wooden desk with several items on it. In the center of the desk, there is a black wallet with the Adidas logo and brand name printed in white and red. On the left side of the desk, there are papers, a pair of eyeglasses, and a few small objects. In the top left corner, a hand is reaching towards the desk. The desk has a few drawers on the right side, and there is a power cord plugged into an outlet on the rightmost part of the desk. The background includes a white wall and a slightly visible chair."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The Adidas pouch in the hand moved slightly downward and tilted away from the camera compared to the previous frame.",
+    "In the current frame, the hand holding the black object has moved slightly downward compared to the previous frame.",
+    "The Adidas wallet has been placed down on the desk by the hand that was previously holding it.",
+    "The hand has moved closer to the wallet in the current frame compared to the previous one.",
+    "The hand in the upper left corner has moved slightly closer to the wallet in the current frame compared to the previous one. The wallet remains in the same position.",
+    "The hand has moved slightly closer toward the wallet in the current frame compared to the previous one.",
+    "The hand, which was previously above the left side of the wallet, has slightly moved downward and closer to the top left corner of the frame in the current frame. The wallet remained in the same position."
+  ],
+  "baseline_tokens": 856,
+  "diff_tokens": 187,
+  "lexical_redundancy_baseline_avg": 0.3984859420840408,
+  "lexical_redundancy_diff_avg": 0.3726672305982651,
+  "lexical_redundancy_baseline_all": [
+    0.32941176470588235,
+    0.37662337662337664,
+    0.41025641025641024,
+    0.39759036144578314,
+    0.43529411764705883,
+    0.39285714285714285,
+    0.4473684210526316
+  ],
+  "lexical_redundancy_diff_all": [
+    0.15,
+    0.45454545454545453,
+    0.14814814814814814,
+    0.16,
+    0.65,
+    0.6666666666666666,
+    0.3793103448275862
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.03467137803438113,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05,
+    0.05263157894736842,
+    0.0,
+    0.058823529411764705,
+    0.03333333333333333,
+    0.05555555555555555,
+    0.02702702702702703
+  ]
+}

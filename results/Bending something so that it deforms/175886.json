@@ -1,0 +1,81 @@
+{
+  "video_id": "175886",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/175886.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/175886",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a metal ruler placed on a textured surface, likely a towel or cloth. The ruler measures in both centimeters (top edge) and inches (bottom edge). The centimeter side goes up to 30 cm, and the inch side goes up to 12 inches. The ruler casts a shadow on the surface beneath it. The photo is taken from above at a slight angle.",
+    "This frame shows a metallic ruler placed on a light-colored surface with a soft texture, possibly a carpet or a blanket. The ruler is marked with both centimeters and inches. The ruler is aligned horizontally across the image, and the length visible measures approximately 30 centimeters or 12 inches. The surface beneath the ruler has irregular patches of different shades, mainly light and dark areas.",
+    "This frame shows a transparent plastic ruler placed horizontally on a surface, which appears to be a textured fabric or carpet with a mix of beige and light brown colors. The ruler has both centimeter and millimeter markings visible, with numbers printed in black. The right side of the ruler is aligned with a lighter, more blurred portion of the fabric. There is a shadow cast on the fabric, possibly from the person taking the photo or an object near the camera. The image overall looks like it was taken indoors under artificial lighting.",
+    "The image shows a close-up view of a person's hand holding a ruler. The ruler is positioned horizontally across the frame, and it appears to be a transparent or semi-transparent plastic ruler. The background appears to be a textured surface, possibly fabric or carpet, in a light color. The ruler is slightly out of focus, making it difficult to clearly see the measurement markings.",
+    "This frame shows a close-up of two hands holding a flexible, translucent object, possibly a piece of plastic tubing or a clear, flexible strip. The background appears to be a textured white surface, such as fabric or carpet. The hands are positioned near the bottom right and left corners of the frame, grasping each end of the object.",
+    "The image shows a close-up of two hands holding a thin, transparent, flexible material, possibly a piece of curved glass or plastic. The background appears to be a soft, textured surface like a towel or fabric on which the hands and the transparent material are resting. The lighting reveals the slight curvature and clarity of the transparent object.",
+    "The image shows a close-up of two hands holding a clear, flexible tube or hose. The hands are positioned at each end of the tube, which forms a gentle curve. The background is a textured, light-colored fabric or surface. The scene appears to be indoors, and the focus is on the transparent tube and the hands holding it.",
+    "This frame shows the surface of a carpet or rug, with visible wear and discoloration. There are various shades of the carpet's fibers, and a noticeable rectangular patch where the texture or color differs from the surrounding area, suggesting it may have been cleaned, rubbed, or treated differently. The overall appearance indicates it might be an old or frequently used rug."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The ruler has moved slightly to the right in the current frame compared to the previous one.",
+    "The ruler has moved slightly to the right in the current frame compared to the previous one.",
+    "The ruler is being rotated from a flat position to an upright position while being held by a hand.",
+    "The main object, previously a ruler held horizontally, has changed to a flexible transparent measuring tape that is now bent and curved, held in both hands.",
+    "The main object, a transparent curved sheet held by both hands, has been lifted and moved slightly higher and more upright compared to the previous frame. The left hand has also shifted position, gripping the edge of the sheet more firmly from the side.",
+    "The main object, a transparent curved rod or tube, has moved slightly to the left. The left hand is pulling the object further leftward, causing the curved shape to shift in that direction.",
+    "The main object, a transparent curved piece held by two hands in the previous frame, is no longer visible in the current frame. The hands have moved away, and the object has been dropped or moved out of the frame."
+  ],
+  "baseline_tokens": 625,
+  "diff_tokens": 235,
+  "lexical_redundancy_baseline_avg": 0.29342126631879045,
+  "lexical_redundancy_diff_avg": 0.3200697580063503,
+  "lexical_redundancy_baseline_all": [
+    0.2535211267605634,
+    0.25274725274725274,
+    0.29545454545454547,
+    0.31343283582089554,
+    0.4,
+    0.41379310344827586,
+    0.125
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1875,
+    1.0,
+    0.11538461538461539,
+    0.17647058823529413,
+    0.2553191489361702,
+    0.25,
+    0.2558139534883721
+  ],
+  "info_density_baseline": 0.0021551724137931034,
+  "info_density_diff": 0.05256281708487591,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.017241379310344827,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.058823529411764705,
+    0.058823529411764705,
+    0.0,
+    0.038461538461538464,
+    0.06818181818181818,
+    0.12121212121212122,
+    0.075
+  ]
+}

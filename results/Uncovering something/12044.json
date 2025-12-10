@@ -1,0 +1,81 @@
+{
+  "video_id": "12044",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/12044.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/12044",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a black piece of clothing laid out on a light-colored surface. The garment appears to be a long skirt or possibly a pair of pants due to its broad and elongated shape. The fabric looks smooth and uniform in color. The item is positioned flat, with no visible patterns, decorations, or additional objects around it.",
+    "The frame shows a close-up view of a dark-colored fabric, possibly clothing like a pair of pants or a skirt, laid out flat on a surface. The surrounding area has a lighter-colored background, likely a bed or table. The fabric appears smooth and unwrinkled. There are no visible patterns, logos, or distinctive features on the fabric.",
+    "The image shows a close-up view of a folded black fabric or garment, possibly a pair of pants or leggings, placed on a light-colored surface. The fabric appears to have a smooth texture, and the lighting is dim, making the color look quite dark. The item is positioned so that only a portion of it is visible, with the edges and folds clearly defined.",
+    "The frame shows a close-up view of a black or very dark-colored fabric, possibly a piece of clothing like pants or a skirt, lying flat on a lighter surface. There is a corner of a wooden or dark-colored object, likely a table or desk, visible in the upper left corner of the image. The focus is mainly on the fabric.",
+    "The image shows a piece of dark-colored fabric or clothing laid out flat on a white surface. The fabric appears to be mostly smooth with a seam visible near one edge. There is a blurry area in the bottom left corner that might be a finger or hand partially covering the camera lens. The background includes a small part of a wooden surface and some other indistinct items.",
+    "The frame shows a close-up of a person's hand placed on a piece of black fabric. The fabric appears to be laid flat on a surface, possibly a table. The hand is positioned with the fingers slightly bent, as if pressing or smoothing the fabric. The lighting is bright, highlighting the hand and the texture of the fabric.",
+    "The frame shows a close-up view of a black object being held by a hand. The object appears to be made of fabric or a similar material and is stretched out or stretched over something. The background is light gray or white, and the image is somewhat blurry, making it difficult to identify the exact object or its purpose.",
+    "This image shows a black wired computer mouse placed on a plain light-colored surface, possibly a desk or table. The mouse cable extends away from the mouse, though only partially visible. The setting appears to be simple, with no other objects immediately nearby."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object has changed color from black in the previous frame to a dark green or grayish color in the current frame. The shape and position of the object remain the same.",
+    "The main object, a black piece of clothing, has shifted slightly to the right in the current frame compared to the previous one.",
+    "There is no visible change in the main object or its motion between the two frames.",
+    "In the current frame, a hand has appeared in the lower left corner, moving towards the black fabric.",
+    "In the current frame, a hand has moved into the scene and is touching or pressing down on the black fabric that was previously shown flat.",
+    "The hand lifted the black fabric off the surface, causing it to rise and become partially suspended in the air.",
+    "The black socked foot, which was hovering in the previous frame, has moved away, leaving only the computer mouse resting on the surface."
+  ],
+  "baseline_tokens": 561,
+  "diff_tokens": 194,
+  "lexical_redundancy_baseline_avg": 0.2598328210806627,
+  "lexical_redundancy_diff_avg": 0.1850872118153224,
+  "lexical_redundancy_baseline_all": [
+    0.35294117647058826,
+    0.2777777777777778,
+    0.2714285714285714,
+    0.2876712328767123,
+    0.24,
+    0.24615384615384617,
+    0.14285714285714285
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1111111111111111,
+    0.3870967741935484,
+    0.13333333333333333,
+    0.07142857142857142,
+    0.3,
+    0.17142857142857143,
+    0.12121212121212122
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.023436919360832403,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.05555555555555555,
+    0.038461538461538464,
+    0.05,
+    0.043478260869565216
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "18549",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/18549.webm",
+  "num_frames": 7,
+  "frame_dir": "frames/Uncovering something/18549",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up view of a white, textured fabric that appears to be a towel or a soft cloth. The texture is terry cloth-like with visible loops, and there is a tag or label partially visible on the right side of the image. The towel or cloth fills most of the frame, and the background is a slightly off-white surface. The lighting is soft, highlighting the texture of the fabric.",
+    "This image appears to be a close-up of a light-colored, possibly white or off-white, textured fabric or towel. The fabric has a soft, fuzzy texture and is slightly crumpled or folded. The overall appearance is somewhat blurry or out of focus. There are no distinct objects or patterns visible other than the fabric's texture.",
+    "This frame shows a close-up view of a soft, white, fluffy fabric, possibly a towel or a blanket. There is a dark object or shadow partially visible in the top left corner. The lighting highlights the texture of the fabric, emphasizing its plush and fuzzy surface.",
+    "The image appears to be a close-up, blurry shot of a textured surface, possibly a fabric or a soft material. The colors are mainly muted greens and grays. Due to the lack of clear details, it is difficult to determine exactly what the subject is or any specific context.",
+    "This frame shows a close-up of a white-gloved hand handling a wristwatch. The watch has a round face with visible hour markers and is attached to a black strap. The background is plain and out of focus, keeping attention on the watch and the gloved hand. The glove suggests careful or delicate handling, possibly in a setting like a watch repair shop or a museum.",
+    "The image shows a wristwatch with a black strap and a gold-toned case. The watch face is also dark, possibly black or deep blue, with three smaller dials inside, indicating that it is likely a chronograph watch. The background appears to be a textured, light-colored surface with some shadows cast by the watch. The image is slightly blurry.",
+    "This image shows a wristwatch with a black strap and a round, dark-colored watch face. The watch appears to be placed on a white surface. To the left of the watch, there is a textured, light gray or white cloth or fabric. The watch face has hour markers and three smaller subdials, suggesting it might have chronograph features. The lighting creates a shadow to the right of the watch."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the main object, which appears to be a towel or cloth covering something, has shifted slightly to the left and downward compared to the previous frame. The focus and clarity have also decreased, making the object appear more blurred and less defined.",
+    "In the current frame, a hand partially covered by a dark sleeve has entered the scene from the top left, making contact with the soft, white textured surface that dominates the image. The hand was not present in the previous frame.",
+    "The main object, which appears to be a white textured fabric, has moved closer and partially obscured the view, covering more of the previous scene. The hand that was previously visible is no longer clearly seen in the second frame.",
+    "In the current frame, a white cat has moved closer to reveal a wristwatch partially visible beneath it. The cat's position shifted slightly forward and to the right, exposing more of the watch.",
+    "In the current frame, a wristwatch has moved into clearer view, positioned more prominently and fully visible compared to the previous frame where it was partially obscured. The hand or object that was covering the watch has moved away, revealing the watch face and details more distinctly.",
+    "In the current frame, the hand that was touching or covering part of the watch in the previous frame has moved away, revealing the watch more clearly. The watch itself remains in the same position."
+  ],
+  "baseline_tokens": 517,
+  "diff_tokens": 291,
+  "lexical_redundancy_baseline_avg": 0.2555880168753303,
+  "lexical_redundancy_diff_avg": 0.2378902764366424,
+  "lexical_redundancy_baseline_all": [
+    0.35384615384615387,
+    0.2857142857142857,
+    0.1875,
+    0.13333333333333333,
+    0.2,
+    0.373134328358209
+  ],
+  "lexical_redundancy_diff_all": [
+    0.07894736842105263,
+    0.15789473684210525,
+    0.24074074074074073,
+    0.28,
+    0.30612244897959184,
+    0.36363636363636365
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.029511243568994327,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.025,
+    0.06060606060606061,
+    0.06382978723404255,
+    0.05714285714285714
+  ]
+}

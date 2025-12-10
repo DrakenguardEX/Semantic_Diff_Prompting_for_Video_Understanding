@@ -1,0 +1,81 @@
+{
+  "video_id": "79394",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/79394.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/79394",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows an open drawer containing a few papers and documents. On top of the papers, there is a pink sticky note and a white piece of paper. The drawer appears to be part of a dark-colored desk or cabinet. The floor next to the drawer has light-colored tiles, and part of a green chair or bench is visible on the left side. A hand with dark-painted nails is holding the drawer open.",
+    "This frame shows a partially open desk drawer containing several sheets of paper. One sheet has a pink sticky note attached to it, and there appears to be a black and white photograph or small image on one of the documents. The drawer itself is dark-colored, possibly black or dark green, and the surrounding area includes a tiled floor and part of a side wall. The drawer is being slightly pulled open by a person's left hand, which has dark nail polish.",
+    "This frame shows an open drawer of a dark-colored piece of furniture, possibly a desk or cabinet. Inside the drawer, there are some papers and documents, one of which has a pink sticky note attached. A person's hand with dark nail polish is visible, holding the drawer open. The background includes a tiled floor and part of a corner of the room.",
+    "The image shows a close-up view of a slightly open drawer being pulled out by a person's left hand. The drawer contains several papers or documents, one of which has a noticeable pink sticky note attached to it. The drawer appears to be part of a dark-colored wooden piece of furniture, possibly a desk or a cabinet. The surrounding area includes a section of a beige floor and a light-colored wall.",
+    "The image shows a hand opening a drawer in a dark-colored piece of furniture, likely a desk. Inside the drawer, there are some papers and documents, one of which has a noticeable bright pink sticky note attached to it. The background features a plain wall and a tiled or linoleum floor. The scene appears to be in an office or workspace environment.",
+    "This frame shows a close-up of a person's hand opening a drawer in a piece of furniture, likely a desk or filing cabinet. Inside the drawer, some papers are visible. The setting appears to be an office or a study room with a carpeted floor. The hand has dark-colored nail polish, and part of the person's clothing is also visible near the bottom left corner of the image.",
+    "The image shows a close-up view of a person's hand opening a drawer in a dark-colored wooden desk or cabinet. The drawer is partially pulled out, revealing some papers or documents inside. The person has dark nail polish on their fingernails. There are additional papers placed on the surface of the desk above the drawer. The floor beneath is a light color, and a baseboard is visible along the wall in the background.",
+    "The image shows a person reaching out with their hand to open or close a drawer of a dark-colored desk or cabinet. The hand has dark-colored nail polish. On top of the desk, there is a stack of white papers or documents. Part of the tiled floor and the person's leg, dressed in brown pants or a similar garment, are also visible. The setting appears to be an office or similar indoor environment."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The drawer is being pulled open further in the current frame compared to the previous one.",
+    "The drawer has been pulled slightly more open in the current frame compared to the previous one.",
+    "The drawer is being opened further outward.",
+    "The drawer has been pulled further open in the current frame compared to the previous one, and the hand holding the drawer has moved slightly to the right.",
+    "The drawer has been pulled open slightly further compared to the previous frame. The hand holding the drawer has also moved slightly backward.",
+    "The drawer has been pulled slightly more open in the current frame compared to the previous one.",
+    "The hand has pulled the drawer further open compared to the previous frame."
+  ],
+  "baseline_tokens": 678,
+  "diff_tokens": 146,
+  "lexical_redundancy_baseline_avg": 0.4131980916636217,
+  "lexical_redundancy_diff_avg": 0.3925173099542847,
+  "lexical_redundancy_baseline_all": [
+    0.42105263157894735,
+    0.44594594594594594,
+    0.4225352112676056,
+    0.4166666666666667,
+    0.3888888888888889,
+    0.3918918918918919,
+    0.40540540540540543
+  ],
+  "lexical_redundancy_diff_all": [
+    0.17647058823529413,
+    0.6111111111111112,
+    0.1,
+    0.125,
+    0.6818181818181818,
+    0.5238095238095238,
+    0.5294117647058824
+  ],
+  "info_density_baseline": 0.022503295108586813,
+  "info_density_diff": 0.11182188176273854,
+  "info_density_baseline_per_frame": [
+    0.013513513513513514,
+    0.036585365853658534,
+    0.016129032258064516,
+    0.028169014084507043,
+    0.016129032258064516,
+    0.014705882352941176,
+    0.0273972602739726,
+    0.0273972602739726
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.125,
+    0.11764705882352941,
+    0.14285714285714285,
+    0.10714285714285714,
+    0.13043478260869565,
+    0.11764705882352941,
+    0.15384615384615385
+  ]
+}

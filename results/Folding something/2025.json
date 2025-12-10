@@ -1,0 +1,81 @@
+{
+  "video_id": "2025",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/2025.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/2025",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a single sheet of paper lying on a carpeted floor. The paper appears to be a form or chart with rows and columns, possibly a schedule, timetable, or log sheet. There is some text along the top and left sides of the sheet, but it is not clearly readable. A person's fingers are visible at the bottom edge of the image near the paper, suggesting they are about to pick it up or have just set it down. The carpet has a textured, looped pattern in a neutral color.",
+    "This image shows a close-up of a hand pointing at a printed table or spreadsheet placed on a carpeted floor. The table appears to be a structured form with multiple rows and columns, containing various data entries. The details of the table's content are not clearly legible from the image. The hand is positioned near the bottom right of the paper. The carpet has a textured, woven pattern.",
+    "The frame shows a hand that appears to be flipping or tapping on a foldable object, likely a piece of paper or a small booklet placed on a coarse, carpeted surface. The object is partially bent upward, indicating movement or manipulation by the hand. The background is a textured brown carpet.",
+    "This frame shows a person's hand pressing down on a white piece of paper that is folded in half. The paper is placed on a textured, light brown carpet or rug. The hand appears to be in the process of holding or flattening the folded paper.",
+    "The frame shows a hand, with fingers spread slightly, touching or holding a white piece of paper that is folded in half. The paper is placed on a textured surface that looks like a woven carpet or mat with a brownish color. The setting appears to be indoors.",
+    "This frame shows a hand resting on a closed white envelope placed on a brown textured surface, possibly carpet. The image captures the moment from a top-down perspective.",
+    "The image shows a hand folding a white piece of paper on a carpeted surface. The paper appears to have been folded previously in half horizontally. The background features a textured, brown carpet. The hand is pressing down on the paper, possibly to create a crease.",
+    "The frame shows a hand placed on top of a rectangular piece of white paper or an envelope. The paper or envelope is lying flat on a carpeted floor with a textured, brownish pattern. The hand appears to be resting or pressing lightly on the paper."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand moved closer to the bottom right corner of the paper and is now pointing at it.",
+    "In the current frame, the paper has been lifted upward and is now partially bent, while the hand has moved inward and is more under the paper, supporting it from below.",
+    "The paper has been folded from a flat position to a vertical standing position, with the hand adjusting or pressing it down.",
+    "The hand has moved slightly downward, and the paper has started to unfold, showing a crease in the middle.",
+    "The hand has moved closer to the top edge of the folded paper, with fingers spread over it.",
+    "The hand has moved slightly upward and to the right on the envelope.",
+    "The hand has shifted slightly to the right, with the fingers more spread out compared to the previous frame."
+  ],
+  "baseline_tokens": 505,
+  "diff_tokens": 172,
+  "lexical_redundancy_baseline_avg": 0.3233044163772129,
+  "lexical_redundancy_diff_avg": 0.2081431431185126,
+  "lexical_redundancy_baseline_all": [
+    0.36046511627906974,
+    0.2191780821917808,
+    0.37254901960784315,
+    0.48936170212765956,
+    0.22,
+    0.29545454545454547,
+    0.30612244897959184
+  ],
+  "lexical_redundancy_diff_all": [
+    0.047619047619047616,
+    0.25,
+    0.19444444444444445,
+    0.20689655172413793,
+    0.23076923076923078,
+    0.22727272727272727,
+    0.3
+  ],
+  "info_density_baseline": 0.020655408902691512,
+  "info_density_diff": 0.05735294699641049,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.06521739130434782,
+    0.020833333333333332,
+    0.03571428571428571,
+    0.043478260869565216,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05555555555555555,
+    0.06451612903225806,
+    0.045454545454545456,
+    0.10526315789473684,
+    0.1111111111111111,
+    0.07692307692307693,
+    0.0
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "176816",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/176816.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/176816",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a partially open door leading to a bright hallway. In the hallway, there is a light-colored dog, likely a small breed such as a French Bulldog, looking toward the camera. Part of a person is visible on the right side of the image, mostly their torso and arm, as they appear to be holding or moving a blue object, which is blurred due to motion. The walls are light purple, and the lighting in the hallway is bright compared to the foreground.",
+    "This frame shows a person holding a white object, possibly a piece of paper or a thin item, close to the camera. In the background, there is a small dog standing on the floor in a doorway or entrance to another room. The scene appears to be indoors, with some furniture, such as a chair, visible on the right side. The lighting is moderate, and part of the person's arm and torso are visible.",
+    "This image shows a close-up of a person's hand holding a white straw or thin tube horizontally toward the camera. The person is wearing a dark shirt and sitting indoors near a window or door that lets in bright light. In the background, there is a small white dog lying on the floor, partially visible through a doorway. Some furniture, including a chair with wooden slats and a laundry basket, can also be seen in the room. The overall lighting creates a contrast between the bright background and the dimmer foreground.",
+    "The frame shows a close-up of a person's hands holding a white object that appears to be a cigarette or a similar item. In the background, there is a door leading to another room where a small dog is visible standing on the floor. The lighting in the room has a purple hue. There is also a laundry basket partially visible in the lower right corner.",
+    "The frame shows a close-up of two hands holding a white flexible object, possibly a straw or a similar item, which is slightly bent in one area. In the background, there is a room with wooden flooring, a white door, some furniture, and a small dog lying on the floor. The lighting has a purple hue, suggesting some colored light source in the room.",
+    "The frame shows a close-up of a person’s hands holding a white object that appears to be a flexible or bendable straw or tube. In the background, there is a partially open doorway leading to another room with a small animal, possibly a cat or dog, on the floor. The environment looks like an indoor setting, possibly a home. The lighting is moderate, with daylight coming from the other room.",
+    "This frame shows a close-up of a person's hand holding a white plastic straw bent at an angle. The background reveals a partially open doorway leading to a brightly lit room, with a light brown dog lying on the floor near the doorway. The person's face is mostly out of the frame on the right side. The overall lighting is a mix of natural and artificial light, with a slight purple hue on the left side wall.",
+    "This frame shows a close-up of a person holding a bent white plastic straw. The person's hand and part of their arm are visible on the right side of the image. In the background, there is a room with a door open leading to another space that is brightly lit. On the floor in the background, a light-colored dog is lying down. The overall setting appears to be indoors in a home environment."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the hand has moved closer to the camera and is now holding a thin white object, which is more prominently extended forward compared to the previous frame. The dog in the background remains in the same position.",
+    "The main object, a stick-like item held by the hand, has moved slightly upward and to the left in the current frame compared to the previous one. The fingers have also adjusted position accordingly to grip the object.",
+    "The main object, a hand holding a white stick or rod, has shifted slightly to the right and the fingers have adjusted their grip on the stick. The position of the stick has also changed, tilting more horizontally compared to the previous frame.",
+    "The main object, a white stick or rod held by hands, has been rotated and moved downward between the two frames. The fingers have adjusted their grip to hold the stick more horizontally in the current frame compared to the previous one.",
+    "The main object, a flexible white straw, is bent into a right angle in the current frame compared to being straight in the previous frame. The hands holding the straw have also adjusted to create the bend.",
+    "The main object, a white pipe cleaner, moved from being held more horizontally to being bent at the middle, forming a right angle. The person's fingers adjusted to grip the pipe cleaner near the bend.",
+    "The small dog near the bottom left corner has moved slightly forward and to the left in the current frame compared to the previous one. The hand and the straw remain in the same position."
+  ],
+  "baseline_tokens": 705,
+  "diff_tokens": 319,
+  "lexical_redundancy_baseline_avg": 0.3736701029956418,
+  "lexical_redundancy_diff_avg": 0.27944663665749103,
+  "lexical_redundancy_baseline_all": [
+    0.36585365853658536,
+    0.36363636363636365,
+    0.3411764705882353,
+    0.417910447761194,
+    0.3466666666666667,
+    0.32098765432098764,
+    0.4594594594594595
+  ],
+  "lexical_redundancy_diff_all": [
+    0.09090909090909091,
+    0.30434782608695654,
+    0.4418604651162791,
+    0.45652173913043476,
+    0.2916666666666667,
+    0.2857142857142857,
+    0.0851063829787234
+  ],
+  "info_density_baseline": 0.015040615726491534,
+  "info_density_diff": 0.023407108740869972,
+  "info_density_baseline_per_frame": [
+    0.023529411764705882,
+    0.013513513513513514,
+    0.0,
+    0.0,
+    0.015625,
+    0.014285714285714285,
+    0.025974025974025976,
+    0.0273972602739726
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.024390243902439025,
+    0.02631578947368421,
+    0.0,
+    0.023809523809523808,
+    0.02702702702702703,
+    0.05714285714285714,
+    0.02857142857142857
+  ]
+}

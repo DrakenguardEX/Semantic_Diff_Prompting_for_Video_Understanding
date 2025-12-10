@@ -1,0 +1,81 @@
+{
+  "video_id": "78442",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/78442.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/78442",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This image shows a partially open wooden door leading into a room with wood-paneled walls. Inside the room, there is a purple laundry basket that contains some clothing or fabric items. On the carpeted floor near the laundry basket, there are two small balls, one green and one yellow. To the right, there is a wooden piece of furniture, possibly a cabinet or dresser, with some items placed on top and a white cloth or paper on the floor nearby. The lighting suggests natural or ambient indoor light.",
+    "This frame shows an indoor scene with a partially open wooden door. Behind the door, there is a wooden wall or paneling. A purple laundry basket is placed on the floor near the wall, and a small green and yellow ball or toy is next to the basket. Part of a person's arm is visible on the right side of the image, extended as if they are reaching or moving. On the left side, there's a black chair near the door. The floor appears to be carpeted.",
+    "This frame shows a partially opened wooden door with a brass-colored handle. A person, whose upper body and face are not fully visible, is holding the door open with their left hand. They are wearing a black shirt with a yellow circular design on the sleeve and black pants. Behind the door, there is a pink or purple laundry basket and a wooden piece of furniture, possibly a wardrobe or cabinet. In the background to the left, there is a black chair and part of another piece of furniture. The floor appears to be a mix of carpet and tiles.",
+    "The image shows a person in motion, turning or opening a wooden door with a golden handle. The person is wearing a black t-shirt and appears to be inside a house. The floor near the door has a dark mat, and in the background, there is a glimpse of a dining room with a table and chairs. The image is somewhat blurry, likely due to the movement of the person.",
+    "The frame shows a young person in a black shirt with white text on the back, partially visible from behind, opening a wooden door. The person appears to be indoors in a dimly lit room with a dark carpet and some furniture or items in the background. The door leads to a brighter room with a tiled floor. The scene captures a moment of movement as the person reaches for or pushes the door open.",
+    "The frame shows a person standing in front of a closed wooden door, reaching towards the door handle as if about to open it. The person is wearing a black T-shirt with white lettering or design on the back. The room appears to have a vacuum cleaner placed on the right side near the door, and there are some items or papers on the floor to the left. The walls are plain white, and the floor is carpeted in a dark color. The image conveys a casual, indoor setting.",
+    "The frame shows a person standing indoors near a closed wooden door. The person is wearing a black shirt with white text and the number \"1\" on the back. The text above the number appears to say \"GERMANY,\" possibly indicating a sports jersey or themed shirt. To the right of the person, there is a vacuum cleaner resting on the floor. The wall on the left side is white, and the floor appears to be dark-colored. There are some objects on the floor near the wall, but they are not clearly identifiable.",
+    "The frame shows a person standing in front of a wooden door or panel. The person is wearing a black shirt with white text on the back, but the text is not clearly readable. The person appears to be in motion or turning away from the camera. To the right side of the image, there is a vacuum cleaner or a similar cleaning device leaning against the wall. The floor is dark, and there is a small pile or container of items near the bottom left corner. The room has white walls."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, an arm has appeared on the right side of the door, extending outward while the door remains partially open.",
+    "In the current frame, a person has appeared, moving through the doorway with their right hand touching the door. The door has also opened further compared to the previous frame.",
+    "The door has opened further, and the person has moved closer to and is now facing the doorway, with their hand still on the door handle.",
+    "The person has moved closer to the door and is now reaching out with their left hand to grasp the door handle, beginning to open the door further. Their body has shifted slightly forward through the doorway.",
+    "The person has moved further away from the door, releasing the door handle and starting to walk away from it.",
+    "The person in the black shirt with the number \"1\" on the back turned slightly more towards the door and moved their right arm closer to the door handle.",
+    "The person, facing away and wearing a black shirt with \"17\" on the back, moved slightly to the right and turned their body a bit more toward the right in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 801,
+  "diff_tokens": 242,
+  "lexical_redundancy_baseline_avg": 0.3504523537891585,
+  "lexical_redundancy_diff_avg": 0.29711685505091573,
+  "lexical_redundancy_baseline_all": [
+    0.3448275862068966,
+    0.3793103448275862,
+    0.2558139534883721,
+    0.3055555555555556,
+    0.30952380952380953,
+    0.4024390243902439,
+    0.45569620253164556
+  ],
+  "lexical_redundancy_diff_all": [
+    0.041666666666666664,
+    0.23529411764705882,
+    0.34375,
+    0.5161290322580645,
+    0.2727272727272727,
+    0.22580645161290322,
+    0.4444444444444444
+  ],
+  "info_density_baseline": 0.014643968189916423,
+  "info_density_diff": 0.03855529321727144,
+  "info_density_baseline_per_frame": [
+    0.011363636363636364,
+    0.011494252873563218,
+    0.02,
+    0.014285714285714285,
+    0.02666666666666667,
+    0.02247191011235955,
+    0.010869565217391304,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.06666666666666667,
+    0.07692307692307693,
+    0.05405405405405406,
+    0.05,
+    0.034482758620689655,
+    0.02631578947368421
+  ]
+}

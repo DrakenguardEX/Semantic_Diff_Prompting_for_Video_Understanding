@@ -1,0 +1,81 @@
+{
+  "video_id": "16461",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/16461.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/16461",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a single blank sheet of white paper placed on a brown surface, such as a table or desk. The paper is oriented horizontally, and the scene is well-lit with no additional objects visible in the frame.",
+    "The image shows a single sheet of white paper placed flat on a wooden surface. The paper is oriented horizontally and appears to be blank, with no visible writing or markings on it. The wooden surface beneath the paper looks smooth and has a warm brown color. There is also a black cable visible in the top left corner of the image.",
+    "The image shows a blank sheet of white paper placed on a brown wooden surface. The paper appears to be standard letter size and is oriented horizontally. There is part of a dark wire visible at the top left corner of the image. The scene is well-lit, and there are no other objects on the paper or the table.",
+    "The frame shows a pair of hands holding a blank white sheet of paper that is folded in half vertically. The paper is placed on a wooden surface, likely a table or desk. The hands seem ready to begin some activity involving the paper, such as folding or drawing.",
+    "The frame shows a person with their left hand placed on a blank white sheet of paper lying on a wooden surface, such as a desk or table. The right hand is in motion, either about to lift or place the paper down, which creates a slight blur effect indicating movement. The lighting is moderate, and there are no visible objects besides the hands, paper, and wooden surface.",
+    "This frame shows a close-up of two hands holding a blank sheet of white paper, seemingly preparing to fold it. The background is a brown surface, possibly a wooden table or desk. The hands and the paper are the main focus of the image.",
+    "This frame shows two hands folding a piece of white paper on a wooden surface. The paper is being folded vertically, and the hands are pressing down on the crease to make the fold sharper. The setting appears to be well-lit, possibly indoors.",
+    "This frame shows a person folding a piece of white paper on a wooden surface. The individual is using both hands to create a crease or fold along one edge of the paper. The scene suggests an activity related to paper crafting, such as origami or preparing the paper for a specific use."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a piece of paper, has shifted slightly to the right in the current frame compared to the previous one.",
+    "The white paper has been slightly shifted or moved, appearing more flat and less curled compared to the previous frame.",
+    "In the current frame, two hands have appeared and are positioned on the blank paper, with the left hand near the top left corner and the right hand near the bottom center.",
+    "In the current frame, the right hand is lifting and turning the top right corner of the paper, causing the paper to bend and curve upward.",
+    "The main object, a sheet of paper, is now folded in half vertically. The right hand, which was previously moving quickly, is now holding down the left side of the folded paper. The left hand is positioned closer to the left edge of the paper, holding it steady.",
+    "The right hand has moved upward, flattening out the sheet of paper more against the surface. The left hand remains in a similar position holding the paper.",
+    "In the current frame, the paper has been folded more sharply along the crease, and the left hand has moved closer to the top edge of the paper while the right hand remains near the bottom edge, helping to hold the folded paper in place."
+  ],
+  "baseline_tokens": 477,
+  "diff_tokens": 264,
+  "lexical_redundancy_baseline_avg": 0.3466670922892613,
+  "lexical_redundancy_diff_avg": 0.22901779206794792,
+  "lexical_redundancy_baseline_all": [
+    0.4,
+    0.4827586206896552,
+    0.25396825396825395,
+    0.3333333333333333,
+    0.2878787878787879,
+    0.35294117647058826,
+    0.3157894736842105
+  ],
+  "lexical_redundancy_diff_all": [
+    0.14285714285714285,
+    0.32142857142857145,
+    0.10526315789473684,
+    0.3125,
+    0.1951219512195122,
+    0.24390243902439024,
+    0.28205128205128205
+  ],
+  "info_density_baseline": 0.028484563876210664,
+  "info_density_diff": 0.0302127849002849,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.04081632653061224,
+    0.014705882352941176,
+    0.022727272727272728,
+    0.09302325581395349,
+    0.05660377358490566
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.038461538461538464,
+    0.0625,
+    0.07407407407407407,
+    0.06666666666666667
+  ]
+}

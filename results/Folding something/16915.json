@@ -1,0 +1,81 @@
+{
+  "video_id": "16915",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/16915.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/16915",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a close-up of a white rectangular textured cloth or towel placed on a dark surface, possibly a leather piece of furniture like a couch or chair. A hand with dark skin is touching or holding the corner of the cloth on the left side of the frame. The cloth appears soft and fluffy.",
+    "The frame shows a pair of hands placed near or on a white knitted or crocheted piece of fabric. The fabric has a rectangular shape with a slightly wavy edge at the top. The background appears to be a dark surface, possibly a leather or faux leather material. One hand is more in focus and visible while the other appears slightly blurred, suggesting movement. The hands are dark-skinned and one hand has a ring on one finger.",
+    "This frame shows a close-up of a white knitted or crocheted beanie hat with a small folded brim at the front. The hat is placed on a dark leather surface, possibly a couch or chair. Two hands, one on each side, appear to be holding or adjusting the hat. The image is slightly blurred, especially around the hands, suggesting motion or an unsteady camera.",
+    "This frame shows two hands holding or pressing a white folded cloth or towel on a dark-colored surface, which appears to be leather, possibly a piece of furniture like a couch or chair. The hands are positioned on either side of the cloth. One hand has a ring on the ring finger. The image has a close-up perspective focusing on the hands and the cloth.",
+    "The image shows a person holding a folded white cloth or piece of fabric with both hands. The background appears to be a dark brown leather surface, possibly a couch or chair. The hands are positioned on either side of the cloth, which is being held slightly elevated above the surface. The focus is on the hands and the cloth.",
+    "The image shows two hands placed close together on a dark surface, possibly a leather chair or couch. The hands appear to be in the process of folding or manipulating a white piece of paper that is partially visible between them. The person is wearing a ring on the ring finger of their left hand. The focus seems to be on the hands and the paper.",
+    "This frame shows a person’s hand holding or wiping a dark brown leather or faux leather surface, likely a couch or chair, with a white cloth. The hand is positioned over the cloth, and the image is slightly blurred, indicating motion. The background is mostly out of focus, emphasizing the cleaning action.",
+    "This frame shows a close-up view of a brown leather surface, possibly a couch or chair. There is a white, fluffy rectangular cloth or towel placed on the leather surface. On the left side of the frame, a person's hand is partially visible, suggesting they might be about to pick up or place down the cloth. The surroundings are out of clear focus, emphasizing the leather surface and the white cloth."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hands have moved closer to the white towel, with one hand now positioned on the towel while the other shows a motion blur, indicating a quick movement or tap on the towel.",
+    "In the current frame, the towel is being folded upward, with the bottom edge being lifted and bent towards the center. The hands have also moved closer to the bottom edge to facilitate the fold.",
+    "In the current frame, the hands have moved to place the white cloth down flat on the surface, with the cloth now lying more spread out compared to the previous frame where it was being held upright.",
+    "In the current frame, the hands have started to lift the white cloth upward and are slightly blurred, indicating motion. The cloth itself is no longer lying flat and appears to be partially folded or bent as it is being lifted.",
+    "In the current frame, the hands have moved down to press or flatten the white object against the surface, changing its shape from folded to more spread out.",
+    "In the current frame, the left hand has moved forward and is slightly blurred, indicating motion, while the folded white cloth is now partially unfolded and repositioned more diagonally compared to the previous frame. The right hand has shifted slightly to the right and is no longer resting flat.",
+    "The hand moved away from the white cloth, which is now lying flat and unmoving on the dark brown surface."
+  ],
+  "baseline_tokens": 599,
+  "diff_tokens": 289,
+  "lexical_redundancy_baseline_avg": 0.3464309801778728,
+  "lexical_redundancy_diff_avg": 0.18748448276924784,
+  "lexical_redundancy_baseline_all": [
+    0.2857142857142857,
+    0.32894736842105265,
+    0.38235294117647056,
+    0.4827586206896552,
+    0.3492063492063492,
+    0.25757575757575757,
+    0.3384615384615385
+  ],
+  "lexical_redundancy_diff_all": [
+    0.03333333333333333,
+    0.19047619047619047,
+    0.22727272727272727,
+    0.26,
+    0.20833333333333334,
+    0.1836734693877551,
+    0.20930232558139536
+  ],
+  "info_density_baseline": 0.009747414044289044,
+  "info_density_diff": 0.04872300181533631,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.015625,
+    0.015384615384615385,
+    0.016666666666666666,
+    0.030303030303030304,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.030303030303030304,
+    0.08571428571428572,
+    0.02702702702702703,
+    0.04878048780487805,
+    0.10714285714285714,
+    0.04081632653061224,
+    0.05
+  ]
+}

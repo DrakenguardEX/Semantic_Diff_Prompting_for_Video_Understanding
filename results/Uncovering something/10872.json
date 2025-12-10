@@ -1,0 +1,81 @@
+{
+  "video_id": "10872",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/10872.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/10872",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a light-colored, textured fabric, possibly a blanket or towel. The fabric appears soft and has a pattern of raised dots or bumps. It is placed on a dark surface, which could be carpet or upholstery. The fabric has some folds and wrinkles.",
+    "This frame shows a close-up view of a soft, light-colored fabric, possibly a blanket or a plush towel. The fabric has a textured pattern with small raised dots or bumps. The material appears to be fuzzy and cozy. The background is dark, which contrasts with the light fabric.",
+    "This frame shows a close-up view of a soft, light gray fabric with a subtle dotted texture. A hand is partially in the frame, touching or interacting with the fabric. The background appears to be dark, allowing the light-colored fabric to stand out. The image captures a sense of softness and tactile quality.",
+    "The image shows a close-up of three fingers, slightly out of focus, positioned near a light-colored, soft, and textured fabric that appears to be a blanket or towel. The fabric has a subtle pattern of small bumps or dots. The background is dark, which contrasts with the light fabric and the fingers.",
+    "This frame shows a close-up of a light gray or off-white textured fabric with a soft and plush appearance, possibly a blanket or a towel. There is a person's right hand resting on the fabric, partially covering it. The hand has a light skin tone, and the fingers are slightly splayed. The background is dark, which contrasts with the light color of the fabric.",
+    "This frame shows a blurry image of a hand holding or interacting with a spray bottle. The background includes a textured black surface and a white and gray fabric, possibly a towel or blanket. The image is somewhat out of focus, making it difficult to identify finer details.",
+    "This frame shows a small handheld water game. The game has a red plastic border with two yellow buttons at the bottom and some small colored rings inside a transparent water-filled chamber. The objective of this game is typically to press the buttons to propel the rings onto small pegs inside. The background appears dark, and part of a striped object is visible on the left side. The game is labeled \"WATER GAME\" at the bottom.",
+    "This image shows a handheld water ring toss game placed on a dark surface. The game is rectangular with a bright red frame and has two yellow buttons at the bottom. Inside the transparent water-filled compartment, several small colorful rings and pegs can be seen. The goal of the game is to press the buttons to create water currents that move the rings, aiming to hook them onto the pegs. The words \"WATER GAME\" are written in yellow near the bottom of the device. Part of a soft fabric with white and pink hues is visible on the left side of the image."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a white blanket or cloth, has shifted slightly to the right and has become less stretched out, showing more creases and folds in the current frame compared to the previous one.",
+    "In the current frame, a hand has appeared and moved onto the surface of the white textured fabric.",
+    "The hand has moved slightly away from the surface of the blanket, becoming more extended and spread out in the current frame compared to the previous one.",
+    "The hand has moved closer to the blanket, and the fingers have spread out more in the current frame compared to the previous one.",
+    "In the current frame, the hand has begun lifting and moving the gray textured cloth away from the surface, causing the cloth to fold and blur slightly in motion.",
+    "The hand and the object it was holding have moved away, revealing a red water game toy on the surface.",
+    "The main change is that the hand or sleeve seen in the previous frame has moved further to the left and is mostly out of the frame in the current frame. The water game itself remains in the same position without noticeable movement."
+  ],
+  "baseline_tokens": 599,
+  "diff_tokens": 231,
+  "lexical_redundancy_baseline_avg": 0.3719740275082029,
+  "lexical_redundancy_diff_avg": 0.25771784090920524,
+  "lexical_redundancy_baseline_all": [
+    0.5625,
+    0.39285714285714285,
+    0.38596491228070173,
+    0.3709677419354839,
+    0.3125,
+    0.14864864864864866,
+    0.43037974683544306
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0967741935483871,
+    0.2222222222222222,
+    0.3448275862068966,
+    0.6153846153846154,
+    0.24242424242424243,
+    0.14285714285714285,
+    0.13953488372093023
+  ],
+  "info_density_baseline": 0.0012135922330097086,
+  "info_density_diff": 0.040810073806765865,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.009708737864077669
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.05555555555555555,
+    0.037037037037037035,
+    0.041666666666666664,
+    0.06896551724137931,
+    0.1,
+    0.023255813953488372
+  ]
+}

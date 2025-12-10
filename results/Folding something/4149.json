@@ -1,0 +1,81 @@
+{
+  "video_id": "4149",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/4149.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/4149",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a person's hand holding a small, unfolded leaflet or pamphlet. The leaflet contains some text and three round icons on the left side, which are blue in color. The text appears to be printed in different colors, possibly blue and orange/red, but the details are blurry and not readable. The background is a wooden surface, possibly a table. The image has some motion blur, making it slightly difficult to clearly see the details on the leaflet.",
+    "This image shows a close-up view of a hand holding a small piece of paper or card. The paper has some printed text and blue and red lines on it. The hand appears to be in motion, causing the paper to be slightly blurred. The background is a wooden surface, possibly a table. The content of the text on the paper is not clearly visible.",
+    "This image shows a hand holding and turning a folded piece of paper or pamphlet. The paper has some printed text in different colors, including blue and possibly red, and some circular blue icons or graphics on the side that is being turned. The background consists of a wooden surface, possibly a table, and a corner of the room is faintly visible. The image is slightly blurry, making the text and details hard to read clearly.",
+    "The image shows a person's foot holding or pressing down on a piece of paper or a small booklet placed on a wooden surface. The text on the paper is blurry and not readable. The focus of the image appears to be on the foot and the paper beneath it.",
+    "The image shows a person's left hand holding or turning a piece of paper, which appears to have printed text on it. The paper is placed on a wooden surface or table. The lighting suggests an indoor setting, and part of another object, possibly a blue container or book, is partially visible in the top right corner. The paper content is partially visible but not fully readable.",
+    "The frame shows a close-up of a person's left hand holding a folded piece of paper or a small booklet on a wooden surface. The paper appears to have printed text on it. The hand seems to be in the process of turning or holding the paper, revealing part of the text beneath a folded section. The scene is well-lit, and the focus is mainly on the hand and the paper.",
+    "The frame shows a person holding and flipping through a small booklet or pamphlet on a wooden surface, likely a table. The booklet appears to have text and possibly some instructions or information, but the content is not fully readable in the image. The person's hand is in motion, suggesting they are turning the pages. The setting appears to be indoors with a warm lighting tone.",
+    "The frame shows a person's left hand holding a small booklet or pamphlet open on a wooden surface. The booklet contains printed text, some of which is in black and some in blue. The text is small and not fully legible in the image. The background appears to be a wooden table or desk, and there are no other significant objects visible in the frame."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The paper is being flipped over by the hand, moving from a more vertical position to a more horizontal one. The hand has shifted slightly upward and to the left while holding the paper.",
+    "The paper has been lifted higher and is now more upright, with the person's hand slightly shifted to hold it in this new position.",
+    "The paper is being flipped over further, resulting in a more blurred and tilted appearance, while the hand moves slightly to continue the flipping motion.",
+    "In the current frame, the hand has moved to a more stable position, holding the paper down flat on the table, while the paper itself has shifted from a more raised, mid-air position to lying mostly flat on the surface.",
+    "In the current frame, the hand has moved slightly to the right and is lifting the top left corner of the paper more, causing the paper to fold further along the crease.",
+    "In the current frame, the person's hand has moved slightly forward, and the folded paper has been partially unfolded, revealing more text underneath.",
+    "In the current frame, the hand is slightly closer to the right side of the paper as it continues to flip the page. The paper is more turned over compared to the previous frame."
+  ],
+  "baseline_tokens": 626,
+  "diff_tokens": 256,
+  "lexical_redundancy_baseline_avg": 0.38817901651841197,
+  "lexical_redundancy_diff_avg": 0.21850607235958439,
+  "lexical_redundancy_baseline_all": [
+    0.4857142857142857,
+    0.45454545454545453,
+    0.2537313432835821,
+    0.38333333333333336,
+    0.38235294117647056,
+    0.3333333333333333,
+    0.42424242424242425
+  ],
+  "lexical_redundancy_diff_all": [
+    0.03333333333333333,
+    0.2894736842105263,
+    0.23684210526315788,
+    0.18604651162790697,
+    0.23809523809523808,
+    0.3235294117647059,
+    0.2222222222222222
+  ],
+  "info_density_baseline": 0.007088940525745567,
+  "info_density_diff": 0.03959811913895993,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.013157894736842105,
+    0.0,
+    0.0,
+    0.028169014084507043,
+    0.0,
+    0.015384615384615385
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.029411764705882353,
+    0.041666666666666664,
+    0.04,
+    0.025,
+    0.09375,
+    0.08695652173913043,
+    0.0
+  ]
+}

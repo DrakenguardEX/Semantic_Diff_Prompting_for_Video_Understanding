@@ -1,0 +1,81 @@
+{
+  "video_id": "58255",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/58255.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/58255",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a blue cup placed inside a white sink. Water is being poured into the cup from above, and the cup is positioned near the center of the image. The overall setting appears to be a bathroom or kitchen sink area.",
+    "The image shows a blue translucent cup being filled with liquid from a stream of water. The cup is placed on a white surface, and the water is being poured directly into the cup from above. The image appears to be taken from an overhead perspective.",
+    "The frame shows a close-up view of a blue plastic cup being filled with water. The water is flowing from above directly into the cup, which is positioned inside a white sink. The water stream is clear and steady.",
+    "This frame shows a close-up view of water being poured into a blue translucent plastic cup. The cup is positioned in a white sink or basin. The water stream is captured in motion as it flows directly into the cup. The image appears to be taken indoors with diffused lighting.",
+    "The image shows a blue cup positioned under a stream of water, which is pouring into it. The cup appears to be inside a sink, and the background is predominantly white, likely the sink surface. The water is flowing from above into the cup.",
+    "This frame shows a close-up view of water being poured into a blue plastic cup. The cup is positioned on a white surface, and the water stream is falling directly into the cup. The focus is on the cup and the water flow.",
+    "This frame shows water being poured into a white container or basin, where it is hitting a blue circular object or surface. The water flow is creating splashes and causing some movement around the blue object. The scene appears to be captured in close-up, focusing on the interaction between the water and the blue object.",
+    "This frame shows a close-up view of water being poured into a blue cup or container. The blue container is placed on a white surface, and you can see the stream of water flowing directly into it. The water appears clear, and the surrounding area is smooth and clean."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main change is that water has started flowing into the blue cup in the current frame.",
+    "The water pouring into the blue cup is increasing, causing more water to accumulate inside the cup.",
+    "The water level inside the blue cup has risen slightly as it continues to fill.",
+    "In the current frame, the water level inside the blue cup has risen slightly due to the continuous flow of water being poured into it.",
+    "The water level inside the blue cup is rising as water continues to be poured into it.",
+    "The water level inside the blue container has risen as it continues to be filled with water. The stream of water is causing more visible splashing and movement inside the container.",
+    "The water flow into the drain has increased, causing more visible splashing and turbulence around the blue drain cover."
+  ],
+  "baseline_tokens": 424,
+  "diff_tokens": 170,
+  "lexical_redundancy_baseline_avg": 0.38707340831925546,
+  "lexical_redundancy_diff_avg": 0.3049385714132257,
+  "lexical_redundancy_baseline_all": [
+    0.46511627906976744,
+    0.4090909090909091,
+    0.42857142857142855,
+    0.34615384615384615,
+    0.32558139534883723,
+    0.36,
+    0.375
+  ],
+  "lexical_redundancy_diff_all": [
+    0.05,
+    0.2727272727272727,
+    0.2857142857142857,
+    0.4583333333333333,
+    0.38461538461538464,
+    0.39285714285714285,
+    0.2903225806451613
+  ],
+  "info_density_baseline": 0.040261033323650684,
+  "info_density_diff": 0.05328123439528613,
+  "info_density_baseline_per_frame": [
+    0.023255813953488372,
+    0.043478260869565216,
+    0.05128205128205128,
+    0.04,
+    0.045454545454545456,
+    0.023255813953488372,
+    0.05454545454545454,
+    0.04081632653061224
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.058823529411764705,
+    0.058823529411764705,
+    0.0,
+    0.08,
+    0.058823529411764705,
+    0.06451612903225806,
+    0.10526315789473684
+  ]
+}

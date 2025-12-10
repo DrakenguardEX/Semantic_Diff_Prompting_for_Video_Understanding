@@ -1,0 +1,81 @@
+{
+  "video_id": "174351",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/174351.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/174351",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a hand holding a thin piece of wire next to a coiled bundle of wire placed on a paved surface made of concrete tiles. The wire appears metallic and shiny, and the coil is neatly wound and secured with small pieces of wire. The background is an outdoor setting, likely a patio or walkway.",
+    "The image shows a close-up of a hand reaching toward or holding a bundle of wire that is coiled and secured with a piece of wire or tie. The coiled wire is placed on a surface made of small, rough-textured concrete or stone tiles. The setting appears to be outdoors or in an area with a hard, rough ground.",
+    "The frame shows a close-up of a hand holding a few loops of thin, silver wire. In the background, on a paved or concrete surface, there is a larger coil of similar wire. The overall setting appears to be outdoors.",
+    "This frame shows a close-up of a hand holding a few loops of silver wire above a coil of similar silver wire resting on a rough, reddish-brown paved surface. The coil of wire appears to be neatly wound and secured with a small piece of wire. The hand is positioned in the upper left part of the frame, with the wire coil placed slightly below and to the right on the ground. The image seems to depict someone handling or preparing wire for a project.",
+    "This frame shows a close-up of a hand reaching towards or holding a small coil of silver-colored wire that is wound tightly and secured with a small piece of wire to keep it in place. The coil of wire is resting on a textured, dark surface that appears to be asphalt or rough pavement. The hand is positioned above the coil as if about to pick it up or manipulate it.",
+    "The frame shows a close-up of a person's left hand, with the thumb and fingers in a pinching or holding position, above a small coil of silver wire resting on a rough, textured surface, possibly concrete or stone tiles. The hand appears to be in motion, possibly about to pick up or manipulate the wire. The wire is wound neatly in a circular coil with a paper or plastic core. The setting seems to be outdoors.",
+    "The image shows a hand gripping a small coiled metal wire resting on a rough, textured surface that appears to be asphalt or concrete. The hand is positioned above and to the left of the wire coil, which looks like it might be a thin steel cable or spring. The background surface has small speckles and variations in color, giving it a gritty appearance.",
+    "This frame shows a close-up view of a small coil of silver wire placed on a textured surface, likely a section of tiled pavement or bricks. The wire is neatly wound into a circular shape with a few loops visible in the center, and it appears to be metallic and shiny. The background surface consists of rectangular tiles or bricks with some visible roughness and color variations, mainly shades of brown and gray. In the upper left corner, part of a finger or hand is visible, suggesting someone might be handling or about to handle the wire."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the hand has moved closer to the coil of wire, with fingers slightly more extended toward it.",
+    "The hand has moved slightly closer to the coil of wire and is holding the wire more firmly between the thumb and index finger.",
+    "The hand has moved closer to the coil of wire, with the fingers slightly repositioned as if grasping or about to pull the wire. The perspective and motion suggest the hand is in the process of manipulating the wire.",
+    "The hand has moved slightly downward and closer to the coil of wire.",
+    "The hand has moved closer to the coil of wire and is now gripping it more firmly. The fingers have curled inward around the wire, indicating a tightening hold.",
+    "The hand has moved slightly upward and to the right, with the fingers in a more closed position compared to the previous frame.",
+    "The hand moved away from the coil, and a ring is now in mid-air above the coil, indicating it was just released or thrown."
+  ],
+  "baseline_tokens": 646,
+  "diff_tokens": 209,
+  "lexical_redundancy_baseline_avg": 0.3882181248579106,
+  "lexical_redundancy_diff_avg": 0.2913005782022954,
+  "lexical_redundancy_baseline_all": [
+    0.49122807017543857,
+    0.37037037037037035,
+    0.3870967741935484,
+    0.43661971830985913,
+    0.45588235294117646,
+    0.30666666666666664,
+    0.2696629213483146
+  ],
+  "lexical_redundancy_diff_all": [
+    0.08695652173913043,
+    0.4074074074074074,
+    0.35294117647058826,
+    0.39285714285714285,
+    0.37037037037037035,
+    0.2571428571428571,
+    0.17142857142857143
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.04757459868966616,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.047619047619047616,
+    0.041666666666666664,
+    0.05128205128205128,
+    0.07692307692307693,
+    0.034482758620689655,
+    0.08695652173913043,
+    0.041666666666666664
+  ]
+}

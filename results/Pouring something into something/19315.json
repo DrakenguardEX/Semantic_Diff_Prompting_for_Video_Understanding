@@ -1,0 +1,81 @@
+{
+  "video_id": "19315",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/19315.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/19315",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up of a hand holding a transparent glass under a stream of water, likely filling the glass. The background appears to be a kitchen sink with a beige or brown tiled backsplash. The hand has a ring on one finger.",
+    "The image shows a close-up of a hand holding a glass under a stream of running water. The water is filling the glass, and the setting appears to be a kitchen sink area with a beige or brown granite countertop in the background. The hand has a ring on the ring finger. The sink is white, and the overall scene suggests someone is filling the glass with water.",
+    "The image shows a close-up of a hand holding a clear glass under a running water tap. Water is flowing into the glass, which is positioned above a white sink. The background features a textured brownish wall or backsplash. The hand holding the glass has a ring on the ring finger.",
+    "This frame shows a close-up of a person's hand holding a clear glass under a running water tap. The water is flowing into the glass, which is positioned over a white kitchen sink. The background includes a section of a tiled wall with a brownish color. The person's hand appears to have a ring on one of the fingers.",
+    "This frame shows a person's hand holding a clear glass under a running tap, filling the glass with water. The background includes a section of a kitchen or bathroom sink with a beige or light brown textured wall or backsplash. The person is wearing a ring on their index finger.",
+    "This frame shows a hand holding a transparent glass under a running tap, with water filling the glass. The setting appears to be a kitchen sink area with a beige or light brown tiled backsplash. The hand has a ring on the middle finger. The glass is partially filled with water.",
+    "The image shows a close-up of a hand holding a transparent glass cup under a stream of running water. The water is filling the glass, which is positioned above a white sink with a curved edge. The background features a brown textured backsplash or countertop wall. The hand has a ring on the middle finger.",
+    "The image shows a close-up of a hand holding a glass under a running faucet. Water is being poured into the glass, which is positioned over a white sink. The hand has a ring on the finger, and the background features a brownish tiled wall."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The glass has been lifted slightly higher by the hand, causing the water flow inside the glass to alter its angle and splash pattern.",
+    "The glass is being tilted slightly more to the right in the current frame compared to the previous one. The water level inside the glass has risen.",
+    "The water level in the glass has risen slightly as it continues to be filled.",
+    "The glass is being filled with more water as the liquid level rises inside the glass. The hand holding the glass remains steady.",
+    "The water level in the glass has risen as it continues to be filled.",
+    "In the current frame, the water level inside the glass has risen as more water is being poured into it.",
+    "The water level in the glass has risen due to the continuous flow of water being poured into it."
+  ],
+  "baseline_tokens": 512,
+  "diff_tokens": 169,
+  "lexical_redundancy_baseline_avg": 0.49089844799663407,
+  "lexical_redundancy_diff_avg": 0.2900989486703772,
+  "lexical_redundancy_baseline_all": [
+    0.5625,
+    0.41509433962264153,
+    0.52,
+    0.48148148148148145,
+    0.5102040816326531,
+    0.41509433962264153,
+    0.5319148936170213
+  ],
+  "lexical_redundancy_diff_all": [
+    0.04,
+    0.21212121212121213,
+    0.36,
+    0.24,
+    0.25,
+    0.42857142857142855,
+    0.5
+  ],
+  "info_density_baseline": 0.03049134163167064,
+  "info_density_diff": 0.03525934401220442,
+  "info_density_baseline_per_frame": [
+    0.045454545454545456,
+    0.04411764705882353,
+    0.0196078431372549,
+    0.01694915254237288,
+    0.02,
+    0.0392156862745098,
+    0.03636363636363636,
+    0.022222222222222223
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.08333333333333333,
+    0.0,
+    0.0,
+    0.043478260869565216,
+    0.0,
+    0.05,
+    0.10526315789473684
+  ]
+}

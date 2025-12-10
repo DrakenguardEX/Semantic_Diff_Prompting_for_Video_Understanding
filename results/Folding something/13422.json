@@ -1,0 +1,81 @@
+{
+  "video_id": "13422",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/13422.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/13422",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a person holding up a piece of clothing, possibly a skirt or dress, with vertical black and white stripes that appear to have a somewhat checkered or grid-like pattern. The background includes a wooden door and walls painted in light greenish-yellow color. The image is slightly blurry, indicating motion or movement of the clothing being held up.",
+    "The image shows a hand holding up a piece of clothing with a checkered pattern featuring black, white, and possibly blue or grey colors. The background includes a wooden door with a brass-colored knob and part of a light green wall with white trim. The clothing appears to be lightweight fabric, possibly a dress or skirt.",
+    "In this frame, a hand is holding up a piece of fabric with a striped and patterned design. The fabric appears to be light in color with darker horizontal stripes and additional patterns. The background shows a wooden door with a brass-colored door knob and a light greenish wall. The image is slightly blurry, especially the fabric being held.",
+    "The frame shows a blurred image of a person moving quickly in front of a light green wall with a cross hanging on it. There is a wooden door on the left side of the image and a white door frame or trim near the center. The motion blur suggests the person is either walking past or turning rapidly.",
+    "The frame shows a person's arm extending into the shot, holding a piece of checkered fabric, which appears to be a shirt or cloth with a black and white pattern. The background includes a wooden door with a metal handle and a light-colored wall. The lighting in the room has a yellowish tint.",
+    "The frame shows a blurry image of a person holding a black and white patterned object, possibly a piece of clothing or fabric. The person is inside a room with light green walls, and there is a closed wooden door in the background. The focus and motion blur make it difficult to see specific details clearly.",
+    "The frame depicts a person sitting or lying down indoors, holding up a long, patterned object that appears to be a piece of clothing, such as a scarf or a long glove. The background shows a green wall with a wooden door on the left side and a white door or closet on the right side. There is also a decorative cross mounted on the wall between the doors. The lighting appears to be natural or ambient indoor light.",
+    "The image is somewhat blurry and depicts a person mid-air, likely jumping or performing some movement. The person is wearing patterned pants with a black and white design. The background includes a closed wooden door with a cross hanging on it and light green walls. The perspective suggests the photo was taken indoors, in a room with a door and a visible light switch or doorbell."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the main object (a checkered cloth) has been lifted higher and moved closer to the right side of the frame, with the arm holding it more extended compared to the previous frame.",
+    "In the current frame, the patterned cloth has moved upward and to the right, appearing more stretched and less crumpled than in the previous frame. The arm holding the cloth has also shifted slightly higher.",
+    "The striped garment held by the arm has moved further to the right, appearing more blurred due to motion. The arm holding the garment has also shifted slightly to the right.",
+    "The main object, a checkered cloth, has shifted position from a vertical motion in the first frame to being held horizontally by a hand extended outward in the current frame. The cloth is now more spread out and less blurred.",
+    "The main object, a checkered cloth, has been moved upward and forward, causing it to appear blurred and stretched due to motion. The hand holding the cloth has also shifted slightly forward.",
+    "The main object, a patterned cloth or garment, has moved further forward and upward, now extending from the person's hand toward the camera, creating a more stretched and angled position compared to the previous frame.",
+    "The main object, a patterned item held by a person, has moved upward and is now more curved or bent compared to its previous straighter position. The person's arm position has changed slightly to accommodate this motion."
+  ],
+  "baseline_tokens": 566,
+  "diff_tokens": 306,
+  "lexical_redundancy_baseline_avg": 0.29434533659677947,
+  "lexical_redundancy_diff_avg": 0.2946042645316148,
+  "lexical_redundancy_baseline_all": [
+    0.38461538461538464,
+    0.38333333333333336,
+    0.20588235294117646,
+    0.22388059701492538,
+    0.328125,
+    0.3150684931506849,
+    0.21951219512195122
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0967741935483871,
+    0.39473684210526316,
+    0.36363636363636365,
+    0.20930232558139536,
+    0.29545454545454547,
+    0.3023255813953488,
+    0.4
+  ],
+  "info_density_baseline": 0.006244726318878862,
+  "info_density_diff": 0.025404188030196097,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.01694915254237288,
+    0.0,
+    0.017857142857142856,
+    0.0,
+    0.015151515151515152
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05555555555555555,
+    0.02857142857142857,
+    0.03225806451612903,
+    0.0,
+    0.03125,
+    0.02857142857142857,
+    0.02702702702702703
+  ]
+}

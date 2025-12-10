@@ -1,0 +1,81 @@
+{
+  "video_id": "81974",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/81974.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/81974",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a child sitting on the ground, wearing a colorful dress with a floral pattern. The child is holding a metal jug and a small metal cup, seemingly preparing to pour or drink from the jug. The ground appears to be concrete with a visible crack running through it. A part of another person's foot is visible on the right side of the frame. The scene gives a simple, everyday life impression, possibly in an outdoor setting.",
+    "The frame shows a person sitting on the ground, possibly a child or a young person, wearing a colorful dress with floral patterns. They are holding a metal container and pouring water from it into a small metal cup placed on the ground. The surface appears to be concrete, and there is a foot visible on the right side of the frame. The scene suggests an informal or outdoor setting.",
+    "The frame shows a child sitting on the ground, wearing a colorful dress with a red top and a yellow patterned skirt. The child is holding a metal container with water pouring into a smaller metal cup placed on the ground. The ground appears to be a rough concrete surface with some small leaves scattered around. There is also a bare foot visible on the right side of the frame, suggesting another person is nearby. The child is wearing bracelets on both wrists.",
+    "The image shows a person sitting on the ground, wearing colorful clothing with a floral pattern. The person is holding a metal container and pouring liquid into a small metal cup placed on the ground. Another foot is visible at the bottom right corner of the image, belonging to another person nearby. The surface appears to be concrete.",
+    "In this frame, there is a person sitting on the ground, wearing a colorful dress with a floral pattern and silver bangles on their wrists. They are holding a metal container, possibly a small pot or jug, and pouring a white liquid, likely milk, into a small metal cup placed on the ground. Part of another person's bare feet are visible on the right side of the image. The surface beneath them appears to be a concrete floor.",
+    "The image shows a person sitting on the ground, holding a metal container in their hands and pouring a white substance from the container into a small metal cup on the ground. The person is wearing colorful clothing, including a dress with a red and yellow pattern, and several bangles on their wrists. The ground appears to be made of concrete, with some visible cracks. Another person's bare foot is visible on the right side of the frame.",
+    "The image shows a person sitting on the ground wearing a colorful dress and bangles, pouring a textured substance from a metallic container into a small container placed on the floor. The surface appears to be a cement or concrete ground with a visible crack. Another bare foot is visible at the right edge of the frame. The overall setting suggests an informal or casual environment, possibly outdoors.",
+    "The image shows a child wearing a colorful dress, sitting on the ground with legs bent. The child is pouring a liquid from a metal container into a metal cup. The surface beneath them appears to be concrete or cement. There is also a bare foot visible on the right side of the frame, suggesting the presence of another person nearby. The scene looks casual and informal, possibly outdoors."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, water is being poured from the metal container into the small cup.",
+    "In the current frame, water is being poured from the metal container into the metal cup, with the water visibly flowing into the cup.",
+    "In the current frame, water is being poured from the metal container into the bowl. The container is tilted more downward compared to the previous frame, and water stream is visible flowing into the bowl.",
+    "The container in the person's hands has been tilted more, causing water to pour out into the metal cup on the ground.",
+    "In the current frame, milk is being poured from the container into the cup.",
+    "In the current frame, the container held by the person is tilted slightly more, causing the liquid to pour out and form a small splash or spill on the ground near the metal cup.",
+    "In the current frame, the girl's hands have tilted the metal container slightly more, causing the liquid inside to pour more noticeably into the cup below. The level of liquid in the cup has risen compared to the previous frame."
+  ],
+  "baseline_tokens": 660,
+  "diff_tokens": 223,
+  "lexical_redundancy_baseline_avg": 0.5082776511952438,
+  "lexical_redundancy_diff_avg": 0.3283846110183499,
+  "lexical_redundancy_baseline_all": [
+    0.5441176470588235,
+    0.5072463768115942,
+    0.49206349206349204,
+    0.48484848484848486,
+    0.5352112676056338,
+    0.45714285714285713,
+    0.5373134328358209
+  ],
+  "lexical_redundancy_diff_all": [
+    0.05263157894736842,
+    0.7647058823529411,
+    0.5,
+    0.2647058823529412,
+    0.18518518518518517,
+    0.20588235294117646,
+    0.32558139534883723
+  ],
+  "info_density_baseline": 0.013884146979049992,
+  "info_density_diff": 0.054136825184619305,
+  "info_density_baseline_per_frame": [
+    0.012658227848101266,
+    0.014285714285714285,
+    0.012048192771084338,
+    0.017241379310344827,
+    0.01282051282051282,
+    0.01282051282051282,
+    0.014705882352941176,
+    0.014492753623188406
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0625,
+    0.08333333333333333,
+    0.05714285714285714,
+    0.045454545454545456,
+    0.07142857142857142,
+    0.08823529411764706,
+    0.025
+  ]
+}

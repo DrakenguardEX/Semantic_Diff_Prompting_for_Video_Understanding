@@ -1,0 +1,81 @@
+{
+  "video_id": "102383",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/102383.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/102383",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a metallic plate placed on a dark-colored granite or marble countertop. The plate is circular with a slightly indented center and a shiny, reflective surface. The surrounding area includes part of another metallic object on the right side, likely a container or utensil, and a small section of a drain or another fixture in the upper left corner of the image. The overall setting appears to be a kitchen or a utility area.",
+    "This image shows a close-up view of a kitchen countertop with a stainless steel sink in the background. On the countertop, there is a round, shallow stainless steel bowl or plate. To the right of the bowl, there is a transparent plastic container. The countertop appears to be made of polished dark stone or granite. The setting suggests a kitchen environment.",
+    "The image shows a hand holding a small metal bucket filled with water. Next to the bucket, there is a round metal plate placed on a dark countertop, likely made of granite. There's also a sink visible in the background on the left side of the frame. The scene appears to be in a kitchen or similar setting.",
+    "The frame shows a close-up of a person's hand holding a metal container, pouring water into a shallow, round metal basin. The background includes a dark countertop and a sink area. The lighting and angle suggest an indoor setting, likely a kitchen or a similar area where washing or pouring water is done.",
+    "The image shows a close-up of a hand pouring water from a metal container into a small, round metal bowl or cup. The surface beneath is dark and shiny, appearing to be a black granite countertop. In the background, there is a sink visible. The lighting is somewhat low, causing reflections on the metal surfaces.",
+    "The image shows a close-up of a person's hand pouring a clear liquid from a small metallic container into a larger metallic container with a wide circular opening. The containers are positioned on a dark-colored countertop. The liquid appears to be water or another transparent fluid. The setup suggests that the person is measuring or transferring the liquid from one container to another.",
+    "The frame shows a close-up of a hand pouring water from a small metal container into a larger metal bowl placed on a dark, glossy surface, likely a countertop or table. The water is visibly flowing from the container into the bowl.",
+    "This frame shows a hand pouring water from a metal container into a small metal bowl placed on a dark-colored countertop or surface. Some water droplets are visible on the surface around the bowl. The setting suggests a kitchen or similar environment."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the metallic container on the right side has been moved closer to the center of the image, approaching the metallic bowl.",
+    "In the current frame, a hand appears holding the metallic container, moving it closer to the metal bowl on the counter.",
+    "In the current frame, the hand holding the metal container has moved slightly downward and closer to the metal plate, indicating a pouring or tilting motion of the container.",
+    "In the current frame, water is being poured from the metal container into the round metal bowl, with the water visibly flowing out. The hand holding the container is tilted further down compared to the previous frame.",
+    "In the current frame, water is being poured into the metal container and has started to flow inside, with more water visible pouring compared to the previous frame. The angle of the hand holding the container is slightly changed to facilitate the pouring.",
+    "In the current frame, water is flowing more visibly from the container into the metal bowl, with several droplets splashing outside the bowl, indicating motion and increased water flow compared to the previous frame.",
+    "In the current frame, the stream of water being poured has slightly progressed further into the bowl. Additionally, more water droplets have appeared both inside the bowl and on the countertop."
+  ],
+  "baseline_tokens": 536,
+  "diff_tokens": 266,
+  "lexical_redundancy_baseline_avg": 0.35986672733876857,
+  "lexical_redundancy_diff_avg": 0.30189001931540943,
+  "lexical_redundancy_baseline_all": [
+    0.3,
+    0.41379310344827586,
+    0.3442622950819672,
+    0.3387096774193548,
+    0.31343283582089554,
+    0.34545454545454546,
+    0.4634146341463415
+  ],
+  "lexical_redundancy_diff_all": [
+    0.08695652173913043,
+    0.37037037037037035,
+    0.36666666666666664,
+    0.225,
+    0.4358974358974359,
+    0.3902439024390244,
+    0.23809523809523808
+  ],
+  "info_density_baseline": 0.02005757923129426,
+  "info_density_diff": 0.050112427426090275,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.017241379310344827,
+    0.03773584905660377,
+    0.01818181818181818,
+    0.015873015873015872,
+    0.047619047619047616,
+    0.023809523809523808
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.04,
+    0.047619047619047616,
+    0.06896551724137931,
+    0.05405405405405406,
+    0.06976744186046512,
+    0.08823529411764706,
+    0.03225806451612903
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "5556",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/5556.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/5556",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a person's hand holding a small object, which appears to be a razor blade or a similar thin, flat metal item. The background is a plain, textured white wall, and there is a white surface below where the shadow of the object and hand is visible. The lighting is soft, causing a clear shadow on the surface.",
+    "The image shows a close-up of a hand holding a syringe horizontally. The background is a plain, textured white wall, and the syringe appears to be empty. The surface below the syringe is light-colored and has some faint marks or stains. The overall lighting is even, and the focus is on the syringe and the hand holding it.",
+    "The frame shows a pen lying horizontally on a white surface, which appears to be a table or desk. The background features a plain, light-colored textured wall. In the upper right corner of the frame, a hand is partially visible, either moving quickly or just entering the frame, causing a slight blur. The surface also has some small marks or stains.",
+    "This frame shows a simple scene with a white or light-colored desk or table surface and a plain, textured wall in the background. On the table, there is a single ballpoint pen lying horizontally near the center of the frame. The pen has a mostly white body with a metallic or silver-colored tip and clip. The scene is minimalistic with no other objects or decorations visible. The lighting appears even and natural.",
+    "The frame shows a simple scene with a pen lying horizontally on a white surface, possibly a table or desk. The background is a plain, textured wall with a light color, likely beige or off-white. The image is minimalistic, with no other objects or distinct features visible except a small portion of something on the right edge, which is not clear enough to identify.",
+    "This frame shows a minimalistic scene with a close-up of a white desk surface against a textured light gray wall. On the desk lies a transparent ballpoint pen with a purple cap and a black ink cartridge inside. The lighting appears soft, and the composition is simple and clean.",
+    "The frame shows a close-up view of a ballpoint pen lying horizontally on a white surface. The pen has a transparent body with a visible ink cartridge inside and a purple tip. The background consists of a textured, light-colored wall. The overall scene is simple and minimalistic.",
+    "This frame shows a simple scene with a white surface, likely a table or desk, against a beige or light-colored textured wall. On the surface, there is a single pen lying horizontally. The pen has a transparent body with a purple cap. The setting appears minimalistic and the lighting suggests it may be indoors with soft, even light."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The pen has moved slightly to the right in the current frame compared to the previous one.",
+    "In the current frame, the pen has been released from the hand and is now lying flat on the surface. The hand is moving away from the pen.",
+    "In the current frame, a hand has appeared moving downwards near the right side of the image, approaching the pen on the table. The pen itself remains stationary.",
+    "The pen has moved slightly to the right.",
+    "The pen in the current frame has moved slightly to the right compared to the previous frame.",
+    "The pen moved slightly to the right compared to the previous frame.",
+    "The pen has shifted slightly to the right in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 580,
+  "diff_tokens": 155,
+  "lexical_redundancy_baseline_avg": 0.39489641191774455,
+  "lexical_redundancy_diff_avg": 0.39489730507587645,
+  "lexical_redundancy_baseline_all": [
+    0.39655172413793105,
+    0.39344262295081966,
+    0.352112676056338,
+    0.4057971014492754,
+    0.2647058823529412,
+    0.5306122448979592,
+    0.42105263157894735
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1875,
+    0.23076923076923078,
+    0.28125,
+    0.16,
+    0.5833333333333334,
+    0.75,
+    0.5714285714285714
+  ],
+  "info_density_baseline": 0.0020491803278688526,
+  "info_density_diff": 0.04967612044817927,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.01639344262295082,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.058823529411764705,
+    0.03571428571428571,
+    0.03571428571428571,
+    0.125,
+    0.058823529411764705,
+    0.08333333333333333,
+    0.0
+  ]
+}

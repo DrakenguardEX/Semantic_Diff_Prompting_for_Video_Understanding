@@ -1,0 +1,81 @@
+{
+  "video_id": "8645",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/8645.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/8645",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person standing behind a table or countertop in a room that appears to be a kitchen or dining area. The person is wearing a sleeveless blue dress with a floral pattern featuring red and possibly green colors. The person is holding up or interacting with something near the right side of the frame, though it's not entirely clear what. Behind the person, there is a chair with a curved back. In the background, there is a window or glass door letting in natural light, some plants, and various household items, giving the space a cozy and lived-in feel. On the table, there is a glass jar with a white object inside or nearby. The overall atmosphere is bright and casual.",
+    "The image shows a person standing behind a white countertop or table. The person is wearing a blue dress with a red floral pattern and thin straps. Their face is not visible as the frame captures only from the neck down to the waist. In the background, there is a chair, some plants, and various items on a surface or shelf, including a glass jar on the countertop in the foreground. The setting appears to be indoors, possibly in a kitchen or dining area.",
+    "The image shows a person wearing a blue dress with red and green floral patterns. The dress has thin shoulder straps and buttons down the chest area. The person's face is not visible as the photo is cropped from the shoulders down. The person is standing behind a white surface, possibly a table or counter. In the background, there is a chair, some plants, a pickle jar on the left side of the surface, and a window letting in natural light. The setting appears to be indoors, likely a kitchen or dining area.",
+    "The frame shows a person wearing a blue dress with red flower patterns and thin shoulder straps. The person's head is not visible in the frame. The background includes a chair with a rounded back, some plants, and other household items, giving the impression of a cozy indoor setting, possibly a kitchen or dining area. There is a jar and a small object on the counter or table in the foreground. The lighting appears to be natural and bright.",
+    "The image shows a person standing behind a white table or countertop. The person is wearing a blue dress with red flower patterns and thin shoulder straps. Their left arm is raised, and they have visible tattoos on both arms. On the table in front of them, there are two empty glass jars and a small white object. In the background, there is a light-colored chair, some plants, and a wall with some decorations. The lighting in the room appears to be natural, coming from a window or light source to the left.",
+    "The frame shows a person standing near a table or counter. The person is wearing a blue dress with a floral pattern featuring red flowers and green leaves. Their arms are visible, with one arm resting on the furniture, showing a tattoo on the right arm. In the background, there is a chair, some potted plants, and other household items, creating a cozy indoor setting. The image is well-lit with natural light coming from a window.",
+    "The frame shows a person wearing a blue dress with a red floral pattern. The person appears to be standing behind a white table or counter. On the left side of the table, there is a glass jar. In the background, there are some plants and a chair, as well as some other indistinct objects. The lighting is bright, coming from a window or light source on the left side of the image. The person's face is not visible in the frame.",
+    "This image shows the upper body of a person wearing a blue dress with a red and green floral pattern. The person has a tattoo on their right upper arm and is standing behind a white table or counter. On the table, there is a glass jar and some small white objects. In the background, there is a chair, a plant, and some household items near a window with bright natural light coming through. The image is slightly blurry."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a person wearing a blue floral dress, moved their left arm upward and slightly forward while their right arm lowered closer to the table.",
+    "The person raised their left arm higher while their right hand moved slightly downward.",
+    "The person in the frame has moved their right arm upward.",
+    "The person in the frame slightly shifted their right arm upwards and their left arm has moved from resting on the table to a more relaxed position at their side.",
+    "In the current frame, the person's right arm has moved upward and is partially raised, while in the previous frame it was lower and closer to the body. The rest of the person's position remains largely the same.",
+    "The main object, a jar, has been lifted from the table and is now being held above it. Additionally, an object that was inside the jar is now dropping onto the table.",
+    "In the current frame, the person has raised their left arm higher compared to the previous frame. The rest of their posture remains largely the same."
+  ],
+  "baseline_tokens": 823,
+  "diff_tokens": 214,
+  "lexical_redundancy_baseline_avg": 0.44635320078491436,
+  "lexical_redundancy_diff_avg": 0.21417645960679405,
+  "lexical_redundancy_baseline_all": [
+    0.40816326530612246,
+    0.5641025641025641,
+    0.47560975609756095,
+    0.39080459770114945,
+    0.3595505617977528,
+    0.4473684210526316,
+    0.4788732394366197
+  ],
+  "lexical_redundancy_diff_all": [
+    0.03571428571428571,
+    0.3333333333333333,
+    0.35294117647058826,
+    0.34615384615384615,
+    0.2558139534883721,
+    0.1276595744680851,
+    0.047619047619047616
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.04019047777271462,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.037037037037037035,
+    0.07142857142857142,
+    0.09090909090909091,
+    0.03333333333333333,
+    0.02631578947368421,
+    0.0625,
+    0.0
+  ]
+}

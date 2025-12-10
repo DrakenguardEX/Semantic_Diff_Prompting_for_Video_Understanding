@@ -1,0 +1,81 @@
+{
+  "video_id": "2439",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/2439.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/2439",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up view of a person's hand holding or interacting with a folded piece of paper. The paper appears to be a page from a newspaper or a printed text with multiple columns of small, black printed text. The background surface is light-colored with dark lines running vertically, possibly a tile or a table. The hand is only partially visible, positioned on the right side of the image, and appears to be making a slight motion toward or away from the paper.",
+    "This frame shows a close-up of a hand placing or touching a piece of newspaper that has been folded multiple times. The newspaper is white with printed text in black ink. The background surface is light-colored with dark parallel lines or slits, possibly a table or a floor. The fingers suggest that the person may be in the process of folding or handling the newspaper.",
+    "The frame shows a hand placing or holding a piece of newspaper on a surface with three vertical slits or gaps. The newspaper is folded or slightly crumpled, and the text is visible but not clear enough to read. The surface appears to be light-colored and flat. The lighting is moderate, casting some shadows from the hand and the newspaper.",
+    "The frame shows a hand folding a newspaper that has been partially opened and spread out on a white surface with brown slits or gaps. The newspaper looks a bit worn or used. The hand appears to be in the process of folding or shaping the newspaper.",
+    "This frame shows a close-up of a hand holding and possibly moving a rectangular object with a striped pattern. The motion causes the object to appear blurred. The background consists of a white or light-colored surface with parallel dark lines or stripes. A portion of the hand and the object being held fill a significant part of the frame.",
+    "The frame shows a close-up of a white surface, possibly a table or bench, with evenly spaced dark slits or gaps. On the surface, there are two small metal eye screws placed next to each other. The background is mostly white and out of focus.",
+    "This frame shows two small metal eye screws placed on a surface. The surface has evenly spaced narrow black slits and appears to be part of a light-colored material, possibly wood or plastic. The eye screws are lying near the center of the frame.",
+    "The frame shows a close-up view of four parallel slots on a flat, light-colored wooden surface. Positioned on the wooden surface, between the third and fourth slots from the left, is a small, metallic screw eye (a type of screw with a looped head). The slots are narrow and evenly spaced, and the wood appears smooth. The purpose of the slots and the screw eye is not immediately clear from this image alone."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the hand has moved slightly to the right and downward, with the fingers more spread out and touching the paper more fully compared to the previous frame.",
+    "In the current frame, the hand has moved slightly downward and to the left, repositioning from above the newspaper to the upper right corner of it. The newspaper appears to have been smoothed out somewhat, with fewer visible creases.",
+    "The hand has lifted the top right corner of the newspaper, causing it to fold upward.",
+    "The main object, a hand holding a piece of newspaper, has moved quickly to the left, causing the newspaper to blur due to motion.",
+    "The main object, a cloth or rag held by a hand, moved quickly from the lower right area to the upper center, becoming more blurred due to motion in the current frame. The hand is also less visible as it moves with the cloth. The screws on the surface moved slightly downward in the frame.",
+    "In the current frame, the small scissors have moved slightly to the right.",
+    "The metal screw with a circular head has rotated slightly clockwise in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 563,
+  "diff_tokens": 242,
+  "lexical_redundancy_baseline_avg": 0.29680168804319856,
+  "lexical_redundancy_diff_avg": 0.23774625273614153,
+  "lexical_redundancy_baseline_all": [
+    0.37333333333333335,
+    0.2714285714285714,
+    0.288135593220339,
+    0.1935483870967742,
+    0.25806451612903225,
+    0.39622641509433965,
+    0.296875
+  ],
+  "lexical_redundancy_diff_all": [
+    0.12,
+    0.358974358974359,
+    0.25,
+    0.28,
+    0.20833333333333334,
+    0.18604651162790697,
+    0.2608695652173913
+  ],
+  "info_density_baseline": 0.0047782185358817165,
+  "info_density_diff": 0.0366917860365441,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.02127659574468085,
+    0.01694915254237288,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03225806451612903,
+    0.02564102564102564,
+    0.0625,
+    0.041666666666666664,
+    0.05454545454545454,
+    0.07692307692307693,
+    0.0
+  ]
+}

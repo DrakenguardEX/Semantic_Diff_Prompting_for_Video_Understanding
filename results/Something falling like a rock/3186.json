@@ -1,0 +1,81 @@
+{
+  "video_id": "3186",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/3186.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/3186",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a wooden floor with multiple parallel planks of different shades of brown. The wood has a smooth finish and the planks are arranged in a straight pattern. In the bottom left corner, there appears to be the edge of a green and white object, possibly a piece of furniture or a part of a door frame. The overall lighting suggests an indoor environment with natural or warm artificial light.",
+    "The frame shows a close-up view of a wooden floor with a variety of wood shades, ranging from light to medium brown. The floorboards are arranged in a staggered pattern. On the left side of the image, there is a small part of a green door or panel, but no other objects or details are visible in the frame.",
+    "This frame shows a close-up of a yellowish ball in mid-air, slightly blurred due to motion, against a background of wooden flooring. The ball appears to be moving downward or toward the camera. There is also a partial view of a green and white object or wall on the left side of the image.",
+    "This frame shows a rolling potato on a wooden floor. The potato appears to be in motion as it is blurred, indicating movement. The floor has a polished, light brown wooden texture. The edge of a green surface or object is visible on the left side of the image.",
+    "The frame shows a potato in mid-air, seemingly being tossed or dropped above a wooden floor. The floor has a pattern of rectangular wood planks in varying shades of brown. The perspective suggests the camera is positioned above the floor looking down.",
+    "This frame shows a section of a wooden floor with a light to medium brown finish. Near the top center of the image, there is a white balloon with a black happy face drawn on it. The corner of a green piece of furniture or door can be seen on the left edge of the image. The overall setting appears to be indoors.",
+    "This frame shows a close-up view of a wooden floor with a partial view of a yellow ball featuring a happy face with closed eyes. The ball is positioned near the top center of the image. On the left edge of the frame, there is a glimpse of a light blue object, possibly a piece of furniture. The image is well-lit, highlighting the wood texture and the ball's cheerful expression.",
+    "The frame shows a wooden floor with a light brown finish. There is a white item, possibly a soft object or a piece of clothing, near the top center of the frame. The left side of the image has a greenish wall or door edge. The overall setting appears to be indoors."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "A small white and black cat has appeared, entering the frame from the right side and walking onto the wooden floor.",
+    "A white and yellow ball has appeared near the top center of the frame, moving downward.",
+    "The main object, a ball, has moved downwards and closer to the floor, appearing more blurred and elongated vertically due to motion.",
+    "The main object, a light-colored oval shape, has moved upward and to the right, appearing higher off the floor in the current frame compared to the previous one.",
+    "The yellow balloon has moved downward and is now closer to the floor, revealing its face with a smile and raised eyebrows.",
+    "The yellow ball has moved slightly downward and to the left.",
+    "The main object, a ball with a face, has moved downwards and slightly to the left, and it is now partially out of the frame at the top."
+  ],
+  "baseline_tokens": 533,
+  "diff_tokens": 186,
+  "lexical_redundancy_baseline_avg": 0.2857445133345927,
+  "lexical_redundancy_diff_avg": 0.2288128773586045,
+  "lexical_redundancy_baseline_all": [
+    0.3150684931506849,
+    0.27941176470588236,
+    0.3620689655172414,
+    0.23636363636363636,
+    0.15151515151515152,
+    0.34328358208955223,
+    0.3125
+  ],
+  "lexical_redundancy_diff_all": [
+    0.043478260869565216,
+    0.2692307692307692,
+    0.1724137931034483,
+    0.30303030303030304,
+    0.1891891891891892,
+    0.30434782608695654,
+    0.32
+  ],
+  "info_density_baseline": 0.007076719576719576,
+  "info_density_diff": 0.03946834415584416,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.018518518518518517,
+    0.0,
+    0.023809523809523808,
+    0.0,
+    0.014285714285714285,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0625,
+    0.045454545454545456,
+    0.03571428571428571,
+    0.045454545454545456,
+    0.09090909090909091,
+    0.03571428571428571
+  ]
+}

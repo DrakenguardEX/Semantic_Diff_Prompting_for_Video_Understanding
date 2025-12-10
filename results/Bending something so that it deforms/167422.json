@@ -1,0 +1,81 @@
+{
+  "video_id": "167422",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/167422.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/167422",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a hand holding a white envelope. The envelope is positioned with its back side facing up, displaying the flap. The background features a white desk with a white rectangular object, possibly a closed laptop or a tablet, sitting on the desk. The lighting appears to be indoor and well-lit.",
+    "This frame shows a close-up of a person’s hand holding and folding a piece of white paper, seemingly making a paper airplane. The paper is partially folded, and the person is in the process of creating the plane's wings. In the background, there's a white rectangular device with a minimalist design on a white surface, which could be a wireless charger or a small electronic gadget. The scene appears to be a clean and well-lit workspace.",
+    "The frame shows a close-up of a person's left hand pressing down on a white mechanical switch mounted on a white surface. The switch appears to be part of a home or office electrical system. There is also a white wireless router or modem device with indicator lights resting on the same white surface just above the switch. The environment looks clean and minimalistic.",
+    "This frame shows a close-up of a hand reaching towards or resting on a small rectangular object with barcodes on it. The object is placed on a white surface, likely a table or desk. In the background, there is a white device or object with a logo or symbol on it, also resting on the surface. The overall scene appears to be well-lit.",
+    "The frame shows a hand resting on a white table. On the table, directly beneath the hand, is a small white box with black stripes and some text on it. In the upper part of the frame, there is a flat, white rectangular device, possibly a wireless charger or a power bank. The overall setting appears to be minimalistic and clean.",
+    "The image shows a person's left hand placed flat on a white surface, likely a desk or table. In front of the hand, there is a small white object or box with black text and a barcode or striped design on it. In the background, there is a larger white rectangular device or object, possibly a power bank or a small electronic gadget. The overall setting is clean and minimalistic.",
+    "The image shows a hand mid-motion, holding or flipping a card or a piece of paper over a white surface, possibly a desk. In the background, there is a white device with a power symbol on it, which appears to be a wireless charging pad or a similar electronic accessory. The setting is well-lit with a clean, minimalistic appearance.",
+    "This frame shows a close-up view of a white, folded paper object standing upright on a plain, light-colored surface or table. The paper appears to be carefully folded with a distinct crease vertically down the middle. In the background, there is a white rectangular object, possibly a book or notebook, and a black computer mouse on the left side of the surface. The scene is likely indoors under bright lighting."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The envelope is being opened in the current frame; the flap is lifted up compared to the previous frame where it was closed. The hand is pulling the flap upwards to reveal the inside of the envelope.",
+    "The main object, a paper airplane, has been folded further and is now being held flat on the table by the hand. The hand's position changed from gripping the airplane to pressing it down.",
+    "The main object, a white card-like item with black stripes, was flipped from its vertical position to lying flat on the surface, and the hand adjusted its position to hold the card flat.",
+    "The hand moved slightly to the right, causing the barcode label to lift up from the surface.",
+    "The hand moved slightly to the right, and the fingers are more spread out in the current frame compared to the previous one.",
+    "The main object, a small rectangular booklet or card, is being lifted and tilted upwards by the hand, creating a diagonal motion compared to its previous flat position on the table.",
+    "The card that was previously being held and flipped by the hand in the first frame is now standing upright on the desk in the second frame. The hand is no longer visible."
+  ],
+  "baseline_tokens": 616,
+  "diff_tokens": 249,
+  "lexical_redundancy_baseline_avg": 0.338832609128861,
+  "lexical_redundancy_diff_avg": 0.17252109870382712,
+  "lexical_redundancy_baseline_all": [
+    0.28169014084507044,
+    0.3157894736842105,
+    0.31343283582089554,
+    0.38333333333333336,
+    0.4915254237288136,
+    0.3582089552238806,
+    0.22784810126582278
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1111111111111111,
+    0.1276595744680851,
+    0.25,
+    0.14705882352941177,
+    0.24,
+    0.15,
+    0.18181818181818182
+  ],
+  "info_density_baseline": 0.002403846153846154,
+  "info_density_diff": 0.034308058161288096,
+  "info_density_baseline_per_frame": [
+    0.019230769230769232,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.08108108108108109,
+    0.0,
+    0.0,
+    0.11764705882352941,
+    0.043478260869565216,
+    0.03225806451612903,
+    0.0
+  ]
+}

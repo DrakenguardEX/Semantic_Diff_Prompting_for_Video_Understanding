@@ -1,0 +1,81 @@
+{
+  "video_id": "59157",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/59157.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/59157",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person holding a dark, oval-shaped bag by its sides. The bag is positioned on a teal-colored fabric surface, likely a bed or table. The person's upper body is visible, wearing a dark shirt, but their face is not shown. The photo focuses on the bag and the hands holding it.",
+    "The image shows a person holding a dark-colored garment or piece of fabric, possibly folding it. The person is positioned behind a table covered with a blue cloth, and the background is a plain, light-colored wall. The person's upper body and arms are visible, but their face is not shown. The image captures a moment of motion, as the fabric appears to be in the process of being moved or folded.",
+    "The frame shows a person wearing a dark-colored shirt holding a dark-colored object or fabric above a blue surface, which appears to be some kind of cloth or towel. The image is slightly blurred, particularly around the hands and object, suggesting motion as the person lifts or moves the item. The background is plain and beige.",
+    "This frame shows a person holding a dark blue bag or pouch, which is placed on a teal-colored surface. The person's hands are visible, and they appear to be in the process of unzipping or opening the bag. The background appears to be an indoor setting with a beige wall and a wooden element visible behind the person. The focus is primarily on the bag and the person's hands.",
+    "The image shows a person holding and unzipping or zipping a black bag placed on a teal-colored surface. Only the person's forearms and hands are visible, and the background has a plain yellow-beige color. The person appears to be in the process of opening or closing the bag.",
+    "The image shows a person holding a dark blue or black zippered bag on a teal-colored surface, possibly a bed or table with a teal cloth covering it. The person appears to be in the process of opening or closing the zipper on the bag. Only the person's hands and forearms, clad in a dark long-sleeve garment, are visible in the frame. The background wall is beige or light-colored.",
+    "The frame shows a person wearing a black long-sleeved shirt, holding a dark-colored zippered pouch or small bag. The pouch is resting on a blue surface, possibly a bed or table, with a plain beige or light-colored wall in the background. The person's face is not visible in the frame.",
+    "The image shows a person twisting or wringing out a dark piece of cloth over a blue surface, possibly a table or bed. The person's hands are visible, and they are wearing a dark long-sleeve top. The motion blur suggests the cloth is being moved or twisted quickly. The background appears to be indoors with neutral-colored walls or furniture."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the main object, which is a blue bag, has been lifted and is now being held upright by the person's hands, as opposed to lying flat on the table in the previous frame.",
+    "In the current frame, the main object, a piece of dark fabric or clothing, has been lifted higher and moved slightly to the right compared to the previous frame. The hands are also in a slightly different position, holding the fabric more outward and upward.",
+    "The bag has been rotated from a top-down view to a side view, and the person’s hands have moved from holding the sides of the bag to gripping the top.",
+    "In the current frame, the person's right hand has moved from the center top of the bag towards the side, and the left hand has shifted to hold the right side of the bag, indicating a motion of gripping or adjusting the bag.",
+    "In the current frame, the person's hand has shifted to the right side of the bag and started unzipping it, causing the bag to tilt slightly to the right.",
+    "The main object, a dark-colored bag, has shifted from a horizontal position with the top facing upwards to a more upright position. The person's hands have moved from grasping the zipper at the top to holding the side of the bag, indicating the bag is being rotated or adjusted.",
+    "The main object, a black bag, is being lifted and tilted upwards by the person's right hand in the current frame compared to it resting flat on the surface in the previous frame."
+  ],
+  "baseline_tokens": 603,
+  "diff_tokens": 324,
+  "lexical_redundancy_baseline_avg": 0.3949790033859328,
+  "lexical_redundancy_diff_avg": 0.25936714937547345,
+  "lexical_redundancy_baseline_all": [
+    0.35294117647058826,
+    0.3055555555555556,
+    0.31343283582089554,
+    0.48214285714285715,
+    0.5357142857142857,
+    0.4827586206896552,
+    0.2923076923076923
+  ],
+  "lexical_redundancy_diff_all": [
+    0.08823529411764706,
+    0.28,
+    0.2222222222222222,
+    0.3888888888888889,
+    0.4411764705882353,
+    0.1875,
+    0.20754716981132076
+  ],
+  "info_density_baseline": 0.018986609104393,
+  "info_density_diff": 0.0223464765408287,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.014084507042253521,
+    0.03571428571428571,
+    0.014492753623188406,
+    0.041666666666666664,
+    0.028985507246376812,
+    0.0,
+    0.01694915254237288
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.02702702702702703,
+    0.044444444444444446,
+    0.03333333333333333,
+    0.023255813953488372,
+    0.0,
+    0.02040816326530612,
+    0.030303030303030304
+  ]
+}

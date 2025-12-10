@@ -1,0 +1,81 @@
+{
+  "video_id": "6676",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/6676.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/6676",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up of a hand holding a small black cylindrical object between the thumb and index finger. The background is mostly a green wall, and the surface below is covered with a red and white checkered cloth. The scene is well-lit, and the hand is positioned above the cloth, casting a shadow on the surface.",
+    "This frame shows a hand holding a small black object, positioned just above a red and white checkered surface. The background appears to be a plain greenish area, possibly grass or a simple backdrop, and the hand is extending from the right side of the frame. The small black object is being held delicately between the thumb and forefinger. The overall lighting is somewhat low or muted.",
+    "The frame shows a hand holding a small, dark object between the thumb and index finger. The hand appears to be extending from the right side of the frame. The background consists of a green wall and a surface with a red and white checkered pattern, possibly a cloth or tablecloth. The lighting casts a shadow of the hand and object on the checkered surface.",
+    "This frame shows a close-up of a hand holding a small black object above a surface covered with a red and white checkered cloth. The background is a plain green wall. The hand is positioned near the top right side of the frame, and the shadow of the hand can be seen on the checkered cloth below. The overall lighting is soft, creating a gentle shadow on the surface.",
+    "The frame shows a close-up of a hand holding a small, dark object between the thumb and index finger. The background features a plain greenish wall with a horizontal trim or molding. Below, there is a red and white checkered cloth or surface. The overall lighting is dim, casting some shadow on the checkered surface.",
+    "The image shows a hand in motion, seemingly dropping or scattering some small dark objects over a surface covered with a checkered cloth. The background is a plain green wall with a dark brown baseboard. The hand is extended from the top right, and the falling objects are slightly blurred, indicating movement. The checkered cloth underneath is red and white, creating a distinct contrast with the darker objects being dropped.",
+    "This frame shows a close-up of a red and white checkered fabric, possibly a tablecloth or piece of clothing, lying flat on a surface. In the background, there is a green wall with a dark brown horizontal strip along the bottom. The image is slightly blurred, and there is a dark spot or stain visible on the checkered fabric near the center. The overall setting seems indoors and simple.",
+    "This frame shows a small black insect, possibly a fly, resting on a checkered red and white fabric surface. The background consists of a green wall with a dark brown baseboard running horizontally along the bottom. The fabric and the insect are in the foreground, while the plain wall serves as a simple background."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a hand holding a bottle, moved slightly downward in the current frame compared to the previous one.",
+    "The hand holding the small black object has slightly shifted closer to the right side of the frame. The shadow on the checkered surface has moved slightly to the right and expanded a bit.",
+    "The main object, a small black item held between fingers, moves downward slightly and closer to the surface covered with a checkered cloth compared to the previous frame.",
+    "The hand has moved slightly downward and the small object held between the fingers is no longer visible in the current frame.",
+    "In the current frame, the small object is being released from the hand and is now falling downward, appearing blurred due to motion. The hand has also moved slightly upward compared to the previous frame.",
+    "In the current frame, the object that was previously held in the person's hand has been released and is now falling downward towards the checkered surface. The person's hand has moved slightly upward and away from the falling object.",
+    "The main object, a small dark entity on the checkered surface, has moved slightly forward and to the left in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 615,
+  "diff_tokens": 251,
+  "lexical_redundancy_baseline_avg": 0.37096131029878704,
+  "lexical_redundancy_diff_avg": 0.31198877876509457,
+  "lexical_redundancy_baseline_all": [
+    0.3384615384615385,
+    0.45,
+    0.43103448275862066,
+    0.46551724137931033,
+    0.2676056338028169,
+    0.2631578947368421,
+    0.38095238095238093
+  ],
+  "lexical_redundancy_diff_all": [
+    0.15,
+    0.28125,
+    0.3333333333333333,
+    0.30303030303030304,
+    0.3939393939393939,
+    0.4473684210526316,
+    0.275
+  ],
+  "info_density_baseline": 0.0035714285714285713,
+  "info_density_diff": 0.041295101956866656,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.02857142857142857,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05,
+    0.029411764705882353,
+    0.03571428571428571,
+    0.045454545454545456,
+    0.05714285714285714,
+    0.07692307692307693,
+    0.03571428571428571
+  ]
+}

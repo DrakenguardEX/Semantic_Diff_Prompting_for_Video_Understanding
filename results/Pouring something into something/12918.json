@@ -1,0 +1,81 @@
+{
+  "video_id": "12918",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/12918.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/12918",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a close-up view of an empty red plastic cup placed on a light-colored countertop. To the upper right of the cup, there is a partially visible package that appears to contain some kind of food, possibly chips or bread. There is a hand holding a blue-capped water bottle on the left side of the image. The lighting is relatively dim, casting some shadows on the countertop.",
+    "The image shows a close-up view of a red plastic cup placed on a countertop. A clear glass bottle is tilted above the cup, presumably about to pour a liquid into it. In the background, there is a partially open snack bag, possibly containing chips or crackers, resting on the counter. The surface of the countertop appears to be made of a beige-colored material.",
+    "The frame shows a close-up of a plastic water bottle being poured into a red plastic cup. The cup is placed on a countertop or table, and the water bottle's mouth is tilted toward the cup, suggesting liquid is flowing into it. In the background, there is a partially visible bag of snacks or chips. The lighting is dim, giving the scene a somewhat muted appearance.",
+    "The frame shows a close-up of a plastic cup being filled with water from a plastic bottle. The water is visibly pouring into the cup. In the background, there is a partially visible bag of what appears to be tortilla chips or a similar snack. The scene seems to be set on a countertop.",
+    "The image shows a close-up of a plastic water bottle pouring water into a red disposable cup. The scene appears to be on a kitchen counter or table, with some food packaging visible in the background. The focus is on the water being poured into the cup.",
+    "In this frame, a clear liquid is being poured from a transparent glass bottle into a red plastic cup. The cup is placed on a countertop, and there is a bag of what looks like bread or buns in the background. The scene appears to be set in a casual kitchen or dining area.",
+    "The image shows a close-up view of a clear plastic bottle pouring water into a pink or red disposable cup. The cup is placed on a beige countertop, and in the background, there is a partially visible plastic bag with red and white coloring. The scene appears to be taking place in a kitchen or similar indoor setting.",
+    "This frame shows water being poured from a plastic bottle into a pink plastic cup. The surface underneath the cup appears to be a light-colored countertop or table. There is also a partially visible package, possibly a snack bag, with red and transparent sections in the upper part of the frame."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The bottle on the left has moved closer to the cup, with its opening now positioned directly above the cup.",
+    "The bottle has moved closer to the cup, with its spout now positioned directly above the cup's opening.",
+    "In the current frame, water is being poured from the bottle into the cup, with visible water stream entering the cup.",
+    "The water level inside the cup has risen as more water is being poured into it from the bottle.",
+    "The amount of liquid being poured from the bottle into the cup has increased, with more liquid visible inside the cup.",
+    "In the current frame, the bottle pouring water into the cup has slightly shifted, with the water flow continuing and becoming more visible inside the cup.",
+    "The water is now pouring more actively into the cup, creating visible splashes and ripples inside."
+  ],
+  "baseline_tokens": 553,
+  "diff_tokens": 176,
+  "lexical_redundancy_baseline_avg": 0.3911178928511069,
+  "lexical_redundancy_diff_avg": 0.356227278587527,
+  "lexical_redundancy_baseline_all": [
+    0.3287671232876712,
+    0.36764705882352944,
+    0.423728813559322,
+    0.48,
+    0.35714285714285715,
+    0.39344262295081966,
+    0.3870967741935484
+  ],
+  "lexical_redundancy_diff_all": [
+    0.047619047619047616,
+    0.7777777777777778,
+    0.14285714285714285,
+    0.391304347826087,
+    0.45454545454545453,
+    0.3333333333333333,
+    0.34615384615384615
+  ],
+  "info_density_baseline": 0.024563874974443414,
+  "info_density_diff": 0.06130841928539297,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.03125,
+    0.030303030303030304,
+    0.037037037037037035,
+    0.0425531914893617,
+    0.018518518518518517,
+    0.017241379310344827,
+    0.0196078431372549
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.1,
+    0.05555555555555555,
+    0.09523809523809523,
+    0.05263157894736842,
+    0.047619047619047616,
+    0.07692307692307693,
+    0.0625
+  ]
+}

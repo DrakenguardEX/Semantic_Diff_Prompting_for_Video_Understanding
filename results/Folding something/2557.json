@@ -1,0 +1,81 @@
+{
+  "video_id": "2557",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/2557.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/2557",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a newspaper page placed upside down on a light-colored tiled floor. A person’s hand is holding the newspaper at the lower left corner of the frame. The newspaper includes columns of text and two photos: one group photo of people in colorful costumes on the bottom left, and another smaller photo on the bottom right that appears to depict an event or gathering. The newspaper seems to be folded slightly near the top left corner.",
+    "The image shows a newspaper held by a person with their left hand at the bottom left corner. The newspaper is upside down, making the text and photos difficult to read normally. The background is a light-colored, smooth surface, possibly a tiled floor or a tabletop. The newspaper appears to have both text and color images on the visible page.",
+    "The image shows a person holding an open newspaper upside down. The newspaper has text columns and some images visible, with one image featuring people and another showing a stack of currency notes. The background is a plain, light-colored surface, possibly tiled flooring. The person's hand is visible on the left side, holding the newspaper.",
+    "The image shows a flat, light-colored surface, possibly a tiled floor or wall. On this surface, there is a newspaper lying flat but upside down. The newspaper appears to be unfolded and has multiple articles and images printed on it. In the lower left corner of the image, a person's hand is visible, holding down the bottom left corner of the newspaper. The newspaper's text and images are clearly visible, but the upside-down orientation makes it difficult to read. The overall setting is simple and well-lit.",
+    "This frame shows a person's hand flipping or turning the pages of a newspaper, which is placed against a plain, light-colored background. The newspaper's text and images are visible but slightly blurred due to motion, making it somewhat difficult to read the content clearly. The hand is positioned on the left side of the frame, grabbing the edge of the newspaper page.",
+    "This frame shows a person's hand folding a newspaper on a smooth, light-colored surface, likely a floor or table. The newspaper appears to be in the process of being folded in half, with visible text and images on its front page. The focus is on the folding action.",
+    "This frame shows a person's hand holding a folded newspaper on a light-colored surface. The newspaper appears to be folded in thirds, with part of the front page visible, containing text and an image of food at the top. The text on the visible part includes headlines and an article, though the text is too small to read clearly. The person's hand is positioned near the bottom right corner of the newspaper.",
+    "The frame shows a close-up of a person's hand holding a folded newspaper against a plain, light-colored background. The newspaper appears to be folded into a neat, compact shape, possibly to create a pocket or small container. The upper part of the newspaper features some text and a picture, though the text is mostly not fully readable in this frame. The person's hand is positioned at the bottom right corner, actively holding or adjusting the folded newspaper."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a newspaper, has been rotated slightly clockwise in the current frame compared to the previous one.",
+    "The hand holding the newspaper shifted slightly to the left and lower in the current frame compared to the previous one. The newspaper itself moved slightly rightward and rotated clockwise.",
+    "The newspaper has been slightly shifted to the right and rotated clockwise, with the orientation changing from upside down to a more horizontal position. The hand holding the newspaper appears to have moved slightly downward.",
+    "The newspaper is being folded upward; the top right corner is lifting and curling as the person moves it.",
+    "In the current frame, the newspaper is further folded vertically, making it narrower compared to the previous frame. The hand has also shifted to the right and is holding the paper more firmly, contributing to the continued folding motion.",
+    "In the current frame, the hand has moved the newspaper to a more open position, revealing the full front page of the newspaper more clearly compared to the previous frame where it was partially folded.",
+    "In the current frame, the hand has moved slightly downward while still holding the newspaper. The newspaper itself remains in the same position."
+  ],
+  "baseline_tokens": 647,
+  "diff_tokens": 242,
+  "lexical_redundancy_baseline_avg": 0.3640918595098762,
+  "lexical_redundancy_diff_avg": 0.2528342970846288,
+  "lexical_redundancy_baseline_all": [
+    0.35135135135135137,
+    0.36507936507936506,
+    0.3424657534246575,
+    0.33766233766233766,
+    0.3230769230769231,
+    0.4262295081967213,
+    0.4027777777777778
+  ],
+  "lexical_redundancy_diff_all": [
+    0.15,
+    0.46153846153846156,
+    0.2972972972972973,
+    0.10256410256410256,
+    0.18421052631578946,
+    0.30952380952380953,
+    0.2647058823529412
+  ],
+  "info_density_baseline": 0.020030143467643466,
+  "info_density_diff": 0.0464628335051676,
+  "info_density_baseline_per_frame": [
+    0.01282051282051282,
+    0.0,
+    0.01818181818181818,
+    0.0,
+    0.0,
+    0.0625,
+    0.027777777777777776,
+    0.03896103896103896
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.03333333333333333,
+    0.02857142857142857,
+    0.15789473684210525,
+    0.05128205128205128,
+    0.05714285714285714,
+    0.043478260869565216
+  ]
+}

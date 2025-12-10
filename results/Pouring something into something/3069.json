@@ -1,0 +1,81 @@
+{
+  "video_id": "3069",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/3069.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/3069",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a clear rectangular plastic container placed on a wooden surface. The container is empty and appears to be clean and transparent, allowing visibility through its sides and bottom. The wooden surface has a natural finish with visible wood grain patterns.",
+    "The image shows a clear, empty rectangular plastic container placed on a wooden surface. The container is transparent with slightly rounded edges and appears to be clean and in good condition. The wooden surface has a natural finish with visible grain patterns.",
+    "This frame shows a clear, empty rectangular plastic container placed on a wooden surface. The container has slightly rounded edges and is transparent, allowing the wooden surface underneath to be visible. The lighting suggests that the photo was taken indoors with warm ambient light.",
+    "The frame shows a clear, empty rectangular plastic container placed on a wooden surface. The container appears to be clean and transparent, allowing the wooden texture underneath to be visible through it. The lighting highlights the smooth texture of both the plastic container and the wood surface.",
+    "The frame shows a clear rectangular plastic container positioned on a wooden surface. The container is empty and transparent, allowing the texture and color of the wooden surface beneath it to be clearly visible. The lighting highlights the transparency and slight reflections on the plastic.",
+    "The image shows a transparent rectangular plastic container placed on a wooden surface. Inside the container, there is some water and a few colorful marbles scattered at the bottom. The container is empty aside from the water and the marbles.",
+    "The image shows a clear plastic rectangular container placed on a wooden surface. Inside the container, there are several colorful glass marbles scattered around the sides and corners. The container is empty aside from the marbles, and the lighting is bright, highlighting the contents and the texture of the wooden surface.",
+    "The image shows a transparent plastic container placed on a wooden surface. Inside the container, there are several marbles of different colors positioned around the inner walls of the container, with most of them near the edges and corners. The container is empty aside from the marbles, and the lighting suggests an indoor setting."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "There is no visible change in the main object or its position between the two frames. The plastic container remains stationary.",
+    "No visible change occurred with the main object (the plastic container) between the two frames.",
+    "No visible change occurred to the main object or its position between the two frames. The clear plastic container remains stationary and unchanged.",
+    "In the current frame, a blue ball has appeared inside the transparent container, positioned near the bottom left corner.",
+    "The blue marble inside the container moved from the left side towards the bottom center. Additionally, another blue and a green marble appeared inside the container near the bottom right corner.",
+    "In the current frame, the blue and green marbles inside the container have moved closer to the left side, with three blue marbles now grouped together near the bottom left corner. The brown marble has shifted slightly to the right along the bottom edge. The two yellow marbles near the center have moved apart slightly.",
+    "In the current frame, the green marble has moved from the bottom left corner inside the container to a higher position closer to the top left area of the container. The marbles in the same vicinity have shifted slightly, reflecting this motion."
+  ],
+  "baseline_tokens": 417,
+  "diff_tokens": 248,
+  "lexical_redundancy_baseline_avg": 0.5006569442522547,
+  "lexical_redundancy_diff_avg": 0.3252293341579056,
+  "lexical_redundancy_baseline_all": [
+    0.675,
+    0.48936170212765956,
+    0.44680851063829785,
+    0.5897435897435898,
+    0.28888888888888886,
+    0.525,
+    0.4897959183673469
+  ],
+  "lexical_redundancy_diff_all": [
+    0.041666666666666664,
+    0.5238095238095238,
+    0.5454545454545454,
+    0.05555555555555555,
+    0.35714285714285715,
+    0.35714285714285715,
+    0.3958333333333333
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.01155390308616115,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.03225806451612903,
+    0.03636363636363636,
+    0.023809523809523808
+  ]
+}

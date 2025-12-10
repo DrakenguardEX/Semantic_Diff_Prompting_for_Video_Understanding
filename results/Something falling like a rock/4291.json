@@ -1,0 +1,81 @@
+{
+  "video_id": "4291",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/4291.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/4291",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This image shows a close-up view of a bed or couch with different patterned fabrics. On the left side, there is a light beige or tan blanket or sheet that is partially covering a blue and white patterned fabric with a paisley design. On the right side, there is a quilt or blanket with large leaf shapes in red and purple colors on a cream background. The image also includes a blurred, vertical, striped object or fabric near the center towards the top, which is not fully clear. The overall composition is a mix of different textures and patterns on soft furnishings.",
+    "This frame shows a neatly made bed with a white pillow and a blue patterned bedsheet on the left side. On the right side, there is a colorful quilt or blanket featuring large leaf patterns in shades of red, purple, and pink on a light background. The bed frame is partially visible on the right side of the image. The overall scene gives a cozy and tidy impression.",
+    "This frame shows a section of a bed with two different types of bedding. On the left side, there is a pillow with a light-colored pillowcase and part of a blanket or bedsheet with a blue and white pattern. On the right side, there is a quilt or bedspread with a pattern of red, blue, and purple leaf shapes. A dark, blurry object is present in the middle of the image, possibly a moving pet or item. The bed frame is wooden and visible on the right edge of the frame.",
+    "The image shows a bed with a floral-patterned bedspread and a beige blanket with red and purple leaf designs on the right side. There is a black and grey rabbit or similar small animal sitting or lying on the bed near the center-left part of the image. The bed is positioned against a wall with a portion of wooden furniture visible in the upper right corner. The lighting suggests the photo was taken during the daytime.",
+    "This frame shows part of a bed with a bedsheet, a patterned pillow, and a black baseball cap placed on the bed. The bedsheet has a light blue pattern, while the pillow has a design of large leaf shapes in red, pink, and blue colors on a cream background. The black baseball cap appears to have some text on it, but the text is not fully visible in this frame. There is also a portion of a white blanket or sheet visible. The setting appears to be indoors, likely a bedroom.",
+    "The image shows a bed with a patterned bedspread and two pillows. One pillow has a design with large leaf shapes in shades of red, pink, and purple. The other pillow is plain white, partially folded over at the top. On the bed is a small black and white cat curled up, resting. The cat is positioned near the center of the bed.",
+    "The frame shows a portion of a bed with a patterned bed sheet in light blue and white shades. On the bed, there is a black baseball cap with some yellow lettering on the side and a design on the top. Next to the cap, there is a pillow with a white cover that has a pattern of large red and purple leaf shapes. There is also a white or light beige blanket partially visible at the top left corner of the image. The overall scene appears to be a casual, everyday setting.",
+    "This frame shows a close-up view of a bed with a patterned bedsheet and some pillows. One pillowcase is predominantly white with large pink and maroon leaf designs, while the bedsheet has a light blue and white pattern. On the bed, there is a black cap with some text on the brim, and part of a white blanket or duvet is visible on the left side. The overall scene appears to be a casual, everyday setting of a bedroom."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a cylindrical object with a striped pattern, has moved downward and is no longer suspended above the bed; it is now closer to or resting on the bedding.",
+    "In the current frame, a dark, blurry object has moved into the upper center of the image, partially covering the patterned blanket. This object was not present in the previous frame.",
+    "The main object, a gray and black cat, has moved from the upper right side of the bed to near the center, curling up or settling down on the bedspread.",
+    "The black object with white patterns, which appears to be a small animal or toy, has moved slightly to the left and rotated clockwise compared to the previous frame.",
+    "The black hat has rotated slightly clockwise and shifted a bit to the right in the current frame compared to the previous one.",
+    "The black cap has moved slightly downward and to the right compared to the previous frame.",
+    "The black cap on the bed has been slightly rotated clockwise in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 783,
+  "diff_tokens": 224,
+  "lexical_redundancy_baseline_avg": 0.3461197645141491,
+  "lexical_redundancy_diff_avg": 0.26295093795093794,
+  "lexical_redundancy_baseline_all": [
+    0.3780487804878049,
+    0.4264705882352941,
+    0.3037974683544304,
+    0.22727272727272727,
+    0.2692307692307692,
+    0.35135135135135137,
+    0.4666666666666667
+  ],
+  "lexical_redundancy_diff_all": [
+    0.06666666666666667,
+    0.1111111111111111,
+    0.19047619047619047,
+    0.21428571428571427,
+    0.375,
+    0.45454545454545453,
+    0.42857142857142855
+  ],
+  "info_density_baseline": 0.0013736263736263737,
+  "info_density_diff": 0.024354027623285132,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.01098901098901099,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03225806451612903,
+    0.03225806451612903,
+    0.03333333333333333,
+    0.034482758620689655,
+    0.0,
+    0.0625,
+    0.0
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "16061",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/16061.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/16061",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a plain, mostly empty floor with a smooth, reflective surface. The floor appears to be concrete or polished cement. There is a light-colored wall on the left side, and in the upper-right corner, there is a dark piece of furniture or equipment partially visible. The lighting in the room is dim, and there are some faint reflections or light spots on the floor. Overall, the scene looks like an interior space with minimal detail or objects.",
+    "The image shows a portion of a room with a floor that appears to be made of polished concrete or a similar material, reflecting some light. The walls are plain and light-colored. In the lower part of the frame, there is a blurry object that is difficult to identify clearly, possibly the top part of an animal or object caught in motion. The room appears empty otherwise.",
+    "The image shows a hand holding a small, round, white object close to the camera. The background appears to be an indoor space with a light-colored tiled floor and plain walls. The lighting in the scene is low, causing the hand and the object to be overexposed and appear very bright compared to the darker background. The exact identity of the small object is unclear due to the overexposure.",
+    "The image shows a close-up of a hand holding a partially eaten piece of white food, possibly a type of bread or a similar item. The background appears to be an indoor space with plain walls and a floor with a smooth surface. The lighting is dim, and the focus is on the hand and the food item.",
+    "The image shows a close-up of a hand holding a small object that appears to be a piece of garlic. The background is mostly plain, with a wall on the left side and a floor with a smooth, slightly reflective surface. The lighting is somewhat dim, and the focus is primarily on the hand and the object it holds.",
+    "The image is blurry and appears to be taken indoors, possibly in a room with a gray floor and a light-colored wall. A hand or fingers are visible in the foreground, but the details are unclear due to the blurriness. The background is minimally detailed and dimly lit.",
+    "The image shows a flooded indoor area with water covering the floor. The water appears murky and reflective. Part of a structure, possibly a wall or corner, is visible on the left side. In the lower right corner, there is a hand reaching into the frame, suggesting someone is present at the scene. The lighting is dim, and the overall scene gives an impression of an indoor flood or water leakage situation.",
+    "The image depicts a room corner where the floor appears to be flooded with water. The water covers the entire visible floor area, and the walls have a plain appearance. The lighting is dim, and there are no visible objects or furniture in the room. The overall impression is that of a space affected by water accumulation or flooding."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a small white and brown dog has entered the bottom part of the image, moving into view.",
+    "The main object, a small white item held between fingers, has moved closer to the camera in the current frame compared to the previous one.",
+    "In the current frame, the hand has moved slightly to the right and is holding the white object in a more horizontal position compared to the previous frame. The angle of the fingers has also changed, with the index finger now extended more outward.",
+    "In the current frame, the main object, a piece of food held in hand, is tilted downward and moved slightly to the right compared to the previous frame. The hand holding the object also shifted position slightly downward and to the right.",
+    "The main object, which is held in the hand, has moved downward and is now farther from the camera, causing it to become blurry and less distinct in the current frame.",
+    "In the current frame, the main object, which appears to be a hand, has moved slightly downward and to the right, with the fingers more spread apart compared to the previous frame. Additionally, the blurred motion of the hand from the first frame is no longer present.",
+    "The small white object near the center has moved slightly upward and to the right in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 598,
+  "diff_tokens": 277,
+  "lexical_redundancy_baseline_avg": 0.3051360566533178,
+  "lexical_redundancy_diff_avg": 0.29947970300986987,
+  "lexical_redundancy_baseline_all": [
+    0.31645569620253167,
+    0.2638888888888889,
+    0.3770491803278688,
+    0.4716981132075472,
+    0.20967741935483872,
+    0.19718309859154928,
+    0.3
+  ],
+  "lexical_redundancy_diff_all": [
+    0.041666666666666664,
+    0.25,
+    0.325,
+    0.48717948717948717,
+    0.34210526315789475,
+    0.3333333333333333,
+    0.3170731707317073
+  ],
+  "info_density_baseline": 0.0018115942028985507,
+  "info_density_diff": 0.02866964638541509,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.014492753623188406,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.047619047619047616,
+    0.04,
+    0.022727272727272728,
+    0.023809523809523808,
+    0.03225806451612903,
+    0.02127659574468085,
+    0.041666666666666664
+  ]
+}

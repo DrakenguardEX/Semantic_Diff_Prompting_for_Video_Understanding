@@ -1,0 +1,81 @@
+{
+  "video_id": "16010",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/16010.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/16010",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a person's hand holding a transparent cup filled with a yellow-orange liquid. The cup is positioned over an empty transparent glass placed on a wooden surface. The setting appears to be indoors with a close-up view focusing on the cup and glass.",
+    "The frame shows a close-up of two hands holding a transparent glass cup filled with an amber-colored liquid, likely a beverage such as tea, whiskey, or juice. The cup is being placed on or picked up from a clear glass coaster resting on a light-colored wooden surface, possibly a table. The lighting in the image makes the liquid appear vibrant.",
+    "The frame shows a close-up view of a hand holding a glass filled with an amber-colored liquid, possibly tea or juice. The glass is being held above a clear, empty glass or cup placed on a light-colored wooden surface, possibly a table or countertop. The hand is positioned on the right side of the image.",
+    "The frame shows a close-up view of a hand holding a glass of amber-colored liquid, likely a beverage such as whiskey or tea. The glass has a round base and is partially filled. The background is a wooden surface, probably a table or countertop, with a light natural wood finish. The photo is taken from above, focusing mainly on the glass and the hand holding it.",
+    "The frame shows a hand pouring a brown liquid, likely a beverage, from a glass pitcher into a smaller glass on a wooden surface. The smaller glass already contains some of the liquid. The setting appears to be casual, probably indoors on a table or countertop.",
+    "The frame shows a person's hand pouring a brownish liquid from a glass container into a small clear cup containing a yellowish solid substance. The surface beneath is a wooden table. The setting suggests that a mixture or experiment is being conducted.",
+    "The frame shows a hand holding a glass and pouring a golden-brown liquid into a cup placed on a wooden surface. The cup appears to be made of transparent plastic, and the liquid inside the glass looks like tea or a similar beverage. The hand is positioned over the cup as the liquid is being poured.",
+    "In the frame, a hand is pouring a yellowish liquid from a small glass container into a clear plastic cup that already contains some amber-colored liquid. The scene appears to be set on a wooden surface."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the hand is tilting the cup further, causing the liquid inside to start pouring toward the glass placed on the table. The cup is positioned slightly lower and more angled compared to the previous frame.",
+    "In the current frame, the main object, a cup containing an orange liquid, is being tilted, causing the liquid to pour out into the empty glass below. The flow of the orange liquid from the cup into the glass is the primary change.",
+    "The glass filled with an amber-colored liquid has been moved closer to the empty glass in the current frame compared to the previous one. The hands are also slightly shifted, adjusting the position of the filled glass.",
+    "The main object, a glass containing a brown liquid, has been tilted more in the current frame compared to the previous one, causing some of the liquid to pour out into the empty glass below.",
+    "The main change is that the liquid is being poured into the cup, causing the liquid level inside the cup to increase. The hand holding the glass is slightly closer to the center of the cup.",
+    "The liquid is being poured from the cup into the glass, and the volume of liquid in the cup is decreasing while the amount in the glass is increasing.",
+    "In the current frame, the hand is tilting the container more to the right, causing the liquid inside to flow further into the glass below. The liquid level in the glass has risen compared to the previous frame."
+  ],
+  "baseline_tokens": 485,
+  "diff_tokens": 303,
+  "lexical_redundancy_baseline_avg": 0.3499879295095397,
+  "lexical_redundancy_diff_avg": 0.2199386770751813,
+  "lexical_redundancy_baseline_all": [
+    0.30158730158730157,
+    0.5357142857142857,
+    0.43333333333333335,
+    0.29508196721311475,
+    0.29411764705882354,
+    0.2631578947368421,
+    0.3269230769230769
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0967741935483871,
+    0.21739130434782608,
+    0.21739130434782608,
+    0.34146341463414637,
+    0.1951219512195122,
+    0.3,
+    0.17142857142857143
+  ],
+  "info_density_baseline": 0.018531785243741765,
+  "info_density_diff": 0.03379768613408296,
+  "info_density_baseline_per_frame": [
+    0.022222222222222223,
+    0.016666666666666666,
+    0.01818181818181818,
+    0.0,
+    0.021739130434782608,
+    0.023809523809523808,
+    0.017857142857142856,
+    0.027777777777777776
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.02564102564102564,
+    0.046511627906976744,
+    0.08108108108108109,
+    0.02857142857142857,
+    0.027777777777777776,
+    0.034482758620689655,
+    0.02631578947368421
+  ]
+}

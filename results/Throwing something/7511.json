@@ -1,0 +1,81 @@
+{
+  "video_id": "7511",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/7511.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/7511",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows part of a cozy indoor setup for a cat. There is a cat house or bed covered with a blanket that has a paw print pattern on it. The cat house has an entrance hole visible in the front. To the left, there is a scratching post covered in carpet material. The floor is carpeted, and there is a rolled-up sock or small cloth lying near the cat house. The overall scene suggests a comfortable play and rest area for a cat.",
+    "This image shows a small pet area likely intended for a cat. There is a carpeted cat scratch post or climbing structure on the left side. In the center, there is a small pet house covered partially with a cloth that has a paw print pattern. The pet house has a circular entrance. To the right of the pet house, there is a white sock or sock-like item on the carpeted floor. The overall setting appears to be indoors, on a carpeted floor against a white wall.",
+    "This frame shows a section of a room with a light-colored carpeted floor. In the center of the image, there is a cat house or small pet shelter covered with a blanket or cloth that has a paw print pattern on it. The entrance to the cat house is a circular opening. To the left, there is a multi-level cat scratching post or tree, partially visible. On the right side of the image, some folded white cloth, possibly a towel or blanket, is lying on the floor next to the cat house. The walls are a neutral color, and the overall setting appears to be a cozy pet area.",
+    "The image shows a cozy indoor pet area on a carpeted floor. There is a small pet house or covered cat bed with a blanket featuring a paw print pattern draped over it. Next to the pet house, there is a white towel or piece of cloth on the floor. In the background, part of a cat tree or scratching post is visible on the left side of the image. The image also contains a dark blurred spot near the entrance of the pet house, which could be a movement blur from a small animal or object.",
+    "This frame shows a cozy cat play area. There is a cat house covered with a blanket featuring a paw print pattern, making it look like a comfortable den. To the left, a cat scratcher or climbing post is visible. There is also a blurry motion on the carpet, likely a cat moving quickly across the scene. Additionally, a small cloth or towel is placed on the floor near the cat house. The setting appears indoors with carpeted flooring.",
+    "The image shows a cozy corner designed for a pet, likely a cat. There is a carpeted cat house with an opening in the front, covered partially with a fleece blanket featuring a pattern of paw prints or similar shapes. To the left, there is a carpeted scratching post or climbing structure. On the floor in front of the cat house, there is a black folded object, possibly a wallet or a small pouch. To the right of the cat house, there is a pair of white socks lying on the carpeted floor. The room has light-colored walls and carpeted flooring.",
+    "The image shows a corner of a room with a light purple carpet. There is a small cat house covered partially with a gray blanket that has black paw print patterns on it. To the left of the cat house, there is a vertical scratching post wrapped in sisal or a similar material. Near the cat house, on the floor, there is a folded piece of dark fabric or possibly a small pouch. Additionally, a white sock or piece of cloth is lying on the carpet close to the cat house. The wall is light-colored, and there is white baseboard trim along the bottom of the wall.",
+    "This image shows a cozy indoor area likely intended for a cat or small pet. There is a small pet house covered with a gray blanket that has a pattern of Mickey Mouse heads on it. The house is made of a soft, carpeted material. To the left, there is a portion of a cat scratching post or cat tree visible. On the carpeted floor in front of the pet house, there is a black object that looks like a wallet or a small book, and to the right of the pet house, there is a white sock partially stuffed or crumpled on the floor. The setting appears to be a corner of a room with white walls and a beige carpet."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "There is no visible change in the main object or its motion between the two frames. The scene appears static.",
+    "There is no visible change in the main object or its motion between the two frames. The scene appears static.",
+    "In the current frame, a dark, blurry object has moved out of the entrance of the cat house and is now partially visible in front of it.",
+    "The main object, a small dark animal (likely a cat or kitten), has moved out from the entrance of the covered cat bed and is now further to the left on the carpet, appearing blurred due to its motion.",
+    "In the current frame, the blurred cat in motion from the previous frame has disappeared, and a small black object (possibly a closed wallet or case) has appeared on the carpet near the cat house.",
+    "There is no visible change in the main object or its motion between the two frames.",
+    "There is no visible change or motion in the main object or scene between the two frames."
+  ],
+  "baseline_tokens": 910,
+  "diff_tokens": 209,
+  "lexical_redundancy_baseline_avg": 0.4001480534267282,
+  "lexical_redundancy_diff_avg": 0.40088376460517045,
+  "lexical_redundancy_baseline_all": [
+    0.4025974025974026,
+    0.5128205128205128,
+    0.4367816091954023,
+    0.3614457831325301,
+    0.2840909090909091,
+    0.43373493975903615,
+    0.3695652173913043
+  ],
+  "lexical_redundancy_diff_all": [
+    0.043478260869565216,
+    1.0,
+    0.14285714285714285,
+    0.3170731707317073,
+    0.28888888888888886,
+    0.1388888888888889,
+    0.875
+  ],
+  "info_density_baseline": 0.0039881265424543165,
+  "info_density_diff": 0.011406186406186404,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.012658227848101266,
+    0.009900990099009901,
+    0.009345794392523364,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.037037037037037035,
+    0.02564102564102564,
+    0.02857142857142857,
+    0.0,
+    0.0
+  ]
+}

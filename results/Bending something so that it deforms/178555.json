@@ -1,0 +1,81 @@
+{
+  "video_id": "178555",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/178555.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/178555",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a plain white or light gray wall with a standard light switch on the right side. The light switch has a beige or light-colored cover plate. On the left side of the image, there is a partial view of a piece of furniture, possibly a dresser or cabinet, which is white or very light in color. The overall scene appears to be indoors with no other visible decorations or objects on the wall.",
+    "The image is blurry and out of focus, making it difficult to clearly identify the objects. In the foreground, there appears to be a close-up of fingers with pinkish colored fingernails, holding a thin, transparent object, possibly a small piece of plastic or glass. The background is plain and light-colored, likely a wall. The overall image lacks sharpness and detail.",
+    "The image shows a close-up of a hand holding a paperclip. The fingernails are painted with shiny pink nail polish. The background is plain and appears to be a wall with a light color. The focus is primarily on the paperclip and the hand holding it.",
+    "The frame shows a close-up of a person's hand holding a small metal item that looks like a paperclip or a similar small, bent wire object. The person's fingernails are painted with pink nail polish. The background is plain, with a white or light-colored wall and a partially visible electrical outlet or switch on the wall. The image is slightly out of focus.",
+    "The image shows a close-up of a person's hand holding a needle with a thread partially through its eye. The person's nails are painted pink. The background is a plain wall with a light switch or electrical outlet visible. The focus is on the needle and thread being held between the thumb and forefinger.",
+    "The image shows a close-up of a person's hand holding a sewing needle vertically. The needle is silver and thin. The person's fingernails are painted with pink nail polish. The background is slightly out of focus, showing part of a white wall and a light switch. The person appears to be threading the needle or positioning it for sewing.",
+    "The image shows a plain white wall with a light switch mounted on it. On the left side, part of a white piece of furniture or structure is visible. In the lower right corner, a blurry motion is captured, possibly a hand holding a slender object, such as a pen or pair of scissors. The overall image is slightly out of focus.",
+    "This image shows a plain white wall with a standard light switch mounted on it. The light switch appears to be in the off position. On the left side of the image, there is a partial view of a white rectangular object, which could be a piece of furniture or an appliance. The overall scene is simple and minimalistic."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a hand has moved into the foreground, holding a small, translucent object close to the camera. The hand is partially obscuring the view of the wall and light switch that were clearly visible in the previous frame.",
+    "The main object, a safety pin held between fingers with pink nail polish, has shifted slightly to the right and is more clearly positioned between the thumb and index finger in the current frame. The fingers have adjusted to grip the safety pin more securely.",
+    "The hand has moved slightly to the right and closer to the camera, making the paperclip less centered within the fingers. The fingers are also repositioned, with the thumb now more visible.",
+    "The main object, a paperclip held between the fingers, has been moved slightly closer to the camera in the current frame compared to the previous one. The fingers have shifted position slightly, with the thumb and index finger adjusting their grip on the paperclip.",
+    "The hand in the current frame has moved slightly to the right and the fingers have adjusted their grip on the small piece of wire.",
+    "The hand holding the needle and thread has moved out of the frame, and only the thread is now visible near the bottom right corner.",
+    "In the current frame, the main object (a hand holding scissors) has moved out of the frame. The scissors are no longer visible near the light switch."
+  ],
+  "baseline_tokens": 577,
+  "diff_tokens": 287,
+  "lexical_redundancy_baseline_avg": 0.37237071288488466,
+  "lexical_redundancy_diff_avg": 0.24407834591082517,
+  "lexical_redundancy_baseline_all": [
+    0.2702702702702703,
+    0.3389830508474576,
+    0.45454545454545453,
+    0.4915254237288136,
+    0.4067796610169492,
+    0.27941176470588236,
+    0.36507936507936506
+  ],
+  "lexical_redundancy_diff_all": [
+    0.08823529411764706,
+    0.20754716981132076,
+    0.2127659574468085,
+    0.26666666666666666,
+    0.35,
+    0.25,
+    0.3333333333333333
+  ],
+  "info_density_baseline": 0.001984126984126984,
+  "info_density_diff": 0.027474349696148478,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.015873015873015872,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.04878048780487805,
+    0.0,
+    0.03125,
+    0.022727272727272728,
+    0.04,
+    0.04,
+    0.037037037037037035
+  ]
+}

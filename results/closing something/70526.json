@@ -1,0 +1,81 @@
+{
+  "video_id": "70526",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/70526.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/70526",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person holding an open accordion-style file organizer or wallet with multiple compartments. The organizer is spread open, revealing several sections that appear to be holding documents or cards. The person is standing behind a blue cloth-covered surface, possibly a table, and is wearing a dark-colored long-sleeve shirt or hoodie. The background is a plain wall with a door or panel visible.",
+    "The image shows a person holding an open accordion-style wallet or organizer. The wallet is partially expanded, revealing several compartments inside, some containing cards or items. The person is wearing a dark-colored garment, and the scene is set on a teal fabric surface, likely a bed or table. The background features plain walls with a door or closet.",
+    "The frame shows a person holding an open accordion-style wallet or organizer. The wallet is held in one hand, opened to reveal multiple compartments. The person is wearing a dark long-sleeve shirt and is standing behind a teal-colored fabric surface, possibly a table covered with a cloth. The background consists of a plain light-colored wall. The person's face is not visible in the frame.",
+    "The image shows a person holding or manipulating something in their hands, which appears to be a pair of black gloves or a similar item. The person is standing behind a surface covered with a teal or blue-green cloth. The background includes a wall and a wooden door or doorframe. The person's upper body is partially visible, wearing a dark-colored shirt or sweatshirt. The image is slightly blurry, particularly around the hands and the object being held, indicating motion.",
+    "The image shows a person standing behind a blue surface, possibly a bed or table covered with a blue cloth or blanket. The person, wearing a black long-sleeve shirt, is holding and seemingly folding or manipulating a piece of beige or light brown clothing or fabric. The background is a plain cream-colored wall with part of a wooden door frame visible. The person's face is not visible in the frame.",
+    "The frame shows a person standing behind a table covered with a blue-green cloth. The person is wearing a dark-colored long-sleeve shirt and appears to be holding or manipulating something with both hands, but the object is blurred due to motion. The background features a plain wall and part of a door. The focus seems to be on the person's hands and the object they are handling.",
+    "This frame shows a person holding an open book above a green fabric surface. The person's face is not visible; only their torso and hands are in the frame. The book appears old or worn, with visible discoloration or stains on the pages. The background is plain and neutral-colored.",
+    "The image shows a person in the middle of flipping or spinning a laptop in mid-air. The laptop is partially open and appears to be caught in motion above a green cloth or surface, possibly a bed or table covered with a sheet. The person's torso and hands are visible, with one hand holding a small object, possibly a remote or USB device, while the other hand is near the laptop. The background includes a plain wall and a door. The setting looks like a casual indoor environment."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the main object (the accordion or bellows-like instrument) has moved slightly forward and downward compared to the previous frame. The person's right hand holding the object has also shifted downward a bit.",
+    "The main object, a wallet or organizer being held by the person, has moved slightly upward and is now positioned a bit higher in the frame compared to the previous image. The person’s right hand holding the object has adjusted accordingly to maintain the grip.",
+    "The main object, which appears to be a collapsible accordion-style organizer or wallet, is being moved from a stable, upright position on the table to a motion of being lifted off and tilted forward by the person. The person’s hand that was resting on the table is now holding and moving the organizer.",
+    "The main object, which appears to be a wallet or similar item, has been brought closer to the person's body and is now being held more securely with both hands. The motion suggests the person is adjusting their grip on the object.",
+    "In the current frame, the main object, which appears to be a wallet or similar item, has been moved slightly forward and rotated, with the hands now positioned differently to hold it as if in the process of flipping or turning it. The object is more dynamically angled compared to the previous frame.",
+    "The hands have moved the object, which appears to be a book or similar item, from a vertical position in motion to a more horizontal and steady position in front of the person. The left hand is no longer touching the object, while the right hand holds it firmly.",
+    "In the current frame, the main object (a book) has been flipped or spun, showing motion blur and appearing more vertical compared to the previous frame where it was held horizontally. The left hand is in a similar position, while the right hand appears to have released or moved away from the book."
+  ],
+  "baseline_tokens": 668,
+  "diff_tokens": 399,
+  "lexical_redundancy_baseline_avg": 0.3516497099513693,
+  "lexical_redundancy_diff_avg": 0.3221712967483644,
+  "lexical_redundancy_baseline_all": [
+    0.417910447761194,
+    0.35714285714285715,
+    0.3333333333333333,
+    0.3717948717948718,
+    0.42028985507246375,
+    0.2753623188405797,
+    0.2857142857142857
+  ],
+  "lexical_redundancy_diff_all": [
+    0.09375,
+    0.45454545454545453,
+    0.3157894736842105,
+    0.3157894736842105,
+    0.35714285714285715,
+    0.3,
+    0.41818181818181815
+  ],
+  "info_density_baseline": 0.011955974290487838,
+  "info_density_diff": 0.020593473238351943,
+  "info_density_baseline_per_frame": [
+    0.015384615384615385,
+    0.017241379310344827,
+    0.03125,
+    0.0,
+    0.0,
+    0.0,
+    0.02040816326530612,
+    0.011363636363636364
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.027777777777777776,
+    0.022222222222222223,
+    0.05660377358490566,
+    0.0,
+    0.018867924528301886,
+    0.02040816326530612,
+    0.018867924528301886
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "19835",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/19835.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/19835",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person holding a clear plastic bottle of water and pouring the water onto a potted plant. The plant is in a brown pot filled with soil, and it has both green leaves and some dry, withered stems. The setting appears to be indoors, possibly on a windowsill or countertop. The person's arm is visible, and the focus is on the act of watering the plant.",
+    "The image shows a hand pouring water from a plastic bottle labeled \"Kinley\" onto a potted plant. The plant is in a brown pot filled with soil, and it has a few green leaves but also some dry branches. The scene appears to be indoors or in a sheltered area with a light-colored floor.",
+    "The image shows a close-up of a person's hand pouring water from a plastic bottle labeled \"Kinley\" onto a small plant in a clay pot. The plant has some green leaves as well as some dry, wilted branches. The setting appears to be indoors or on a balcony with a neutral-colored wall and a floor that looks like marble or tiles. There is another potted plant partially visible in the background.",
+    "The image shows a person's hand holding a plastic bottle of water, tilted as if about to pour water onto a potted plant. The plant has green leaves but also some dry, brown branches. The pot is placed on a surface indoors or on a balcony, and there is another small potted plant visible in the background. The overall scene suggests watering or caring for the plant.",
+    "The image shows a person's hand watering a potted plant using a plastic bottle of water. The plant has a mix of green and dry leaves, indicating it may need care. The pot is placed on a floor or ground surface near a wall. The scene suggests someone is tending to the plant by providing it with water.",
+    "This frame shows a close-up of a potted plant placed on a concrete surface next to a wall. The plant has green leaves and some dried branches. A person's hand is holding a plastic bottle of Kinley water, pouring water onto the plant. The scene suggests that the person is watering the plant.",
+    "The image shows a hand holding a plastic water bottle labeled \"Kinley,\" pouring water into a potted plant. The plant is in a brown pot filled with soil. The plant has some healthy green leaves near the base but also has some dried, leafless branches. The setting appears to be indoors or in a sheltered area, as the background includes a wall and a floor with some scattered items. The person's hand is angled to pour water gently onto the plant.",
+    "The image shows a person watering a potted plant using a plastic bottle. The person is holding a clear plastic water bottle labeled \"Kinley,\" tilted to pour water onto a small green plant in a brown pot. The background appears to be an indoor or balcony area with a concrete floor. The plant has both green leaves and some dry branches."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, water is being poured from the bottle onto the plant, with water visibly flowing out of the bottle.",
+    "In the current frame, water is being poured from the bottle onto the plant.",
+    "In the current frame, water is being poured from the bottle onto the plant in the pot.",
+    "The main object, a bottle of water, has tilted slightly downward in the current frame, causing water to pour from the bottle into the potted plant below. The hand holding the bottle has also moved to support this pouring motion.",
+    "The hand holding the water bottle has moved slightly closer to the plant, and water is being poured onto the soil in the current frame.",
+    "In the current frame, water is being poured from the bottle onto the plant, which was not occurring in the previous frame.",
+    "In the current frame, water is being poured from the bottle onto the plant's soil."
+  ],
+  "baseline_tokens": 607,
+  "diff_tokens": 192,
+  "lexical_redundancy_baseline_avg": 0.44767570162509046,
+  "lexical_redundancy_diff_avg": 0.47271321026296703,
+  "lexical_redundancy_baseline_all": [
+    0.4838709677419355,
+    0.4782608695652174,
+    0.47297297297297297,
+    0.417910447761194,
+    0.43103448275862066,
+    0.35714285714285715,
+    0.4925373134328358
+  ],
+  "lexical_redundancy_diff_all": [
+    0.045454545454545456,
+    0.7058823529411765,
+    0.9230769230769231,
+    0.22857142857142856,
+    0.35135135135135137,
+    0.4230769230769231,
+    0.631578947368421
+  ],
+  "info_density_baseline": 0.02091635358103568,
+  "info_density_diff": 0.0610353004838299,
+  "info_density_baseline_per_frame": [
+    0.028985507246376812,
+    0.037037037037037035,
+    0.014084507042253521,
+    0.014925373134328358,
+    0.0,
+    0.018867924528301886,
+    0.037037037037037035,
+    0.01639344262295082
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.09090909090909091,
+    0.07142857142857142,
+    0.058823529411764705,
+    0.075,
+    0.08,
+    0.045454545454545456,
+    0.06666666666666667
+  ]
+}

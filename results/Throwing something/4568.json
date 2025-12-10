@@ -1,0 +1,81 @@
+{
+  "video_id": "4568",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/4568.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/4568",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a patch of grassy ground with a mix of sunlight and shadow. The sunlight illuminates most of the grass, making it bright green, while the shaded areas appear darker. In the background, there is a metallic chain-link fence, partially obscured by the shadows of nearby foliage. The overall scene suggests an outdoor area, likely a backyard or a garden space.",
+    "The image shows a patch of grassy ground with sunlight illuminating the area. There is a shadow cast on part of the grass, likely from a nearby structure or object. In the background, a metal chain-link fence is visible, along with some trees or bushes behind it. The grass appears relatively thick and green, and the overall scene suggests an outdoor area, possibly a backyard or garden.",
+    "This image shows a lawn with patches of green grass and some areas that appear worn or less dense. There is a mix of sunlight and shadow falling across the grass, with a noticeable shadow on the left side likely cast by a nearby structure. The background includes a chain-link fence and some greenery beyond it. The overall scene suggests a backyard or a similar outdoor space.",
+    "This image shows a small, fenced backyard with green grass covering most of the ground. The yard is partially shaded, with sunlight illuminating part of the grass. There is a chain-link fence at the back of the yard, and some plants or bushes are visible along the fence line. The left side of the image has a shadow cast, possibly from a building or a tall structure. The grass appears a bit uneven and patchy in some areas.",
+    "The frame shows a grassy area with a mix of sunlight and shadow. On the left side, there's a vertical shadow likely cast by a structure just out of view. Towards the back of the grassy area, a chain-link fence runs horizontally. Behind the fence, there are dense bushes or small trees providing some greenery. The grass appears well-maintained but has a patchy appearance in some spots. Overall, the scene looks like a small backyard or garden area.",
+    "This frame shows a grassy backyard area with some sunlight and shadows cast across the grass. In the background, there is a chain-link fence with some fencing panels, partially shaded by nearby trees or bushes. The overall scene appears to be outdoors on a sunny day.",
+    "This image shows a small grassy area with a mix of sunlight and shade. The grass is green and appears to be in a backyard or garden. In the background, there is a chain-link fence and some trees or bushes providing shade. The overall scene looks peaceful and natural, with a clear contrast between the sunlit grass and the shaded areas.",
+    "This frame shows a grassy backyard area bordered by a chain-link fence. The grass is green but patchy in some areas, with sunlight casting some shadows from surrounding trees or structures. The right side of the yard appears to have more dense greenery or bushes. The scene is outdoors in a natural setting, with a mix of sunlit and shaded areas."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a small white dog has moved slightly forward and to the right compared to its position in the previous frame.",
+    "The white object on the grass has moved slightly to the right in the current frame compared to the previous one.",
+    "The white ball in the center has moved slightly forward in the second frame compared to the first.",
+    "There is no noticeable change or motion of the main object between the two frames.",
+    "There is no noticeable change in the main object or its motion between the two frames. The scene appears static.",
+    "The shadow has shifted slightly to the right, indicating movement of the light source or the object casting the shadow. The fence's shadow lines at the top-left corner became more distinct.",
+    "The shadow on the grass has shifted slightly, indicating that the main object casting the shadow has moved or the perspective of the light source has changed."
+  ],
+  "baseline_tokens": 632,
+  "diff_tokens": 187,
+  "lexical_redundancy_baseline_avg": 0.407313935361425,
+  "lexical_redundancy_diff_avg": 0.3225602512460962,
+  "lexical_redundancy_baseline_all": [
+    0.45714285714285713,
+    0.4166666666666667,
+    0.31645569620253167,
+    0.3373493975903614,
+    0.3561643835616438,
+    0.49122807017543857,
+    0.47619047619047616
+  ],
+  "lexical_redundancy_diff_all": [
+    0.13636363636363635,
+    0.5217391304347826,
+    0.42857142857142855,
+    0.037037037037037035,
+    0.6842105263157895,
+    0.075,
+    0.375
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.022734788359788358,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.041666666666666664,
+    0.047619047619047616,
+    0.05555555555555555,
+    0.0,
+    0.0,
+    0.0,
+    0.037037037037037035
+  ]
+}

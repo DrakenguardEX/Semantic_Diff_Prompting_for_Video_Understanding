@@ -1,0 +1,81 @@
+{
+  "video_id": "62917",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/62917.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/62917",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up of a person's hand reaching toward or opening the drawer of a black or dark-colored office machine, likely a printer or copier, situated on a wooden desk. In the background on the desk, there are some office supplies or documents, including an open binder on the right side. The image is slightly blurry and the focus is on the hand and the drawer.",
+    "This frame shows a close-up of a hand opening or closing a drawer or compartment of a printer or copier machine. The hand has a ring on the ring finger. The device is placed on a wooden desk or table. Some papers and possibly a folder or binder are visible in the background on the right side.",
+    "The image shows a close-up of a person's left hand, adorned with a ring on the ring finger, pulling open or placing their hand on the paper output tray of a printer or copier. The machine is situated on a wooden surface, and in the background, there appears to be a black binder or folder on the table. The photo is slightly blurry.",
+    "This frame shows a close-up of a person's hand pressing the handle of a drawer. The hand has a ring on the ring finger. The drawer is dark-colored and appears to be part of a piece of office furniture. The furniture is situated on a light brown wooden surface, and in the background, there is a black item that looks like a printer or some other electronic device, as well as a partially visible binder or book on the right side. The person is wearing a dark long-sleeved garment.",
+    "The image shows a person's left hand resting on the handle of a small black drawer or filing cabinet. The person is wearing a silver-colored ring on their middle finger and a black long-sleeve garment. The drawer or cabinet is placed on a wooden surface, and there are some office supplies or documents nearby, including a folder or binder positioned on the right side of the drawer.",
+    "The image shows a person's left hand reaching towards or pressing a button or part of a black device that looks like an office machine, possibly a printer or fax machine. The person is wearing a dark long-sleeved garment and a silver ring on their ring finger. The device is placed on a wooden surface, and in the background to the right, there is a metallic or silver binder or folder. The overall setting seems to be an office or workspace.",
+    "The image shows a person's left hand reaching towards or pressing a button or panel on a device that appears to be a printer or copier. The person is wearing a long-sleeve dark-colored garment, and there is a ring on their ring finger. The device is sitting on a wooden surface, possibly a desk. To the right, part of a silver or metallic item, possibly a folded document or file, is visible. Below the desk surface, there are some boxes or containers partially visible.",
+    "This image shows a person's hand reaching towards or touching a gray and black office device, possibly a printer or fax machine, placed on a light wood-colored desk. The person is wearing a dark long-sleeved garment. In the background, there is an open binder or folder with some papers inside on the right side of the desk. The image appears slightly blurry."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand moved slightly to the right, with the fingers spreading apart a little compared to the previous frame. The drawer is now more open.",
+    "The hand has moved slightly downward and to the left while maintaining contact with the black handle.",
+    "The hand has moved slightly downward and to the right, with the fingers more spread apart compared to the previous frame.",
+    "The hand has moved slightly downward and closer to the surface of the drawer in the current frame compared to the previous one.",
+    "The hand has moved slightly to the right and upward, with the fingers appearing more extended in the current frame compared to the previous one.",
+    "The hand has moved slightly upward and to the right, with the fingers extending more compared to the previous frame.",
+    "In the current frame, the hand has moved slightly to the right and the fingers are more spread out compared to the previous frame."
+  ],
+  "baseline_tokens": 688,
+  "diff_tokens": 184,
+  "lexical_redundancy_baseline_avg": 0.3980124961025399,
+  "lexical_redundancy_diff_avg": 0.43432890697508386,
+  "lexical_redundancy_baseline_all": [
+    0.4576271186440678,
+    0.3548387096774194,
+    0.34615384615384615,
+    0.358974358974359,
+    0.4084507042253521,
+    0.5138888888888888,
+    0.34615384615384615
+  ],
+  "lexical_redundancy_diff_all": [
+    0.13043478260869565,
+    0.20689655172413793,
+    0.391304347826087,
+    0.4583333333333333,
+    0.52,
+    0.7142857142857143,
+    0.6190476190476191
+  ],
+  "info_density_baseline": 0.014046818501028029,
+  "info_density_diff": 0.04019843807088053,
+  "info_density_baseline_per_frame": [
+    0.029411764705882353,
+    0.03508771929824561,
+    0.031746031746031744,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.016129032258064516
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.04,
+    0.058823529411764705,
+    0.047619047619047616,
+    0.043478260869565216,
+    0.04,
+    0.05,
+    0.041666666666666664
+  ]
+}

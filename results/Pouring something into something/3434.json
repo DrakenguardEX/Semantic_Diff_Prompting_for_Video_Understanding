@@ -1,0 +1,81 @@
+{
+  "video_id": "3434",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/3434.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/3434",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a white ceramic mug with a small orange and white rectangular design on its side. The mug is placed on a white surface that appears to be a tiled countertop or table. There are some small spots and a few stains on the surface near the mug. The mug looks empty or nearly empty. The lighting is somewhat dim, casting a soft shadow of the mug on the surface.",
+    "This frame shows a white ceramic cup with a handle, placed on a flat surface which appears to be a tiled countertop or table. The cup has an orange horizontal stripe as part of its design. The tile surface has visible grout lines and some small stains or marks. There is a shadow cast on the surface, indicating light coming from an angle. The cup looks empty or nearly empty.",
+    "The image shows a white ceramic cup placed on a white tiled surface. The cup has a handle and some red and brown patterns or stains on its exterior. The area around the cup on the surface has some stains and marks, indicating it might not have been cleaned recently. The lighting is dim, creating some shadows around the cup.",
+    "The image shows a close-up view of a white cup with a handle sitting on a tiled surface. The cup has a horizontal red-orange stripe around its middle. Part of a transparent object, possibly a plastic bottle or container, is visible in the upper left corner of the image. The lighting casts some reflections on the cup and the tiles.",
+    "This frame shows a close-up view of water being poured from a transparent container or jug into a white ceramic cup. The cup has a handle and features a red-orange stripe around its middle. The cup is placed on a tiled surface. Some water appears to have spilled or splashed around the cup on the tiles. The scene is likely taking place in a kitchen or a similar setting.",
+    "This frame shows water being poured from a transparent container into a white ceramic mug with a red stripe around its upper middle part. The mug is placed on a surface that looks like a tiled countertop. The scene appears to be well-lit, focusing on the action of filling the cup with water.",
+    "This frame shows water being poured from a transparent glass container into a white ceramic mug with an orange stripe near the top. The scene appears to be taking place on a white countertop or table with visible grout lines. The image captures the moment the water is flowing into the cup.",
+    "This frame shows water being poured from a transparent container into a small white cup with a handle. The cup has a red and possibly other colored design around its exterior. The scene is set on a white tiled surface with visible grout lines. Some water droplets can be seen on the surface near the cup."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, the cup, has moved slightly to the right in the current frame compared to the previous one.",
+    "The cup has shifted slightly to the left in the current frame compared to the previous one.",
+    "In the current frame, a clear liquid is being poured into the cup, while in the previous frame the cup was empty.",
+    "In the current frame, water is being poured into the cup, and some of the water has entered the cup.",
+    "The water stream from the container is flowing more directly into the cup, beginning to fill it with water.",
+    "The water level inside the cup has increased as more water is being poured into it from the container.",
+    "The water stream from the jug has shifted slightly to the left and is now entering the cup at a different angle, with ripples forming inside the cup as the water accumulates. The jug has also moved slightly closer to the cup."
+  ],
+  "baseline_tokens": 566,
+  "diff_tokens": 193,
+  "lexical_redundancy_baseline_avg": 0.3860235824671312,
+  "lexical_redundancy_diff_avg": 0.32707431812291154,
+  "lexical_redundancy_baseline_all": [
+    0.44776119402985076,
+    0.28169014084507044,
+    0.30158730158730157,
+    0.417910447761194,
+    0.4461538461538462,
+    0.423728813559322,
+    0.38333333333333336
+  ],
+  "lexical_redundancy_diff_all": [
+    0.16666666666666666,
+    0.6470588235294118,
+    0.2608695652173913,
+    0.4090909090909091,
+    0.19230769230769232,
+    0.391304347826087,
+    0.2222222222222222
+  ],
+  "info_density_baseline": 0.013568410499809187,
+  "info_density_diff": 0.05044998860788334,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.014492753623188406,
+    0.03773584905660377,
+    0.038461538461538464,
+    0.017857142857142856
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05,
+    0.0,
+    0.045454545454545456,
+    0.05,
+    0.15789473684210525,
+    0.05263157894736842,
+    0.047619047619047616
+  ]
+}

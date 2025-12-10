@@ -1,0 +1,81 @@
+{
+  "video_id": "181897",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/181897.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/181897",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a close-up of a hand holding a small object between the thumb and forefinger. The object appears to be a cotton swab or a small stick with some white material on one end. The background is dark and blurry, making it difficult to discern any specific details. The hand is well-lit, suggesting the photo was taken with a flash or strong light source.",
+    "The image shows a close-up of a person's hand holding a lit cigarette or joint between their fingers. The background is dark, making it difficult to discern details beyond the hand and the smoking item. The flame is small and the smoke seems to be faint or not visible in this particular frame.",
+    "The image shows a close-up of a hand holding a small, white cigarette or joint between the thumb and index finger. The background is dark and indistinct, making it difficult to discern any specific details or location. The lighting is focused on the hand, while the surroundings remain largely obscured.",
+    "The image shows a close-up of a hand holding a small, thin object with a burning tip, emitting a small flame or ember. The background is dark and indistinct, making it difficult to discern any surroundings. The focus is mainly on the hand and the burning object.",
+    "This image shows a close-up of a hand holding a cotton swab (Q-tip) with one end lit on fire. The background is dark and indistinct, making the flame and the hand the focal points of the image. The flame is small and blue at the base, indicating it is actively burning the cotton swab tip.",
+    "The image shows a close-up of a hand holding a small white earbud, with a dark background. The earbud's cable is visible, and it appears that the person is holding the part of the earbud that goes into the ear. The lighting is low, making the surroundings mostly indistinguishable.",
+    "The image shows a close-up of a hand holding a small white object, possibly a rolled cigarette or similar item. The background is completely dark, making the hand and the object the main focus of the frame. The fingers are slightly curved around the object, and the lighting appears dim or low.",
+    "This image shows a close-up of a person's hand holding a small blue object between their thumb and index finger against a dark background. The object is thin and appears to be made of plastic or paper. The lighting is focused on the hand and the object, leaving the surroundings mostly obscured by darkness."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the main object (a hand holding a cotton swab) has rotated slightly clockwise compared to the previous frame. The cotton swab and fingers have shifted position marginally, indicating slight movement or adjustment of the grip.",
+    "In the current frame, the hand has moved slightly to the right and the fingers have adjusted their grip on the cotton swab, with the thumb now positioned closer to the tip of the swab.",
+    "In the current frame, the hand has moved slightly to the right and the object held between the fingers has caught fire and is now burning. Smoke is visible rising from the burning object.",
+    "The main object, a hand holding a cotton swab with a flame, has moved slightly upward and rotated counterclockwise. The flame on the cotton swab appears to have grown taller and more defined.",
+    "The flame at the tip of the cotton swab has disappeared in the current frame, and the cotton swab itself has moved slightly downward, held more between the index finger and thumb.",
+    "In the current frame, the hand has moved closer to the camera, and the fingers are now gripping the earbud cord more firmly, causing the cord to appear bent. The overall position of the hand and fingers has shifted slightly.",
+    "The main object, a hand, is now holding a partially unfolded blue paper or plastic piece, which has moved slightly outward compared to the previous frame where it was more tightly held between the fingers. The fingers have adjusted to grip the object in its new position."
+  ],
+  "baseline_tokens": 515,
+  "diff_tokens": 318,
+  "lexical_redundancy_baseline_avg": 0.3815641677475519,
+  "lexical_redundancy_diff_avg": 0.24212041526040298,
+  "lexical_redundancy_baseline_all": [
+    0.34782608695652173,
+    0.4067796610169492,
+    0.48,
+    0.4489795918367347,
+    0.3148148148148148,
+    0.37254901960784315,
+    0.3
+  ],
+  "lexical_redundancy_diff_all": [
+    0.08823529411764706,
+    0.35714285714285715,
+    0.35135135135135137,
+    0.1951219512195122,
+    0.23076923076923078,
+    0.25,
+    0.2222222222222222
+  ],
+  "info_density_baseline": 0.002403846153846154,
+  "info_density_diff": 0.02072660241562776,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.019230769230769232,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.02857142857142857,
+    0.029411764705882353,
+    0.030303030303030304,
+    0.03125,
+    0.025,
+    0.02127659574468085
+  ]
+}

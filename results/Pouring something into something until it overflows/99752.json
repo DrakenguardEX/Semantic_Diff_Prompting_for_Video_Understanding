@@ -1,0 +1,81 @@
+{
+  "video_id": "99752",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/99752.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/99752",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a blue plastic cup being filled with water, with the water stream visibly entering the cup. The cup is placed on a red textured surface, likely a fabric such as a blanket or towel. The cup has a white printed logo or design on it.",
+    "The frame shows a blue translucent plastic cup placed on a red textured fabric surface, possibly a towel. Water is being poured into the cup from above, creating visible movement and bubbles inside the cup. The cup has a white logo or design on its side.",
+    "The frame shows a blue transparent plastic cup placed on a textured red fabric surface. Water is being poured into the cup, and the water level inside the cup is visibly rising. The cup has some white printed design or text on it. The red fabric underneath has a soft, fuzzy texture, similar to a towel or blanket.",
+    "The frame shows a blue translucent plastic cup being filled with water. The water is pouring into the cup, causing bubbles and some splash. The cup is placed on a textured, red surface that resembles a towel or fabric. The cup has a white logo or text on it, but it is partially obscured and unreadable in this frame.",
+    "The frame shows water being poured into a tall, blue-tinted plastic cup. The cup is placed on a textured, reddish-orange surface, which appears to be a towel or blanket. The water is actively flowing into the cup, creating bubbles and splashes inside.",
+    "This frame shows a close-up of a translucent blue plastic cup being filled with water. The cup is placed on a textured surface that appears to be a reddish-brown fabric, likely a towel or blanket. The water is visibly pouring into the cup from above, creating bubbles and splashes inside the cup. The cup also has a white design or logo on the side.",
+    "This frame shows a blue plastic cup being filled with water. The cup is placed on a red textured surface, possibly a towel or fabric. The water is mid-pour, captured with some movement and bubbles visible inside the cup. The cup also has a white design or logo on its side.",
+    "The frame shows a blue plastic cup placed on a red textured surface, possibly a blanket or fabric. Water is being poured into the cup, with visible bubbles and splashing inside it. The cup has part of a white logo or text on it, but it is not completely visible or clearly identifiable in this frame. There is also a distinct wet spot on the red surface next to the cup, indicating that some water has spilled or splashed out."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The water level in the blue cup has risen as more water is being poured into it.",
+    "In the current frame, the water level inside the blue cup has risen slightly as more water is poured into it.",
+    "In the current frame, the water inside the blue cup has risen and is actively splashing as it continues to be poured in. The motion of the water is more turbulent compared to the previous frame.",
+    "The water level in the blue cup has risen as more water is being poured into it.",
+    "In the current frame, water is filling up the blue cup further, with the water level rising and becoming more turbulent compared to the previous frame.",
+    "The water level inside the blue translucent cup has risen as it continues to be filled with water in the current frame compared to the previous one.",
+    "The main change is that more water has poured into the blue cup, causing the water level inside the cup to rise. The water flow continues to create bubbles and splashes inside the cup."
+  ],
+  "baseline_tokens": 533,
+  "diff_tokens": 210,
+  "lexical_redundancy_baseline_avg": 0.4533441207423958,
+  "lexical_redundancy_diff_avg": 0.3700982354185161,
+  "lexical_redundancy_baseline_all": [
+    0.4375,
+    0.49019607843137253,
+    0.44642857142857145,
+    0.3392857142857143,
+    0.4909090909090909,
+    0.5087719298245614,
+    0.4603174603174603
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.7368421052631579,
+    0.5172413793103449,
+    0.41379310344827586,
+    0.2857142857142857,
+    0.3870967741935484,
+    0.25
+  ],
+  "info_density_baseline": 0.035202945341129104,
+  "info_density_diff": 0.04806944145179439,
+  "info_density_baseline_per_frame": [
+    0.020833333333333332,
+    0.021739130434782608,
+    0.017241379310344827,
+    0.03389830508474576,
+    0.07142857142857142,
+    0.046875,
+    0.0196078431372549,
+    0.05
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.058823529411764705,
+    0.047619047619047616,
+    0.05555555555555555,
+    0.058823529411764705,
+    0.038461538461538464,
+    0.037037037037037035,
+    0.08823529411764706
+  ]
+}

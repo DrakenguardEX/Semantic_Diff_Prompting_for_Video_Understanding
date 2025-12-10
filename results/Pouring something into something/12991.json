@@ -1,0 +1,81 @@
+{
+  "video_id": "12991",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/12991.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/12991",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a small blue measuring cup placed on a dark countertop. The measuring cup contains a small amount of white liquid or substance at the bottom. The countertop has a speckled or mottled pattern. Part of a white object or appliance is visible on the right edge of the frame.",
+    "The image shows a small blue plastic container or measuring cup placed on a brown, speckled countertop. The container has a handle and a spout for pouring. Inside the container is a small amount of white powdery substance, likely salt or sugar. The setting appears to be a kitchen or food preparation area.",
+    "The frame shows a close-up of a countertop with a small blue plastic measuring cup placed on it. The cup appears to have a small amount of white liquid or powder inside. To the right, slightly out of focus, there seems to be a white container or bag, possibly being held or positioned over the blue cup. The image suggests that an ingredient is being measured or poured into the small blue cup.",
+    "This frame shows a close-up view of a hand pouring a white liquid from a plastic bottle with a red and white cap into a small blue measuring cup. The surface beneath is a brownish, speckled countertop.",
+    "The image shows a close-up of a hand holding a white bottle with a red ring near the cap, pouring a white liquid into a small blue measuring cup. The scene is set on a speckled brown countertop. The white liquid being poured likely resembles milk.",
+    "The frame shows a close-up of a hand pouring milk from a white plastic bottle with a red cap into a blue measuring cup. The background surface appears to be a brown, speckled countertop.",
+    "The frame shows a close-up view of a blue creamer cup filled with milk placed on a countertop with a brown and black speckled pattern. The edge of a larger white container with a red stripe is visible on the right side, likely pouring or about to pour milk into the blue creamer cup.",
+    "The image shows a blue measuring cup filled with milk placed on a brown, granite countertop. The measuring cup is centered near the lower right part of the image, and the surrounding countertop appears clean with no other objects visible."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The blue measuring cup has tilted slightly forward, causing the liquid inside to shift toward the spout.",
+    "In the current frame, the blue measuring cup has slightly tilted to the right and a white object, possibly a hand or container, has appeared on the right side of the frame, partially obscuring the view.",
+    "In the current frame, a hand holding a white bottle with a red cap appears and is pouring liquid into the blue measuring cup, which now contains more liquid compared to the previous frame.",
+    "In the current frame, more liquid has been poured from the bottle into the blue measuring cup.",
+    "The milk is being poured from the bottle into the blue cup, filling the cup with more liquid in the current frame.",
+    "The milk bottle has moved lower and further to the right, with the milk now poured into the blue measuring cup. The hand holding the bottle has also moved out of the frame.",
+    "In the current frame, the milk from the white container has been poured into the blue measuring cup, filling it with milk. The container has moved away from the cup."
+  ],
+  "baseline_tokens": 469,
+  "diff_tokens": 228,
+  "lexical_redundancy_baseline_avg": 0.37842911269432306,
+  "lexical_redundancy_diff_avg": 0.30602663796201146,
+  "lexical_redundancy_baseline_all": [
+    0.32727272727272727,
+    0.3283582089552239,
+    0.2903225806451613,
+    0.5,
+    0.4883720930232558,
+    0.3877551020408163,
+    0.3269230769230769
+  ],
+  "lexical_redundancy_diff_all": [
+    0.05,
+    0.23529411764705882,
+    0.27906976744186046,
+    0.34375,
+    0.6,
+    0.2903225806451613,
+    0.34375
+  ],
+  "info_density_baseline": 0.024271404786877056,
+  "info_density_diff": 0.0462566844919786,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0136986301369863,
+    0.02702702702702703,
+    0.043478260869565216,
+    0.029411764705882353,
+    0.05555555555555555,
+    0.025
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.029411764705882353,
+    0.058823529411764705,
+    0.09090909090909091,
+    0.09090909090909091,
+    0.1
+  ]
+}

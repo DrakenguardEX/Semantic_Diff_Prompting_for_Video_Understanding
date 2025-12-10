@@ -1,0 +1,81 @@
+{
+  "video_id": "9112",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/9112.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/9112",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a round kitchen container with a pink and white lid. The lid has a large central pink handle that appears to be designed for easy gripping. The container is placed on a dark granite countertop. The overall appearance suggests it might be used for storing food or other kitchen items.",
+    "This frame shows a person's hand holding or about to press down on a round, dual-colored kitchen gadget or tool. The tool is primarily white with a pink outline and a prominent pink lever or handle in the center. The tool is placed on a dark, speckled countertop. The design suggests it might be used for food preparation, possibly to shape or cut dough or other ingredients.",
+    "The frame shows a pair of hands holding a pink and white paper craft shaped like a flower or a petal design. The craft appears to be on a dark, speckled countertop surface. The hands are positioned as if adjusting or folding the paper create.",
+    "The frame shows a person's hands working on a craft project involving paper cutouts. There are multiple layers of pink and white paper arranged in a circular shape on a dark-colored surface. The person appears to be placing or adjusting a pink, petal-shaped piece on top of the other paper layers. The activity seems to be related to making decorative or artistic paper designs.",
+    "The frame shows a person's hands working with a kitchen appliance, likely a maker or roti press, with a pink and white color combination. One hand is lifting or placing the top lid while the other hand is steadying the appliance. Inside, there appears to be dough or flattened bread, possibly chapati or roti, on a lined surface. The background is a dark, textured countertop.",
+    "The frame shows a close-up view of a person holding a small electric appliance with a pink rim, which appears to be a roti or tortilla maker. Inside the appliance, there are two round flatbreads, likely rotis or chapatis, placed on top of a piece of newspaper. The background surface is a dark-colored countertop. The person's hand is visible on the left side, and they are possibly in the process of cooking or preparing the flatbreads.",
+    "The image shows a close-up view of a hand holding a pink-edged plate or container with some chapatis or rotis inside. The chapatis appear to be stacked, and there is some newspaper or paper lining underneath them. The surface underneath the plate or container is a dark-colored countertop, and there is a white plate visible to the right side of the image.",
+    "This frame shows a round, flat bread placed inside a circular container with a pink rim. The container is resting on a dark, speckled countertop. There is a hand visible on the left side of the frame, suggesting someone might be in the process of reaching for or placing the container. To the right of the container, there is a white object that appears to be a plate or lid. The bread looks like it might be an Indian flatbread such as roti or chapati."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a hand has appeared reaching toward and touching the lid of the pink and white container, which was not present in the previous frame.",
+    "In the current frame, the person's right hand has moved from the bottom part of the pink and white object to the top center, gripping it with fingers spread. The left hand has shifted slightly towards the left side, closer to the left edge of the object. The pink and white object itself remains in the same position.",
+    "In the current frame, the right hand has moved slightly downward and to the right on the pink and white paper object, while the left hand has moved slightly leftward and downward.",
+    "The lid of the container has been lifted and moved upward, revealing the contents inside.",
+    "The main object, which is a white and pink lid, has been lifted and moved away from the container, revealing the food inside.",
+    "The white plate that was in the first frame has been moved slightly downward and rotated out of the view in the second frame.",
+    "The hand that was holding the container has moved away, no longer holding it."
+  ],
+  "baseline_tokens": 632,
+  "diff_tokens": 233,
+  "lexical_redundancy_baseline_avg": 0.33056841294032996,
+  "lexical_redundancy_diff_avg": 0.22642672628904004,
+  "lexical_redundancy_baseline_all": [
+    0.36764705882352944,
+    0.22857142857142856,
+    0.3728813559322034,
+    0.3013698630136986,
+    0.3684210526315789,
+    0.391304347826087,
+    0.28378378378378377
+  ],
+  "lexical_redundancy_diff_all": [
+    0.07692307692307693,
+    0.20408163265306123,
+    0.35714285714285715,
+    0.13793103448275862,
+    0.43478260869565216,
+    0.18181818181818182,
+    0.19230769230769232
+  ],
+  "info_density_baseline": 0.0019230769230769232,
+  "info_density_diff": 0.06540892500178483,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.015384615384615385,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.017241379310344827,
+    0.0625,
+    0.2,
+    0.13043478260869565,
+    0.041666666666666664,
+    0.07142857142857142
+  ]
+}

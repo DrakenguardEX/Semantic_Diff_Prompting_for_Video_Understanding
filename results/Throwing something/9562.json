@@ -1,0 +1,81 @@
+{
+  "video_id": "9562",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/9562.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/9562",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up of an outstretched hand pointing towards a pile of clothes or fabric on a bed or soft surface. The items include a yellow piece of clothing or fabric, a red one, and what appears to be a blue or dark-colored sock or garment. The background includes patterned bedding with various colors and designs. The image seems to be slightly out of focus, especially around the hand and foreground.",
+    "The frame shows a close-up view of a bed or couch with a mattress and some cushions or blankets on it. A person wearing a red shirt and blue jeans is lying or crouching on the surface, with a yellow object near their head. A hand, presumably of the person taking the photo or video, is reaching out toward the person in red. The image is slightly blurry, indicating motion.",
+    "This frame shows a yellow bird, possibly a cockatiel, perched on or near a pile of blankets or bedding. The blankets are of various colors, including red, beige, and a patterned one with blue and pink hues. The bird is partially covered by or resting on the beige blanket. In the lower left of the frame, a human hand is reaching out toward the bird or the blankets. The setting appears to be a cozy indoor space, possibly a bed or a couch with bedding.",
+    "The image shows a bed covered with various blankets and sheets. A red blanket is prominently draped over part of the bed. Near the top right, there is a yellow Pikachu plush toy lying on the bed. The bed itself appears to have a mattress without a fitted sheet, and the overall scene looks cozy but somewhat cluttered with the blankets.",
+    "The image shows a bed or a mattress with various blankets and a pillow. A red blanket partially covers someone lying down, with their face mostly hidden. There is a yellow Pikachu plush toy placed near the person's shoulder. The bedding consists of multiple layers, including a beige pillow and blankets with different colors and patterns. The setting appears to be cozy and informal.",
+    "This frame shows a bed or sleeping area with layered blankets and pillows. There is a large beige pillow, a red blanket, and a colorful patterned blanket. A small, yellow Pikachu plush toy is resting on top of the bedding near the center-right of the image. The setting appears cozy and casual.",
+    "This frame shows a bed with several blankets and pillows arranged on it. There is a red pillow on the bed, partially covering a yellow Pikachu plush toy. The bed has a light-colored sheet or mattress cover and multiple colorful blankets, including one with a mix of blue and red tones. The setting appears to be a casual, cozy bedroom environment.",
+    "The image shows a bed with multiple layers of blankets and sheets in various colors and patterns. On the bed is a small yellow plush toy, which resembles Pikachu from Pokémon. The plush toy is partially covered by a dark blue blanket and is resting on a beige bed sheet. There is also a maroon or dark red fabric visible on the bed. The overall scene looks cozy and somewhat cluttered."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The yellow object, which is being held, moved slightly downward and became blurred, indicating motion away from the camera. The hand also shifted position slightly downward and forward.",
+    "The yellow object, which appears to be a bird, moved from a blurred position on the red fabric to a clearer position above the person's legs. The hand in the foreground moved closer to the yellow bird.",
+    "The Pikachu plush has shifted slightly to the right and is now more upright in the current frame compared to the previous one.",
+    "There is no visible change in the main object or its motion between the two frames.",
+    "The person under the red blanket shifted their hand slightly, moving it a bit more out from under the blanket.",
+    "The main object, a small yellow plush toy, has shifted slightly to the right in the current frame compared to the previous one.",
+    "The yellow Pikachu plush on the bed has slightly shifted its position, now leaning more towards the right compared to the previous frame."
+  ],
+  "baseline_tokens": 639,
+  "diff_tokens": 205,
+  "lexical_redundancy_baseline_avg": 0.3143294841371992,
+  "lexical_redundancy_diff_avg": 0.13656241289713247,
+  "lexical_redundancy_baseline_all": [
+    0.24390243902439024,
+    0.27848101265822783,
+    0.24358974358974358,
+    0.34285714285714286,
+    0.3787878787878788,
+    0.41935483870967744,
+    0.29333333333333333
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.23076923076923078,
+    0.07317073170731707,
+    0.0967741935483871,
+    0.03333333333333333,
+    0.12903225806451613,
+    0.39285714285714285
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.01747104247104247,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03571428571428571,
+    0.05405405405405406,
+    0.0,
+    0.0,
+    0.05,
+    0.0,
+    0.0
+  ]
+}

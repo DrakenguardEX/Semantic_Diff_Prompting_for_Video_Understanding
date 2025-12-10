@@ -1,0 +1,81 @@
+{
+  "video_id": "39564",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/39564.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/39564",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a white bathroom or kitchen sink with a black faucet. Inside the sink, there is a paper cup filled with water. The cup has some graphics or images on it, but the details are not entirely clear. The sink and faucet appear clean and the cup is positioned near the drain area.",
+    "This frame shows a bathroom sink with a dark-colored faucet. Inside the sink, there is a transparent glass filled with water. The sink and the surrounding area are clean and white. The glass appears to have some designs or patterns on it.",
+    "The image shows a close-up of a bathroom sink with a black faucet. Inside the sink, there is a cup filled with clear water. The cup has some colorful designs on it, and the photo is taken from above, focusing mainly on the sink and the cup.",
+    "The frame shows a close-up view of a white bathroom sink with a black faucet. Inside the sink, near the drain, there is a plastic cup filled with water, and the water level is quite high, almost to the rim of the cup. The sink appears clean, and the lighting is bright enough to clearly see the details.",
+    "The image shows a close-up view of a white sink with a black faucet. Water is pouring from the faucet into a transparent cup placed inside the sink. The cup is almost full, with bubbles visible on the surface of the water. The cup has some colorful design on it. The sink appears clean and well-maintained.",
+    "This frame shows a close-up view of a white bathroom sink with a black faucet. Water is flowing from the faucet into a cup placed inside the sink. The cup appears to be filling up with water. The sink has a smooth, curved shape with a small soap holder or indentation on the upper right side.",
+    "The image shows a close-up of a white bathroom sink with a dark faucet on the right side. Inside the sink, there is a tall cup filled with water that is frozen or has a thick layer of ice on the surface. The sink appears clean, and the cup has a colorful, somewhat blurred pattern. The overall scene suggests a moment where water is frozen inside the cup placed in the sink.",
+    "This frame shows a close-up of a bathroom sink with a black faucet. A cup filled with ice is placed inside the sink, and water is running over the ice from the faucet. Some water is spilling over the edge of the cup and into the sink. The sink and faucet have a clean and modern appearance."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The cup in the sink has shifted slightly to the right in the current frame compared to the previous one.",
+    "The cup has slightly rotated clockwise.",
+    "In the current frame, water is being poured from a white container into the cup in the sink.",
+    "In the current frame, water is pouring from the faucet into the cup, which is now filling. The water level in the cup is rising compared to the previous frame.",
+    "In the current frame, the water level in the cup has risen, and the pouring water is creating more bubbles and foam inside the cup. The water stream appears to be slightly thicker and more forceful.",
+    "In the current frame, the stream of water flowing into the cup has stopped, and the water inside the cup is still, with a foamy surface.",
+    "In the current frame, water is overflowing from the cup and spilling onto the sink surface."
+  ],
+  "baseline_tokens": 543,
+  "diff_tokens": 190,
+  "lexical_redundancy_baseline_avg": 0.37092868914649346,
+  "lexical_redundancy_diff_avg": 0.2697281974990953,
+  "lexical_redundancy_baseline_all": [
+    0.46938775510204084,
+    0.3541666666666667,
+    0.34615384615384615,
+    0.35714285714285715,
+    0.39285714285714285,
+    0.3492063492063492,
+    0.3275862068965517
+  ],
+  "lexical_redundancy_diff_all": [
+    0.17647058823529413,
+    0.25,
+    0.10526315789473684,
+    0.36,
+    0.30303030303030304,
+    0.3333333333333333,
+    0.36
+  ],
+  "info_density_baseline": 0.02288216922561634,
+  "info_density_diff": 0.03501602564102564,
+  "info_density_baseline_per_frame": [
+    0.01818181818181818,
+    0.023809523809523808,
+    0.02127659574468085,
+    0.017241379310344827,
+    0.017857142857142856,
+    0.03571428571428571,
+    0.013888888888888888,
+    0.03508771929824561
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.05555555555555555,
+    0.03333333333333333,
+    0.027777777777777776,
+    0.038461538461538464,
+    0.125
+  ]
+}

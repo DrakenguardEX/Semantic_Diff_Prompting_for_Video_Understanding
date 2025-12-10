@@ -1,0 +1,81 @@
+{
+  "video_id": "62363",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/62363.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/62363",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a green cylindrical container or cup placed on a fabric surface with a blue and white checkered pattern. The container is empty and positioned near the center of the frame. The fabric underneath appears slightly wrinkled.",
+    "This frame shows a close-up of a person's hand holding a green cylindrical container with a removable lid. The hand is lifting or placing the lid onto the container. The object is resting on a checkered fabric surface with blue and white colors.",
+    "The image shows a person's hand lifting the green lid off a matching green container. The container is placed on a surface covered with a blue and white checkered cloth. The person's hand is positioned near the top left of the image, gripping the lid to remove it.",
+    "This frame shows a close-up of a left hand holding a green circular object on a plaid patterned surface, which appears to be a fabric with a blue and white checkered design. The fingers are grasping the green object firmly.",
+    "The image shows a person's hand pressing down on a green puck-like object placed on a plaid-patterned fabric surface. The fabric has a checkered design with blue, white, and some beige colors. The hand is positioned with fingers spread slightly, grasping or pressing the round green object firmly.",
+    "The image shows a person's left hand resting on a green, round object. The hand is positioned with fingers spread on the object, which is lying on a surface covered with a checkered fabric featuring a pattern of blue, white, and beige squares. The object's exact purpose is unclear from this frame alone.",
+    "This frame shows a green circular object placed on a blue and white checkered fabric surface, likely a bedsheet or tablecloth. The object appears to be solid and smooth, and there's a slight shadow cast beneath it, indicating a light source from above. A small part of a hand is visible on the left side of the frame.",
+    "The frame shows a close-up view of a green hockey puck placed on a blue and white checkered fabric surface, likely a bedspread or blanket. The fabric pattern consists of alternating blue and white squares with thin intersecting lines. The puck is centered and casts a small shadow to its left side, indicating a light source coming from the right."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a hand appears, lifting the lid off the green container. The lid is tilted and partially removed compared to the previous frame where it was fully seated on the container.",
+    "The hand is lowering the green lid closer to the dark container below it.",
+    "The main object, a green cylindrical container, is being rotated or partially lifted by the hand, revealing the black interior of the container.",
+    "The hand has slightly shifted its grip on the green circular object, with the fingers adjusting their positions. The object itself has moved slightly to the right.",
+    "In the current frame, the hand has slightly shifted the green object to the right.",
+    "The hand has released the green circular object, which is now resting alone on the surface.",
+    "The green cylindrical object has moved slightly to the right in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 481,
+  "diff_tokens": 185,
+  "lexical_redundancy_baseline_avg": 0.3755651078398262,
+  "lexical_redundancy_diff_avg": 0.20944399072049533,
+  "lexical_redundancy_baseline_all": [
+    0.4,
+    0.40425531914893614,
+    0.29411764705882354,
+    0.39215686274509803,
+    0.42592592592592593,
+    0.3125,
+    0.4
+  ],
+  "lexical_redundancy_diff_all": [
+    0.10344827586206896,
+    0.26666666666666666,
+    0.19230769230769232,
+    0.11428571428571428,
+    0.391304347826087,
+    0.23809523809523808,
+    0.16
+  ],
+  "info_density_baseline": 0.0055111434108527126,
+  "info_density_diff": 0.02031983019498163,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.023255813953488372,
+    0.020833333333333332,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.029411764705882353,
+    0.0,
+    0.043478260869565216,
+    0.037037037037037035,
+    0.0,
+    0.0,
+    0.05263157894736842
+  ]
+}

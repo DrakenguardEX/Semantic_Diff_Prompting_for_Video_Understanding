@@ -1,0 +1,81 @@
+{
+  "video_id": "13347",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/13347.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/13347",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a ceramic mug with a handle on its left side. The mug features a design inspired by the Maryland state flag, with the word \"MARYLAND\" written vertically in white capital letters on a black background. The design includes the distinctive yellow and black checkerboard pattern along with red and white elements from the Maryland flag. The mug is placed on a smooth blue surface, and the background is also blue.",
+    "This frame shows a ceramic mug placed on a blue surface. The mug has a design featuring the Maryland state flag colors and patterns. The word \"MARYLAND\" is written vertically on the side of the mug in bold white letters against a black background. The flag design includes yellow, black, red, and white colors. The lighting suggests the photo was taken indoors with some natural or artificial light casting a bit of reflection on the mug.",
+    "The image shows a ceramic mug placed on a blue surface. The mug features a design inspired by the Maryland state flag, with the word \"MARYLAND\" written vertically in white letters on a black background. The flag's distinctive black, yellow, red, and white patterns are prominently displayed on the mug. The lighting suggests the photo was taken indoors.",
+    "The image shows a ceramic coffee mug with the design and colors of the Maryland state flag on it. The word \"MARYLAND\" is printed vertically in bold white letters on a black background along the side of the mug. The mug is being filled with a clear liquid, possibly water. The background surface is blue.",
+    "The image shows a ceramic coffee mug placed on a blue surface. The mug features a design with the word \"MARYLAND\" written vertically on one side. Next to the text, there is a partial representation of the Maryland state flag, which includes black and yellow checks along with red and white elements. The mug has a white handle, and a bottle or container is pouring a clear liquid, likely water, into the mug. The background is mostly out of focus, emphasizing the mug and the pouring liquid.",
+    "The image shows a white ceramic mug with a design featuring the Maryland state flag and the word \"MARYLAND\" written vertically in large white letters on a black background. The mug is placed on a blue surface, and there appears to be some sort of transparent stirrer or straw inside the mug. The background is predominantly blue, with a darker object partially visible on the right side of the frame.",
+    "This image shows a close-up of a ceramic coffee mug placed on a blue surface. The mug features the design of the Maryland state flag with the word \"MARYLAND\" written vertically in white letters on a black background along one side of the mug. There is a stream of liquid being poured into the mug, although the liquid itself is not fully visible in the image. The mug handle is on the left side. The background is somewhat dark and out of focus.",
+    "This frame shows a coffee mug placed on a blue surface. The mug features the flag of Maryland, with the word \"MARYLAND\" printed vertically in white letters on a black background next to the flag design. The mug's handle is on the left side of the image. The background includes a lighter blue fabric or material."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The mug has rotated slightly clockwise in the current frame compared to the previous one.",
+    "The mug has slightly rotated clockwise, changing the visible angle of the \"MARYLAND\" text and the flag design.",
+    "In the current frame, liquid is being poured into the mug, creating a visible stream above the mug's opening.",
+    "In the current frame, water continues to be poured into the mug, indicated by a visible stream of water entering the mug. The level of water inside the mug has likely increased compared to the previous frame.",
+    "In the current frame, the liquid being poured into the mug has stopped flowing. The mug and its position remain unchanged.",
+    "The liquid being poured into the mug has increased in volume.",
+    "In the current frame, liquid is being poured into the \"Maryland\" mug, causing the liquid level inside the mug to rise compared to the previous frame."
+  ],
+  "baseline_tokens": 658,
+  "diff_tokens": 190,
+  "lexical_redundancy_baseline_avg": 0.4377349633362259,
+  "lexical_redundancy_diff_avg": 0.2665508044498116,
+  "lexical_redundancy_baseline_all": [
+    0.45454545454545453,
+    0.5333333333333333,
+    0.39285714285714285,
+    0.4307692307692308,
+    0.37333333333333335,
+    0.42028985507246375,
+    0.45901639344262296
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1875,
+    0.2727272727272727,
+    0.10344827586206896,
+    0.3125,
+    0.23529411764705882,
+    0.42105263157894735,
+    0.3333333333333333
+  ],
+  "info_density_baseline": 0.008158338683889162,
+  "info_density_diff": 0.04203836111730848,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.01818181818181818,
+    0.022988505747126436,
+    0.0,
+    0.024096385542168676,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.10526315789473684,
+    0.05405405405405406,
+    0.047619047619047616,
+    0.09090909090909091,
+    0.038461538461538464
+  ]
+}

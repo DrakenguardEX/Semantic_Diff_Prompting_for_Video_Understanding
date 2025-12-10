@@ -1,0 +1,81 @@
+{
+  "video_id": "21323",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/21323.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/21323",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a white countertop surface with a few objects on it. There is an orange coffee mug without a handle lying on its side in the center of the image. Towards the back right, there are two more cups, one on top of the other. The cup on top has a blue design. In the top left corner of the image, there appears to be a small, dark mesh or net-like object. On the right edge of the frame, a part of a transparent container or bottle is visible. The setting seems to be a kitchen or a similar area where beverages are prepared.",
+    "This frame shows a countertop with a few items on it. There is an empty red cup placed in the center on the countertop. Towards the upper right, there is a blue cup that appears to be resting on a dark brown coaster, leaning against a clear, likely glass, bottle or container. The background surface is a light-colored countertop with a smooth texture. There is also a dark, circular object near the top left side of the image, possibly a small container or a piece of cloth. The overall setting looks like a kitchen or dining area.",
+    "The frame shows a close-up of a countertop with a red mug placed upright on it. To the right, a transparent container or kettle is tilted, pouring a liquid, likely water, into the mug. There is a small dark ring-like object near the top left corner of the frame on the countertop. The setting appears to be a kitchen or a similar area where beverages are prepared.",
+    "The frame shows a partially filled orange mug on a kitchen countertop. There is a glass or transparent container being tilted above the mug as if liquid is being poured into it. To the left, there is a dark object, possibly a kitchen towel or utensil holder. The surface of the countertop is light-colored and appears to be made of a smooth material like laminate or stone.",
+    "This frame shows a close-up of a countertop with a hand pouring a liquid, likely hot water, from a transparent kettle into an orange mug. There is a mesh strainer or tea infuser resting on the countertop, suggesting that tea might be being prepared. The surface appears to be a light-colored, speckled countertop.",
+    "This frame shows a close-up of a hand pouring water from a clear glass pitcher into an orange ceramic mug. The setting appears to be a kitchen counter with a light-colored countertop. There is also a black mesh tea infuser or strainer resting on the countertop near the mug. The scene suggests someone is in the process of preparing a hot beverage, possibly tea.",
+    "This frame shows a close-up of a countertop with a person's hand pouring water from a clear container into an orange mug. There is also a small round mesh tea infuser placed on the countertop near the mug. The countertop is light-colored and next to a stainless steel sink visible on the left side of the frame.",
+    "The frame shows a hand pouring water from a clear glass container into a red mug placed on a light-colored countertop. There is a sink partially visible on the left side of the image, and a couple of small objects, possibly kitchen items or containers, are on the countertop near the wall. The setting appears to be a kitchen."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a transparent container with water has been moved closer to the orange mug, casting a round shadow on the countertop near the mug.",
+    "In the current frame, a clear container is being tilted, pouring liquid into the red mug, while the shadow of the pouring container and liquid appears on the surface beside the mug.",
+    "In the current frame, the glass container has moved closer to and is tilted over the red mug, appearing to pour liquid into it.",
+    "In the current frame, liquid is being poured from the jug into the cup, whereas the previous frame shows the cup empty with no pouring action. The jug is tilted further down in the current frame, indicating the pouring motion.",
+    "In the current frame, water is being poured into the orange mug, and the hand holding the glass container has moved slightly to the right compared to the previous frame. The water level inside the mug has increased.",
+    "In the current frame, more liquid has been poured into the orange mug, with increased visible steam rising from the mug. The position of the pouring container and hand remains nearly the same but the liquid level in the mug has risen.",
+    "In the current frame, the jar has been tilted slightly more, causing more water to pour into the orange cup. The water level in the cup has risen compared to the previous frame."
+  ],
+  "baseline_tokens": 689,
+  "diff_tokens": 280,
+  "lexical_redundancy_baseline_avg": 0.41128659334054046,
+  "lexical_redundancy_diff_avg": 0.24786692004737113,
+  "lexical_redundancy_baseline_all": [
+    0.3854166666666667,
+    0.35714285714285715,
+    0.35714285714285715,
+    0.3188405797101449,
+    0.532258064516129,
+    0.46153846153846156,
+    0.4666666666666667
+  ],
+  "lexical_redundancy_diff_all": [
+    0.07692307692307693,
+    0.25,
+    0.375,
+    0.21052631578947367,
+    0.21428571428571427,
+    0.3333333333333333,
+    0.275
+  ],
+  "info_density_baseline": 0.01422025701534783,
+  "info_density_diff": 0.04855300340497709,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.014925373134328358,
+    0.029850746268656716,
+    0.018867924528301886,
+    0.015625,
+    0.017543859649122806,
+    0.01694915254237288
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.037037037037037035,
+    0.0625,
+    0.08333333333333333,
+    0.075,
+    0.05263157894736842,
+    0.047619047619047616,
+    0.030303030303030304
+  ]
+}

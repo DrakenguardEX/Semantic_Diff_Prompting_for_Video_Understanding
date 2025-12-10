@@ -1,0 +1,67 @@
+{
+  "video_id": "10448",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/10448.webm",
+  "num_frames": 6,
+  "frame_dir": "frames/Uncovering something/10448",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg"
+  ],
+  "baseline_texts": [
+    "The image appears to be a close-up shot of a person lying down or reclining on a surface. The person is partially covered by a red blanket or fabric, and you can see part of their arm and hand. They seem to be wearing a white and gray plaid shirt and possibly a brown garment underneath. The image is somewhat unclear and tightly cropped, making it difficult to discern more details or the exact context.",
+    "The image shows a close-up of a person lying down, partly covered with a patterned brown blanket. There is a white pillow and a black cylindrical object resting on it. The person's arm and a part of their torso are visible, with the person wearing a shirt with a plaid pattern. The image is slightly blurry and appears to be taken indoors.",
+    "The frame shows a close-up scene with a person's arm and part of their torso visible. The person appears to be lying down on a bed or couch, covered with a brown patterned blanket and a white sheet. A black cylindrical object, possibly a bottle or container, is on the bed near the person's hand, which is slightly blurred, indicating motion. There is also a red fabric visible in the bottom right corner of the frame. The setting looks relaxed and informal.",
+    "The image shows a close-up of a person lying on a bed, partially covered by a blanket. One arm is extended, and the hand is holding a TV remote or a similar device. The person's clothing appears to be casual, and the bed has white sheets and pillows with a reddish cover. The setting looks like a relaxed, indoor environment, possibly a bedroom.",
+    "The image shows a person lying on a bed covered with white sheets and a red blanket. The person's arm and hand are visible, and they are holding a TV remote control. The person appears to be wearing plaid patterned shorts. The background includes a brown pillow with a geometric pattern.",
+    "The frame shows a person lying down on a bed or couch, holding a remote control in their hand. Part of their torso and arm are visible, along with a pillow and some blankets or sheets around them. The setting appears casual and relaxed, possibly in a bedroom or living room."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a black cylindrical object has appeared on the bed, and the person's hand has moved upward and slightly to the right. The red blanket has shifted to the right, revealing more of the white sheet.",
+    "In the current frame, the arm on the right side has moved further to the right and is more extended, creating a blur effect, indicating motion. The reddish object or cloth near the right side has also shifted slightly to the right. The rest of the main objects remain in similar positions.",
+    "In the current frame, the hand has moved to grasp or is in the process of grasping the black cylindrical object, which has shifted slightly in position compared to the previous frame. The fingers are more extended and closer to the object.",
+    "In the current frame, the hand has moved upward and slightly to the right while holding the remote control, and the remote control itself is now more clearly visible and positioned higher compared to the previous frame.",
+    "In the current frame, the hand holding the remote control has moved slightly upward and closer to the camera compared to the previous frame."
+  ],
+  "baseline_tokens": 457,
+  "diff_tokens": 234,
+  "lexical_redundancy_baseline_avg": 0.36618819839732963,
+  "lexical_redundancy_diff_avg": 0.3226996093337557,
+  "lexical_redundancy_baseline_all": [
+    0.35135135135135137,
+    0.4507042253521127,
+    0.34177215189873417,
+    0.36507936507936506,
+    0.3220338983050847
+  ],
+  "lexical_redundancy_diff_all": [
+    0.06060606060606061,
+    0.32,
+    0.32,
+    0.34146341463414637,
+    0.5714285714285714
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.027169339669339668,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05128205128205128,
+    0.019230769230769232,
+    0.023809523809523808,
+    0.02702702702702703,
+    0.041666666666666664
+  ]
+}

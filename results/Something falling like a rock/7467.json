@@ -1,0 +1,81 @@
+{
+  "video_id": "7467",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/7467.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/7467",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a person's hand holding a small white cylindrical object above a desk. On the desk, there is a Dell computer monitor, a keyboard, and a mouse. In the background, the computer monitor displays a dark screen with some faint text or shapes. There are also some cables behind the monitor. The setting appears to be an office or workstation.",
+    "The frame shows a close-up of a hand holding a white cylindrical object with a textured surface. The background reveals an office or workspace setting with a computer monitor (Dell brand), a keyboard, and a mouse on a light-colored desk. There are wires visible around the monitor area, and part of a closed laptop can be seen on the left side of the desk. The screen displays a dark background with some white text or interface elements, but the details are not clear.",
+    "The image shows a hand holding a rectangular piece of chalk or an eraser in front of a computer monitor, keyboard, and mouse on a desk. The monitor displays a dark screen with some text or a message, but the text is not clearly visible. The setting appears to be an office or classroom environment. There are cables visible behind the monitor, and part of a laptop is visible on the left side of the desk.",
+    "The image shows a close-up of a person's hand holding a white object, possibly a piece of chalk or an eraser, in front of a computer setup. The computer is a Dell monitor displaying a screen with on-screen text in a dark interface. In front of the monitor, there is a black keyboard and a black computer mouse on a desk. There are also some cables and a closed laptop visible on the left side of the desk. The overall setting appears to be an office or workstation.",
+    "The image shows a hand holding a test tube filled with a white or light-colored substance in front of a computer monitor, keyboard, and mouse on a desk. The computer screen is displaying some content, but it is not clear what it is. A laptop is partially visible on the left side of the desk. The setting appears to be an office or laboratory workspace.",
+    "This frame shows a close-up of a computer workstation on a desk. There is a Dell monitor displaying some content and a black keyboard placed in front of it. To the right of the keyboard, a black computer mouse is visible. A silver or gray laptop is partially visible on the left side of the desk. In the center foreground, a hand is tossing a small object, possibly a die or a keycap, in the air above the desk surface. The image appears to capture the motion of the object mid-air.",
+    "The image shows a workspace with a Dell computer monitor, a keyboard, and a mouse on a grey desk. There are some cables connected to the monitor. In the foreground on the desk, there is a small white rectangular object that looks like a piece of candy or gum. A person's hand is partially visible at the top left of the image, possibly reaching towards the monitor. The screen displays a notification or message, but the text is not fully readable.",
+    "The image shows a close-up of a person's hand holding an eraser in front of a computer screen. The screen has a Dell logo at the bottom, a keyboard is placed in front of the monitor, and there is a silver laptop partially visible on the left side of the desk. The eraser appears to be white and is centered in the image, positioned on a light-colored desk. The computer screen displays a pop-up or dialog box, but the text is not fully visible or clear. There are a few cables around the back of the monitor, and the overall setting appears to be a workspace or office."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a small white cylindrical item held in the hand, has moved slightly downward and to the right compared to the previous frame. The hand has adjusted its grip accordingly.",
+    "The hand holding the test tube has moved slightly downward and to the right. The test tube is now positioned closer to the computer monitor.",
+    "The hand is moving slightly downward, causing the white object it is holding to lower closer to the desk.",
+    "The main object, a white container held by a hand, has moved slightly downward and closer to the keyboard on the desk compared to the previous frame.",
+    "The object, a piece of chalk, has moved downward, falling away from the hand and is now blurred due to motion.",
+    "The main object, which appears to be a piece of chewing gum or candy, has moved downward and landed on the desk from being mid-air in the previous frame. The hand in the frame remains in the same position.",
+    "The hand has moved closer to the computer screen, no longer blocking the top part, and is positioned higher above the desk compared to the previous frame."
+  ],
+  "baseline_tokens": 770,
+  "diff_tokens": 232,
+  "lexical_redundancy_baseline_avg": 0.43510166211696405,
+  "lexical_redundancy_diff_avg": 0.25514351195023466,
+  "lexical_redundancy_baseline_all": [
+    0.4246575342465753,
+    0.44594594594594594,
+    0.6,
+    0.4714285714285714,
+    0.3783783783783784,
+    0.3253012048192771,
+    0.4
+  ],
+  "lexical_redundancy_diff_all": [
+    0.10714285714285714,
+    0.2647058823529412,
+    0.32,
+    0.32142857142857145,
+    0.2727272727272727,
+    0.3,
+    0.2
+  ],
+  "info_density_baseline": 0.0029264786418400877,
+  "info_density_diff": 0.03985434673757043,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.012048192771084338,
+    0.0,
+    0.011363636363636364,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03125,
+    0.04,
+    0.05263157894736842,
+    0.037037037037037035,
+    0.09523809523809523,
+    0.02564102564102564,
+    0.037037037037037035
+  ]
+}

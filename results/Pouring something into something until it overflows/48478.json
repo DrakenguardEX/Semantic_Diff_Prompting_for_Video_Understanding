@@ -1,0 +1,81 @@
+{
+  "video_id": "48478",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/48478.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/48478",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows an empty white cup with an orange handle placed on a dark speckled countertop. To the left of the cup, there is a small pile of ice cubes on the countertop. The lighting is somewhat dim.",
+    "The frame shows two cups on a dark, granite countertop. One cup is black and being held by a hand, while the other cup is white with an orange handle and is empty, placed on the surface. The image captures a moment that seems to be just before pouring or filling one cup with the contents from the other.",
+    "The frame shows a hand holding a black container or jug, pouring a clear liquid, likely water, into an orange and white striped ceramic mug. The surface beneath the mug and container appears to be a dark, speckled countertop.",
+    "The image shows a hand holding a stainless steel container, pouring a clear liquid into an orange-handled cup with a white interior. The surface beneath the cup and container is a dark granite countertop. The scene appears to take place indoors, likely in a kitchen.",
+    "The image shows a hand pouring water from a stainless steel container into an orange-handled cup. The cup is placed on a dark-colored countertop. The water is mid-pour, flowing from the container into the cup.",
+    "This frame shows a hand pouring a liquid from a metal container into an orange and white checkered ceramic mug. The mug is placed on a dark-colored countertop. The liquid appears to be clear, possibly water.",
+    "The image shows a close-up view of a hand pouring a liquid, likely milk or tea, from a stainless steel container into an orange-colored cup placed on a dark speckled countertop. The liquid is mid-pour, creating some splashes around the cup. The cup has a handle and a pattern on its surface.",
+    "This frame shows a close-up of a white or light-colored cup with an orange handle placed on a dark, speckled countertop. There is a stream of liquid being poured into the cup from the left side of the frame. The lighting is dim, creating a somewhat shadowy effect."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the black cup is moved closer to the white cup with the orange handle, and the crushed ice previously visible near the white cup is no longer present.",
+    "In the current frame, water is being poured from the black container into the white cup with an orange handle. The cup, previously empty, is now partially filled with water.",
+    "In the current frame, the liquid being poured from the container into the cup has increased in volume, filling the cup more than in the previous frame.",
+    "In the current frame, more liquid is being poured from the metal container into the cup, with the stream of liquid visibly longer and closer to the cup.",
+    "In the current frame, more water has been poured into the mug, causing the water level inside the mug to rise compared to the previous frame.",
+    "The liquid being poured from the metal container into the mug is splashing and spilling over the rim of the mug in the current frame.",
+    "The metal cup has been lifted away from the mug, and the liquid is no longer being poured into the mug. The mug is now filled to the brim with the liquid."
+  ],
+  "baseline_tokens": 440,
+  "diff_tokens": 238,
+  "lexical_redundancy_baseline_avg": 0.3712037589059604,
+  "lexical_redundancy_diff_avg": 0.28934169201179233,
+  "lexical_redundancy_baseline_all": [
+    0.3148148148148148,
+    0.2982456140350877,
+    0.45652173913043476,
+    0.38636363636363635,
+    0.4358974358974359,
+    0.32727272727272727,
+    0.3793103448275862
+  ],
+  "lexical_redundancy_diff_all": [
+    0.11538461538461539,
+    0.35294117647058826,
+    0.3225806451612903,
+    0.42857142857142855,
+    0.25,
+    0.23333333333333334,
+    0.3225806451612903
+  ],
+  "info_density_baseline": 0.028247132457937543,
+  "info_density_diff": 0.057489570614570606,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.03389830508474576,
+    0.02564102564102564,
+    0.022222222222222223,
+    0.05714285714285714,
+    0.027777777777777776,
+    0.038461538461538464,
+    0.020833333333333332
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03125,
+    0.06666666666666667,
+    0.07407407407407407,
+    0.03571428571428571,
+    0.038461538461538464,
+    0.12,
+    0.09375
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "169799",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/169799.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/169799",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a close-up of a hand holding a black, semi-transparent ruler above a wooden surface, possibly a desk. In the background, there is a pen lying horizontally on the desk, and part of a keyboard or another object is visible on the right edge of the image. The scene appears to be an indoor workspace or study area.",
+    "The image shows a hand holding a black ruler on a wooden desk. In the background, there is a pen lying horizontally near the top edge of the frame. The ruler appears to have white markings and numbers for measurements. The hand is positioned on the left side of the ruler, with fingers slightly curled around it. The overall setting looks like an office or study workspace.",
+    "The image shows a close-up of a hand holding a black, flexible measure or ruler over a wooden surface, like a desk or table. The ruler has white markings on it. In the background, there is a pen lying horizontally on the desk, and part of a white electronic device is visible on the right side. The overall setting appears to be an office or workspace.",
+    "This image shows a close-up view of a person's left hand holding a small black ruler with white markings. The ruler appears to be flexible and is curved. The surface beneath the hand and ruler is a wooden or wood-like desk or table. In the background, there is a pen lying horizontally on the desk and a portion of a computer mouse visible on the right edge of the image. The overall setting seems to be an office or workspace.",
+    "The frame shows a close-up of a hand holding a black curved ruler or measuring tool with white markings. The hand is positioned on the left side of the image, grasping the ruler at one end. In the background on a wooden surface, there is a dark-colored pen with silver accents lying horizontally. The surface appears to be a desk or table, and there is also a glimpse of a white and gray object on the right edge of the image.",
+    "The image shows a hand holding a black plastic ruler that appears to be slightly bent. The ruler has white measurement markings on it. There is also a black pen placed on a wooden surface in the background, along with a portion of a white object visible to the right. The setting appears to be a desk or tabletop.",
+    "This frame shows a close-up of a person's hand reaching towards or holding a black ruler on a wooden desk or table. On the desk, near the ruler, there is a pen lying horizontally. The background includes some other objects that are slightly out of focus, possibly a book or notebook. The image appears to be taken indoors, likely in an office or study environment.",
+    "The image shows a person's left hand holding a small black ruler on a wooden surface, such as a desk or table. The ruler has white markings for measurement. Nearby, there is a black and silver pen lying on the desk, and to the right edge of the image, a portion of a gray and black object is visible, possibly a coffee mug or a similar item. The background includes some blue packaging or folders partially visible at the top left corner."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The ruler has been lowered closer to the surface of the table, and the fingers holding it have adjusted slightly, with the thumb moving closer to the ruler's edge.",
+    "In the current frame, the hand is moving slightly downward and blurring, indicating motion, while still holding the black ruler, which remains on the table in a similar position.",
+    "The black ruler is being bent downward by the hand in the current frame compared to the previous one.",
+    "The hand is moving to the left and is slightly more closed around the black curved ruler. The ruler itself has rotated slightly clockwise.",
+    "The hand has moved slightly downward, lowering the black curved object by a small amount.",
+    "The hand has moved slightly forward to grip the black ruler more firmly, causing the ruler to shift a bit closer and rotate slightly clockwise.",
+    "The hand has moved closer to and is now gripping the edge of the ruler, which has shifted slightly on the desk."
+  ],
+  "baseline_tokens": 645,
+  "diff_tokens": 200,
+  "lexical_redundancy_baseline_avg": 0.44354554104162885,
+  "lexical_redundancy_diff_avg": 0.21542086699106403,
+  "lexical_redundancy_baseline_all": [
+    0.40298507462686567,
+    0.515625,
+    0.6290322580645161,
+    0.49295774647887325,
+    0.4307692307692308,
+    0.32857142857142857,
+    0.3048780487804878
+  ],
+  "lexical_redundancy_diff_all": [
+    0.037037037037037035,
+    0.175,
+    0.28125,
+    0.21428571428571427,
+    0.23076923076923078,
+    0.25925925925925924,
+    0.3103448275862069
+  ],
+  "info_density_baseline": 0.0015432098765432098,
+  "info_density_diff": 0.058173121872078314,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.012345679012345678,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.034482758620689655,
+    0.034482758620689655,
+    0.05263157894736842,
+    0.125,
+    0.13333333333333333,
+    0.04,
+    0.045454545454545456
+  ]
+}

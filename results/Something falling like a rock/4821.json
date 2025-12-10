@@ -1,0 +1,81 @@
+{
+  "video_id": "4821",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/4821.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/4821",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a hand holding a small black and gray earbud above a light-colored wooden surface. The background is a plain wall painted in a muted grayish-blue tone. The hand is positioned near the upper right corner of the image, and the focus is mainly on the earbud and the hand.",
+    "The frame shows a close-up of a hand holding a small, round, dark blue object, possibly a button or a coin, against a plain background with beige and grayish tones. The background appears to be a wall corner with no other objects visible on the wooden surface below. The setting seems minimalistic and well-lit.",
+    "This frame shows a close-up view of fingers holding a small, round, black object above a wooden surface. The background consists of plain, light-colored walls meeting at a corner. The focus is primarily on the hand and the small object.",
+    "The frame shows a close-up of a hand holding three batteries between the thumb and fingers. The background is a corner of a plain room with light-colored walls, and the batteries are positioned above a wooden surface, likely a table or desk. The hand appears to be about to place or pick up the batteries.",
+    "This frame shows a close-up of a flat wooden surface, likely a table or desk. Above this surface, near the upper right corner, there is a hand with fingers slightly bent, appearing to release or drop a small, metallic object. The object is partially airborne, suspended just above the surface. The background consists of a plain wall with a subtle corner visible, painted in a light gray or off-white color. The overall scene is minimalistic with a focus on the hand and the falling object.",
+    "The image depicts a close-up view of a smooth, light-colored wooden surface. Near the center of the surface lies a small, gray object, possibly a stone or pebble. In the upper right corner, a person's hand is partially visible with fingers positioned as if they are about to pick up or place down the object. The background consists of two intersecting white or light gray walls forming a corner. The scene appears minimalistic and focused on the small object and the hand.",
+    "The frame shows a wooden surface, such as a table, with a small, dark object placed near its center. The background consists of plain, light grey walls meeting at a corner, with a faint shadow visible in the corner. There are no other visible objects or decorations in the frame.",
+    "The frame shows a light wooden surface, possibly a table, with a plain gray wall in the background. At the center of the image on the wooden surface, there is a small, round, grayish object. The scene is minimalistic and simple, with neutral colors and no other visible items or decorations."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a small round item held between fingers, has moved downward closer to the wooden surface compared to the previous frame.",
+    "The coin held by the hand has moved downward, closer to the surface.",
+    "In the current frame, the cylindrical object held by the hand has moved slightly downward and to the left. The fingers holding the object have also shifted their position accordingly.",
+    "The hand released the small round object, causing it to move downward and away from the hand.",
+    "The object, which appears to be a small seed or similar item, has moved downward and is now resting on the surface. The hand that released it is still visible but has moved slightly higher.",
+    "In the current frame, the hand has moved further downward, closer to the table surface above the main object. The main object itself remains in the same position.",
+    "The main object, a small coin, has shifted slightly to the right and rotated a bit on the table."
+  ],
+  "baseline_tokens": 581,
+  "diff_tokens": 204,
+  "lexical_redundancy_baseline_avg": 0.3503606746383704,
+  "lexical_redundancy_diff_avg": 0.2299537447829373,
+  "lexical_redundancy_baseline_all": [
+    0.3225806451612903,
+    0.3275862068965517,
+    0.4117647058823529,
+    0.3287671232876712,
+    0.36470588235294116,
+    0.2631578947368421,
+    0.4339622641509434
+  ],
+  "lexical_redundancy_diff_all": [
+    0.13043478260869565,
+    0.34782608695652173,
+    0.2962962962962963,
+    0.1875,
+    0.2571428571428571,
+    0.19047619047619047,
+    0.2
+  ],
+  "info_density_baseline": 0.0029411764705882353,
+  "info_density_diff": 0.03817691792436038,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.023529411764705882,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.043478260869565216,
+    0.07692307692307693,
+    0.03333333333333333,
+    0.058823529411764705,
+    0.05714285714285714,
+    0.03571428571428571,
+    0.0
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "12262",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/12262.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/12262",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a clear, empty glass cup placed on a matching transparent saucer. The glass has a slightly curved shape, wider at the top and narrower at the bottom. A hand holding a small decorative teapot or kettle with floral patterns is positioned above the glass, suggesting the action of pouring liquid into the cup. The background is blurred, predominantly red, and the surface on which the glass and saucer rest is gray.",
+    "The frame shows a close-up of a traditional Turkish tea glass placed on a matching saucer on a gray surface. The tea glass is clear and empty. To the right, a white teapot with red and blue floral designs is pouring tea into the glass. The background is a deep red color.",
+    "The image shows a close-up of a traditional glass cup placed on a small glass saucer. A hand is pouring a dark liquid, likely tea, from a decorative teapot with a floral pattern into the glass cup. The background is blurred, with a reddish tone, emphasizing the focus on the tea being poured. The surface on which the glass cup and saucer rest appears to be a gray textured countertop.",
+    "This frame shows a close-up of tea being poured from a teapot into a traditional Turkish tea glass. The tea glass is placed on a small clear saucer. The teapot is decorated with a floral pattern, and the background is a solid red color. The surface on which the glass and saucer sit appears to be a textured gray countertop or table.",
+    "This frame shows tea being poured from a teapot into a traditional, curved Turkish tea glass that is placed on a small clear saucer. The teapot has a white body with colorful floral patterns in red and blue. The background appears to be a solid red color, and the surface on which the tea glass rests is a gray countertop or table. The tea being poured is a rich brown color, typical of black tea.",
+    "This frame shows tea being poured from a decorative teapot into a traditional Turkish-style tulip-shaped glass placed on a clear glass saucer. The tea appears dark and rich, indicating it might be strong black tea. The background is red, while the surface underneath the glass and saucer is gray. The teapot has a colorful floral pattern.",
+    "This frame shows a close-up of tea being poured from a white teapot with a decorative floral pattern into a small, tulip-shaped glass. The glass is placed on a clear, round saucer. The background appears to be a solid, dark red color, and the surface on which the glass and saucer rest is a textured gray material. The tea is dark amber in color, suggesting it might be black tea.",
+    "The image shows a close-up of tea being poured from a teapot into a traditional Turkish tea glass. The tea glass is placed on a small glass saucer. The background is blurred, with a rich red color, possibly a cushion or furniture, and the surface on which the tea glass and saucer are placed is a smooth, gray table or countertop. The tea is a dark amber color, typical of black tea. The teapot has a colorful design, featuring red and blue floral patterns."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, liquid is being poured into the glass from a teapot held above it, whereas in the previous frame, no liquid was being poured.",
+    "Tea is being poured from a teapot into the glass cup.",
+    "The liquid is being poured into the glass and has started to fill it. The stream of liquid is more visible inside the glass.",
+    "In the current frame, the glass has filled with more tea as the liquid level has risen compared to the previous frame. The tea continues pouring from the teapot into the glass.",
+    "The tea level in the glass has risen as more tea is being poured from the teapot into the glass.",
+    "The tea level in the glass has risen as more tea is being poured from the teapot into the glass.",
+    "The tea level in the glass has risen as more tea is being poured from the teapot into the glass."
+  ],
+  "baseline_tokens": 674,
+  "diff_tokens": 195,
+  "lexical_redundancy_baseline_avg": 0.49182747509166996,
+  "lexical_redundancy_diff_avg": 0.49893092414831547,
+  "lexical_redundancy_baseline_all": [
+    0.36507936507936506,
+    0.39655172413793105,
+    0.5614035087719298,
+    0.6491228070175439,
+    0.49206349206349204,
+    0.55,
+    0.42857142857142855
+  ],
+  "lexical_redundancy_diff_all": [
+    0.13043478260869565,
+    0.4090909090909091,
+    0.2608695652173913,
+    0.21212121212121213,
+    0.48,
+    1.0,
+    1.0
+  ],
+  "info_density_baseline": 0.01673416437529341,
+  "info_density_diff": 0.058180765993265986,
+  "info_density_baseline_per_frame": [
+    0.013513513513513514,
+    0.019230769230769232,
+    0.014285714285714285,
+    0.016129032258064516,
+    0.02666666666666667,
+    0.017857142857142856,
+    0.014285714285714285,
+    0.011904761904761904
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.037037037037037035,
+    0.09090909090909091,
+    0.125,
+    0.0625,
+    0.05,
+    0.05,
+    0.05
+  ]
+}

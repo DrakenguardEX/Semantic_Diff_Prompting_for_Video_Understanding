@@ -1,0 +1,81 @@
+{
+  "video_id": "86013",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/86013.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/86013",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up of a stainless steel kitchen sink. A metallic espresso coffee maker (Moka pot) is positioned over the sink, with its top lid open, revealing the spout where the brewed coffee pours out. The opening of the espresso maker is centered above the drain hole of the sink. The sink surface has some water droplets, indicating recent use.",
+    "The frame shows a close-up of a metal sink with water flowing from the spout of a kettle into a small steel container placed inside the sink. The water is pouring steadily, and the scene suggests that someone is filling the container with hot or boiling water from the kettle. The sink is clean, with a shiny, metallic surface.",
+    "The image shows water being poured from a metallic kettle into a container placed inside a stainless steel sink. The kettle has a curved spout, and the container receiving the water seems to be a small cup or bowl. The sink has a smooth, shiny surface with a drain visible in the background. The water stream is clear and directed into the container.",
+    "This image shows water being poured from a metallic kettle into a glass placed inside a stainless steel sink. The kettle has a black whistle or spout cover attached to its spout, and water is flowing smoothly into the glass. The sink surface appears clean and shiny.",
+    "This frame shows a close-up view of a metal kettle pouring water into a glass placed in a stainless steel sink. The kettle's spout is tilted downward to allow the hot water to flow out, and the water is visibly mid-pour into the glass, which is positioned directly below the spout inside the sink. The sink has a smooth, shiny surface with some reflections and a round drain visible near the glass.",
+    "This image captures water being poured from a metal kettle into a small mesh strainer or filter, which is positioned above a round, metallic basin or sink. The metallic surfaces have a shiny appearance, reflecting light, and the water stream is clearly visible as it flows from the kettle spout into the strainer below. The context suggests a kitchen or food preparation area.",
+    "This frame shows a close-up of water being poured from a metallic kettle or teapot into a small glass or container placed inside a stainless steel sink. The water is flowing in a stream from the spout of the kettle. The kettle's lid is open, and the sink surface is visible, reflecting light.",
+    "This frame shows water being poured from a metallic kettle into a small cup positioned inside a metal sink. The kettle's lid is open, and the water stream is clearly visible, flowing steadily into the cup. The sink has a smooth, shiny surface with a drainage hole nearby. The overall setting appears to be a kitchen or a similar area where water is being handled."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, water is flowing out from the spout into the cup below, whereas in the previous frame, no water was flowing.",
+    "In the current frame, the stream of water flowing from the kettle has intensified and is hitting the cup with more force, causing visible splashes. The liquid level in the cup has risen compared to the previous frame.",
+    "In the current frame, the water level in the cup has risen as more water is being poured from the kettle. The water stream continues to flow into the cup.",
+    "In the current frame, the water stream from the kettle continues flowing into the glass, and the water level inside the glass has risen noticeably, creating bubbles and turbulence on the surface.",
+    "The water stream from the kettle is increasing in volume and flowing more steadily into the glass, causing more bubbles to form on the surface of the water inside the glass.",
+    "In the current frame, the liquid flowing from the kettle spout into the cup has increased the water level inside the cup, causing visible ripples and bubbles compared to the previous frame.",
+    "The water stream pouring from the kettle into the cup has increased, causing more bubbles and splashing inside the cup."
+  ],
+  "baseline_tokens": 570,
+  "diff_tokens": 250,
+  "lexical_redundancy_baseline_avg": 0.3294127084230945,
+  "lexical_redundancy_diff_avg": 0.3578820237772528,
+  "lexical_redundancy_baseline_all": [
+    0.22388059701492538,
+    0.3684210526315789,
+    0.46153846153846156,
+    0.3076923076923077,
+    0.21518987341772153,
+    0.3125,
+    0.4166666666666667
+  ],
+  "lexical_redundancy_diff_all": [
+    0.15,
+    0.2857142857142857,
+    0.4411764705882353,
+    0.41935483870967744,
+    0.4375,
+    0.34285714285714286,
+    0.42857142857142855
+  ],
+  "info_density_baseline": 0.033695077356908666,
+  "info_density_diff": 0.04117589841539332,
+  "info_density_baseline_per_frame": [
+    0.03225806451612903,
+    0.05084745762711865,
+    0.015873015873015872,
+    0.0425531914893617,
+    0.027777777777777776,
+    0.031746031746031744,
+    0.03773584905660377,
+    0.03076923076923077
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.041666666666666664,
+    0.02631578947368421,
+    0.06666666666666667,
+    0.03125,
+    0.03225806451612903,
+    0.03125,
+    0.1
+  ]
+}

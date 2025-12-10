@@ -1,0 +1,81 @@
+{
+  "video_id": "96291",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/96291.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/96291",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up view of a clear plastic cup placed inside a sink. Water is being poured into the cup from above, causing bubbles and some splashing. The cup is situated on a textured surface, likely a drying mat or a sink liner. The lighting is warm and reflects off the metal surface of the sink. On the right side of the frame, part of a pot or pan with condensation on its inside surface is visible.",
+    "This frame shows a close-up view of a clear plastic cup placed in a sink. Water is being poured or flowing into the cup from above. The cup is sitting on a textured mat inside the sink. To the right side of the frame, part of a dark-colored, rounded object is visible, possibly a bowl or a pot. The lighting suggests the image was taken indoors, with some reflections visible on the metallic surface of the sink.",
+    "This frame shows a clear plastic cup being filled with water from a stream or faucet. The cup is placed inside a sink or basin, with water splashing inside it. To the side, there is a dark-colored object, possibly a pot or pan. The background is metallic, indicating a kitchen or washing area environment. The water is visibly flowing and splashing inside the cup.",
+    "The frame shows a clear plastic container or cup placed in a kitchen sink. Water is being poured into the container from above, creating a flow that appears slightly frothy or bubbly. The container is situated on a patterned or textured tray or mat inside the sink area. To the right, there is a dark-colored object that might be a pan or pot. The sink itself has a metallic finish.",
+    "The image shows a clear plastic container being filled with water from a faucet. The container is placed inside a metal sink with a textured bottom surface. The water is flowing into the container, causing bubbles and some splashing. To the side of the container, there is a darker object, possibly a bowl or another container. The lighting is warm and creates a shiny reflection on the metal sink.",
+    "This frame shows a clear plastic cup positioned upside down under a stream of water flowing from a faucet. The cup is placed in a sink with a textured surface underneath it to allow water drainage. To the right of the cup, there is a dark-colored, possibly round object resting in the sink. The overall setting appears to be a kitchen or utility sink area.",
+    "This image shows a transparent cup being filled with water under a running tap in a kitchen sink. The cup is placed on a textured surface within the sink, and the water is visibly splashing as it fills the cup. There is also a dark-colored object, possibly a pot or pan, partially visible on the right side of the image. The lighting creates a reflective and slightly shiny appearance on the metal sink surface.",
+    "This frame shows a close-up view of a glass or transparent container filled with water, placed in a kitchen sink. The water is bubbling vigorously, creating a frothy surface on top of the glass, likely due to air or agitation causing bubbles. The scene appears to be taken inside a sink with metallic surroundings, and there is another object on the right side, partially visible, possibly another dish or container. The overall lighting is dim with a warm tone."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The water level in the cup has risen as water continues to pour into it.",
+    "The water level inside the clear cup has risen as water continues to pour into it. The water flow remains steady.",
+    "In the current frame, the water level in the cup has risen compared to the previous frame as it continues to be filled.",
+    "In the current frame, the cup has filled with more water, which is causing bubbles and ripples on the surface inside the cup. The water stream continues to flow into the cup.",
+    "In the current frame, the water level inside the transparent container has risen slightly as water continues to flow into it from above.",
+    "The cup filled with water is starting to tilt and move to the right compared to the previous frame.",
+    "In the current frame, the water level inside the glass has risen, causing it to overflow more visibly. The water surface is more elevated and bubbly compared to the previous frame."
+  ],
+  "baseline_tokens": 687,
+  "diff_tokens": 198,
+  "lexical_redundancy_baseline_avg": 0.35945289944954933,
+  "lexical_redundancy_diff_avg": 0.3129288274449564,
+  "lexical_redundancy_baseline_all": [
+    0.5223880597014925,
+    0.38235294117647056,
+    0.3787878787878788,
+    0.273972602739726,
+    0.30434782608695654,
+    0.3333333333333333,
+    0.32098765432098764
+  ],
+  "lexical_redundancy_diff_all": [
+    0.05555555555555555,
+    0.6666666666666666,
+    0.4166666666666667,
+    0.3225806451612903,
+    0.3333333333333333,
+    0.12903225806451613,
+    0.26666666666666666
+  ],
+  "info_density_baseline": 0.028409071676648728,
+  "info_density_diff": 0.050675530648149114,
+  "info_density_baseline_per_frame": [
+    0.012658227848101266,
+    0.025974025974025976,
+    0.0625,
+    0.02857142857142857,
+    0.028985507246376812,
+    0.015384615384615385,
+    0.04054054054054054,
+    0.012658227848101266
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.06666666666666667,
+    0.09523809523809523,
+    0.0,
+    0.0625,
+    0.043478260869565216,
+    0.10526315789473684,
+    0.03225806451612903
+  ]
+}

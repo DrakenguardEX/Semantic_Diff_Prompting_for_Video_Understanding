@@ -1,0 +1,81 @@
+{
+  "video_id": "81304",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/81304.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/81304",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a tiled floor with reddish-brown tiles that appear aged and worn with some white paint or residue on them. On the floor, there is a metal cup placed upright. In the upper left corner, there is a potted plant with a brownish-red pot and some greenery visible. The overall setting seems to be an outdoor area, possibly a patio or balcony.",
+    "This frame shows a section of a red brick or tile floor with some areas of white discoloration or wear. On the floor, there is a metallic cup or small container placed in the center. In the upper left corner, there is a large brown pot with soil and some green plants or branches sticking out. The scene appears to be outdoors, possibly on a patio or terrace.",
+    "The image shows a close-up of a tiled red brick floor with white grout. On the left side, there is a large potted plant in a brown pot. In the center of the image, there is a small, empty metal cup placed on the floor. On the right side, a hand is visible holding a white plastic container or jug, tilted as if pouring or about to pour liquid into or near the metal cup. The scene appears to be outdoors.",
+    "The image shows a hand pouring a liquid, presumably water or some other substance, from a white measuring scoop into a small, circular container placed on a surface made of red bricks. To the left side of the frame, there is a green leafy plant in a brown pot. The surface appears to have some white residue or patches scattered around.",
+    "The frame shows a hand pouring water from a white plastic container onto a surface made of red tiles. To the left side, there is a brown potted plant with some green foliage. The red tiles on the ground appear worn and have patches of white paint or residue on them. The scene appears to be outdoors.",
+    "The image shows a person's hand pouring a white liquid from a white mug onto the ground made of red and white tiles. The tiles appear old or worn, with patches of white paint or residue on them. To the left side of the frame, there is a large plant pot with a dry or sparse plant. The person pouring the liquid is only partially visible, with just their hand and part of the forearm in the frame.",
+    "The frame shows a hand pouring water from a white cup into a small, cylindrical metallic container placed on a brick-tiled surface. To the left, there is a potted plant in a reddish-brown pot. The tiles have a worn and weathered appearance with some white patches. The focus seems to be on the action of pouring the water.",
+    "In the image, there is a red brick surface with signs of wear and white paint marks. In the middle of the frame, there is a metal cup placed upside down on the bricks. On the left side, part of a potted plant is visible. The pot is dark and has a tree or shrub growing in it. The overall scene appears to be outdoors."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The cup has moved slightly forward and to the right, closer to the edge of a lighter-colored patch on the ground.",
+    "In the current frame, a hand holding a white bottle has appeared near the metal cup, positioned to the right of it. The bottle is angled downward as if about to pour something into the cup.",
+    "The hand controlling the container has moved closer to the small metal cup and is pouring liquid into it. The container's spout is positioned over the cup, and liquid is flowing into the cup.",
+    "In the current frame, the hand has tilted the white container more, causing an increased amount of liquid to be poured into the small metal cup.",
+    "In the current frame, more liquid has been poured from the cup into the metal container below. The cup and hand have slightly moved downward to continue the pouring motion.",
+    "In the current frame, the hand and cup have moved away from the metal object, and the pouring action has stopped. The cup is now tilted upward and above the metal object.",
+    "The hand and the cup present in the first frame have been removed in the current frame, and the cup is now fully visible on the ground without any obstruction."
+  ],
+  "baseline_tokens": 628,
+  "diff_tokens": 250,
+  "lexical_redundancy_baseline_avg": 0.3812316413831208,
+  "lexical_redundancy_diff_avg": 0.26511823945145097,
+  "lexical_redundancy_baseline_all": [
+    0.3561643835616438,
+    0.3783783783783784,
+    0.3561643835616438,
+    0.47540983606557374,
+    0.4838709677419355,
+    0.3142857142857143,
+    0.30434782608695654
+  ],
+  "lexical_redundancy_diff_all": [
+    0.043478260869565216,
+    0.1794871794871795,
+    0.25,
+    0.2857142857142857,
+    0.4117647058823529,
+    0.38235294117647056,
+    0.30303030303030304
+  ],
+  "info_density_baseline": 0.014844055569810036,
+  "info_density_diff": 0.04557420724700137,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.024691358024691357,
+    0.01639344262295082,
+    0.017543859649122806,
+    0.02564102564102564,
+    0.034482758620689655,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.047619047619047616,
+    0.027777777777777776,
+    0.08823529411764706,
+    0.038461538461538464,
+    0.1,
+    0.0625,
+    0.0
+  ]
+}

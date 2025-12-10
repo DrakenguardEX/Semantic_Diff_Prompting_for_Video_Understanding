@@ -1,0 +1,81 @@
+{
+  "video_id": "16229",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/16229.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/16229",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a kitchen countertop next to a stainless steel sink. On the countertop, there is a cloth or towel draped over an object, covering it completely. The surface of the countertop appears to be yellow and slightly stained or worn. The cloth is light-colored, possibly white or off-white, and appears soft and slightly wrinkled. The edge of the cloth has a tag visible near the bottom left corner of the draped area. The sink has a faucet visible on the left side of the image.",
+    "The frame shows a close-up of a kitchen countertop with a black pot or Dutch oven placed on it. The countertop is a light yellow or beige color with some speckles. To the left, there is a stainless steel sink with a faucet and a pink sponge or scrubber near the edge. A hand wearing a white oven mitt or glove is moving toward or into the frame, likely about to touch or pick up the black pot. The background wall is yellow and appears to have a textured surface.",
+    "The image shows a kitchen countertop with a yellowish surface. There is a black cast iron pot or Dutch oven placed on the counter. A gloved hand, wearing a white or light-colored glove, is holding the edge or lid of the pot, possibly in the process of lifting or placing it. In the background, there is a stainless steel sink with a faucet and part of the backsplash is visible. The lighting appears to be warm, giving the scene a cozy kitchen atmosphere.",
+    "This frame shows a black cast iron pot with a metal handle placed on a yellowish countertop. To the left of the pot, there is a stainless steel sink with a faucet and a semi-transparent cup or container nearby. The countertop appears to be slightly worn or stained in some areas. The setting looks like part of a kitchen.",
+    "This frame shows a black cast iron pot with a metal handle sitting on a yellow countertop. To the left, there is a stainless steel sink with a clear plastic cup placed upside down near the corner of the sink. The countertop and the wall behind it appear a little worn or aged. The setting looks like a simple kitchen workspace.",
+    "This frame shows a black cast iron pot placed on a countertop. The pot has two small handles on either side and a metal bail handle for carrying. To the left of the pot, there is a stainless steel sink with a faucet, and a translucent plastic cup sitting on the edge of the sink. The countertop appears to be a light color, possibly beige or off-white, and there is a yellowish wall in the background. The lighting in the image is warm, casting some shadows on the counter.",
+    "The image shows a black cast iron pot with a handle, placed on a yellowish countertop. To the left of the pot, there is a stainless steel sink with a faucet and a soap dispenser mounted near it. The countertop and area around the pot appear to be part of a kitchen setting. The pot looks sturdy and has a broad opening at the top.",
+    "The frame shows a black cast iron pot with a handle, placed on a yellow countertop. To the left of the pot, there is a kitchen sink with a metallic faucet. The countertop near the sink has some items, including a white or transparent container and what appears to be a small dish or soap near the faucet. The background wall has a light color, possibly off-white or beige. The overall setting looks like a kitchen."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The cloth covering the pot is being lifted or removed, revealing a black pot underneath. The cloth is moving upwards and to the right.",
+    "The hand in a white glove moved slightly closer to the black pot, showing less motion blur and a clearer outline compared to the previous frame.",
+    "In the current frame, the hand that was touching the cast iron pot in the previous frame has moved away, leaving the pot alone on the counter. The pot itself remains in the same position.",
+    "The handle of the black pot has been lifted upward in the current frame compared to the previous one.",
+    "The lid of the black pot is now partially open in the current frame compared to the previous one.",
+    "The handle of the black pot has moved slightly upward and to the right.",
+    "In the current frame, the cast iron pot has shifted slightly to the right compared to the previous frame."
+  ],
+  "baseline_tokens": 743,
+  "diff_tokens": 186,
+  "lexical_redundancy_baseline_avg": 0.38773344958524486,
+  "lexical_redundancy_diff_avg": 0.23773002908257126,
+  "lexical_redundancy_baseline_all": [
+    0.3132530120481928,
+    0.4,
+    0.36486486486486486,
+    0.5081967213114754,
+    0.37662337662337664,
+    0.34210526315789475,
+    0.4090909090909091
+  ],
+  "lexical_redundancy_diff_all": [
+    0.043478260869565216,
+    0.17647058823529413,
+    0.18421052631578946,
+    0.21875,
+    0.5238095238095238,
+    0.21739130434782608,
+    0.3
+  ],
+  "info_density_baseline": 0.004817989908351354,
+  "info_density_diff": 0.046090587044534406,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.011111111111111112,
+    0.012048192771084338,
+    0.0,
+    0.0,
+    0.0,
+    0.015384615384615385,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.125,
+    0.038461538461538464,
+    0.02857142857142857,
+    0.05263157894736842,
+    0.05263157894736842,
+    0.07142857142857142,
+    0.0
+  ]
+}

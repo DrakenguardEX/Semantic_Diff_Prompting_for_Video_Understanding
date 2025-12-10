@@ -1,0 +1,81 @@
+{
+  "video_id": "1333",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/1333.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/1333",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a tabletop with a colorful, tiled tablecloth or surface covering. The table tiles feature bright, vibrant designs predominantly in green, blue, orange, and red colors. Some tiles have abstract floral patterns, with visible shapes resembling flowers in red and orange hues. The corner of a plastic bag is visible at the top right of the image, partially covering the tabletop. In the background, there is a door and part of a wall with a baseboard visible. The overall scene appears to be indoors.",
+    "The image shows a tablecloth with a colorful, hand-drawn-like design. The pattern consists of large, bright shapes resembling flowers and abstract forms in orange, red, yellow, green, and blue hues, all divided into square sections. A part of what seems to be a white plastic bag is resting on the table near the upper right corner. In the background, there is a wooden floor and part of a closed white door. The overall atmosphere looks casual and homey.",
+    "This frame shows a close-up view of a table covered with a colorful tablecloth. The tablecloth features a bright, cheerful design with large, abstract floral patterns in colors such as red, orange, yellow, and green, arranged in a grid-like pattern against a light blue and green background. In the upper part of the image, there is a partially visible white plastic bag or some kind of translucent cover resting on the table. Behind the table is a white door with a raised panel design, and part of a wooden floor is visible on the left side. The overall scene appears to be indoors, likely in a kitchen or dining area.",
+    "This frame shows a close-up of a chalkboard or tabletop surface divided into colorful sections by thick green lines. Each section is filled with different pastel-colored designs: one has orange and yellow, another has a swirl of red and pink resembling a rose. The image shows a motion blur of a hand, which appears to be drawing or coloring one of the shapes. The background features a door and part of a room, indicating an indoor setting.",
+    "This frame shows a close-up view of a table or surface covered with a colorful, patterned tablecloth or mat. The pattern consists of large, vibrant flowers in reds and oranges, and areas filled with blue, green, and yellow colors. A lipstick or lip balm container is placed on the surface near the top center of the image. In the background, there is a white door with molding, as well as part of a white or light-colored object, possibly a plastic bag. The perspective is slightly angled, giving prominence to the colorful pattern on the surface.",
+    "The frame shows a close-up view of a person's hand with fingers extended, positioned above a colorful surface. The surface appears to be a tablecloth or fabric with a vivid, artistic pattern featuring large, bold shapes and colors, including red, orange, green, blue, and yellow. The artwork on the fabric has a somewhat childlike or crayon-drawn style with abstract and floral motifs. In the background, part of a white door and a wall can be seen. The overall setting appears to be indoors.",
+    "This image shows a close-up view of a colorful tablecloth or fabric covering a surface. The design features large, vibrant flowers in red and orange hues as well as geometric shapes in green and blue. The tablecloth appears to be on a table, and there is a white plastic bag or some kind of translucent covering placed on the top right corner of the table. In the background, part of a white door and a wooden floor are visible.",
+    "The image shows a close-up view of a colorful tablecloth with a floral pattern. The tablecloth has a grid layout with each square containing a flower design in red, orange, and green hues, set against a background of blue and green. There appears to be a blurred, vertical cylindrical object in the foreground, possibly a lip balm or a marker. In the background, there is a white plastic bag partially visible on the right side, and a white door with panels is on the left side of the image. The overall scene looks like it is taken indoors, possibly in a kitchen or dining area."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "There is no noticeable change in the main object or its motion between the two frames; the scene appears static.",
+    "There is no noticeable change in the main object or its motion between the two frames.",
+    "In the current frame, a gray and orange cat is seen moving quickly across the tablecloth, creating a motion blur effect. The cat's paw is extended forward, indicating it is running or jumping.",
+    "In the current frame, the hand that was previously in motion above the red-orange chalk drawing is no longer visible, and the piece of chalk has been placed on the chalkboard surface.",
+    "In the current frame, a hand has appeared and is reaching down towards the table. The piece of chalk in the earlier frame is no longer visible in the same position.",
+    "In the current frame, the hand has moved out of the view, and the orange object that was being held has been placed or moved onto the colorful tablecloth.",
+    "In the current frame, a small object resembling a matchstick has appeared upright near the center of the tablecloth, where it was not present in the previous frame."
+  ],
+  "baseline_tokens": 877,
+  "diff_tokens": 233,
+  "lexical_redundancy_baseline_avg": 0.3104401036544227,
+  "lexical_redundancy_diff_avg": 0.28971693031530416,
+  "lexical_redundancy_baseline_all": [
+    0.375,
+    0.3917525773195876,
+    0.22935779816513763,
+    0.22772277227722773,
+    0.2755102040816326,
+    0.3181818181818182,
+    0.35555555555555557
+  ],
+  "lexical_redundancy_diff_all": [
+    0.043478260869565216,
+    0.8333333333333334,
+    0.13157894736842105,
+    0.1702127659574468,
+    0.3888888888888889,
+    0.21052631578947367,
+    0.25
+  ],
+  "info_density_baseline": 0.0016025641025641025,
+  "info_density_diff": 0.012408568443051202,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.01282051282051282,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.030303030303030304,
+    0.0,
+    0.0,
+    0.06896551724137931,
+    0.0
+  ]
+}

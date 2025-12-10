@@ -1,0 +1,81 @@
+{
+  "video_id": "9080",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/9080.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/9080",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a hand holding a yellow stick-like object vertically against a plain, light-colored wall. The object appears to be thin and straight, and the hand is positioned near the bottom half of the object. There is also a shadow of the object and hand cast on the wall.",
+    "The image shows a hand holding a single yellow pencil vertically against a plain light-colored wall. The pencil appears unsharpened or lightly sharpened. The hand is positioned near the bottom of the pencil, with fingers gently gripping it. The wall behind is smooth and has a subtle texture and the lighting is even, casting a faint shadow of the pencil and hand on the wall.",
+    "This image shows a hand holding a yellow straw vertically against a plain, light-colored wall. The hand is positioned towards the bottom left of the image, and the straw casts a shadow on the wall that appears to resemble a mushroom-like shape. The shadow creates an interesting visual contrast with the simple, straight form of the straw.",
+    "The image shows a hand holding a yellow flexible stick or straw against a plain, light-colored wall. The lighting creates a shadow of the stick and fingers on the wall. The hand is positioned in the lower left corner of the image, and the wall's texture is slightly visible.",
+    "The image shows a hand holding a yellow pen or pencil, pressing it against a white textured wall. The arm extends from the left side of the frame toward the center of the image. The lighting creates a shadow on the wall from the pen or pencil.",
+    "This frame shows a person's hand holding a yellow pipe cleaner, bending it against a white textured wall. The pipe cleaner is being shaped or twisted, and the shadow of the pipe cleaner and hand is visible on the wall.",
+    "The image shows a hand holding a small item against a plain light-colored wall. The object appears to be thin and elongated, possibly a small plant stem or a small stick. The hand is slightly blurred, suggesting motion. The shadow of the hand and the object is visible on the wall. The overall setting is simple with no distinct background details.",
+    "The image shows a hand holding a small yellow straw that is bent at an angle. The background is a plain, light-colored wall. The hand has dark-colored nail polish on the fingernails. The straw is rotated in a way that it closely resembles a small walking cane."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand has moved slightly upward, causing the yellow stick to be held a bit higher in the current frame compared to the previous one. The shadow on the wall has also shifted accordingly.",
+    "The main object, a thin yellow stick held by a hand, has moved slightly to the right. The shadow on the wall has also shifted accordingly to the right.",
+    "The main object, the yellow stick, moved slightly upward and to the right, causing the hand holding it to tilt and the shadow on the wall to shift accordingly.",
+    "In the current frame, the hand has moved slightly downward and to the right, causing the yellow stick to bend more noticeably at the top compared to the previous frame.",
+    "The hand holding the yellow stick moved downward and slightly rotated clockwise. The stick also moved downward along with the hand.",
+    "The yellow object held by the hand rotated slightly downward and to the right in the current frame compared to the previous one. The hand also shifted slightly in position, following the motion of the yellow object.",
+    "The hand holding the yellow straw has moved slightly closer to the wall and appears more steady in the current frame compared to the previous one. The straw's shadow on the wall has shifted accordingly."
+  ],
+  "baseline_tokens": 493,
+  "diff_tokens": 254,
+  "lexical_redundancy_baseline_avg": 0.3360823965179841,
+  "lexical_redundancy_diff_avg": 0.32953751525180097,
+  "lexical_redundancy_baseline_all": [
+    0.38181818181818183,
+    0.36065573770491804,
+    0.39622641509433965,
+    0.34782608695652173,
+    0.3902439024390244,
+    0.25,
+    0.22580645161290322
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1,
+    0.5,
+    0.5,
+    0.30303030303030304,
+    0.2857142857142857,
+    0.26666666666666666,
+    0.35135135135135137
+  ],
+  "info_density_baseline": 0.005784574468085106,
+  "info_density_diff": 0.03610668405293152,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.025,
+    0.0,
+    0.02127659574468085
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.029411764705882353,
+    0.034482758620689655,
+    0.034482758620689655,
+    0.06666666666666667,
+    0.09523809523809523,
+    0.0,
+    0.02857142857142857
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "22891",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/22891.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/22891",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame is quite blurry, making it difficult to discern clear details. It shows a hallway in what appears to be an indoor setting. On the sides of the hallway, there are door frames and walls, with a visible section of a room at the end of the hall. In the middle of the frame, there is a colorful, indistinct object in motion, causing the blur. This object seems to be in focus at the center due to its bright mix of colors, possibly blue and yellow. The lighting is warm, illuminating the scene softly.",
+    "The frame shows a colorful beach ball in mid-air inside a hallway. The hallway has light-colored walls and wooden door frames with several doors visible along the sides. Towards the back of the hallway, there is a closed door and some items partially visible next to the walls. The image is slightly blurry, likely due to the motion of the ball.",
+    "This frame shows an indoor hallway or corridor with greenish walls. A multicolored beach ball is captured in mid-air, seemingly floating or being thrown within the hallway. At the far end of the hallway, there is a white door with a silver doorknob. To the left, there is some furniture or storage with items hanging, possibly coats or bags. The overall lighting suggests natural or artificial light illuminating the area.",
+    "This frame shows a blurry image of a hallway with a doorway in the center. There appears to be a ball in mid-air toward the bottom center of the image, which might be contributing to the motion blur effect. The walls on either side of the hallway are painted light green, and there is a light switch visible on the right wall. The overall scene suggests movement or action occurring within an indoor setting.",
+    "The frame depicts a hallway or corridor inside a house or apartment. The perspective is from near a doorway with a gold-colored door handle on the left side of the image. The hallway floor is covered with reddish-brown tiles, and the walls are mostly light-colored. There are open doorways on both sides of the hallway. Toward the middle of the hallway, there is a blurry object, possibly a small colorful ball, rolling or moving away from the camera. At the end of the hallway, there is a cabinet with a dark object on top and a closed door beyond it. The lighting is moderate, giving a cozy indoor feel.",
+    "The frame shows an indoor hallway with a tiled floor. On the left side, a partially open door with a brass handle is visible. The hallway leads to a back door or entrance, and there is furniture placed along the walls, including a cabinet or bookshelf on the left side in the distance. The walls are painted in light colors, with one side appearing pale yellow and the other cream or off-white. There is also a light switch visible on the right side wall near the foreground. A colorful ball is bouncing or rolling along the hallway floor.",
+    "The image shows a hallway with a tiled floor and cream-colored walls. On the left side, part of an open door with a brass-colored handle is visible. Down the hallway, there appears to be a piece of furniture, possibly a cabinet or dresser, against the left wall. In the foreground, on the floor, there is a small, colorful ball. The hallway leads to a closed door at the far end, where some light is coming from above or beyond it.",
+    "The image shows a narrow, indoor hallway with a tiled floor in a reddish-brown shade. On the left side, there is a partially open door with a brass-colored handle. The hallway leads to a closed door at the far end. There are some pieces of furniture and objects along the walls in the distance. Near the center of the hallway floor, there is a small, multicolored ball. The walls are painted in light colors, with the right wall appearing to be a light yellow or cream tone. The overall lighting suggests it is daytime or the area is well-lit."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The ball has moved upward and slightly to the right, becoming more focused and clearer in the current frame compared to the previous one.",
+    "The beach ball moved downward and slightly to the left in the current frame compared to the previous one.",
+    "The colorful ball has moved downward and slightly closer to the camera in the current frame compared to the previous one.",
+    "The ball has moved downward and forward from the doorway area toward the floor in the hallway.",
+    "The ball has moved upward and slightly to the left in the current frame compared to the previous frame.",
+    "The ball has moved downward and closer to the floor in the current frame compared to the previous one.",
+    "The ball has moved closer to the camera, rolling from a middle position in the hallway to a position nearer the foreground."
+  ],
+  "baseline_tokens": 820,
+  "diff_tokens": 166,
+  "lexical_redundancy_baseline_avg": 0.302221951117736,
+  "lexical_redundancy_diff_avg": 0.4047429179008127,
+  "lexical_redundancy_baseline_all": [
+    0.25,
+    0.2631578947368421,
+    0.27710843373493976,
+    0.21428571428571427,
+    0.25252525252525254,
+    0.3950617283950617,
+    0.4634146341463415
+  ],
+  "lexical_redundancy_diff_all": [
+    0.13636363636363635,
+    0.5454545454545454,
+    0.6842105263157895,
+    0.2916666666666667,
+    0.2727272727272727,
+    0.6111111111111112,
+    0.2916666666666667
+  ],
+  "info_density_baseline": 0.014201024315394361,
+  "info_density_diff": 0.04393231574926621,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.01639344262295082,
+    0.014285714285714285,
+    0.0,
+    0.027522935779816515,
+    0.01020408163265306,
+    0.025,
+    0.020202020202020204
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.041666666666666664,
+    0.05263157894736842,
+    0.047619047619047616,
+    0.058823529411764705,
+    0.05263157894736842,
+    0.05263157894736842,
+    0.045454545454545456
+  ]
+}

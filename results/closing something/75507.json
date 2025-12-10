@@ -1,0 +1,81 @@
+{
+  "video_id": "75507",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/75507.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/75507",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person with long hair wearing a dark-colored shirt. They are holding an open tube of cream or lotion, squeezing some out onto the back of their left hand. The person is positioned over a teal-colored surface, possibly a bed or blanket, with a plain wall in the background. The tube’s cap is open and appears to be white. The person's face is not visible.",
+    "The image shows a person with long hair wearing a black sweatshirt sitting at a surface covered with a teal-colored cloth. They are holding a white, open tube of cream or lotion in their right hand, with the cap detached and flipped open. The person's left hand rests on the cloth-covered surface. The background is a plain yellowish wall.",
+    "The image shows a person sitting at a table covered with a blue cloth. They are holding an open white plastic bottle or container in one hand, with the cap flipped open and facing towards the camera. The person is wearing a dark long-sleeved shirt. The background wall is a plain light yellow color.",
+    "The frame shows a person performing a yo-yo trick. The person is holding a white yo-yo, with one hand holding the yo-yo itself and the other hand blurred, indicating quick movement. The background features a bed with a blue bedspread, and the person is wearing a black long-sleeve shirt. The setting appears to be indoors with a yellowish wall behind. The image captures the dynamic motion involved in yo-yoing.",
+    "The frame shows a person standing or sitting behind a bed or a piece of furniture covered with a blue sheet or blanket. The person's upper body and hands are visible, and they appear to be holding and possibly rubbing or shaping a white spherical object, which looks like a ball or dough. The background includes a yellowish wall and a partially visible wooden door. The person's clothing includes a dark, long-sleeved top with some white text or logo on it. The setting appears to be indoors.",
+    "The image shows a person with long hair wearing a dark sweatshirt sitting in front of a teal-colored cloth or bedspread. The person is holding and appears to be manipulating or examining a white object with both hands. The setting seems to be indoors, with a light yellow wall and a wooden door in the background. The focus is on the person's hands and the object they are holding.",
+    "The frame shows a person holding a white ping pong ball in their right hand. Their left hand is reaching forward and appears blurred, indicating motion. The person is wearing a black long-sleeve shirt with a circular logo on the chest. The background wall is a light color, and the surface in front of the person is covered with a teal or turquoise fabric.",
+    "The image shows a person wearing a black or dark long-sleeved shirt. They are holding a white cylindrical object, possibly a bottle or container, in their right hand. Their left arm is extended forward and resting on a blue surface, which looks like a bed or blanket. The background is a plain tan or beige wall. The person's face is not visible in the frame."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the main object, a tube with its cap open, has been moved closer downward compared to its position in the previous frame. The hand holding the tube has also slightly shifted downward.",
+    "In the current frame, a small amount of cream or lotion has been dispensed from the tube onto the blue surface, near the person's left hand. The position of the tube and the person's hands remain the same.",
+    "In the current frame, the person's left hand has moved upward and is now blurred, indicating motion, while the right hand holding the tube remains in the same position.",
+    "In the current frame, the main object, a white yo-yo, is closer to the person's right hand, which is now gripping it more firmly. The left hand is no longer visible in motion, and the right hand has moved upward slightly to hold the yo-yo. The yo-yo itself appears more stationary compared to the blurred motion in the previous frame.",
+    "In the current frame, the person's right hand has moved slightly downward and to the right while continuing to hold and rub the white object. The left hand also shifted slightly downward, adjusting its grip on the object.",
+    "The main object, a white round ball, is now held closer to the camera in the current frame compared to the previous one. Additionally, the person's left hand has moved out of the frame towards the bottom left, appearing blurred due to motion.",
+    "In the current frame, the person's left arm has moved forward and is more extended on the table compared to the previous frame. The hand that was blurred from motion in the previous frame is now clearer and positioned closer to the edge of the table. The right hand continues to hold the white cylindrical object in a similar position."
+  ],
+  "baseline_tokens": 661,
+  "diff_tokens": 372,
+  "lexical_redundancy_baseline_avg": 0.35233158821725585,
+  "lexical_redundancy_diff_avg": 0.2933003091345392,
+  "lexical_redundancy_baseline_all": [
+    0.515625,
+    0.4426229508196721,
+    0.2714285714285714,
+    0.2441860465116279,
+    0.35443037974683544,
+    0.3,
+    0.3380281690140845
+  ],
+  "lexical_redundancy_diff_all": [
+    0.10344827586206896,
+    0.2222222222222222,
+    0.325,
+    0.3695652173913043,
+    0.3469387755102041,
+    0.2708333333333333,
+    0.41509433962264153
+  ],
+  "info_density_baseline": 0.010424744285661534,
+  "info_density_diff": 0.018145684144871665,
+  "info_density_baseline_per_frame": [
+    0.029411764705882353,
+    0.01694915254237288,
+    0.037037037037037035,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.027777777777777776,
+    0.0,
+    0.034482758620689655,
+    0.016666666666666666,
+    0.02631578947368421,
+    0.023255813953488372,
+    0.016666666666666666
+  ]
+}

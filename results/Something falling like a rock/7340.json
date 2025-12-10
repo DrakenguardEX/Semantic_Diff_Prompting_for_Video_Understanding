@@ -1,0 +1,67 @@
+{
+  "video_id": "7340",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/7340.webm",
+  "num_frames": 6,
+  "frame_dir": "frames/Something falling like a rock/7340",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person sitting at a wooden table. The person is wearing a blue T-shirt with a graphic design on it, featuring a yellow face with glasses, a tie, and a white shirt collar. The person's arms rest on the table, and their right arm is partially visible. The photo is cropped to show only the torso and arms, with the head not visible. On the right side of the table, there is a black cable running off the edge. The background includes a white wall.",
+    "This frame shows part of a person sitting at a wooden table. The person's upper body is visible from the chest down to the waist, with both arms resting on the sides of the table. The person is wearing a blue t-shirt that has a graphic design featuring a stylized face with glasses, a tie, and a small white shape on a reddish background. On the table, there is a small white object near the left side of the frame, and a dark object with a cable on the right side of the table. The background is mainly out of focus and includes a light-colored wall and some curtains.",
+    "The image shows a person sitting at a wooden table. Only the upper torso of the person is visible; they are wearing a dark-colored t-shirt with a graphic of a face wearing glasses and a tie. The person's left arm is resting on the table, and part of their right arm is visible. The background wall is light-colored. There is a small object on the left side of the table, possibly a notebook or a phone, and a cable or wire is visible on the right side of the table.",
+    "The image shows the upper torso of a person sitting at a wooden table. The person is wearing a dark blue T-shirt with a graphic design featuring a character with glasses, a tie, and a badge. The person's arms are visible, resting on or near the table, and the background includes a curtain or window area. The lower part of the person's face is not visible in the frame.",
+    "The frame shows the upper half of a person sitting at a wooden table. The person is wearing a gray T-shirt with a graphic of a cartoon face wearing glasses, a striped tie, and a shirt collar. On the left side of the table, there is a corner of what appears to be a laptop or a book, and on the right side, a pair of eyeglasses or a thin object is partially visible. The background is mostly plain, with some light coming from behind.",
+    "The frame shows a person seated at a wooden table. The person is wearing a dark-colored t-shirt with a graphic design on it that features a character's face with glasses and a tie. Only the upper torso and part of the arm of the person are visible. The background appears to be indoors, with light-colored walls. A black cable is partially visible on the right side of the table. The person's hands and lower body are mostly out of view."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The object on the left side of the table (which appears to be a smartphone or tablet) has been slightly moved downward and closer to the table edge.",
+    "The person's left arm, which was previously resting on the table, is no longer visible in the current frame.",
+    "In the current frame, the person's right arm has moved slightly closer to the center of the table compared to the previous frame.",
+    "The person's left arm has moved slightly closer to the left edge of the frame.",
+    "The person's left hand, which was previously resting on the table, has moved slightly downward and appears less visible in the current frame."
+  ],
+  "baseline_tokens": 615,
+  "diff_tokens": 138,
+  "lexical_redundancy_baseline_avg": 0.4277272853862105,
+  "lexical_redundancy_diff_avg": 0.2613227513227513,
+  "lexical_redundancy_baseline_all": [
+    0.42168674698795183,
+    0.4868421052631579,
+    0.484375,
+    0.33783783783783783,
+    0.40789473684210525
+  ],
+  "lexical_redundancy_diff_all": [
+    0.03571428571428571,
+    0.1388888888888889,
+    0.2857142857142857,
+    0.55,
+    0.2962962962962963
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.031556245686680466,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03571428571428571,
+    0.0,
+    0.043478260869565216,
+    0.06666666666666667,
+    0.043478260869565216
+  ]
+}

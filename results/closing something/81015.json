@@ -1,0 +1,81 @@
+{
+  "video_id": "81015",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/81015.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/81015",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a wooden table with a pair of black-handled scissors placed open on it. In the background, there's a person wearing a green jacket and a blue shirt underneath, though their face is not visible. Behind them, there is a patterned blanket or cloth draped over a piece of furniture, and a room with wooden flooring and additional furniture or shelving is visible.",
+    "The image shows a person sitting at a wooden table. The person's hand is reaching towards a pair of scissors with black handles lying open on the table. The person is wearing a blue or teal jacket or shirt, and the background includes a patterned tablecloth on another table and a wooden floor.",
+    "The image shows a person wearing a gray jacket and blue shirt sitting at a wooden table. The person's hand is positioned on top of a pair of open scissors placed on the table. The background includes a multicolored floral fabric and some books or items on a shelf. The scissors are open, and the hand appears to be holding or resting on them in a claw-like manner.",
+    "The image shows a person seated at a wooden table. The person is wearing a blue shirt and a dull green jacket or sweatshirt over it. They are holding a pair of metal scissors with black handles, placed on the table. The scissors' blades are open. The person’s hand is positioned around the handle of the scissors. In the background, there are some furniture pieces and items, including a table covered with a floral-patterned cloth.",
+    "The frame shows a person's hand holding a pair of scissors on a wooden surface. The person is wearing a green jacket over a blue shirt. In the background, there is a colorful patterned tablecloth covering a table or piece of furniture. The scene appears to be indoors.",
+    "The image shows a close-up of a person's hand holding a pair of garden pruning shears positioned on a wooden surface, likely a table. The person is wearing a green jacket, and only a portion of their torso is visible. In the background, there is a piece of furniture covered with a cloth featuring a colorful, possibly floral pattern. The shears appear to be closed, and the hand is gripping the handle firmly.",
+    "The image shows a close-up of a wooden table with a pair of large scissors placed on it. The scissors have black handles and silver blades. In the background, part of a person wearing a greenish jacket and a blue shirt is visible, but their face is not shown. To the right side of the image, there is a table covered with a floral patterned cloth, and some objects are placed on top of it. The setting appears to be indoors, possibly in a home or workshop.",
+    "The image shows a pair of scissors lying on a wooden surface, with the handles pointing towards the top of the frame. A person wearing a blue shirt and possibly a gray jacket or sweater is partially visible behind the table, but their face is not shown. In the background, there appears to be a bed or a piece of furniture covered with a colorful, patterned fabric. The setting looks like an indoor room."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the person's hand has moved closer to the right handle of the scissors and is beginning to grasp it, whereas in the previous frame, the hand was above the table and not touching the scissors.",
+    "The hand has moved closer to the handle of the scissors, with the index and middle fingers now positioned as if about to grasp or hold the scissors.",
+    "In the current frame, the hand has moved slightly to the right and is gripping the scissors more firmly. The fingers are now more curved around the handles, indicating a tighter hold. The scissors themselves remain in the same position on the table.",
+    "In the current frame, the hand has moved slightly downward and is now gripping the scissors with fingers more wrapped around the handles. The scissors have also shifted slightly, partially opening compared to the previous frame.",
+    "The hand has moved slightly downward, causing the scissors to open a bit compared to the previous frame.",
+    "The hand has released the scissors, which are now in an open position on the table.",
+    "In the current frame, the person's hand has moved downward and is now positioned closer to the table surface, while the hand in the previous frame was raised higher."
+  ],
+  "baseline_tokens": 649,
+  "diff_tokens": 249,
+  "lexical_redundancy_baseline_avg": 0.4125312147383044,
+  "lexical_redundancy_diff_avg": 0.2558499372121128,
+  "lexical_redundancy_baseline_all": [
+    0.36507936507936506,
+    0.43103448275862066,
+    0.45588235294117646,
+    0.4126984126984127,
+    0.3968253968253968,
+    0.345679012345679,
+    0.4805194805194805
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1,
+    0.2894736842105263,
+    0.22727272727272727,
+    0.42857142857142855,
+    0.34375,
+    0.20833333333333334,
+    0.1935483870967742
+  ],
+  "info_density_baseline": 0.00603496115427303,
+  "info_density_diff": 0.04353256882451951,
+  "info_density_baseline_per_frame": [
+    0.014705882352941176,
+    0.018867924528301886,
+    0.014705882352941176,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.02564102564102564,
+    0.03571428571428571,
+    0.023255813953488372,
+    0.05555555555555555,
+    0.1111111111111111,
+    0.0625,
+    0.034482758620689655
+  ]
+}

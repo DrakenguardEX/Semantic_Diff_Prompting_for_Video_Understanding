@@ -1,0 +1,81 @@
+{
+  "video_id": "17318",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/17318.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/17318",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a rectangular woven mat or table placemat placed on a wooden surface. The mat has a decorative border with geometric patterns and designs in dark red color. There are six urn or vase-like motifs evenly spaced inside the border. A hand is partially visible at the bottom right corner of the image, resting near the mat. The background includes a shiny surface, possibly a table, reflecting some light from above.",
+    "This frame shows a rectangular piece of cloth or paper placed on a glass surface, possibly a table. The item has a decorative border and features six red urn or vase-like designs symmetrically positioned, with one in each corner, one at the top center, and one at the bottom center. A hand is visible on the right side, suggesting someone is about to interact with the item. The background includes a tiled or wooden floor area.",
+    "This frame shows a close-up of a hand in motion, seemingly moving a small, flat, brownish object, possibly a tool or a piece for a game, over a square board with intricate decorative borders. The board has a grid-like pattern and two small chess-like pieces placed on it. The surface beneath the board appears to be wooden or made of a similar material with a reflective finish. The setting suggests a tabletop gaming or a puzzle activity.",
+    "The frame shows a close-up of a hand folding a reddish-brown cloth or napkin on a wooden surface, possibly a table. The cloth appears to have some decorative patterns or embroidery near its edge. The area is well-lit, highlighting the texture of both the cloth and the wooden surface.",
+    "The image shows a hand resting on a closed book placed on a polished wooden surface, likely a table. The book has a reddish cover with an ornate rectangular border design. There is a bright vertical reflection on the table's surface, possibly from a nearby window or light source. The background includes wooden flooring.",
+    "The image shows a close-up of a person's hand resting on a maroon towel or cloth that is placed on a polished wooden table. The hand appears to be in the process of folding or adjusting the cloth. The table's surface is reflective, and the surrounding floor is made of wooden planks. The lighting is bright, with a strong light source coming from the top left corner of the frame.",
+    "The image shows a hand resting on a maroon passport placed on a reflective table or countertop. Part of a patterned border on the passport is visible. The background includes a wooden floor and a bright light source coming from the left side of the image.",
+    "This image shows a folded pink and white patterned fabric or cloth placed on a shiny reflective surface, possibly a table. The fabric has geometric designs in lighter shades of pink and white. The background includes a dark wooden surface on the left side and a shiny reflective surface on the right. There is natural light coming from the top center, possibly through a window, creating a bright reflection on the shiny surface."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the hand has moved closer to the edge of the rectangular mat on the table. The fingers are now positioned more to the right compared to the previous frame. The mat itself remains in the same position.",
+    "In the current frame, a hand is seen holding and lifting a brown fan-shaped object above the patterned mat, which was not present in the previous frame. The hand and object have moved into the frame from the right side.",
+    "The hand has moved to lift and partially fold a brown cloth, covering most of the game board seen in the previous frame.",
+    "The hand has moved further over the red cloth, starting to press down or flatten it on the table. The cloth has become more spread out and less curled up compared to the previous frame.",
+    "The hand has moved slightly to the right, causing the cloth to bunch up more towards the right edge of the book.",
+    "The hand in the current frame has moved downward, pressing the cloth flat, which is now more unfolded compared to the previous frame.",
+    "In the current frame, the hand has moved away from the folded piece of cloth, and the cloth is now partially unfolded and shifted slightly upward on the table."
+  ],
+  "baseline_tokens": 623,
+  "diff_tokens": 254,
+  "lexical_redundancy_baseline_avg": 0.3060488046116855,
+  "lexical_redundancy_diff_avg": 0.22765004194310987,
+  "lexical_redundancy_baseline_all": [
+    0.43037974683544306,
+    0.22580645161290322,
+    0.21794871794871795,
+    0.18461538461538463,
+    0.29411764705882354,
+    0.40350877192982454,
+    0.38596491228070173
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1,
+    0.19148936170212766,
+    0.25,
+    0.225,
+    0.2222222222222222,
+    0.25,
+    0.3548387096774194
+  ],
+  "info_density_baseline": 0.009987254899192277,
+  "info_density_diff": 0.052483275902435234,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.012987012987012988,
+    0.02040816326530612,
+    0.018518518518518517,
+    0.014285714285714285,
+    0.0,
+    0.0136986301369863
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.024390243902439025,
+    0.05,
+    0.13043478260869565,
+    0.05714285714285714,
+    0.045454545454545456,
+    0.043478260869565216,
+    0.06896551724137931
+  ]
+}

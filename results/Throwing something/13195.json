@@ -1,0 +1,81 @@
+{
+  "video_id": "13195",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/13195.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/13195",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a hand holding what appears to be a blue toothbrush or a similar blue object in the foreground. The background features a room with light-colored flooring and blue-tinted walls. There is a standing fan positioned against the back wall near the corner, and there are open doorways leading to other rooms or areas. Various household items and furniture can be seen, suggesting it is an indoor setting, likely a home.",
+    "The image shows an indoor setting with a tiled floor that has a green border. There is a wall with a blue color, and in the background, there is a small white standing fan placed on the floor. On the left side, part of a bicycle wheel is visible. In the foreground, a hand is holding a blue glowing stick or rod vertically. The room appears to have a doorway leading to another area with dim lighting.",
+    "This frame shows a hand holding a blue object, likely a pen or a similar item, pointed towards the background. The setting appears to be an indoor room with blue walls and a tiled floor bordered with dark green. In the background, there is a standing fan on the floor to the left side, a wooden table or shelf on the right side, and an open doorway leading to another room in the center. The room looks modest and simple with basic furnishings.",
+    "The frame shows an indoor scene, likely a room, with a small table fan placed on the floor near the left corner. The room has a tiled floor with a border design. In the background, there is a doorway that leads to another room with tiled flooring. On the right side, part of a wooden piece of furniture or cabinet is visible. The most prominent element in the foreground is a blurred hand making a gesture, indicating movement as the photo was taken. The walls of the room are painted blue.",
+    "This frame shows the interior of a room with teal-colored walls and a white marble floor bordered with a green stripe. There is an electric fan placed on the floor against the wall on the left side. In the background, there is a doorway or corridor leading to another room, with some objects partially visible beyond it. There is also a wooden structure or piece of furniture on the right side against the wall. A hand is visible in the foreground pointing or reaching towards the corridor area. The room appears to be modestly furnished and somewhat cluttered.",
+    "The frame shows an indoor room with a tiled floor, appearing to be a small or modest living space. Towards the back, there is a standing electric fan on the left side near the wall, which is painted light blue. There are doorways leading to other rooms or areas on the right side of the frame. Near the lower right corner, a hand is visible, pointing or gesturing into the room. The room looks fairly plain and functional, with minimal furniture or decorations visible in this frame.",
+    "This image shows a view inside a room. The floor has a light-colored tile with a narrow dark border. There is a small electric fan placed on the floor against the left wall. Part of a bicycle or some round metallic object is visible on the left edge of the frame. The room has teal-colored walls with doorways visible in the back, leading to other parts of the house. A person's hand is visible on the bottom right side of the image, pointing toward something in the room. A few small objects are scattered on the floor.",
+    "The image shows an indoor scene of a room with a tiled floor. The floor has a light-colored marble pattern with a darker border around a rectangular area. There is a white standing fan positioned near the back wall on the left side. The walls of the room are painted blue-green, and there are doorways visible towards the back, one of which leads to a dimly lit area. There are some objects near the doorways, but they are not clearly identifiable. The room appears to be sparsely furnished or possibly in the process of being cleaned or rearranged."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand holding the blue object has moved slightly downward in the current frame compared to the previous one.",
+    "The main object, a hand holding a blue object, moved slightly downward and to the right in the current frame compared to the previous one.",
+    "The hand and the blue object it is holding moved forward and to the right, causing the blue object to blur due to motion.",
+    "The hand has moved slightly forward and is more extended in the current frame compared to the previous one.",
+    "The hand in the frame moved slightly downward and to the right, and a blue object (possibly a pen or pencil) appeared near the bottom left corner of the frame.",
+    "In the current frame, the main object, a hand, has moved slightly downward and to the right compared to the previous frame.",
+    "The hand in the current frame has moved slightly to the right compared to the previous frame."
+  ],
+  "baseline_tokens": 826,
+  "diff_tokens": 188,
+  "lexical_redundancy_baseline_avg": 0.33063317335675435,
+  "lexical_redundancy_diff_avg": 0.4153904476770465,
+  "lexical_redundancy_baseline_all": [
+    0.29411764705882354,
+    0.38961038961038963,
+    0.3372093023255814,
+    0.3225806451612903,
+    0.32967032967032966,
+    0.34831460674157305,
+    0.29292929292929293
+  ],
+  "lexical_redundancy_diff_all": [
+    0.15789473684210525,
+    0.75,
+    0.34615384615384615,
+    0.2692307692307692,
+    0.25,
+    0.42857142857142855,
+    0.7058823529411765
+  ],
+  "info_density_baseline": 0.00321835286350883,
+  "info_density_diff": 0.04056765409513088,
+  "info_density_baseline_per_frame": [
+    0.0136986301369863,
+    0.0,
+    0.012048192771084338,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05263157894736842,
+    0.04,
+    0.041666666666666664,
+    0.05263157894736842,
+    0.03333333333333333,
+    0.045454545454545456,
+    0.058823529411764705
+  ]
+}

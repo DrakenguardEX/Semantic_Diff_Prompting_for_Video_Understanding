@@ -1,0 +1,81 @@
+{
+  "video_id": "4078",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/4078.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/4078",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a person standing in a room next to a door. The person is holding a round yellow object in their hand. The room contains a bed with a patterned bedspread, and the walls are plain with a light color. The image is somewhat blurry, making it difficult to see finer details.",
+    "The image shows a person standing near a closed door, holding the doorknob with one hand. The person is dressed in a black t-shirt and black pants. Part of a bed is visible on the right side of the image, covered with a patterned blanket and a transparent plastic sheet. The room has plain, light-colored walls and a tiled floor. The lighting in the room appears to be moderate, and the overall scene looks like an indoor setting, possibly a bedroom.",
+    "The image shows a person standing near a closed door in a room. The person is wearing a dark-colored shirt and pants. A bed with a patterned bedspread is partially visible on the right side of the image. The walls of the room appear plain, with one light-colored and the floor seems to be tiled. There is an elongated colorful object, possibly a toy or decoration, hanging or floating in the air near the person's feet.",
+    "The image shows a blurry, low-resolution scene indoors. There is a person standing near the right side, but their features and details are unclear due to the blur. The walls are plain, painted in a light color, and there is a doorway in the background. The floor appears to be tiled or concrete, and some furniture, possibly a chair or table, is partially visible on the right side. The overall image lacks sharpness and detail.",
+    "The image shows a person standing in a narrow room or hallway with light-colored walls and a tiled floor. The person is dressed in dark clothing and appears to be engaged in some activity involving a small yellow object on the floor, which might be a ball or a similar item. To the right, there is a bed with a patterned blanket and some items placed on it. The overall setting looks like a casual indoor environment, possibly a bedroom or a small living space.",
+    "The image shows part of a room with a tiled floor and pale walls. On the right side, there is a wooden bed with a patterned blanket and some objects, possibly papers or a book, on the bed. A person is seen standing near the closed door at the back of the room, wearing dark pants and a dark shirt. There is also a small colorful object on the floor near the corner where the wall meets the floor. The room appears relatively simple and tidy.",
+    "This frame shows a narrow room with a simple setup. The floor is made of tiles, and there is a plain wall on the left side. Towards the back, there is a person standing near a closed white door; the person is partially visible from the waist down and is barefoot. On the right side, there is a wooden bed with a mattress covered by blankets or sheets. There is also a small, lit candle or similar light source placed on the floor near the center of the image. The overall lighting in the room is dim, and the atmosphere appears simple and modest.",
+    "The frame shows a person standing in a small room with light-colored walls. The person is facing slightly toward the camera, and only their torso and legs are visible. They are wearing a dark shirt and pants. In the room, there is a bed with a patterned blanket or bedspread on it. On the floor near the person's feet, there is a small white and red soccer ball. The room appears to be simple and modestly furnished."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The person has moved their right leg forward and shifted their body slightly closer to the bed in the current frame compared to the previous one.",
+    "In the current frame, the person has moved their arm downward and released the spinning top, which is now falling and spinning near the floor.",
+    "The main object, which appears to be glowing or emitting light, has moved closer to the left wall and further away from the person in the current frame. The person's right hand and arm have shifted downward and closer to their body. The object is also lower and more blurred in the current frame, indicating faster motion.",
+    "In the current frame, the ball has moved downward closer to the floor, and the person's right arm is slightly raised with the hand pointing towards the ball.",
+    "The main object, a small ball, moved forward along the floor from a position closer to the door toward the middle of the hallway in the current frame compared to the previous one. The person's right arm also moved slightly downward.",
+    "The main object, a spinning top, has moved slightly forward and to the left on the floor, changing its position compared to the previous frame.",
+    "The spherical object on the floor moved closer to the bed while continuing to roll. The person in the background slightly shifted their arm upward."
+  ],
+  "baseline_tokens": 754,
+  "diff_tokens": 269,
+  "lexical_redundancy_baseline_avg": 0.313138634983158,
+  "lexical_redundancy_diff_avg": 0.2737570028011204,
+  "lexical_redundancy_baseline_all": [
+    0.2631578947368421,
+    0.4533333333333333,
+    0.31645569620253167,
+    0.26744186046511625,
+    0.3132530120481928,
+    0.32558139534883723,
+    0.25274725274725274
+  ],
+  "lexical_redundancy_diff_all": [
+    0.125,
+    0.28125,
+    0.2708333333333333,
+    0.3333333333333333,
+    0.375,
+    0.325,
+    0.20588235294117646
+  ],
+  "info_density_baseline": 0.005843358167664573,
+  "info_density_diff": 0.03756252145372812,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.012345679012345678,
+    0.013157894736842105,
+    0.0,
+    0.0,
+    0.011627906976744186,
+    0.009615384615384616,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.038461538461538464,
+    0.08,
+    0.017543859649122806,
+    0.03571428571428571,
+    0.04878048780487805,
+    0.04,
+    0.04
+  ]
+}

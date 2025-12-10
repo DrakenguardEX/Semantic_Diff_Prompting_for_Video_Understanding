@@ -1,0 +1,81 @@
+{
+  "video_id": "2238",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/2238.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/2238",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up of a person's left hand holding a small, black, rectangular case or pouch. The background includes a light-colored rug on a wooden floor. The setting appears to be indoors.",
+    "The image shows a hand holding a small black rectangular case or pouch. The background consists of a light-colored rug on a wooden floor, with walls and a door visible at the far end. The focus is mainly on the black case in the person's hand.",
+    "The image shows a hand holding a small, black, rectangular zippered pouch or case. The background features a wooden floor with a light-colored rectangular rug or mat near the top center of the frame. The lighting is natural, and the focus is primarily on the black pouch.",
+    "The frame shows a hand holding a small black case or pouch. The background includes a light-colored, possibly white or cream, rug and wooden flooring underneath. The hand appears to be positioned at the lower left corner of the image.",
+    "The frame shows a light-colored rectangular rug placed on a wooden floor. Part of a hand and arm is visible at the upper left corner, as if someone is reaching out towards the rug or the floor. The room appears to have light-colored walls or furniture on the right side. The scene has natural lighting.",
+    "This frame shows a close-up of a person's left hand with fingers slightly spread, extended in front of a light-colored carpet or rug inside a room. The rug is placed on a wooden floor, and a small dark object, possibly a bug or an insect, is on the rug a bit further away from the hand. The room appears to have light-colored walls and furniture along the right side. The photograph captures the perspective of someone reaching toward or observing the object on the rug.",
+    "This frame shows a light-colored rectangular rug placed on a wooden floor. A person's hand is extended in the foreground, slightly out of focus. Near the top right corner of the rug, there is a small dark object resting on it. The room has wooden doors or panels in the background and white furniture on the right side.",
+    "The image shows a rectangular light gray or beige rug placed on a wooden floor. A black object, possibly a small speaker or electronic device, is positioned near one edge of the rug on the right side. The surrounding floor is made of wooden planks, and part of a white wall or furniture can be seen on the right edge of the image. The rug appears to be clean and neatly laid out."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand holding the black case has moved slightly downward and to the left.",
+    "The black case has moved slightly closer to the camera, and the angle of the hand holding it has shifted a bit.",
+    "The main object, a black rectangular case held by a left hand, has moved downward and partially out of the frame in the current image.",
+    "The main object, a black case, is no longer present in the current frame. Instead, the hand has moved upward and is partially visible without holding the case.",
+    "The small black object appeared on the carpet and moved closer to the center compared to the previous frame. The hand has also moved slightly downward and to the left.",
+    "The black object, which appears to be a remote control, has moved closer to the right edge of the carpet, indicating it has been pushed or slid to the right. The hand is also slightly closer to the carpet surface.",
+    "The hand that was reaching into the frame in the previous image is now no longer visible. The black object on the rug has slightly shifted position to the left."
+  ],
+  "baseline_tokens": 522,
+  "diff_tokens": 225,
+  "lexical_redundancy_baseline_avg": 0.39563493621555745,
+  "lexical_redundancy_diff_avg": 0.2843189567847513,
+  "lexical_redundancy_baseline_all": [
+    0.45652173913043476,
+    0.5333333333333333,
+    0.3958333333333333,
+    0.29310344827586204,
+    0.3698630136986301,
+    0.3972602739726027,
+    0.3235294117647059
+  ],
+  "lexical_redundancy_diff_all": [
+    0.058823529411764705,
+    0.5,
+    0.2903225806451613,
+    0.45161290322580644,
+    0.2222222222222222,
+    0.2894736842105263,
+    0.17777777777777778
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.038658008658008655,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.07142857142857142,
+    0.045454545454545456,
+    0.04,
+    0.03571428571428571,
+    0.06666666666666667,
+    0.05,
+    0.0
+  ]
+}

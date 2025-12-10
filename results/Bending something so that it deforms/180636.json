@@ -1,0 +1,81 @@
+{
+  "video_id": "180636",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/180636.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/180636",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a close-up of a person's hand resting on a flat, light-colored surface. The hand is holding a dark, pipe cleaner-like object. The lighting casts a shadow of the hand onto the surface. The person's fingernails are painted black with some wear or chips visible on the polish. The background is plain and neutral, with no distinct objects or patterns.",
+    "The image shows a close-up view of two hands with dark nail polish holding a roughly rectangular, white, slightly fluffy or textured object on a flat, light-colored surface. The lighting casts a shadow of the fingers onto the surface. The material being held appears soft and pliable.",
+    "This frame shows a close-up of a person's hands on a flat surface, possibly a table. The skin tone suggests light-skinned hands, and the nails appear to be painted black or a dark color. The background is plain and light-colored, which contrasts with the hands and nails. The image focuses on the hands, which seem to be engaged in some activity, though it is not clear exactly what. The lighting comes from the upper side, casting a shadow of the hands on the surface.",
+    "This image shows a close-up of two hands, one on the left and one on the right, working on a small, indistinct object on a flat white surface. The fingers have black nail polish that is chipped or partially worn off. The lighting creates soft shadows, and the focus is on the hands and the object they are handling.",
+    "The image shows two hands holding a black pipe cleaner. One hand is on the left side and the other on the right side, stretching or manipulating the pipe cleaner over a white surface. The hand on the left has slightly chipped black nail polish. The lighting creates shadows on the surface beneath the hands.",
+    "This frame shows a close-up of a person's hands manipulating a black pipe cleaner over a white surface. The person appears to be bending or shaping the pipe cleaner, possibly as part of a craft or DIY project. The focus is on the hands and the pipe cleaner, with a neutral background.",
+    "This image shows a black pipe cleaner positioned on a white surface. The pipe cleaner is bent at two points, forming a shape that resembles a sideways \"Z.\" The background appears to be an indoor setting with some objects indistinctly visible in the back, but they are not the main focus. The lighting is warm and soft, illuminating the pipe cleaner and the surface on which it lies.",
+    "The image shows a black pipe cleaner bent in a zigzag shape lying on a flat, light-colored surface. In the background, there's a bottle with a brown label partially visible on the left side and some other indistinct objects. The lighting is warm and the scene appears to be indoors, possibly on a kitchen or workbench counter."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand on the right side moved closer to the center, grasping more of the black pipe cleaner-like object, while the hand on the left shifted slightly forward. The black object is now less bent and more stretched out.",
+    "The hand on the right has moved closer to the hand on the left, bringing the black object between the fingers closer together and slightly higher above the surface.",
+    "The hand holding the small black object has shifted slightly to the right, and the angle of the black object has changed, appearing more upright in the current frame.",
+    "In the current frame, the right hand has moved slightly upward and to the left, while the pipe cleaner being held is now more extended and elevated above the surface compared to the previous frame. The left hand has moved slightly as well, maintaining its grip on the other end of the pipe cleaner.",
+    "The black pipe cleaner is being straightened out slightly and moved closer to the surface, with the hands adjusting its shape.",
+    "The black pipe cleaner has been stretched out more horizontally across the surface, with the hand no longer holding it in the current frame.",
+    "The black pipe cleaner has moved slightly to the right and downwards compared to the previous frame."
+  ],
+  "baseline_tokens": 587,
+  "diff_tokens": 251,
+  "lexical_redundancy_baseline_avg": 0.2959399288566859,
+  "lexical_redundancy_diff_avg": 0.2243815027917462,
+  "lexical_redundancy_baseline_all": [
+    0.36507936507936506,
+    0.24050632911392406,
+    0.20481927710843373,
+    0.4074074074074074,
+    0.26785714285714285,
+    0.2571428571428571,
+    0.3287671232876712
+  ],
+  "lexical_redundancy_diff_all": [
+    0.029411764705882353,
+    0.32432432432432434,
+    0.28125,
+    0.26666666666666666,
+    0.25,
+    0.21212121212121213,
+    0.20689655172413793
+  ],
+  "info_density_baseline": 0.006435063904104152,
+  "info_density_diff": 0.028655552996323788,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.019230769230769232,
+    0.014705882352941176,
+    0.017543859649122806
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05128205128205128,
+    0.034482758620689655,
+    0.0,
+    0.037037037037037035,
+    0.047619047619047616,
+    0.0,
+    0.058823529411764705
+  ]
+}

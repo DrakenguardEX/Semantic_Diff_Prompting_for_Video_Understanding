@@ -1,0 +1,60 @@
+{
+  "video_id": "3809",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/3809.webm",
+  "num_frames": 5,
+  "frame_dir": "frames/Something falling like a rock/3809",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a woman with shoulder-length dark hair wearing glasses and a dark top. She is sitting on a brown couch with a beige wall behind her. To her right, there is a lamp with a beige lampshade. The woman appears to be holding a yellow object in her right hand, which is slightly blurred due to motion. The overall setting looks like a cozy living room or a similar indoor space.",
+    "The image shows a woman with medium-length dark hair and glasses, sitting on a dark-colored couch. She appears to be indoors, with a light-colored wall behind her and a lamp on the right side of the frame. She is wearing a dark top and cardigan and is holding a small blue cylindrical object towards the camera, though the object is slightly out of focus. The overall setting seems to be a casual or home environment.",
+    "The frame shows a woman sitting indoors on a dark-colored couch. She has shoulder-length dark hair and is wearing glasses and a dark-colored top. She is holding up a credit card or similar card in her right hand, with the card facing the camera but slightly blurred due to motion. The background includes a light-colored wall and a lamp on the right side. The lighting is soft and natural.",
+    "The frame shows a person with shoulder-length dark hair sitting on a couch. They are wearing glasses and a dark-colored top or jacket. The person appears to be looking down slightly and has their lips pressed together. Their right hand is raised and appears to be in motion, causing a blurred effect. The background includes a light-colored wall and part of a framed picture or artwork is visible at the top. The overall lighting is soft and indoor.",
+    "The image shows a person with short dark hair and glasses sitting on a dark-colored couch against a light-colored wall. They are wearing a dark top and a black cardigan. The person's right hand is raised and slightly blurred, possibly in motion. They have a neutral expression and are looking slightly downward. The setting appears to be indoors."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The person in the current frame has moved their right hand closer to the camera and is now holding a dark blue object instead of the yellow one seen previously.",
+    "The main object, a blue cylindrical container held by the person, has moved upward and slightly closer to the camera in the current frame compared to the previous one.",
+    "The person moved the blue card from a horizontal position in front of their face to a vertical position, lifting it upward with their hand.",
+    "In the current frame, the person has lowered the white object they were holding in front of them, and their right hand has moved upwards and slightly closer to the camera."
+  ],
+  "baseline_tokens": 425,
+  "diff_tokens": 139,
+  "lexical_redundancy_baseline_avg": 0.4455533811698195,
+  "lexical_redundancy_diff_avg": 0.23516056378959604,
+  "lexical_redundancy_baseline_all": [
+    0.4444444444444444,
+    0.44285714285714284,
+    0.4520547945205479,
+    0.44285714285714284
+  ],
+  "lexical_redundancy_diff_all": [
+    0.06451612903225806,
+    0.4166666666666667,
+    0.21621621621621623,
+    0.24324324324324326
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.03601483129403041,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03333333333333333,
+    0.034482758620689655,
+    0.08,
+    0.03225806451612903
+  ]
+}

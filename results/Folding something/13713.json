@@ -1,0 +1,81 @@
+{
+  "video_id": "13713",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/13713.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/13713",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person with glasses and dark hair, wearing a reddish shirt, sitting indoors. They are holding up a gray shirt in front of them with both hands, stretching it horizontally. The background has a light-colored wall with a door and part of a kitchen area visible, including a coffee maker and some containers on a counter. The person appears focused on the shirt they are holding.",
+    "The image shows a person with glasses and shoulder-length hair sitting in what appears to be a kitchen or dining area. The person is holding and stretching a grey, long-sleeved shirt or piece of fabric in front of them, pulling it apart horizontally. Behind them, there is a white wall and a door. On the left side of the image, part of a kitchen counter, a coffee maker, and a green container can be seen.",
+    "In this frame, a person with glasses and dark, shoulder-length hair is seated indoors, possibly in a kitchen or dining area. They are holding up a gray piece of clothing, stretching it horizontally in front of them. The person is looking downward at the garment, focusing on it. The background shows a coffee maker and some kitchen cabinets. The lighting is bright and even.",
+    "The image shows a person with shoulder-length hair and glasses sitting indoors, possibly in a kitchen or dining area. They appear to be holding and stretching a gray fabric item, which is slightly blurry due to motion. Behind them, there is a white door, wooden cabinets, a coffee maker, and a green container on the counter. The overall setting looks like a casual home environment.",
+    "The frame shows a person with long hair and glasses, wearing a red and black checkered shirt. They are sitting indoors in a kitchen or dining area, as there are cabinets, a coffee maker, and some containers visible in the background. The person is holding up a gray piece of clothing or fabric toward the camera. The image appears slightly blurred, especially around the area where the fabric is being held.",
+    "The frame shows a person wearing glasses and a red and black checkered shirt, sitting indoors in what appears to be a kitchen or dining area. The person is holding and possibly folding or handling a gray piece of cloth or clothing. In the background, there are kitchen cabinets, a coffee maker, a container on the counter, and a closed door. The lighting suggests it is a well-lit room.",
+    "The image shows a person sitting in what appears to be a kitchen or dining area. The individual is wearing glasses and a red and black plaid shirt. They are holding a piece of blue fabric close to the camera, making it slightly blurred due to movement. In the background, you can see kitchen cabinets and a coffee maker on the countertop. The setting appears to be a small, cozy room.",
+    "The frame shows a person with long dark hair wearing glasses and a red and black checkered shirt. They are indoors, possibly in a kitchen or dining area, as there is a coffee maker and some kitchen items on a counter behind them. The person is holding a blue cloth or towel that is moving, causing some motion blur. The background includes a white wall and a door."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the main object, a gray T-shirt, has been stretched outward and downward compared to the previous frame. The person’s hands have moved slightly wider apart, pulling the shirt tauter.",
+    "The main object, a gray shirt, has been stretched wider by the person holding it, causing it to expand horizontally in the current frame compared to the previous one.",
+    "In the current frame, the person has moved the gray shirt outward and upward with their arms, creating a stretched and elevated position of the shirt compared to the previous frame where it was held closer and lower.",
+    "The main object, a gray shirt, has moved closer to the person and is being held up more clearly in the current frame compared to the previous one where it was more blurred and farther away. The person's arms have also shifted position, now holding the shirt more firmly and in front of them.",
+    "The person moved the gray shirt from the left side toward the center and right side, holding it more upright and closer to their body. Their right arm and hand shifted forward to pull the shirt, causing motion blur in the shirt's fabric.",
+    "In the current frame, the person has moved the cloth or garment from their right side more towards the center, with their hands closer together and the cloth appearing more stretched out and elevated compared to the previous frame. The motion is faster and more dynamic, causing the cloth to blur.",
+    "The main object, a blue cloth, has moved closer to the person's face and shifted slightly to the right. The person's hand positions have changed to hold the cloth more towards the center and right side in front of their face."
+  ],
+  "baseline_tokens": 653,
+  "diff_tokens": 347,
+  "lexical_redundancy_baseline_avg": 0.38071699395007663,
+  "lexical_redundancy_diff_avg": 0.3161800511164918,
+  "lexical_redundancy_baseline_all": [
+    0.4027777777777778,
+    0.36,
+    0.35526315789473684,
+    0.325,
+    0.45714285714285713,
+    0.45714285714285713,
+    0.3076923076923077
+  ],
+  "lexical_redundancy_diff_all": [
+    0.09375,
+    0.4722222222222222,
+    0.35,
+    0.44,
+    0.23728813559322035,
+    0.32,
+    0.3
+  ],
+  "info_density_baseline": 0.0070504184527454584,
+  "info_density_diff": 0.02449376044311675,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.013333333333333334,
+    0.0,
+    0.0,
+    0.0,
+    0.028985507246376812,
+    0.014084507042253521,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.06060606060606061,
+    0.0,
+    0.02631578947368421,
+    0.018518518518518517,
+    0.046511627906976744,
+    0.0196078431372549,
+    0.024390243902439025
+  ]
+}

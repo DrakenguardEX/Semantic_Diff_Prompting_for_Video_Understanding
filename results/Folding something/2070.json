@@ -1,0 +1,81 @@
+{
+  "video_id": "2070",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/2070.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/2070",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This image depicts a bedroom scene with a bed in the foreground covered with a light-colored blanket or bedspread. To the right side of the bed, there is a tower fan or a similar appliance blurred in motion, indicating it might be moving or being swung. In the background, there is a set of white louvered closet doors on the left side and a dark-colored dresser with a flat-screen television on top positioned to the right. The overall lighting is dim, suggesting it might be evening or that the room is not brightly lit.",
+    "This image shows a bedroom setting with a bed in the foreground, covered with a beige or light brown bedspread. Behind the bed, there is a dresser with a flat-screen TV on top, turned off. To the left, there is a closed white louvered closet door. The room appears dimly lit. There is a dark blurred object or motion in the center foreground of the image, which is unclear but looks like a rapidly moving item or perhaps a tail in motion.",
+    "This frame shows a part of a room with a bed in the foreground. In the background, there is a dresser with a television on top of it. The room appears to have light-colored walls and white closet doors. There is a blurred object or motion in mid-air crossing from left to right, which creates a shadow on the bed. The motion blur suggests something or someone is moving quickly across the frame.",
+    "This image shows a corner of a bedroom. The foreground features a bed with beige or tan bedding and a folded dark-colored cloth or towel on top. In the background, there is a black dresser with an older-style flat-screen television set on it. The wall behind the dresser has dark curtains, and to the left of the dresser, there are white louvered closet doors. The lighting is relatively dim, giving the room a relaxed and cozy atmosphere.",
+    "The image shows a bedroom with a bed covered in light-colored sheets. There is a black or dark brown dog on the bed, lying on its side or back with its legs stretched out. The dog appears to be in motion or being moved, as there is some blurring in the image, especially around the dog's legs. In the background, there is a television on a stand, a wall with a closet that has white louvered doors, and some other indistinct objects. The lighting is dim but sufficient to see the room's details.",
+    "This frame shows part of a bedroom. The foreground features a bed covered with a beige or light brown blanket. On the right side of the bed, a hand is visible holding and lifting a darker brown piece of fabric, possibly a blanket or a sheet. In the background, there are white closet doors with vertical slats on the left side. On the right side stands a dark-colored dresser or chest of drawers with a flat-screen TV on top of it. The TV screen is turned off and reflecting some light. The room's lighting appears to be dim or softly lit.",
+    "The frame shows a close-up of a bed with a beige or light brown blanket. On the bed, there is a small dark-colored object that seems to be a bat lying down or resting. In the background, there is a TV or monitor turned off, and some white or light-colored closet doors. A pair of hands is visible in the right part of the image, appearing to be reaching toward or handling the bat. The overall setting looks like a bedroom.",
+    "The image shows a portion of a bedroom. In the foreground, there is a bed with a light-colored bedspread and a neatly folded dark towel or cloth placed on it. In the background, there is a television set on top of a dark-colored dresser or stand. To the left, a set of closed white bi-fold closet doors is visible. The overall lighting in the room appears to be moderate, and the setting suggests a typical home bedroom environment."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the main dark object, which appears to be in motion, has moved further to the right and downward across the bed compared to the previous frame. The motion blur suggests it is moving quickly.",
+    "The object, which appears to be a long, flexible item, has moved downward and slightly to the left, with its shadow now more visible on the bed surface.",
+    "In the current frame, the object that was previously airborne is now closer to the bed, with its left part resting on the bed and a towel or cloth underneath it. The object appears to be landing or settling down from its previous airborne position.",
+    "The blanket or fabric on the bed has moved and is now being crumpled or tossed towards the right side of the frame. The motion suggests a hand or arm interacting with it.",
+    "The main object, a dog, has moved forward and to the right, with its body more stretched out and its legs extended in the current frame compared to the previous one.",
+    "In the current frame, a person's hands have appeared, moving towards the dark-colored object on the bed and starting to grasp it. The object, which was previously lying still, now shows some motion blur, indicating it is being moved or lifted.",
+    "In the current frame, the hands and arms that were above the folded towel in the previous frame have moved away, and the towel has been smoothed down or moved slightly, appearing more neatly arranged on the bed."
+  ],
+  "baseline_tokens": 823,
+  "diff_tokens": 307,
+  "lexical_redundancy_baseline_avg": 0.3381009263720213,
+  "lexical_redundancy_diff_avg": 0.19992083187552176,
+  "lexical_redundancy_baseline_all": [
+    0.3764705882352941,
+    0.34615384615384615,
+    0.32098765432098764,
+    0.3146067415730337,
+    0.3125,
+    0.375,
+    0.32098765432098764
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0967741935483871,
+    0.2619047619047619,
+    0.2765957446808511,
+    0.21568627450980393,
+    0.18181818181818182,
+    0.16666666666666666,
+    0.2
+  ],
+  "info_density_baseline": 0.012157025079851783,
+  "info_density_diff": 0.03482935196334301,
+  "info_density_baseline_per_frame": [
+    0.010638297872340425,
+    0.024390243902439025,
+    0.0136986301369863,
+    0.012987012987012988,
+    0.0,
+    0.009900990099009901,
+    0.0,
+    0.02564102564102564
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05263157894736842,
+    0.03571428571428571,
+    0.0,
+    0.030303030303030304,
+    0.03225806451612903,
+    0.04878048780487805,
+    0.07894736842105263
+  ]
+}

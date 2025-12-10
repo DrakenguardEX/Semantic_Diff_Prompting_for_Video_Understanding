@@ -1,0 +1,81 @@
+{
+  "video_id": "99312",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/99312.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/99312",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a person pouring blue liquid from a large NAPA container into another large container. The blue liquid is likely windshield washer fluid or a similar automotive fluid, given the setting and container type. The scene appears to take place in a garage or workshop, as indicated by the concrete floor and other containers in the background. The person's hand is prominently visible, holding the pouring container carefully to avoid spilling.",
+    "The image shows a hand pouring a blue liquid from a large NAPA container into another container. The second container is partially visible and appears to be a plastic jug or bottle. The pouring is happening over a dark surface, possibly a floor or workbench. There are other containers in the background as well. The liquid being poured is a bright blue color, suggesting it might be a type of automotive fluid, such as windshield washer fluid or antifreeze.",
+    "This frame shows a close-up of a person's hand pouring blue liquid from a smaller container labeled \"NAPA\" into a larger container. Both containers have blue liquid in them. The liquid being poured is blue, and the background has some indistinct objects that include yellow containers. The scene appears to involve transferring or refilling fluid, possibly a type of automotive fluid such as windshield washer fluid or coolant.",
+    "This frame shows a close-up of a person's hand pouring a blue liquid from one large blue plastic container into another similar container. The containers appear to be designed for holding fluids such as automotive fluids or cleaning solutions. The background includes other yellow containers placed on a surface. The scene seems to be taking place in a workshop, garage, or similar setting.",
+    "The image shows a close-up of a hand pouring blue liquid from one large blue plastic container into another. The container being poured into has a smaller neck, and the liquid appears to be either a type of cleaning solution or automotive fluid, possibly windshield washer fluid, based on the color and typical packaging. In the background, there are some yellow containers and a dark surface, possibly indicating this is taking place in a garage or workshop environment.",
+    "The image shows a close-up of a person's hand pouring blue liquid from one large plastic container into another. The containers are translucent and filled with the blue liquid, likely a cleaning solution or windshield washer fluid. In the background, there are several yellow containers and a dark surface. The setting appears to be a workshop or garage.",
+    "The frame shows a close-up of two blue plastic containers. A hand is pouring liquid from one container into the other. Both containers are similar in color and shape. The blue containers appear to be in a workshop or garage environment, as indicated by the concrete floor and the presence of yellow containers in the background. The liquid being poured is also blue.",
+    "This frame shows a close-up of a hand holding a blue plastic container, pouring liquid into a larger blue plastic container with a wide mouth. The liquid appears to be clear, possibly water. The background includes multiple yellow plastic containers and a dark surface, suggesting an industrial or workshop setting."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, blue liquid is pouring from the smaller container into the larger container. The position of the liquid stream has become visible, indicating the liquid flow started or increased compared to the previous frame.",
+    "In the current frame, blue liquid is being poured from the tilted bottle into the open container below. The liquid stream is visible, flowing between the two containers.",
+    "The blue liquid is being poured from the tilted bottle into the container below.",
+    "In the current frame, the blue liquid is actively flowing from the smaller blue container into the larger blue container, whereas in the previous frame, the liquid flow had just started or was not as visible.",
+    "In the current frame, blue liquid is seen pouring from the tilted container into the larger container below. The main change is the visible stream of liquid flowing out of the spout and into the opening.",
+    "In the current frame, the liquid is actively pouring from the smaller blue container into the larger blue container, creating visible splashes and bubbles at the opening of the larger container.",
+    "In the current frame, liquid is flowing from the first blue container into the second blue container."
+  ],
+  "baseline_tokens": 628,
+  "diff_tokens": 238,
+  "lexical_redundancy_baseline_avg": 0.4079580275209273,
+  "lexical_redundancy_diff_avg": 0.3529417981030884,
+  "lexical_redundancy_baseline_all": [
+    0.38961038961038963,
+    0.375,
+    0.34615384615384615,
+    0.42857142857142855,
+    0.5671641791044776,
+    0.4,
+    0.3492063492063492
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1,
+    0.32432432432432434,
+    0.5454545454545454,
+    0.23333333333333334,
+    0.35135135135135137,
+    0.5161290322580645,
+    0.4
+  ],
+  "info_density_baseline": 0.02781581755061521,
+  "info_density_diff": 0.062416789587093194,
+  "info_density_baseline_per_frame": [
+    0.0273972602739726,
+    0.0379746835443038,
+    0.029411764705882353,
+    0.015873015873015872,
+    0.02564102564102564,
+    0.034482758620689655,
+    0.031746031746031744,
+    0.02
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05405405405405406,
+    0.10714285714285714,
+    0.07142857142857142,
+    0.05555555555555555,
+    0.05555555555555555,
+    0.0967741935483871,
+    0.058823529411764705
+  ]
+}

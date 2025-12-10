@@ -1,0 +1,81 @@
+{
+  "video_id": "3117",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/3117.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/3117",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a light green tablecloth with a textured pattern covering the table. On the tablecloth, there is a white ceramic cup filled with a dark liquid, likely coffee or tea. Next to the cup is a metallic coffee pot or French press with a black knob on the lid and a handle. The setting suggests a simple coffee or tea setup.",
+    "The image shows a white ceramic cup filled with a dark liquid, likely coffee or tea, placed on a textured green tablecloth. Next to the cup, there is a silver metal pot or coffee maker. The setting suggests a simple and casual beverage setup.",
+    "This frame shows a pink cup placed on a textured green surface, which appears to be a tablecloth or mat. There is a metal kettle or teapot visible in the top right corner, positioned as if it is about to pour liquid into the cup. The scene suggests the start of pouring a hot beverage, possibly tea or coffee, into the cup.",
+    "The image shows a close-up of a white cup placed on a textured, green-tinted surface, likely a tablecloth. A metallic kettle is positioned above the cup, pouring a dark liquid into it, presumably tea or coffee. The scene suggests a moment of serving a hot beverage.",
+    "The frame shows a close-up of a white ceramic mug placed on a textured, green tablecloth with a checkered pattern. A metallic coffee pot is tilted above the mug, pouring dark coffee into it. The focus is on the pouring action, capturing the coffee stream as it flows into the mug.",
+    "The frame shows a close-up of a white ceramic mug placed on a green textured surface with a checkered pattern. Above the mug, a metallic pot is tilted, pouring a hot dark liquid, likely coffee or tea, into the mug. The liquid is visibly mid-pour, creating a small splash inside the mug. The pot has a black handle on its lid.",
+    "This frame shows a white ceramic cup placed on a textured light green surface, possibly a tablecloth. A French press is shown pouring dark coffee into the cup. The French press is tilted, with the coffee flowing smoothly into the cup below.",
+    "This frame shows a close-up of a white ceramic mug filled with a dark liquid, likely coffee or tea. The mug is placed on a green checkered or woven tablecloth. To the right of the mug, there is a metallic container or object, possibly a thermos or a part of a coffee maker. The scene suggests a casual setting for enjoying a hot beverage."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The metallic coffee pot has moved slightly further to the right, closer to the edge of the table. The pink coffee cup remains in the same position.",
+    "The metal container has been tilted closer to the cup, indicating that it is in the process of pouring liquid into the cup.",
+    "The kettle was moved closer and tilted over the cup, indicating that liquid is about to be poured into the cup.",
+    "In the current frame, coffee is being poured from the metal pot into the cup, with the liquid now visible flowing into the cup. The pot is tilted more compared to the previous frame.",
+    "In the current frame, the coffee liquid from the pot continues to pour into the cup, with more coffee visible inside the cup compared to the previous frame.",
+    "The liquid being poured from the metal pot into the cup has increased in volume and is visibly flowing more into the cup in the current frame compared to the previous one. The metal pot has also tilted slightly more.",
+    "In the current frame, the coffee pot has been moved away from the cup, stopping the pouring action, with the cup now filled with coffee."
+  ],
+  "baseline_tokens": 531,
+  "diff_tokens": 234,
+  "lexical_redundancy_baseline_avg": 0.4012543989833924,
+  "lexical_redundancy_diff_avg": 0.29958354833354833,
+  "lexical_redundancy_baseline_all": [
+    0.5833333333333334,
+    0.30158730158730157,
+    0.423728813559322,
+    0.39215686274509803,
+    0.5,
+    0.32727272727272727,
+    0.2807017543859649
+  ],
+  "lexical_redundancy_diff_all": [
+    0.04,
+    0.21875,
+    0.37037037037037035,
+    0.24242424242424243,
+    0.6153846153846154,
+    0.3939393939393939,
+    0.21621621621621623
+  ],
+  "info_density_baseline": 0.03133329329277729,
+  "info_density_diff": 0.05503640103384348,
+  "info_density_baseline_per_frame": [
+    0.015873015873015872,
+    0.022727272727272728,
+    0.03225806451612903,
+    0.021739130434782608,
+    0.0784313725490196,
+    0.01639344262295082,
+    0.047619047619047616,
+    0.015625
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.037037037037037035,
+    0.043478260869565216,
+    0.09523809523809523,
+    0.058823529411764705,
+    0.03571428571428571,
+    0.05,
+    0.12
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "5273",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/5273.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/5273",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person holding a small toy police car above a black surface, possibly a bed or sofa. The toy car is white with blue and green stripes and has a blue light on top. The person's hand is visible in the top left corner of the image, gripping the toy car. The background is mostly plain and out of focus.",
+    "The image shows a person's hand holding a small gray and white object, possibly a small toy or model, above a black surface. The background is plain and light-colored, with nothing else visible in the frame. The hand is positioned near the top left part of the image, with the object angled slightly downward.",
+    "This frame shows a mostly black surface, possibly a bed or couch with a dark cover. There is a blurred object in the lower center part of the frame that appears to be a blue and white shoe in motion. In the upper left corner, a hand is partially visible, reaching downward. The background is white with some small, dark marks or hooks on the wall. The image is somewhat blurry, indicating movement.",
+    "The frame shows a close-up of a hand holding a black camera or a similar cylindrical device above a black fabric surface. The background is mostly white with some indistinct small objects or markings visible on the wall. The image is somewhat out of focus.",
+    "The frame shows a close-up of a black surface, possibly a bed or couch, with part of a hand at the upper left corner. The hand appears to be in motion, suggesting some activity or movement. There is a small white or gray object on the black surface, which is not clearly identifiable due to the motion blur. The background is a plain white wall with some small decorative elements or stickers attached to it. The image composition is simple, with a focus on the black surface and the hand.",
+    "The image shows a person's hand at the top left corner, seemingly reaching toward or away from a small black object resting on a black surface. In the background, there is a white wall with some small, indistinct black marks or stickers. The overall setting appears minimalistic.",
+    "The image shows a black surface with a small black rectangular object placed on it, which looks like a game controller or a remote control. Above the black surface, part of a person's hand is visible reaching downward. The background is a plain white wall with some small, indistinct black marks or stickers on it. The overall lighting is moderate, and the setting appears to be indoors.",
+    "The image shows a hand reaching towards a black table or surface. On the table, there is a small black car model placed near the bottom left corner. The background appears to be a light-colored wall with some small objects or marks on it. The overall setting seems to be indoors."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The toy police car has moved forward and is now blurred, indicating motion. The hand holding the car has also shifted position slightly.",
+    "The main object, held by the hand, has moved downward and is now in motion, appearing blurred due to its rapid movement. The hand is moving in the same downward direction as well.",
+    "The shoe in the current frame has moved closer to the camera and is now more centered in the image, appearing larger and less blurred compared to the previous frame. The foot has also shifted downward slightly.",
+    "The main object, a black boot, has moved downward and is now in mid-air with the sole visible, indicating a kicking or lifting motion. The boot is also blurred, showing faster movement compared to the previous frame.",
+    "The main object, a black skateboard, has rotated and moved from a vertical position to a more horizontal one in the current frame compared to the previous one.",
+    "The black rectangular object has tilted and moved slightly downwards and to the left on the surface. The hand above it has moved closer to the object.",
+    "In the current frame, the hand has moved slightly downward and closer to the top edge of the image, while the small black object on the black surface remains in the same position."
+  ],
+  "baseline_tokens": 570,
+  "diff_tokens": 262,
+  "lexical_redundancy_baseline_avg": 0.376763939477558,
+  "lexical_redundancy_diff_avg": 0.24847243286604867,
+  "lexical_redundancy_baseline_all": [
+    0.5,
+    0.32857142857142857,
+    0.31343283582089554,
+    0.30434782608695654,
+    0.34782608695652173,
+    0.43333333333333335,
+    0.4098360655737705
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.25,
+    0.2619047619047619,
+    0.3111111111111111,
+    0.3170731707317073,
+    0.21212121212121213,
+    0.3870967741935484
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.04065709908101213,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.043478260869565216,
+    0.06060606060606061,
+    0.02702702702702703,
+    0.05405405405405406,
+    0.03571428571428571,
+    0.07407407407407407,
+    0.030303030303030304
+  ]
+}

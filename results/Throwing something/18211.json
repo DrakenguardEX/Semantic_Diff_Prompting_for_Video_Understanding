@@ -1,0 +1,60 @@
+{
+  "video_id": "18211",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/18211.webm",
+  "num_frames": 5,
+  "frame_dir": "frames/Throwing something/18211",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a person's hand holding several playing cards. The background includes a blue wall on the left side and a blue surface or table on the right side. The scene appears to be indoors, and the focus is primarily on the hand and the cards, which are held in a fanned-out manner. The setting is simple with minimal objects visible.",
+    "The frame shows a close-up of a hand holding what appears to be a deck of cards or a stack of thin rectangular objects. The background features a blue wall and a blue table or surface. The lighting is moderate, and the setting looks simple and unadorned. The viewpoint suggests the person holding the cards is about to shuffle or deal them.",
+    "The image shows a close-up view of a blue surface, likely a table or a desk. On this surface, there is a small rectangular object, possibly a piece of eraser or a small block. The background features a blue wall and a dark doorway or dark area to the right. The lighting is somewhat dim, giving the scene a slightly shadowed appearance. The photo is slightly out of focus.",
+    "The image shows a simple indoor scene with a blue table positioned against a blue wall. On the table, there is a closed book with the title \"Explore\" visible on the cover. The room appears to have a somewhat plain, unadorned appearance, with a door or doorway partially visible on the right side of the image, next to a black curtain or dark area. The lighting is moderately dim, creating some shadows on the wall and table.",
+    "The image shows a close-up of a corner of a room with blue walls and a blue surface, possibly a table or a bench. On the blue surface, there is a single book placed near the corner. The book has a dark cover with some text on it, but the text is upside down and not fully readable. The background also includes a dark curtain or fabric hanging on the right side. The overall scene appears simple and minimalistic."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand holding the object has moved slightly downward and the object has tilted backward.",
+    "The main object, a book, moved from being held in a hand to lying flat on a table. The hand that was holding the book is no longer visible in the current frame.",
+    "The main object, a book, has moved closer to the edge of the blue table and is now more clearly visible and aligned with the front edge of the table compared to the previous frame.",
+    "The book on the table has been rotated slightly counterclockwise."
+  ],
+  "baseline_tokens": 409,
+  "diff_tokens": 117,
+  "lexical_redundancy_baseline_avg": 0.30919363608119305,
+  "lexical_redundancy_diff_avg": 0.14416873449131512,
+  "lexical_redundancy_baseline_all": [
+    0.328125,
+    0.2647058823529412,
+    0.323943661971831,
+    0.32
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.16129032258064516,
+    0.28205128205128205,
+    0.13333333333333333
+  ],
+  "info_density_baseline": 0.0025974025974025974,
+  "info_density_diff": 0.025108225108225107,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.012987012987012988,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.06666666666666667,
+    0.030303030303030304,
+    0.02857142857142857,
+    0.0
+  ]
+}

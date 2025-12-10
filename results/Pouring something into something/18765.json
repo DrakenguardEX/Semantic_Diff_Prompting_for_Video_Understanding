@@ -1,0 +1,81 @@
+{
+  "video_id": "18765",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/18765.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/18765",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a single empty wine glass placed on a reddish surface, likely a table or countertop. The background includes a white door or cabinet and some white and beige vertical panels, possibly part of window blinds or a wall. The wine glass is clear and has a few small marks or imperfections visible on its surface. The lighting is natural and soft, coming from the right side of the frame.",
+    "The frame shows a close-up of a small, clear wine glass sitting on a reddish-pink surface, possibly a table. The glass is empty and has a slightly smudged or water-marked appearance. In the background, part of a white object or wall is visible along with some yellow elements, likely part of a chair or furniture. Another glass with a dark liquid is partially visible on the left side of the frame. The setting seems to be indoors.",
+    "The image shows a close-up of a person pouring red wine from a tasting measuring cup into an empty wine glass. The wine glass is placed on a red table or countertop. In the background, part of a white door with a metallic handle is visible. The environment appears to be indoors, likely a kitchen or dining area.",
+    "The image shows a close-up of a wine glass placed on a red surface, possibly a table. Above the wine glass, liquid is being poured from a transparent measuring cup into the glass. The measuring cup has measurement markings on its side and contains a dark red liquid, likely red wine. In the background, there is a part of a white and black surface, which might be a kitchen appliance or a piece of furniture. The overall setting appears to be indoors, possibly in a kitchen or dining area.",
+    "This image shows water being poured from a measuring cup into a clear wine glass. The wine glass is placed on a red surface, likely a table or countertop. The measuring cup has visible measurement markings on its side. The background includes part of a white wall or furniture and a window with some light entering the room.",
+    "This frame shows a close-up view of water being poured from a measuring cup into a clear wine glass. The wine glass is placed on a red surface, possibly a table or countertop. The measuring cup has measurement markings on it and appears to be tilted, allowing the water to flow into the glass. The background includes part of a chair and a light-colored wall. The scene is well-lit, and the water creates a clear and refreshing visual.",
+    "The image shows a close-up view of a transparent glass goblet filled with clear water placed on a reddish table or surface. To the left, a hand is seen holding a transparent pitcher, seemingly in the process of pouring or about to pour water into the glass. The background is slightly out of focus, with some light and dark areas visible.",
+    "This frame shows a clear wine glass filled with water placed on a red surface. The background includes a portion of a white object and part of a chair or some furniture. The red surface has some light scratches or marks visible. The lighting appears to be natural or well-lit."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The glass on the left side of the frame moved closer to the empty wine glass on the table, partially entering the frame in the current image.",
+    "The measuring cup is now tilted, pouring liquid into the glass, which remains in the same position.",
+    "In the current frame, the liquid level in the measuring cup has decreased as some liquid has been poured into the glass, which now contains a small amount of liquid. The measuring cup is tilted more compared to the previous frame.",
+    "In the current frame, liquid is being poured into the glass, and the liquid is swirling and splashing inside the glass.",
+    "The water being poured into the glass has stopped, and the glass is now full with the water settled.",
+    "The measuring cup has moved away from the glass and is now tilted backward, no longer pouring water into the glass. The water level in the glass remains the same as in the previous frame.",
+    "The water glass has been moved slightly to the right and closer to the camera."
+  ],
+  "baseline_tokens": 641,
+  "diff_tokens": 210,
+  "lexical_redundancy_baseline_avg": 0.3790380529417542,
+  "lexical_redundancy_diff_avg": 0.22484207759350072,
+  "lexical_redundancy_baseline_all": [
+    0.35526315789473684,
+    0.3108108108108108,
+    0.4626865671641791,
+    0.45588235294117646,
+    0.5,
+    0.27631578947368424,
+    0.2923076923076923
+  ],
+  "lexical_redundancy_diff_all": [
+    0.09090909090909091,
+    0.1,
+    0.3333333333333333,
+    0.2647058823529412,
+    0.3333333333333333,
+    0.25806451612903225,
+    0.1935483870967742
+  ],
+  "info_density_baseline": 0.01756750839834344,
+  "info_density_diff": 0.043038870090897574,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.017241379310344827,
+    0.011235955056179775,
+    0.017241379310344827,
+    0.02564102564102564,
+    0.04918032786885246,
+    0.02
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.037037037037037035,
+    0.058823529411764705,
+    0.024390243902439025,
+    0.047619047619047616,
+    0.05263157894736842,
+    0.05714285714285714,
+    0.06666666666666667
+  ]
+}

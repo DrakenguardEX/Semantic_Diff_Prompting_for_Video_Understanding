@@ -1,0 +1,60 @@
+{
+  "video_id": "14864",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/14864.webm",
+  "num_frames": 5,
+  "frame_dir": "frames/Throwing something/14864",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a hand holding a small yellow box with red text on it. The background appears to be an indoor space with glass or reflective surfaces and dark wooden or brown elements. The overall setting is somewhat dimly lit. The focus is mainly on the hand and the yellow box.",
+    "The image shows a hand holding a small yellow matchbox with a black silhouette of a bird and a small ladder on it. The background appears to be indoors with a wooden window or door featuring multiple square panels. The lighting is somewhat dim, and the surface behind the hand seems to have a blue mat or carpet and a few scattered objects.",
+    "The image shows a hand holding a yellow triangular object with some markings or symbols on it. The background appears to be a wooden window or door with glass panes and a metal grill. The lighting is dim, creating a slightly blurry or hazy effect around the hand and object. The surface below the hand looks like a table or counter.",
+    "The image shows a dimly lit room with closed wooden windows in the background. The floor appears to be a mix of concrete and a blue-colored surface near the windows. There's a yellow object on the ground near the window, but it is indistinct. The overall scene seems quiet and somewhat blurry or out of focus.",
+    "This frame shows part of a sewing machine with a wooden base on the right side of the image. In the background, there is a wooden door with a grid-like design. The floor appears to be covered with a blue material or carpet. There is also a small yellow object, possibly a sticky note, placed on the wooden base of the sewing machine. The lighting is dim, giving the scene a slightly shadowed appearance."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, the yellow sign, has slightly rotated clockwise in the current frame compared to the previous one.",
+    "The yellow matchbox held by the hand has rotated slightly clockwise in the current frame compared to the previous one. The hand's position has also shifted correspondingly with this rotation.",
+    "In the current frame, the hand holding the matchbox has moved out of the scene, and the matchbox is now lying on the surface, slightly blurred as if it was dropped or placed down.",
+    "In the current frame, the yellow object on the floor has moved slightly upwards and to the right compared to its position in the previous frame."
+  ],
+  "baseline_tokens": 354,
+  "diff_tokens": 140,
+  "lexical_redundancy_baseline_avg": 0.3106651926504868,
+  "lexical_redundancy_diff_avg": 0.2592000835421888,
+  "lexical_redundancy_baseline_all": [
+    0.30303030303030304,
+    0.35384615384615387,
+    0.29411764705882354,
+    0.2916666666666667
+  ],
+  "lexical_redundancy_diff_all": [
+    0.15789473684210525,
+    0.4642857142857143,
+    0.17777777777777778,
+    0.23684210526315788
+  ],
+  "info_density_baseline": 0.0035714285714285713,
+  "info_density_diff": 0.013574660633484165,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.017857142857142856,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.029411764705882353,
+    0.038461538461538464
+  ]
+}

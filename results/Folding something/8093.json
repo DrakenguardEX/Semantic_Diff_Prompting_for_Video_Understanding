@@ -1,0 +1,81 @@
+{
+  "video_id": "8093",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/8093.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/8093",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a person with dark hair and glasses, wearing a red and black plaid shirt. They are indoors, sitting or standing in a narrow space with light-colored walls. In the foreground, there is a white or light-colored, fluffy object partially covering the lower part of the frame. The person appears to be focused or concentrating on something in front of them.",
+    "The image shows a person with short dark hair wearing glasses and a red and black checkered shirt. They appear to be sitting at a table or desk, looking downwards with a neutral or focused expression. The background includes a light-colored wall with a small picture frame hanging and part of a kitchen area visible on the left side with a green container on the counter. The foreground has a white or light-colored cloth or blanket partially visible at the bottom of the frame.",
+    "The frame shows a person with short dark hair and glasses sitting indoors at a table or desk. They are wearing a red and black checkered shirt. The setting appears to be a kitchen or dining area with light-colored walls. There is a beige or off-white cloth or pillow in the foreground, partially blocking the lower part of the person's body. The person is looking downward, with a neutral or focused expression.",
+    "The image shows a person with medium-length dark hair and glasses sitting indoors. They are wearing a red and black checkered shirt. The background includes a white door and a wall with a small framed picture or decoration. There is a white or light-colored object or cloth in the foreground partially obscuring the view. The setting appears to be a room with simple decor, possibly a kitchen or dining area.",
+    "The image shows a woman with short dark hair and glasses sitting indoors. She is wearing a red and black checkered shirt and appears to be looking downwards with a focused or contemplative expression. The background shows a light-colored wall with a small framed picture hanging on it, and part of a wooden cabinet or shelf is visible on the left side of the image. In the foreground, there is a white or light-colored object, possibly a blanket or pillow, partially obscuring the lower part of the frame.",
+    "The image shows a person with short dark hair wearing glasses and a red and black checkered shirt. They appear to be sitting indoors, possibly at a desk or table, in a room with light-colored walls. There is a kitchen area visible to the left with a cabinet and some items on the counter. The person is looking directly at the camera with a neutral expression. There are some framed pictures or decorations on the walls in the background.",
+    "The frame shows a person with short dark hair and glasses wearing a red and black checkered shirt. They appear to be sitting at a table or desk and are looking down at an open book or document in front of them. The background includes a white wall and a door, as well as a small portion of a kitchen area with some items visible on a counter to the left. The lighting is bright and evenly distributed.",
+    "The frame shows a person indoors, wearing glasses and a red and black checkered shirt. They have dark hair pulled back and are reaching forward with both hands, touching or holding a soft, cream-colored object that is somewhat out of focus in the foreground. The background includes a white wall and a door, and a small part of a kitchen area with a countertop and a box or container visible on the left side. The lighting is moderate and the scene has a casual, everyday atmosphere."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the main object, a person, has moved their right arm slightly downwards and to the right, causing the white blanket or cloth in front of them to shift accordingly. The person's facial expression and position remain largely unchanged.",
+    "The person slightly lowered their head and moved their eyes downward in the current frame compared to the previous one.",
+    "There is no noticeable change in the main object's position or motion between the two frames; the person remains in the same posture and facial expression.",
+    "The person in the current frame has moved their head slightly downward compared to the previous frame.",
+    "In the current frame, the person's head has moved slightly downward and closer to the camera, making their face appear larger and their glasses more prominent.",
+    "The person's head moved slightly downward and their mouth has shifted to a more pressed position in the current frame compared to the previous one.",
+    "In the current frame, the main object, a white cloth or towel, has moved closer to the camera and is being extended forward by the person, whose arm is now reaching out toward the front. The person’s focus remains on the cloth."
+  ],
+  "baseline_tokens": 727,
+  "diff_tokens": 241,
+  "lexical_redundancy_baseline_avg": 0.44942403819476634,
+  "lexical_redundancy_diff_avg": 0.24269740367500872,
+  "lexical_redundancy_baseline_all": [
+    0.3684210526315789,
+    0.5135135135135135,
+    0.4794520547945205,
+    0.47368421052631576,
+    0.4358974358974359,
+    0.5,
+    0.375
+  ],
+  "lexical_redundancy_diff_all": [
+    0.05263157894736842,
+    0.24390243902439024,
+    0.1111111111111111,
+    0.08823529411764706,
+    0.48,
+    0.4838709677419355,
+    0.2391304347826087
+  ],
+  "info_density_baseline": 0.0030560524746571257,
+  "info_density_diff": 0.02936301443654385,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01282051282051282,
+    0.011627906976744186
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.023809523809523808,
+    0.05,
+    0.0,
+    0.058823529411764705,
+    0.038461538461538464,
+    0.04,
+    0.023809523809523808
+  ]
+}

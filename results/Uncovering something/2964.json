@@ -1,0 +1,81 @@
+{
+  "video_id": "2964",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/2964.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/2964",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a neatly folded blue garment, likely a piece of clothing such as a shirt or a dress, placed on a wooden surface. The garment appears to be made of a smooth fabric and is folded in a rectangular shape, with the edges aligned cleanly. The background is slightly visible, showing a bit of the wooden surface beneath the garment. The lighting is moderate, highlighting the texture and color of the fabric.",
+    "The image shows a rectangular bag or pouch made of light blue fabric. It is lying flat on a wooden surface. The bag appears to be simple in design with minimal visible stitching, and it seems to be empty or not very full. The fabric looks soft and smooth.",
+    "The frame shows a rectangular blue fabric item, possibly a bag or cushion, lying flat on a wooden surface. A hand is touching the object on the left side. The fabric appears smooth and uniform in color. There are no visible designs or markings on the visible side of the item.",
+    "This frame shows a close-up of a blue face mask being held or moved in front of a keyboard. The mask is slightly blurred, indicating motion. The keyboard is partially visible beneath the mask, and both objects appear to be resting on a wooden surface.",
+    "This frame shows a black computer keyboard placed on a wooden surface. The keyboard is a standard QWERTY layout with function keys, a number pad on the right, and arrow keys in the typical arrangement. There are some cables visible in the top right corner of the frame, suggesting a connection to a computer or other device nearby. The keyboard appears to be part of a workspace setup.",
+    "The image shows a black A4TECH keyboard placed on a wooden surface, likely a desk or table. Above the keyboard, part of a black computer mouse pad and a circular object, possibly a coaster or wrist rest, are visible. The keyboard appears to be a full-sized model, including a numeric keypad on the right side. The lighting is natural and evenly distributed.",
+    "This frame shows a black computer keyboard placed on a wooden surface. The keyboard is branded \"A4TECH\" and features a standard QWERTY layout with additional function keys and a numeric keypad on the right side. There are also some cables visible in the background, likely connected to the keyboard or nearby devices.",
+    "This frame shows a black A4Tech computer keyboard placed on a wooden surface. The keyboard has a full layout including function keys, a numeric keypad on the right, and standard QWERTY keys. There is a noticeable blue sticker or label on the bottom left corner of the keyboard. Part of a round black object, possibly a mouse pad or a speaker, is visible in the upper right corner of the image. Some cables can also be seen around the keyboard."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "Nothing notable changed in the main object (the blue cloth) between the two frames; it remains in the same position without visible movement.",
+    "In the current frame, a hand has appeared on the left side, touching or about to touch the blue fabric surface.",
+    "The blue object, which was initially lying flat, is now being lifted and moved upright in the current frame.",
+    "The blue cloth that was previously in front is no longer visible, revealing the keyboard on the desk.",
+    "The keyboard moved slightly downwards in the current frame compared to the previous one.",
+    "The keyboard has shifted slightly to the left in the current frame compared to the previous one.",
+    "The keyboard has been slightly pushed to the right in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 566,
+  "diff_tokens": 161,
+  "lexical_redundancy_baseline_avg": 0.329154196337902,
+  "lexical_redundancy_diff_avg": 0.2697921064977715,
+  "lexical_redundancy_baseline_all": [
+    0.34375,
+    0.36363636363636365,
+    0.2413793103448276,
+    0.25757575757575757,
+    0.30985915492957744,
+    0.3333333333333333,
+    0.45454545454545453
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.08571428571428572,
+    0.15625,
+    0.1724137931034483,
+    0.12,
+    0.6666666666666666,
+    0.6875
+  ],
+  "info_density_baseline": 0.002777777777777778,
+  "info_density_diff": 0.035975355054302424,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.022222222222222223,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.10526315789473684,
+    0.05555555555555555,
+    0.07142857142857142,
+    0.0,
+    0.05555555555555555
+  ]
+}

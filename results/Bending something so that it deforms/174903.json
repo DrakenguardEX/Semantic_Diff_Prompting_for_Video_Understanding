@@ -1,0 +1,81 @@
+{
+  "video_id": "174903",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/174903.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/174903",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a person holding a red rectangular box with both hands. The box has a white label with a barcode on one side. The person appears to be in a room with a light gray or white wall and a window with white blinds. The photo is taken from a low angle, and most of the person's face is out of the frame. The lighting in the room is bright.",
+    "The image shows a close-up of a person's arm extended upward, holding a box of what appears to be a food or snack item. The person is inside a room with light-colored walls, a door visible in the background, and some wall decor or a poster partially seen on the wall. The camera angle is from a low perspective, looking up at the person's arm.",
+    "The frame shows a close-up view of a person's hands holding and possibly opening a rectangular carton, which appears to be a milk or juice carton. The person's face is partially visible on the left side of the image, and the background shows a light-colored wall, a white doorframe, and part of a window with blinds. The lighting is bright and coming from the ceiling.",
+    "This frame shows a close-up of a person's hand holding a small object, possibly a card or photograph. The person's face is partially visible on the left side of the image. The background includes a light-colored wall with a white-framed window and a door. The lighting appears to be from an overhead source.",
+    "The frame shows a close-up of a person's arm and hand, which appear to be in motion, possibly holding or manipulating something. The background includes a light-colored wall, a ceiling, and part of a door or window frame with molding. The image is slightly blurred, indicating movement. There is also a partial view of the person's face on the left side of the frame.",
+    "The frame shows a partial view of a person's arm and hand, extended outward. The person's face is only partially visible on the left side of the image. The background features a light-colored wall, a white window blind, and part of a window frame. The lighting appears to come from an overhead light source, which is creating a bright spot in the upper right corner of the frame. The image seems to be taken from a low angle looking slightly upward.",
+    "This frame shows a close-up of a person's arm and part of their head, with the arm extended, possibly holding or reaching for something. The background includes a light-colored wall and a ceiling with a light source. The image is taken from a low angle looking upward. The person's face is partially visible but not fully in view.",
+    "The frame shows a close-up of a person's arm and hand holding a dark red, possibly maroon, object that is not entirely visible. The background includes a wall with a window partially covered by blinds or curtains, and a ceiling with a light source that creates a bright spot in the upper right corner of the image. The person is positioned on the left side of the frame, with only part of their shoulder and arm visible."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand and arm have moved closer to the box, now gripping it, while the box itself has shifted slightly downward and forward.",
+    "The main object, a carton, is now closer to the camera and being tilted upward in the current frame compared to the previous one. The arm holding the carton has moved slightly toward the camera and the carton appears to be rotated.",
+    "The main object, a can held by the person, has moved slightly downward and closer to the camera in the current frame compared to the previous one. The hand position has also shifted accordingly, with the fingers more curled around the can.",
+    "The main object, a hand holding a playing card, has moved downward and slightly away from the camera, making the card less visible in the current frame compared to the previous one.",
+    "In the current frame, the hand has moved slightly upward and to the right, tightening its grip on the object. The arm and hand are more extended compared to the previous frame.",
+    "In the current frame, the arm has moved slightly downward and to the right compared to the previous frame, and the hand is now holding an object more visibly.",
+    "The hand in the current frame has moved slightly higher compared to the previous frame while still holding the object."
+  ],
+  "baseline_tokens": 648,
+  "diff_tokens": 263,
+  "lexical_redundancy_baseline_avg": 0.4177430507842793,
+  "lexical_redundancy_diff_avg": 0.363090683263097,
+  "lexical_redundancy_baseline_all": [
+    0.3333333333333333,
+    0.35714285714285715,
+    0.559322033898305,
+    0.47619047619047616,
+    0.38666666666666666,
+    0.3972602739726027,
+    0.4142857142857143
+  ],
+  "lexical_redundancy_diff_all": [
+    0.041666666666666664,
+    0.23076923076923078,
+    0.38636363636363635,
+    0.45,
+    0.3611111111111111,
+    0.5517241379310345,
+    0.52
+  ],
+  "info_density_baseline": 0.0019230769230769232,
+  "info_density_diff": 0.029760008388662808,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.015384615384615385,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.043478260869565216,
+    0.023809523809523808,
+    0.023809523809523808,
+    0.03125,
+    0.03125,
+    0.034482758620689655,
+    0.05
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "15260",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/15260.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/15260",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a person standing indoors holding a rectangular piece of fabric or cloth. The fabric is white with a pattern of small symbols or dots in various colors. The person is wearing a long-sleeved maroon shirt and dark blue pants. The setting appears to be a living room or similar space, with a carpeted floor, computer setup in the background, a white pillow on the floor, and wooden railings near a staircase. The individual is holding the fabric outstretched with both hands.",
+    "The frame shows a person holding a white cloth or bag with a blue and yellow pattern. The person is wearing a red long-sleeved shirt and blue pants. They appear to be indoors, standing on a carpeted floor in a living room or similar setting. In the background, there's a wooden railing and various pieces of furniture, including a green chair partially visible on the right side. The person is stretching or inspecting the cloth/bag, holding it with both hands.",
+    "The image shows a person wearing a long-sleeve red shirt and blue pants standing in a living room. They are holding a white garment, possibly a piece of clothing or fabric, stretched out in front of them with both hands. The scene captures a casual indoor environment with carpeted flooring, a wooden railing, and some household furniture and items visible in the background. The person's face is not visible in the frame.",
+    "In this image, a person wearing a red long-sleeve shirt and blue pants is holding and looking at a piece of white fabric or cloth. The person's face is not visible as the photo captures only their torso and arms. The setting appears to be a living room with beige carpet, a wooden railing, a couch with patterned cushions on the right, and some electronic equipment, including speakers and a computer, on the left. There is also a pillow lying on the floor near the wooden railing.",
+    "The image shows a person indoors, wearing a red long-sleeve shirt and blue pants, standing on a carpeted floor. They are holding and wringing out what appears to be a wet white towel or cloth. In the background, there is a wooden railing with stairs, a couch with a blanket or pillow on it, and an entertainment area with electronic devices and a small table. The scene appears to be in a living room or common area of a house.",
+    "The image shows a person standing indoors on a carpeted floor. The person is wearing a red long-sleeve shirt and blue pants, and they are holding a white cloth or rag in both hands. The room contains a wooden railing in the background, some electronics or speakers on the left side, a pillow lying on the floor, and part of a green chair or couch on the right. The overall setting appears to be a cozy living space.",
+    "The frame shows a person standing in a living room, mid-action, as if they are about to throw or catch a white cloth or object. The person is wearing a red long-sleeve shirt and blue pants. The room has a carpeted floor with a white pillow on it, a wooden railing leading to another area, and some furniture including a green chair or couch with a patterned pillow. There is also a desk with electronics like a computer and speakers visible in the background.",
+    "The frame shows a person standing indoors in a carpeted room. The person is wearing a red long-sleeve shirt and dark blue pants. They are holding a white cloth or towel in both hands extended forward. In the background, there is a wooden railing separating the room from a kitchen area, which has wooden cabinets and a white stove. There is also a television on a stand with various electronic devices and cables beneath it. The room appears to be a living space with home furnishings."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a patterned cloth, is being folded; in the current frame, the person has begun folding one side of the cloth inward.",
+    "In the current frame, the person has raised the piece of cloth higher by extending their arms upward compared to the previous frame. The cloth is now more stretched out and held at a higher position.",
+    "In the current frame, the person has lowered the white cloth slightly compared to the previous frame. Their arms are now more extended downward.",
+    "The person moved the cloth, raising it higher and unfolding it slightly, causing it to spread out more in the current frame compared to the previous one.",
+    "In the current frame, the person has moved the towel from being stretched out horizontally to a more vertical position, and their hands are closer together as if folding or squeezing the towel.",
+    "The person moved the white cloth from a more upright position to a more horizontal position, causing it to appear spread out and lifted higher in front of them.",
+    "The person moved the white cloth closer to their body, holding it with both hands instead of letting it hang loosely."
+  ],
+  "baseline_tokens": 777,
+  "diff_tokens": 232,
+  "lexical_redundancy_baseline_avg": 0.4243030160838443,
+  "lexical_redundancy_diff_avg": 0.25765044479330196,
+  "lexical_redundancy_baseline_all": [
+    0.4868421052631579,
+    0.4,
+    0.3522727272727273,
+    0.375,
+    0.49333333333333335,
+    0.45569620253164556,
+    0.4069767441860465
+  ],
+  "lexical_redundancy_diff_all": [
+    0.04,
+    0.2564102564102564,
+    0.4,
+    0.36666666666666664,
+    0.25,
+    0.2619047619047619,
+    0.22857142857142856
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.0319867911462739,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.041666666666666664,
+    0.0,
+    0.0,
+    0.037037037037037035,
+    0.06060606060606061,
+    0.06896551724137931,
+    0.047619047619047616
+  ]
+}

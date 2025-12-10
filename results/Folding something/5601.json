@@ -1,0 +1,81 @@
+{
+  "video_id": "5601",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/5601.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/5601",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up of a hand holding or touching a folded piece of cloth with a checkered pattern. The cloth has a design featuring squares in colors such as pink, light blue, white, and purple, with blue borders around the edges. The cloth is placed on a surface that appears to be a bed with a floral-patterned bedsheet in shades of beige and green. There is also a piece of white paper or a rectangular object partially visible on the right side of the frame.",
+    "The frame shows a hand folding a colorful, checkered cloth or fabric on a light-colored surface with a subtle floral pattern. The cloth has a pattern featuring vertical and horizontal stripes in colors such as blue, pink, and white with a teal border. In the background, some papers are partially visible on the right side.",
+    "This frame shows a hand reaching toward or touching a folded piece of fabric that has a checkered pattern in shades of pink, blue, and white. The fabric is lying on a bed or surface covered with a light-colored sheet or bedspread decorated with a subtle pattern of leaves and vines. There is also a white sheet of paper partially visible on the right side of the image.",
+    "This frame shows a hand placed on a folded cloth with a checkered pattern. The cloth has a color scheme that includes turquoise, pink, white, and blue. The surface underneath appears to be a quilted fabric with a light floral or leafy design. In the top right corner, there is a small part of a white object, possibly a piece of paper or an envelope.",
+    "The image shows a hand reaching toward or touching a folded cloth or towel with a checkered pattern. The cloth predominantly features colors like pink, white, blue, and green in a plaid design. The material is placed on a light-colored surface with a subtle floral or leafy pattern. There is also a piece of white paper partially visible on the right side of the frame.",
+    "The frame shows a person's hand holding a small, folded, quilted or padded fabric item with a checkered pattern consisting of colors like white, pink, and green. The background appears to be a soft surface, possibly a bed or a table, covered with a floral-patterned cloth or sheet. There is also a small part of a white object visible on the right side of the frame.",
+    "The image shows a person's hand holding or placing a folded cloth or towel on a surface, likely a bed or table, covered with a light-colored sheet with a subtle leafy pattern. The cloth is patterned with stripes in blue, white, and pink colors. The hand appears to be in the process of adjusting or folding the cloth.",
+    "The frame shows a hand with red-painted nails holding or pressing down on a small, colorful checkered cloth. The cloth appears to be in shades of pink, blue, and white. The background surface is a fabric with a light color and a faint pattern of green and pink floral designs. The hand is positioned centrally in the frame."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand is now lifting and unfolding the previously folded cloth, causing part of it to rise and move upward.",
+    "In the current frame, the hand has moved slightly downward and closer to the fabric, no longer pinching the corner of the cloth as in the previous frame. The fabric is now fully folded and lying flat on the surface.",
+    "In the current frame, the hand has moved closer to the folded cloth, with fingers spread out more than in the previous frame.",
+    "The hand moved closer to the folded cloth, with the fingers now positioned to grasp or pinch the cloth.",
+    "In the current frame, the hand has lifted the folded cloth and is in the process of unfolding or moving it, causing the cloth to be partially unfolded and no longer lying flat as it was in the previous frame.",
+    "The hand moved the folded checkered cloth from a tilted position to lying flat on the surface.",
+    "The hand has moved from a gripping position to being fully placed flat on top of the folded cloth. The fingers are now spread out over the cloth surface."
+  ],
+  "baseline_tokens": 637,
+  "diff_tokens": 224,
+  "lexical_redundancy_baseline_avg": 0.40116944407841537,
+  "lexical_redundancy_diff_avg": 0.2563435195341047,
+  "lexical_redundancy_baseline_all": [
+    0.3888888888888889,
+    0.390625,
+    0.4057971014492754,
+    0.4264705882352941,
+    0.391304347826087,
+    0.4444444444444444,
+    0.36065573770491804
+  ],
+  "lexical_redundancy_diff_all": [
+    0.043478260869565216,
+    0.23684210526315788,
+    0.34285714285714286,
+    0.391304347826087,
+    0.16216216216216217,
+    0.1891891891891892,
+    0.42857142857142855
+  ],
+  "info_density_baseline": 0.013704242849780375,
+  "info_density_diff": 0.081729031962347,
+  "info_density_baseline_per_frame": [
+    0.011494252873563218,
+    0.01818181818181818,
+    0.014705882352941176,
+    0.015384615384615385,
+    0.015384615384615385,
+    0.0,
+    0.034482758620689655,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.15,
+    0.05,
+    0.08695652173913043,
+    0.10526315789473684,
+    0.075,
+    0.11764705882352941,
+    0.06896551724137931
+  ]
+}

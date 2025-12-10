@@ -1,0 +1,67 @@
+{
+  "video_id": "16546",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/16546.webm",
+  "num_frames": 6,
+  "frame_dir": "frames/Uncovering something/16546",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg"
+  ],
+  "baseline_texts": [
+    "This image shows a small, cozy room with a red couch on the right side. There are several cushions on the couch in different colors. In front of the couch, there is an object covered with a checkered cloth, possibly a piece of furniture or an item being protected. On the left side of the room, there is a wooden table with chairs around it. Near the table, there is a TV on a wooden stand, along with some other items, including a small piece of furniture or storage unit below the TV. The floor has a patterned carpet or rug, and the walls are light-colored, contributing to a warm and homey atmosphere.",
+    "The frame shows a room with a tiled floor and a red sofa on the right side. On the sofa, there is a raised leg wearing a sock with a checkered pattern. In the background, there is a wooden dining table with chairs near a window with partially closed blinds. There's also a wooden cabinet or desk with a television or monitor placed on top. Some miscellaneous items are placed on the cabinet, including what looks like a cup or small container. The overall setting appears to be a cozy living or dining area.",
+    "The frame shows a small room with a checkered floor. On the right side, there is a red couch with a pillow or cushion on it. Against the far wall, there is a wooden desk or TV stand with various items on it, and a chair with a dark piece of clothing draped over it. Near the left side of the image, there is a wooden table with chairs around it, positioned next to a window with blinds. A person’s hand and part of a leg, wearing checkered pants, are visible in the foreground on the right side of the image.",
+    "This frame shows a room with a red couch on the right side. In front of the couch, a person's hand and foot, wearing a dark sock, are extended toward the camera. In the background, there is a wooden dining table with four chairs, and a window with blinds above it. There is also a TV atop a wooden TV stand on the right side near the back wall. The floor has a light-colored tile with a dotted pattern. The overall ambiance seems to be a cozy living or dining area.",
+    "This frame shows a cozy indoor room with a red sofa on the right side, adorned with several colorful cushions. To the left, there is a wooden dining table with matching chairs. Behind the table, there appears to be a wooden cabinet or desk with some items on top. The floor has a patterned tile design, and the walls are white. The overall atmosphere suggests a warm, lived-in space, likely a living or dining room.",
+    "The frame shows a cozy living space with a red sofa on the right side, adorned with several colorful cushions including orange and patterned ones. In the background, there is a wooden dining table with two chairs. Near the table, there is a window with closed blinds. Also visible is a wooden desk with a computer monitor on it, along with some miscellaneous items. The floor has a patterned carpet with dots. In the foreground, there appears to be a piece of clothing or fabric placed on a surface. The lighting in the room is warm and natural, suggesting it's daytime."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The sock puppet, previously stationary on the right side of the image, is now in motion, moving rapidly to the right and appearing blurred due to the movement.",
+    "In the current frame, the hand has moved closer to the sock, starting to grip or pull it upwards. The sock has been lifted higher compared to the previous frame.",
+    "In the current frame, the person's hand has moved slightly upward and closer to the camera, and the fingers have shifted position, becoming more open compared to the previous frame. The arm is also slightly blurred, indicating motion.",
+    "In the current frame, the main object, a person, has moved from being upright near the right side of the frame to falling or lying down on the floor next to the red couch. The person's hand is no longer visible above the couch armrest.",
+    "In the current frame, the dark dog has moved forward and is closer to the red couch, with its head and upper body now more visible and angled towards the right side."
+  ],
+  "baseline_tokens": 687,
+  "diff_tokens": 212,
+  "lexical_redundancy_baseline_avg": 0.35928552148208215,
+  "lexical_redundancy_diff_avg": 0.1767221931507646,
+  "lexical_redundancy_baseline_all": [
+    0.26732673267326734,
+    0.34831460674157305,
+    0.4069767441860465,
+    0.3333333333333333,
+    0.44047619047619047
+  ],
+  "lexical_redundancy_diff_all": [
+    0.037037037037037035,
+    0.10256410256410256,
+    0.275,
+    0.2037037037037037,
+    0.2653061224489796
+  ],
+  "info_density_baseline": 0.003423214661891721,
+  "info_density_diff": 0.04030301448064606,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.010638297872340425,
+    0.0,
+    0.0,
+    0.0,
+    0.009900990099009901
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03571428571428571,
+    0.1,
+    0.05263157894736842,
+    0.022222222222222223,
+    0.03125
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "19829",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/19829.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/19829",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a person's hand holding a white pacifier. The background features a tiled floor and part of a room with some furniture. The lighting is moderate, and the focus is on the hand and pacifier.",
+    "The image shows a hand holding a pink pacifier. The background appears to be an indoor setting with a tiled floor and some furniture visible in the distance. The lighting is moderate, and the focus is mainly on the pacifier and the hand holding it.",
+    "The image shows a hand holding a pink pacifier. The background includes a light-colored floor and some furniture, suggesting an indoor setting. The pacifier is positioned centrally in the image, and the hand is holding it delicately with the thumb and fingers.",
+    "This frame shows a close-up of a hand holding a small, light pink object that appears to be a pacifier. The background is a room with a tiled floor, and you can see part of a curtain to the left and some furniture to the right. The image seems slightly blurry, likely due to motion.",
+    "The image shows a person's right hand extended outward, captured in mid-motion, possibly throwing or releasing something. The background features a shiny floor reflecting some light, a white curtain or cloth on the left side, and a shadowed area toward the back. There is a small blurry, pinkish object near the center of the image, which appears to be in the air in front of the hand. The setting seems to be indoors.",
+    "The image shows a hand reaching out over a smooth, reflective floor. The floor appears to be wet or polished, creating a glossy surface that reflects light and some parts of the surroundings, including the hand. In the background, there seems to be furniture, including a chair or table leg, which is also partially reflected on the floor. The setting appears to be indoors, likely in a room or hallway.",
+    "The image shows a hand extended forward as if reaching out or gesturing towards something. The background is a mostly empty, reflective floor with a subtle shadow, some walls, and a corner with a curtain hanging down. The setting appears to be indoors with a clean, uncluttered space. The hand is prominently in the foreground, while the rest of the scene fades into the background.",
+    "This frame shows a close-up of a person's hand extended forward, with fingers slightly spread as if about to grab or touch something. The background consists of a smooth, shiny floor with a small object or spot on it near the center. Behind the floor, there are some steps and a curtain on the left side. The overall setting appears to be indoors, possibly inside a house or room."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand holding the pacifier has moved slightly to the right and is now positioned a bit higher in the frame compared to the previous one.",
+    "The pacifier held by the hand has moved slightly closer to the camera and is turned at a slightly different angle compared to the previous frame.",
+    "The hand holding the pacifier moved slightly downward and to the right, causing the pacifier to shift position and become somewhat blurred due to motion.",
+    "The main object, a hand and a small spinning toy, has moved to the right and slightly upwards as the toy is released and spins away from the hand. The hand is now more open and positioned further right compared to the previous frame.",
+    "In the current frame, the hand has moved closer to the right edge of the frame and the small pink object has moved slightly upward and slightly to the right compared to the previous frame.",
+    "The hand in the current frame has moved slightly forward and is more open compared to the previous frame.",
+    "The small object on the floor has moved slightly closer to the hand."
+  ],
+  "baseline_tokens": 547,
+  "diff_tokens": 220,
+  "lexical_redundancy_baseline_avg": 0.34319475736142396,
+  "lexical_redundancy_diff_avg": 0.3019787512706232,
+  "lexical_redundancy_baseline_all": [
+    0.46153846153846156,
+    0.5,
+    0.2909090909090909,
+    0.3108108108108108,
+    0.2875,
+    0.28,
+    0.2716049382716049
+  ],
+  "lexical_redundancy_diff_all": [
+    0.125,
+    0.4482758620689655,
+    0.21875,
+    0.175,
+    0.3611111111111111,
+    0.5,
+    0.2857142857142857
+  ],
+  "info_density_baseline": 0.0017123287671232876,
+  "info_density_diff": 0.050213339292286656,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0136986301369863,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.038461538461538464,
+    0.038461538461538464,
+    0.04,
+    0.045454545454545456,
+    0.05714285714285714,
+    0.10526315789473684,
+    0.07692307692307693
+  ]
+}

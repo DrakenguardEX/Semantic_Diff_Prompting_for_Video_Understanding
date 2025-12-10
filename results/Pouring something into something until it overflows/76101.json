@@ -1,0 +1,81 @@
+{
+  "video_id": "76101",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/76101.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/76101",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a hand holding a metal cup, tilted as if about to pour liquid into a small yellow plastic cup placed on a concrete or metal ledge attached to a wall. The wall is cream-colored and has some scuff marks. The ledge appears slightly worn with some dark stains or marks on it. The hand holding the metal cup is positioned close to the yellow cup, suggesting an imminent pouring action.",
+    "The image shows a hand holding a stainless steel tumbler, about to pour liquid into a small yellow plastic cup. The yellow cup is placed on a narrow surface or ledge attached to a wall, with a dark-colored edge. The setting appears to be indoors or in a sheltered area, with visible plain walls and a floor in the background.",
+    "The image shows a hand holding a metal cup and pouring water into a small yellow plastic cup. The yellow cup is placed on a narrow black ledge or railing attached to a beige wall. The setting appears to be indoors or in a sheltered area, given the walls and the overall surroundings.",
+    "The image shows a hand pouring a liquid from a stainless steel container into a small yellow plastic cup. The cup is resting on the edge of a black surface attached to a white wall. The liquid is being poured carefully, and the scene appears to be indoors.",
+    "The image shows a close-up of a person's hand pouring water from a stainless steel cup into a small, yellow plastic glass placed on a black metal or wooden ledge attached to a wall. The background wall appears to be light-colored and slightly worn or stained. The scene suggests a casual moment of filling a glass with water.",
+    "The image shows a person holding a metallic cup or tumbler and pouring a clear liquid, possibly water, into a small yellow plastic cup that is placed on a black ledge or railing. The background consists of a plain, off-white wall with some marks and discoloration. The scene suggests a simple action of pouring a drink.",
+    "The frame shows a hand pouring water from a metallic container into a small yellow plastic cup. The yellow cup is placed on a black metal rail or ledge attached to a beige or off-white wall. The setting appears to be indoors or in a sheltered area, possibly near a stairway or corridor.",
+    "The image shows a hand pouring liquid from a small metal cup into a yellow plastic cup placed on a black metal railing. The background consists of a white wall with some discoloration or marks, and part of a doorway or entryway is visible on the right side. The liquid appears to be clear, possibly water. The scene has a simple, everyday feel to it."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The metallic cup in the hand has moved closer to the yellow cup.",
+    "In the current frame, liquid is being poured from the metallic container into the yellow cup.",
+    "In the current frame, the stream of liquid being poured from the metal cup into the yellow cup has angled slightly further downwards, and the yellow cup has moved slightly closer to the edge of the black surface. The hand holding the metal cup has also shifted position slightly.",
+    "In the current frame, more liquid has been poured from the metal container into the yellow cup, and the liquid stream is longer, closer to reaching the cup.",
+    "In the current frame, the yellow cup has filled up more with water being poured into it from the metal container. The stream of water is slightly longer as it reaches nearer to the cup surface.",
+    "In the current frame, the water being poured from the metal container has increased in volume as it flows closer into the yellow cup below.",
+    "In the current frame, the water level inside the yellow cup has risen as more water is being poured into it from the metal container."
+  ],
+  "baseline_tokens": 540,
+  "diff_tokens": 226,
+  "lexical_redundancy_baseline_avg": 0.4100562369686565,
+  "lexical_redundancy_diff_avg": 0.38167989375419714,
+  "lexical_redundancy_baseline_all": [
+    0.4153846153846154,
+    0.5471698113207547,
+    0.40384615384615385,
+    0.42105263157894735,
+    0.36923076923076925,
+    0.3387096774193548,
+    0.375
+  ],
+  "lexical_redundancy_diff_all": [
+    0.06666666666666667,
+    0.2631578947368421,
+    0.3235294117647059,
+    0.43243243243243246,
+    0.5,
+    0.47058823529411764,
+    0.6153846153846154
+  ],
+  "info_density_baseline": 0.02784334156506084,
+  "info_density_diff": 0.048938655590441305,
+  "info_density_baseline_per_frame": [
+    0.0410958904109589,
+    0.016666666666666666,
+    0.018867924528301886,
+    0.041666666666666664,
+    0.034482758620689655,
+    0.03571428571428571,
+    0.018867924528301886,
+    0.015384615384615385
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.07692307692307693,
+    0.0625,
+    0.04081632653061224,
+    0.03571428571428571,
+    0.05555555555555555,
+    0.08,
+    0.04
+  ]
+}

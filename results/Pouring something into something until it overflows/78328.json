@@ -1,0 +1,81 @@
+{
+  "video_id": "78328",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/78328.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/78328",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a kitchen sink made of stainless steel. Inside the sink, there is some residual water and a few droplets are visible on the sink surface. In front of the sink, there is an orange and white mug that is partially filled with water. The mug has some text on it, but it is partially cut off and not fully readable. To the left, there is a glimpse of a can, possibly being poured into the mug. The overall setting appears to be a typical kitchen area.",
+    "The image shows a close-up view of a kitchen sink with a metal drain in the center. There is a white and orange mug placed near the sink's edge, with some clear liquid inside it. Next to it, there is a black bottle or container, partially visible on the left side of the image. The sink appears to be clean, with a few droplets of water around the drain.",
+    "This frame shows a close-up of a kitchen sink made of stainless steel. In the sink, there is a white and red mug positioned near the drain. To the left of the mug, a dark-colored container, possibly a teapot or coffee pot, is pouring a clear liquid (likely water) into the mug. The scene suggests someone is filling the mug with water. Some stray water drops are visible in the sink.",
+    "This frame shows water being poured from a black kettle into a red mug positioned in a stainless steel kitchen sink. The red mug is partially filled with water, and the sink has a drain with a visible strainer in the center. The background includes part of the countertop and some other items blurred out.",
+    "This frame shows a close-up of a kitchen sink with a silver metal drain. In front of the sink is an orange cup with white letters, and water is being poured into it from a black container held by a hand on the left side of the frame. The overall setting appears to be a kitchen countertop near the sink.",
+    "The image shows a close-up of a hand holding a black can, pouring a clear liquid into an orange and white cup. The cup is placed inside a stainless steel kitchen sink. The can appears to have text on it, but it is not fully visible. The sink drain and part of the sink basin are also visible in the background.",
+    "The image shows a close-up of a kitchen sink with water being poured from a black container into an orange and white mug. The mug is placed inside the sink, and you can see water filling it up. The sink appears to be stainless steel with a drain visible in the background. The hand holding the black container is partially visible.",
+    "The image shows a close-up of a kitchen sink area. A hand is pouring a clear liquid from a small black container into an orange cup that is positioned inside the sink. The sink is stainless steel and has a round drain visible. The orange cup has white text on it, although it is partially obscured and unreadable. There is some water splashed around the sink area."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The black container on the left has moved closer to the orange cup, appearing higher and more tilted in the current frame compared to the previous one.",
+    "In the current frame, the black object above the cup has moved slightly to the left and appears closer to the cup's rim compared to the previous frame.",
+    "In the current frame, water is being poured from the black container into the orange and white cup, whereas in the previous frame, the water was not flowing.",
+    "In the current frame, the water being poured into the cup is no longer visible. The cup is closer to being empty, and the hand holding the black container has moved slightly upward.",
+    "The liquid being poured from the black cup into the orange cup has increased, causing the liquid level in the orange cup to rise.",
+    "The liquid being poured into the mug has increased and is now bubbling and splashing more vigorously.",
+    "The water level inside the orange cup has risen and the water is visibly bubbling or splashing more compared to the previous frame."
+  ],
+  "baseline_tokens": 619,
+  "diff_tokens": 217,
+  "lexical_redundancy_baseline_avg": 0.3868085478665009,
+  "lexical_redundancy_diff_avg": 0.29836279461279464,
+  "lexical_redundancy_baseline_all": [
+    0.3684210526315789,
+    0.36619718309859156,
+    0.3283582089552239,
+    0.3125,
+    0.35384615384615387,
+    0.5357142857142857,
+    0.4426229508196721
+  ],
+  "lexical_redundancy_diff_all": [
+    0.12,
+    0.5,
+    0.24242424242424243,
+    0.3939393939393939,
+    0.28125,
+    0.2916666666666667,
+    0.25925925925925924
+  ],
+  "info_density_baseline": 0.02283778767058485,
+  "info_density_diff": 0.04648295692892879,
+  "info_density_baseline_per_frame": [
+    0.02247191011235955,
+    0.0,
+    0.028169014084507043,
+    0.03636363636363636,
+    0.016666666666666666,
+    0.01639344262295082,
+    0.03278688524590164,
+    0.029850746268656716
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.037037037037037035,
+    0.03571428571428571,
+    0.03571428571428571,
+    0.06060606060606061,
+    0.041666666666666664,
+    0.11764705882352941,
+    0.043478260869565216
+  ]
+}

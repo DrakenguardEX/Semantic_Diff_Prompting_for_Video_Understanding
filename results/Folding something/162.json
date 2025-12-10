@@ -1,0 +1,81 @@
+{
+  "video_id": "162",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/162.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/162",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a person's hand, wearing a yellow sleeve, reaching towards or holding a folded blue cloth or towel. The cloth is placed on a patterned surface that appears to be a bedspread or fabric with circular and geometric designs in orange, beige, and other colors. The focus is on the cloth and the hand, with the background fabric providing a colorful backdrop.",
+    "The frame shows a close-up of a hand holding or moving a teal-colored cloth or towel over a patterned surface. The cloth appears to be textured, and the surface underneath has an intricate circular or mandala-like design with colors including orange, red, and beige. The hand is slightly blurred, indicating motion.",
+    "The image shows a person's hand, wearing a yellow long-sleeve shirt, holding or gripping a blue textured object. The background consists of a surface with a pattern of colorful circular designs, featuring shades of orange, green, and pink on a light base. The overall setting appears to be indoors.",
+    "This image is quite blurry, making it difficult to clearly identify specific objects. However, it appears to show a teal or blue-green cloth or towel placed on a surface with a multicolored, patterned background that includes circular designs in shades of red and orange. There is also a blurry, yellowish shape in the lower left corner, which could be an object or part of an object, but it's not clear what it is due to the blur.",
+    "The image shows a close-up of a hand folding a blue towel on a bedspread. The bedspread has a colorful pattern with circular designs that include shades of red, orange, teal, and green. The hand appears to be in the process of folding the towel neatly. The person is wearing a yellow sleeve.",
+    "This frame shows a person's hand holding a small folded piece of green fabric. The person's arm is covered with a mustard yellow sleeve. The background features a patterned fabric, possibly a bedspread or tablecloth, with circular designs in orange, green, and beige tones. The image is slightly blurred.",
+    "This frame shows a person's hand holding a small teal cloth or towel. The person is wearing a yellow-orange long-sleeved garment. The background features a patterned surface with circular designs in colors such as orange, blue, and gray. The hand and cloth are slightly blurred, indicating motion.",
+    "This frame shows a close-up view of a fabric surface with circular, mandala-like patterns in various colors, including red, orange, and blue. On top of the fabric is a folded piece of teal-colored clothing or fabric. The image is slightly blurry, which makes the details a bit unclear."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand moved the blue cloth from a flat position to lifting and partially folding it.",
+    "The hand has moved closer to the top edge of the turquoise cloth, appearing to lift or unfold it. The cloth has shifted slightly upward and is more extended compared to the previous frame.",
+    "The hand and the blue cloth have moved slightly to the right and downward, with the cloth now more folded and the hand less visible.",
+    "The main change is that the hand wearing a yellow sleeve moved closer to the blue towel, now resting on the towel and partially unfolding or adjusting it. The towel, previously more crumpled, appears more straightened and aligned in the current frame.",
+    "The hand has lifted the folded blue cloth off the surface and is holding it in the air.",
+    "The hand has moved slightly to the right while still holding the blue cloth, and the cloth is now positioned more firmly on the fabric surface.",
+    "The hand that was holding the blue cloth in the previous frame is no longer visible in the current frame, and the blue cloth has been set down on the patterned surface."
+  ],
+  "baseline_tokens": 563,
+  "diff_tokens": 231,
+  "lexical_redundancy_baseline_avg": 0.3003373092350173,
+  "lexical_redundancy_diff_avg": 0.2104446656711465,
+  "lexical_redundancy_baseline_all": [
+    0.3181818181818182,
+    0.23529411764705882,
+    0.25609756097560976,
+    0.2857142857142857,
+    0.3050847457627119,
+    0.43636363636363634,
+    0.265625
+  ],
+  "lexical_redundancy_diff_all": [
+    0.05,
+    0.20588235294117646,
+    0.22857142857142856,
+    0.19047619047619047,
+    0.17073170731707318,
+    0.3333333333333333,
+    0.29411764705882354
+  ],
+  "info_density_baseline": 0.014276273599062266,
+  "info_density_diff": 0.062463212849242264,
+  "info_density_baseline_per_frame": [
+    0.015625,
+    0.0196078431372549,
+    0.0,
+    0.0,
+    0.03773584905660377,
+    0.02040816326530612,
+    0.0,
+    0.020833333333333332
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.1875,
+    0.058823529411764705,
+    0.08,
+    0.023809523809523808,
+    0.1111111111111111,
+    0.038461538461538464,
+    0.0
+  ]
+}

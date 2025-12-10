@@ -1,0 +1,81 @@
+{
+  "video_id": "15638",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/15638.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/15638",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a bundle wrapped in a colorful, plaid-patterned fabric with hues of blue, purple, and green. The bundle is resting on a carpeted floor near a wall with beige or off-white paint. The setting appears to be indoors, and the bundle's size and shape make it look like it could be covering or containing something soft or cushioned underneath.",
+    "The image shows a colorful, plaid-patterned fabric item that appears to be scrunched or folded on a carpeted floor. The fabric has shades of purple, blue, green, and some red. The item is positioned near the corner of two walls, with one wall casting a shadow on the floor. The fabric shape and positioning are somewhat ambiguous, but it looks like a piece of clothing or a blanket that has been bundled up rather than neatly laid out.",
+    "The image shows a small animal, likely a dog or cat, wrapped snugly in a colorful, plaid blanket lying on a carpeted floor next to a white wall. The animal is mostly covered and the blanket has shades of blue, green, and purple. The scene gives a cozy and warm feeling.",
+    "The frame shows a soft, round object on a carpeted floor. The object appears to be a cushion or a padded item covered with a colorful fabric that has a plaid pattern in shades of purple, green, and blue. The surrounding area includes a section of carpet and a portion of a wall or baseboard in the background.",
+    "The image shows a hand pressing down on a colorful, patterned fabric bundle or sleeping bag that is placed on a carpeted floor next to a white wall or baseboard. The fabric has blue, green, and purple hues with stripe patterns. The hand appears to be flattening or organizing the fabric bundle.",
+    "The frame shows a colorful piece of fabric being held up or folded by a hand. The fabric has a vibrant pattern with blue, green, and purple colors. The background consists of a textured beige wall and a white floor. The scene appears to be indoors.",
+    "The image shows a carpeted floor with a small rectangular object lying on it, which appears to be a pizza box or food container with some food remnants inside. Above it, a portion of dark-colored clothing or fabric is visible, possibly from a person standing nearby. The scene seems to be indoors, with a white surface or wall on the right edge of the frame. The overall tone is casual and slightly cluttered.",
+    "The frame shows a close-up view of a carpeted floor with a small notepad or sketchbook lying on it. The notepad has a spiral binding and the cover features an image of a construction worker in a yellow outfit. The right side of the image shows part of a white or light-colored baseboard or trim against the wall. The overall scene appears to be indoors."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The object covered by the colorful fabric has slightly shifted its position, moving a bit downward in the frame.",
+    "The main object, a colorful plaid fabric bundle, has shifted slightly towards the right side and appears to have expanded or become more protruded on the left side in the current frame compared to the previous one.",
+    "In the current frame, a small hand appears on the left side, reaching towards the blanket-covered object which remains in the same position.",
+    "In the current frame, a hand has appeared and is touching or pressing down on the purple, blue, and green plaid fabric object that was previously left untouched.",
+    "In the current frame, the hand has moved upward and slightly to the right, gripping the colorful fabric more tightly and causing the fabric to bunch up more.",
+    "In the current frame, the main object, a colorful piece of fabric or cloth, has been lifted higher and is now partially obscuring a yellow and black object on the floor that was fully visible in the previous frame. The hand holding the fabric has also moved upward.",
+    "The main object, which appears to be a colorful item or fabric, has moved downward and out of the frame, no longer visible in the current frame. The position of the box or book on the carpet remains unchanged."
+  ],
+  "baseline_tokens": 590,
+  "diff_tokens": 269,
+  "lexical_redundancy_baseline_avg": 0.315534504445078,
+  "lexical_redundancy_diff_avg": 0.22793599055208963,
+  "lexical_redundancy_baseline_all": [
+    0.3333333333333333,
+    0.2727272727272727,
+    0.3333333333333333,
+    0.3620689655172414,
+    0.34545454545454546,
+    0.2328767123287671,
+    0.32894736842105265
+  ],
+  "lexical_redundancy_diff_all": [
+    0.045454545454545456,
+    0.2631578947368421,
+    0.275,
+    0.24324324324324326,
+    0.21052631578947367,
+    0.24444444444444444,
+    0.3137254901960784
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.019456694621168304,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05263157894736842,
+    0.0,
+    0.0,
+    0.0,
+    0.03571428571428571,
+    0.041666666666666664,
+    0.02564102564102564
+  ]
+}

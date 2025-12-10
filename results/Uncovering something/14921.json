@@ -1,0 +1,67 @@
+{
+  "video_id": "14921",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/14921.webm",
+  "num_frames": 6,
+  "frame_dir": "frames/Uncovering something/14921",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg"
+  ],
+  "baseline_texts": [
+    "This image shows a living room with some furniture and decorations. There are two red sofas, one on the left side and one on the right side of the room. A person is lying or crouching on the right sofa, covered with a blanket or shawl. Behind the right sofa, there is a framed picture or painting on the wall. On the back wall, there is a door with a small window above it, and next to the door, there is a tall piece of furniture or a bookshelf filled with books. In the foreground, part of an office chair and a table or desk are visible. The room has a warm and cozy atmosphere.",
+    "The image shows a living room with red sofas arranged around the space. There is a black office chair in the foreground and a shelf filled with books against the wall. On the right side, there is a colorful wall painting hanging above one of the sofas. The room has a cozy and lived-in feel with a mix of furniture and decor items. One of the sofas has a blanket or throw draped over it, partially covering some items underneath. The lighting suggests a warm indoor setting.",
+    "The frame shows a cozy indoor setting, likely a living room or study area. In the foreground, there is a black office chair with a mesh back, positioned near a wooden table or desk. Behind the chair, there are two red upholstered couches. One couch is fully visible on the left side, while the other is on the right, partly covered with a multicolored blanket or shawl featuring stripes in earthy tones. \n\nIn the background, there is a white bookshelf filled with books on the left side of the wall. Next to the bookshelf is a white radiator. A small white table or shelf with a lamp and some decorative items is positioned near the red couch in the center-right of the image. The walls are decorated with framed artwork or posters, one of which is visible above the red couch on the right side of the frame. The floor appears to be wooden, and there is a rug partially visible near the couches. The overall ambiance suggests a warm, lived-in space suitable for reading",
+    "This frame shows a cozy indoor living space with warm lighting. There is a red couch on the right side of the image, partially covered with a patterned blanket. A person is bent over the couch, with their head down and back facing the camera, making their face not visible. \n\nIn the foreground, there is a black office chair with armrests and a wooden table partially visible. The background features a white bookshelf filled with books and some decorative items, along with a closed door or cabinet beneath it. There is a painting or picture hanging on the wall on the right side above the couch and another framed item on the left side of the image. The overall atmosphere seems comfortable and lived-in.",
+    "This frame shows a cozy room that appears to be a living room or a study area. There is a brown leather or faux leather chair in the foreground, likely an office or desk chair. Behind it, there's a wooden table partially visible. To the left, there are two red or maroon sofas arranged in an L-shape. A large blue exercise ball is placed on one of the sofas. \n\nIn the background, there is a white shelving unit filled with books and some decorations. There's also a small lamp or light source near the shelving. On the wall to the right, there's a colorful framed painting or picture. The overall ambiance suggests a comfortable and casual space.",
+    "This image shows a cozy living room or study area. There is a red couch along the right wall, with a large blue exercise ball resting on it. Behind the couch is a wall with a framed picture or artwork. To the left, there is a black office chair with armrests. In the background, a white bookshelf filled with books is visible above a white radiator. There also seems to be a guitar or a similar stringed instrument propped up near the back wall, next to the bookshelf. The overall atmosphere is warm and lived-in."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object has shifted slightly forward, with the person under the blanket moving further onto the couch, causing the blanket to stretch and change shape accordingly.",
+    "The person on the right, covered with a blanket, has shifted slightly downward and closer to the sofa.",
+    "In the current frame, the main object (a person covered with a patterned cloth) has moved slightly downward and closer to the couch. The position of their head and body has shifted lower and more towards the right side of the frame compared to the previous image.",
+    "The main object, previously covered by a cloth or blanket on the couch, has been replaced by a large blue balloon or ball in the current frame. The object on the couch shifted from a covered shape to a round blue object.",
+    "The blue ball on the couch has moved slightly upward in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 869,
+  "diff_tokens": 184,
+  "lexical_redundancy_baseline_avg": 0.36696437497974177,
+  "lexical_redundancy_diff_avg": 0.25451937046764633,
+  "lexical_redundancy_baseline_all": [
+    0.3953488372093023,
+    0.3392857142857143,
+    0.3821138211382114,
+    0.3220338983050847,
+    0.39603960396039606
+  ],
+  "lexical_redundancy_diff_all": [
+    0.037037037037037035,
+    0.3103448275862069,
+    0.35135135135135137,
+    0.2708333333333333,
+    0.30303030303030304
+  ],
+  "info_density_baseline": 0.0013440860215053762,
+  "info_density_diff": 0.018490868621514386,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.008064516129032258,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.037037037037037035,
+    0.0,
+    0.02127659574468085,
+    0.0,
+    0.05263157894736842
+  ]
+}

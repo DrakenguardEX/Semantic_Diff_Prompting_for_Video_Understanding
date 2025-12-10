@@ -1,0 +1,81 @@
+{
+  "video_id": "6235",
+  "class": "Folding something",
+  "video_path": "test_videos/Folding something/6235.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Folding something/6235",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a hand holding a black object near a metallic turnstile. The black object appears to be a card reader or scanner, and it is positioned close to a card inserted into the slot of the turnstile. The card has a yellow background with some text and a red symbol or logo on it. There are black chairs with metal frames visible in the background, and the floor has reddish-brown tiles. The setting appears to be an entrance or access control area, likely requiring the card to pass through the turnstile.",
+    "The image shows a person’s hand holding a card or ticket, about to insert or swipe it on a metallic turnstile or access control device. The turnstile is made of metal with a shiny, brushed finish on the top surface. Surrounding the turnstile are black or dark-colored chairs or benches, and the floor is tiled with brownish-orange tiles. The setting appears to be an indoor place, likely an entrance or checkpoint area.",
+    "The image shows a hand holding a yellowish ticket or piece of paper, about to insert it into a metallic turnstile or access control gate. The turnstile appears to be located indoors, as suggested by the presence of chairs with black seats and metal frames in the background, sitting on a tiled floor. The lighting is moderate, and the setting seems to be a waiting or entrance area, possibly in a public transportation station, event venue, or similar location.",
+    "The image shows a close-up of a person's hand holding a yellow card or small paper. The background includes a black cushioned chair and a metallic geometric-shaped object, possibly a trash can, on a tiled floor. The setting appears to be indoors.",
+    "The image shows a hand holding a thin object, possibly a metal strip or rod, positioned near the edge of a metallic structure that resembles a trash bin or container. There are two black chairs with metal legs visible in the background, and the floor appears to be tiled in a brown color. The setting seems to be indoors, possibly in an office, waiting area, or a similar environment.",
+    "The image shows a close-up of a hand reaching towards or touching the corner of a piece of furniture. The furniture appears to be a metallic or stainless steel table or counter with a shiny, reflective surface. The corner of the furniture is angular and has a brushed finish. In the background, there is a chair with a dark seat and backrest, and the floor is tiled with light brown tiles. The lighting creates reflections on the metal surface, highlighting its texture.",
+    "The image shows a close-up view of a few black chairs with metal legs arranged around a table. A person's hand is visible on the left side of the frame, holding the edge of one of the chairs. On the floor between two chairs, there is a small yellow object with a square shape, possibly a piece of paper or a card. The floor appears to be made of brown tiles. The overall setting looks like an indoor space, possibly a kitchen or dining area.",
+    "This frame shows a close-up view of a black cushioned chair and a metallic, pyramid-shaped trash bin on a tiled floor. There's a yellow sticky note or piece of paper placed where the chair and the trash bin meet. The chair has a shiny metal frame, and part of another similar chair is visible in the upper right corner. The lighting creates some reflections on the metallic surface of the trash bin."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the hand has moved further forward and is now grasping the yellow card more firmly, with the thumb pressing on the card and fingers adjusting its position. The card is being pulled off the metal surface.",
+    "In the current frame, the hand has moved slightly downward and is now gripping the yellow card more firmly, with the fingers positioned closer together around the card. The card is also tilted more horizontally compared to the previous frame.",
+    "The hand is retracting the yellow ticket from the metallic ticket validator. The fingers are curling inward as the ticket is being pulled out.",
+    "The hand in the current frame has moved slightly downward and away from the yellow packet compared to the previous frame. The fingers are now more closed and positioned differently as if releasing or moving away from the packet.",
+    "The hand has moved slightly upwards and closer to the metal corner in the current frame compared to the previous one.",
+    "In the current frame, the hand has moved away from the metal edge of the table and is now holding a pair of black eyeglasses. A yellow sticky note has also appeared on the edge of the table.",
+    "The hand that was holding the edge of the chair in the previous frame is no longer visible in the current frame."
+  ],
+  "baseline_tokens": 719,
+  "diff_tokens": 262,
+  "lexical_redundancy_baseline_avg": 0.30128553496310234,
+  "lexical_redundancy_diff_avg": 0.2252703952561434,
+  "lexical_redundancy_baseline_all": [
+    0.3950617283950617,
+    0.37349397590361444,
+    0.2972972972972973,
+    0.3333333333333333,
+    0.23809523809523808,
+    0.24444444444444444,
+    0.22727272727272727
+  ],
+  "lexical_redundancy_diff_all": [
+    0.02857142857142857,
+    0.37209302325581395,
+    0.12195121951219512,
+    0.1794871794871795,
+    0.35294117647058826,
+    0.2571428571428571,
+    0.2647058823529412
+  ],
+  "info_density_baseline": 0.0013440860215053765,
+  "info_density_diff": 0.03344057258530943,
+  "info_density_baseline_per_frame": [
+    0.010752688172043012,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05,
+    0.025,
+    0.041666666666666664,
+    0.07692307692307693,
+    0.047619047619047616,
+    0.02631578947368421,
+    0.0
+  ]
+}

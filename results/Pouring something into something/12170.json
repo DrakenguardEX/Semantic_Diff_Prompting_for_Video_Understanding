@@ -1,0 +1,81 @@
+{
+  "video_id": "12170",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/12170.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/12170",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up of a faucet above a kitchen sink. The faucet is turned on, and water is flowing out, directed towards the black or dark-colored sink basin below. The sink has a modern, rectangular design. The countertop around the sink appears to be a light wood or wood-like material. The angle of the image suggests it might have been taken from above and slightly to the side of the sink area.",
+    "This frame shows water being poured from a water filter pitcher into a sink. The pitcher appears to be transparent with a yellow lid, and water is flowing out of it into the dark-colored sink below. Part of a hand is visible holding the pitcher.",
+    "The image shows a close-up of a plastic container or jug being tilted to pour clear liquid into a black sink. The liquid appears to be water, and it is flowing out of the container into the drain of the sink. The angle of the container and the flow of the liquid suggest that someone is in the process of emptying or pouring the contents. The background is blurred, focusing attention on the pouring action.",
+    "This frame shows water being poured from a clear plastic or glass container into a kitchen sink. The sink appears to be dark-colored, and the water is visibly flowing from the container into the sink drain.",
+    "The frame shows water being poured from a translucent container into a black sink. The water is splashing as it hits the sink surface near the drain. The image is focused on the action of pouring water.",
+    "This frame shows water being poured from a pitcher or container into a black kitchen sink. The water stream is visible as it flows toward the drain in the sink. The drain cover is clearly visible and the sink appears to be clean. The background is out of focus, emphasizing the pouring action.",
+    "The image shows a close-up of water being poured from a container or jug into a dark sink. The water is mid-pour, flowing in a stream from the container into the sink drain area. The sink appears to be made of a dark material, possibly granite or composite. The container has a yellow lid.",
+    "This frame shows water being poured from a container into a dark-colored kitchen sink. The water is mid-pour, creating a flow into the sink's drain. Part of the sink's edge and a silver fixture or control are visible in the lower right corner. The sink appears to be clean and empty aside from the water being poured in."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, water has started pouring from the container into the sink, creating a splash and ripples in the sink basin.",
+    "In the current frame, the water stream from the container has increased in volume and the splash in the sink has become more pronounced compared to the previous frame.",
+    "In the current frame, the water stream flowing from the container into the sink has extended further downward and is more spread out compared to the previous frame. The container appears to have tilted slightly more.",
+    "In the current frame, the amount of water flowing from the container into the sink has increased, creating more visible splashes and ripples in the sink basin compared to the previous frame.",
+    "In the current frame, the water stream from the container has shifted direction slightly towards the right side of the sink drain, and a drop of water is visible falling separately near the container's spout.",
+    "The water stream coming from the yellow container has moved slightly downward and to the right as it flows into the sink.",
+    "The water stream pouring into the sink has shifted slightly downward and to the right in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 508,
+  "diff_tokens": 238,
+  "lexical_redundancy_baseline_avg": 0.33258934485037284,
+  "lexical_redundancy_diff_avg": 0.3363508861567868,
+  "lexical_redundancy_baseline_all": [
+    0.3076923076923077,
+    0.25806451612903225,
+    0.3333333333333333,
+    0.3170731707317073,
+    0.40425531914893614,
+    0.3392857142857143,
+    0.3684210526315789
+  ],
+  "lexical_redundancy_diff_all": [
+    0.043478260869565216,
+    0.4074074074074074,
+    0.46875,
+    0.45714285714285713,
+    0.3,
+    0.2702702702702703,
+    0.4074074074074074
+  ],
+  "info_density_baseline": 0.05212320322925397,
+  "info_density_diff": 0.051629371664276086,
+  "info_density_baseline_per_frame": [
+    0.013513513513513514,
+    0.044444444444444446,
+    0.06666666666666667,
+    0.05555555555555555,
+    0.05405405405405406,
+    0.07547169811320754,
+    0.05555555555555555,
+    0.05172413793103448
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.043478260869565216,
+    0.034482758620689655,
+    0.05555555555555555,
+    0.03125,
+    0.02857142857142857,
+    0.13636363636363635,
+    0.08333333333333333
+  ]
+}

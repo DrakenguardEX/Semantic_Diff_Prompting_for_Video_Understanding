@@ -1,0 +1,81 @@
+{
+  "video_id": "12236",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/12236.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/12236",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a person filling a glass with water from a kitchen faucet. There is a large white plastic bowl filled with water placed on the counter underneath the faucet. The person, wearing a pink long-sleeved garment, is holding the glass with one hand as the water flows into it. The countertop is dark-colored, and there is a transparent plastic container with a lid nearby.",
+    "The frame shows a person holding a transparent glass under a stream of water being poured from above. The person is wearing a pink or light-colored garment. On the counter, there is a large clear plastic bowl filled with water. The setting appears to be a kitchen, with other containers and appliances visible in the background. The surface of the counter is dark gray or brown with a speckled pattern.",
+    "In this frame, a person wearing a pink long-sleeved garment is holding a transparent glass filled with water. Their other hand is reaching toward a large, clear plastic bowl positioned on a kitchen countertop. The bowl appears empty or contains a small amount of water. The overall setting is a kitchen, as indicated by the countertop and other kitchen items partially visible in the background.",
+    "In this frame, a person wearing a pink long-sleeved garment is holding a transparent glass filled with water. They are in the process of pouring the water from the glass into a large blue plastic bowl on a countertop. There is also a grey container with a white lid positioned nearby on the counter. The scene appears to be in a kitchen setting.",
+    "The frame shows a person, wearing a pink long-sleeve shirt, pouring water from a transparent measuring cup into a large blue bowl on a kitchen countertop. The countertop is dark-colored, and in the background, there is a large white container with a lid and a baby bottle with a green cap. The scene suggests a kitchen setting with the person in the process of measuring or preparing something.",
+    "In this frame, a person is seen pouring water from a clear glass into a large blue bowl. The person is wearing a pink long-sleeve garment, and the setting appears to be a kitchen, as a countertop and a plastic container are visible in the background. Additionally, there is a baby bottle on the counter to the right.",
+    "The frame shows a person, wearing a pink long-sleeve garment, pouring water from a clear glass into a large white bowl. The scene appears to be in a kitchen, with a countertop visible along with a baby bottle, some utensils, and a sink with a faucet on the right side. The lighting suggests it is taken in a well-lit area, possibly during the day.",
+    "The image shows a person wearing a pinkish-orange long-sleeve garment pouring water from a clear glass into a large white bowl. The scene appears to be set in a kitchen, as there is a sink with a wooden spoon in it, a dish soap bottle, and other kitchen items visible on the countertop. The countertop is dark-colored, and the overall lighting suggests natural daylight possibly coming from a nearby window."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a glass held by a person's hand, has moved downward and closer to the edge of the counter in the current frame compared to the previous one.",
+    "In the current frame, the glass has been moved slightly closer to the bowl, and the person's hands have adjusted their grip, with one finger now touching the rim of the glass. The water inside the glass appears to have shifted slightly as well.",
+    "In the current frame, the person has moved the glass further away from the bowl, tilting it slightly downward.",
+    "The glass in the current frame has tilted more to the right, causing the water inside to pour out into the bowl below. The person's hand supporting the glass has moved slightly to accommodate this tilt.",
+    "The glass is being tilted further over the bowl, with the person's hands adjusting to hold it in a more horizontal position. Liquid appears to be pouring or about to pour from the glass into the bowl.",
+    "In the current frame, the transparent container is tilted further, and water is being poured from it into the bowl below. The hand holding the container is also positioned slightly differently to accommodate the pouring motion.",
+    "The hand holding the glass has tilted further forward, causing more water to pour into the bowl below. The water level in the bowl has increased slightly."
+  ],
+  "baseline_tokens": 644,
+  "diff_tokens": 274,
+  "lexical_redundancy_baseline_avg": 0.4456290513837847,
+  "lexical_redundancy_diff_avg": 0.25972836687122397,
+  "lexical_redundancy_baseline_all": [
+    0.3880597014925373,
+    0.42028985507246375,
+    0.42424242424242425,
+    0.4603174603174603,
+    0.4426229508196721,
+    0.4838709677419355,
+    0.5
+  ],
+  "lexical_redundancy_diff_all": [
+    0.10714285714285714,
+    0.3181818181818182,
+    0.2564102564102564,
+    0.30303030303030304,
+    0.2391304347826087,
+    0.2608695652173913,
+    0.3333333333333333
+  ],
+  "info_density_baseline": 0.02466253892391697,
+  "info_density_diff": 0.03886179840127208,
+  "info_density_baseline_per_frame": [
+    0.045454545454545456,
+    0.04285714285714286,
+    0.015384615384615385,
+    0.031746031746031744,
+    0.014705882352941176,
+    0.017241379310344827,
+    0.015625,
+    0.014285714285714285
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03333333333333333,
+    0.022727272727272728,
+    0.05263157894736842,
+    0.05555555555555555,
+    0.05405405405405406,
+    0.05555555555555555,
+    0.037037037037037035
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "2795",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/2795.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/2795",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This image shows a close-up of a hand holding a small object between the thumb and index finger. The object appears to be a tiny, rectangular white item, possibly a piece of candy or a small capsule. The background consists of wood paneling on the wall and a patterned surface, possibly a table or cushion, with a floral or leaf design. The lighting is bright on the hand, causing it to appear somewhat overexposed.",
+    "The image shows a hand holding a small white object between the thumb and index finger. The hand is positioned in front of a wooden-paneled wall, and the floor has a dark-colored patterned carpet. The overall image is slightly blurry.",
+    "The image shows a close-up of a hand holding a small white six-sided die between the thumb and index finger. The die appears to show the number five on the visible face. The background features a wooden paneled wall and part of a patterned tablecloth with floral and leaf designs. The lighting is somewhat bright on the hand, creating a contrast with the darker tablecloth and wall.",
+    "The image shows a close-up of a left hand holding a single small six-sided die between the thumb and index finger. The die shows the number five on the visible face. The background consists of a wooden panel wall and a surface covered with a dark fabric or material that has a floral or circular pattern. The lighting is moderate, making the hand and die clearly visible.",
+    "The image shows a close-up of a person's hand and wrist, positioned in a pinching gesture with the thumb and index finger close together. The background includes wood-paneled walls and a patterned surface that looks like a table or countertop with a dark brown base color and beige floral designs. The lighting is bright, highlighting the hand, which appears quite pale against the darker background.",
+    "The frame shows a blurry close-up image of a hand in the top left corner, seemingly in motion or reaching towards the camera. The background is a wooden surface, possibly a paneled wall or cabinet. The bottom portion of the image shows a patterned fabric or carpet with swirly and leaf-like designs in shades of brown and beige. The overall image is slightly blurry and out of focus.",
+    "The image shows a close-up of a table with a dark brown tablecloth featuring a floral pattern. The tablecloth has leaves and swirls in a lighter color. Near the center of the image on the table is a single white die with black dots showing the number three. A hand is positioned above the table, appearing to either hold or about to drop the die. The background consists of a wooden paneled wall.",
+    "The image shows a close-up of a hand about to roll or throw a small white die onto a surface covered with a brown patterned fabric or mat. The pattern on the fabric includes swirls and leaf-like shapes. The surface appears to be a table or similar flat area, and the background consists of a wooden panel wall. The die is positioned near the center of the image, just below the hand."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand has moved slightly upward and forward, causing the small white object between the fingers to shift position correspondingly.",
+    "The main object, a die, has rotated slightly in the current frame, changing the visible face from one dot to five dots. The hand's position remains mostly the same.",
+    "The main object, a small white dice held by the hand, has rotated slightly, changing the visible face from showing three dots to six dots. The position of the hand remains relatively the same.",
+    "In the current frame, the hand has moved slightly downward and to the right, and the small white die is no longer visible.",
+    "The hand has moved out of the frame, and a small white object has appeared in the middle of the patterned surface.",
+    "The hand in the current frame has moved slightly upward and to the left compared to the previous frame.",
+    "The dice has moved slightly forward on the surface while the hand has shifted upward and to the left."
+  ],
+  "baseline_tokens": 635,
+  "diff_tokens": 204,
+  "lexical_redundancy_baseline_avg": 0.323976568436317,
+  "lexical_redundancy_diff_avg": 0.2843451411529215,
+  "lexical_redundancy_baseline_all": [
+    0.28125,
+    0.3275862068965517,
+    0.47619047619047616,
+    0.2727272727272727,
+    0.27631578947368424,
+    0.23376623376623376,
+    0.4
+  ],
+  "lexical_redundancy_diff_all": [
+    0.043478260869565216,
+    0.1891891891891892,
+    0.4722222222222222,
+    0.21052631578947367,
+    0.3333333333333333,
+    0.2916666666666667,
+    0.45
+  ],
+  "info_density_baseline": 0.0036354056902002108,
+  "info_density_diff": 0.03052449552735594,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.015384615384615385,
+    0.0,
+    0.0136986301369863,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05,
+    0.0,
+    0.0,
+    0.043478260869565216,
+    0.045454545454545456,
+    0.05263157894736842,
+    0.05263157894736842
+  ]
+}

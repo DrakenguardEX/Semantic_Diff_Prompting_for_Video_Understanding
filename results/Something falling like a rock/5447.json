@@ -1,0 +1,81 @@
+{
+  "video_id": "5447",
+  "class": "Something falling like a rock",
+  "video_path": "test_videos/Something falling like a rock/5447.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Something falling like a rock/5447",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a close-up scene of a bed with a gray pillow and white sheets. A person's arm and hand are visible on the left side of the image, holding a partially eaten sandwich or burger. The person is wearing a gray or dark-colored top. The background is dark, making the pillow and the bed stand out more clearly.",
+    "The image shows a person's hand holding a ring. The ring appears to have a detailed design with multiple layers or textures. The background includes a dark gray or brown pillow resting against a bed with a white bed sheet that has some wrinkles and creases. The overall lighting is dim.",
+    "This frame shows a close-up of a bed with white sheets that have a noticeable stain on them. In the background, there is a dark-colored pillow and part of a person's arm and hand, which appears to be pointing or reaching towards the stained area on the sheets. The setting appears to be indoors, possibly a bedroom.",
+    "This image shows a bed with white sheets and two dark gray pillows against a dark background. There is a small, shiny object, possibly a ring or a piece of jewelry, placed on the bed close to the center of the image. A portion of an arm is visible on the upper left side of the frame. The overall lighting is dim, and the image appears slightly blurry.",
+    "This image shows a close-up view of a bed with a white bedspread. Near the center of the image, there is a tangled or coiled light-colored bracelet or necklace lying on the bedspread. Behind this, there are two large dark-colored pillows resting against the headboard or wall. The scene appears to be indoors, in a bedroom setting.",
+    "The image shows a close-up of a bed with white bedding. There is a dark-colored pillow or cushion resting against the headboard or wall. On the bed, near the center of the image, there is a gold or metallic bracelet lying on the sheets. Part of a person's arm is visible on the left side of the image, resting on the bed. The overall scene appears indoors with a relaxed or casual setting.",
+    "The image shows a close-up of a bed with a white sheet and a dark gray or black pillow at the head of the bed. On top of the sheet, there is a small, clear plastic container or bag that seems to contain some orange or beige items inside. A person's arm is partially visible on the left side of the image. The overall scene appears to be indoors, possibly in a bedroom.",
+    "The image shows a close-up view of a bed with a grey pillow. There is a small, intricate object, possibly a piece of jewelry or a decorative item, placed on the white bedsheet. A part of a person's leg is visible on the left side of the image. The overall lighting is dim."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the hand holding the object has moved slightly upward compared to the previous frame. The main object in the hand remains the same but is positioned higher.",
+    "The ring held by the hand is no longer visible, and the hand is moving upward and away from the original position where it held the ring.",
+    "In the current frame, a bracelet has landed on the bed where the hand was previously positioned. The hand has moved slightly upward and is no longer holding the bracelet.",
+    "The main object, a beige hair tie, has shifted slightly to the right on the bed sheet in the current frame compared to the previous one.",
+    "The arm on the left side of the frame has moved slightly downward and more towards the bottom edge of the image in the current frame. The hair tie on the bed remains in the same position.",
+    "The main change is the slight movement of the golden bracelet on the bed; it has shifted position slightly to the right compared to the previous frame.",
+    "The bracelet on the bed has shifted slightly to the right."
+  ],
+  "baseline_tokens": 591,
+  "diff_tokens": 222,
+  "lexical_redundancy_baseline_avg": 0.33984246860799655,
+  "lexical_redundancy_diff_avg": 0.2365326194273563,
+  "lexical_redundancy_baseline_all": [
+    0.28125,
+    0.2878787878787879,
+    0.3188405797101449,
+    0.30434782608695654,
+    0.4666666666666667,
+    0.37142857142857144,
+    0.3484848484848485
+  ],
+  "lexical_redundancy_diff_all": [
+    0.125,
+    0.11428571428571428,
+    0.24242424242424243,
+    0.2571428571428571,
+    0.2777777777777778,
+    0.21052631578947367,
+    0.42857142857142855
+  ],
+  "info_density_baseline": 0.001838235294117647,
+  "info_density_diff": 0.016206932739190803,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.014705882352941176,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.03225806451612903,
+    0.037037037037037035,
+    0.03333333333333333,
+    0.0,
+    0.02702702702702703,
+    0.0,
+    0.0
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "4905",
+  "class": "Throwing something",
+  "video_path": "test_videos/Throwing something/4905.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Throwing something/4905",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a bed covered with a blanket that has a pastel color scheme with patterns in shades of pink, green, and orange. The bed is positioned against a plain light-colored wall, and a door is visible to the right side. The room appears simple and minimally decorated. The left side of the frame includes a partial view of an indistinct object or person, slightly blurred.",
+    "The image shows a table covered with a multicolored cloth featuring orange and yellow floral patterns. On the table is a small, blurred object that appears to be in motion, creating a sense of movement or a rolling effect. A hand is visible on the left side of the image, suggesting a person might have just tossed or moved the object. In the background, there is a closed door with a red piece of cloth hanging on it. The surroundings seem to be a small indoor room with plain walls.",
+    "This image shows a small dog or puppy with a light-colored coat on a bed. The dog appears to be running or moving quickly across the bed, causing a slight blur due to motion. The bedspread has a floral pattern with shades of yellow, orange, and pink. In the background, there is a door and a small portion of the wall visible. The overall setting appears to be a bedroom.",
+    "The frame shows a small, blurry object in mid-air above a bed covered with a floral-patterned bedspread. The bedspread has a mix of pastel colors such as pink, orange, and green, with a more prominent pink and orange section towards the head of the bed. The background wall is plain and light-colored, and there is a door on the right side with some clothes or fabric hanging on it. The overall scene appears to be inside a simple bedroom.",
+    "This image shows a bed with a floral-patterned bedspread in shades of yellow, pink, and peach. On the bed, there is a single white sneaker facing slightly to the left. The room has plain off-white or light-colored walls, and in the background, there is a closed door. Some dark and red-colored items, possibly clothes or bags, are hanging or draped near the door. The overall setting appears to be a simple bedroom.",
+    "This frame shows a single silver sneaker with white soles placed on a bed. The bedspread has a floral pattern with orange, yellow, and pink shades. The background includes a light-colored wall and a door or closet with some hanging clothes partially visible. The overall setting appears to be a simple bedroom.",
+    "The image shows a bed with a colorful bedspread featuring orange, green, and pink hues with a floral or abstract pattern. On the bed, there is a single metallic silver sneaker facing forward. In the background, part of a door is visible with some clothes hanging on hooks on it. The wall behind the bed is plain, and the room appears to be simply furnished.",
+    "The image shows a single silver sneaker placed on a bed with a colorful floral bedspread. The bedspread features pastel shades, predominantly pink and orange. The background includes a light-colored wall and a door, with some dark and red clothing items hanging on hooks or pegs attached to the door. The room appears simple and tidy."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a hand has appeared and is moving a silver tube-like object quickly across the bed, causing a motion blur effect on the object.",
+    "The main object, which appears to be a tube, has moved from lying flat on the bed to being in the air with its cap open and a white substance being squeezed out.",
+    "The main object, a shoe, has moved forward and is now closer to the edge of the bed compared to its previous position.",
+    "The object on the bed has moved forward and is now clearly identifiable as a white shoe.",
+    "The shoe moved slightly forward and tilted upward in the current frame compared to the previous one.",
+    "The shoe has tilted backward slightly, with its heel lifting off the bed surface.",
+    "The shoe has slightly shifted forward and turned a bit to the right on the bed."
+  ],
+  "baseline_tokens": 672,
+  "diff_tokens": 179,
+  "lexical_redundancy_baseline_avg": 0.3719489652083267,
+  "lexical_redundancy_diff_avg": 0.21991499728341832,
+  "lexical_redundancy_baseline_all": [
+    0.2857142857142857,
+    0.27710843373493976,
+    0.358974358974359,
+    0.3780487804878049,
+    0.48484848484848486,
+    0.40625,
+    0.4126984126984127
+  ],
+  "lexical_redundancy_diff_all": [
+    0.03571428571428571,
+    0.21428571428571427,
+    0.2631578947368421,
+    0.44,
+    0.19230769230769232,
+    0.16666666666666666,
+    0.22727272727272727
+  ],
+  "info_density_baseline": 0.007688492063492063,
+  "info_density_diff": 0.04127462359559546,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.03333333333333333,
+    0.014285714285714285,
+    0.0,
+    0.013888888888888888,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.037037037037037035,
+    0.06060606060606061,
+    0.043478260869565216,
+    0.058823529411764705,
+    0.058823529411764705,
+    0.07142857142857142,
+    0.0
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "187573",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/187573.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Bending something so that it deforms/187573",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a partial view of a person on the left side. The person is wearing a short-sleeved green shirt and a black wristwatch on their left wrist. Their arm is extended forward, and their hand is grasping an unidentifiable object. The background is a plain beige wall with some minor spots or marks near the center. The lower part of a chair with a light-colored seat back is visible in the center bottom of the frame. The right side of the frame appears mostly empty except for a small visible section of a door or frame edge.",
+    "The frame shows a person's hands actively engaged in using a lighter. The individual seems to be striking the lighter to create a flame. The background is plain with a beige wall that has a small chipped or damaged spot. Only the person's arms and hands are visible, with one arm featuring a tattoo. The top of a chair can be seen at the bottom center of the frame.",
+    "The frame shows a close-up of a person's hands holding a thin cylindrical object, possibly a stick or a tool. One hand grips the object near its center, while the other hand twists or manipulates it. The person appears to be wearing a sleeveless black shirt, and only part of their upper body is visible. The background consists of a plain, light-colored wall with a small mark on it. A piece of furniture, possibly a chair with a metallic or reflective backrest, is partially visible at the bottom of the frame.",
+    "The frame shows a person holding a metallic spoon. The person is gripping the spoon with both hands, appearing to bend or twist it. The individual is wearing a dark sleeveless shirt, and there is a tattoo visible on their upper arm. The background consists of a plain wall with some minor marks or spots and part of a chair is visible at the bottom of the frame.",
+    "The image shows a close-up of a person's hands gripping a small, circular metal object, possibly a key ring or a ring. The person is wearing a sleeveless black shirt, and you can see part of their arm and shoulder, which has a tattoo. The background is a plain wall with some light marks or scuffs, and there is the upper part of a metal chair with a black backrest visible in the lower part of the image.",
+    "The frame shows a close-up of a person's hands holding a small metallic tool, possibly a pair of tweezers or pliers. The person appears to have a tattoo on their upper arm, which is partially visible. The background is a plain, light-colored wall with a faint patch or mark on it. A chair with a light-colored backrest and dark edges is also partially visible at the bottom of the frame. The person seems to be performing a precise or detailed task.",
+    "The image shows a person's hands holding a cigarette. The person appears to be in the process of lighting the cigarette or preparing to light it, as their hands are close together and positioned as if ready to strike a match or use a lighter. The upper body of the individual is partially visible, wearing a sleeveless, dark-colored shirt. In the background, there is a plain wall with some small imperfections or marks, and a piece of furniture, possibly a chair, is visible at the bottom of the frame.",
+    "This frame shows part of a person who appears to be in motion, creating a blur effect with their hand in the foreground. The person is wearing a black sleeveless shirt with a colorful design, and has a tattoo on their upper arm. The background is a plain wall with some visible marks or spots, and part of a metallic object, possibly a piece of furniture, is visible at the bottom of the frame. The overall image is somewhat blurry, particularly around the hand area."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, the person's hands have moved closer together in front of the camera, gripping an object more centrally compared to the previous frame. The left arm is more visible, and the right hand is positioned slightly higher and closer to the left hand.",
+    "The main object, a piece of wire or thin rod held by the person, has moved slightly to the right and is being twisted or bent more visibly by the person's hands. The person's fingers have also shifted position slightly to grip and manipulate the object tighter.",
+    "The main object, a brown elastic band held between the hands, has been stretched further and pulled tighter in the current frame compared to the previous one. The fingers have moved closer together, increasing the tension on the band.",
+    "The main object, a metal tool held by the person, has been slightly pulled or bent more between the two frames, indicating a tightening or flexing motion. The fingers are adjusting their grip to apply more force.",
+    "The main object, a bent metal tool held in the right hand, has moved slightly downward and to the left compared to the previous frame. The grip on the tool appears slightly more relaxed.",
+    "The main object, a pair of tweezers held by the person's right hand, has moved slightly downward and to the right compared to the previous frame. The fingers gripping the tweezers also show a slight change in position, indicating a small adjustment in grip or motion.",
+    "The main object, a cigarette, is no longer held between the hands; both hands have moved apart and are blurred, indicating quick motion away from each other."
+  ],
+  "baseline_tokens": 787,
+  "diff_tokens": 334,
+  "lexical_redundancy_baseline_avg": 0.34472835909287697,
+  "lexical_redundancy_diff_avg": 0.23996668700172744,
+  "lexical_redundancy_baseline_all": [
+    0.23076923076923078,
+    0.28735632183908044,
+    0.38461538461538464,
+    0.39705882352941174,
+    0.34615384615384615,
+    0.4024390243902439,
+    0.36470588235294116
+  ],
+  "lexical_redundancy_diff_all": [
+    0.08571428571428572,
+    0.2641509433962264,
+    0.24074074074074073,
+    0.21153846153846154,
+    0.29545454545454547,
+    0.4090909090909091,
+    0.17307692307692307
+  ],
+  "info_density_baseline": 0.00645459134388414,
+  "info_density_diff": 0.041941468364442736,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.01098901098901099,
+    0.029411764705882353,
+    0.0,
+    0.0,
+    0.011235955056179775,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.021739130434782608,
+    0.06382978723404255,
+    0.05128205128205128,
+    0.08108108108108109,
+    0.058823529411764705,
+    0.021739130434782608,
+    0.037037037037037035
+  ]
+}

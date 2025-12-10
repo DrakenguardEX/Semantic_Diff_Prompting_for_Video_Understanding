@@ -1,0 +1,81 @@
+{
+  "video_id": "12982",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/12982.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/12982",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a clear Coca-Cola branded drinking glass placed on a white cloth with black stripes. The cloth is spread out on a flat surface, and behind the glass is a large red container or bin. To the left side of the image, there appears to be some other items, possibly kitchen-related, such as food or packaging materials. The overall setting looks like a kitchen or dining area.",
+    "This image shows a clear Coca-Cola branded glass placed upside down on a white cloth with black horizontal stripes. The cloth appears to be on a flat surface, possibly a table. In the background, there's a red chair or cushion. To the left, there are some unpacked items or containers partially visible. The overall setting looks like a casual indoor environment, possibly a kitchen or dining area.",
+    "This frame shows a clear, empty glass placed upside down on a white cloth with black stripes. The cloth is spread on a wooden surface. In the background, there is a large red container or bucket and some other items that appear to be out of focus. The overall setting looks like a kitchen or dining area.",
+    "The frame shows a clear glass, possibly a drinking glass, placed upside down on a white cloth with black stripes. The cloth is spread over a flat surface, which appears to be a wooden table. In the background, there is a red container or cooler, and to the left, some brown paper packaging is partially visible. The setting seems to be indoors, likely in a kitchen or dining area.",
+    "The image shows a cobalt blue glass being filled with liquid, likely water. The glass is placed on a white cloth with black stripes that is spread out on a brown surface. In the background, there is a large red container and some other indistinct items. The liquid is being poured from above, captured mid-pour as it flows into the glass.",
+    "The image shows a purple glass with an embossed Coca-Cola logo placed upside down on a white towel with black stripes. In the background, there is a large red container or bucket. Water is being poured into the glass from above, but since the glass is upside down, the water appears to be filling the space under the glass or being deflected. The towel underneath likely serves to catch any spilled water.",
+    "This image shows a clear, empty glass placed upside down on a white towel with black stripes. The towel is spread on a flat surface, likely a table or countertop. In the background, there is a large red container and some other indistinct objects. Steam or some form of vapor appears to be rising from the glass, suggesting that something warm or hot may be involved.",
+    "This frame shows a clear glass placed upside down on a white cloth with black stripes. The glass appears to have a light purplish tint and has some indentations on its surface, possibly a Coke logo shape. The cloth is spread out on a wooden surface. In the background, there is a red container and some other indistinct items. The scene seems to be set on a table or countertop."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, a glass, has shifted slightly to the right in the current frame compared to the previous one.",
+    "The glass has moved slightly to the right in the current frame compared to the previous one.",
+    "The main change in the current frame is a slight brightness increase on the glass, reflecting more light. The glass itself remains stationary without any noticeable movement.",
+    "In the current frame, liquid is being poured into the glass, creating a visible stream above and inside the glass.",
+    "In the current frame, more liquid has been poured into the glass, causing the liquid level inside the glass to rise.",
+    "In the current frame, liquid is being poured into the glass, causing the liquid level inside the glass to rise and become visible.",
+    "The liquid inside the glass has lowered slightly in the current frame compared to the previous one."
+  ],
+  "baseline_tokens": 625,
+  "diff_tokens": 178,
+  "lexical_redundancy_baseline_avg": 0.42344266140760756,
+  "lexical_redundancy_diff_avg": 0.3663670824094417,
+  "lexical_redundancy_baseline_all": [
+    0.5,
+    0.47058823529411764,
+    0.515625,
+    0.3150684931506849,
+    0.352112676056338,
+    0.36,
+    0.4507042253521127
+  ],
+  "lexical_redundancy_diff_all": [
+    0.15789473684210525,
+    0.7058823529411765,
+    0.16129032258064516,
+    0.21212121212121213,
+    0.375,
+    0.6190476190476191,
+    0.3333333333333333
+  ],
+  "info_density_baseline": 0.00961976320582878,
+  "info_density_diff": 0.03124010473754719,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.04918032786885246,
+    0.027777777777777776,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.058823529411764705,
+    0.0,
+    0.1,
+    0.047619047619047616,
+    0.043478260869565216,
+    0.0
+  ]
+}

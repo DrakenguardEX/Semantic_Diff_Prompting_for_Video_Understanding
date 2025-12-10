@@ -1,0 +1,81 @@
+{
+  "video_id": "2651",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/2651.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/2651",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a yellow plastic bag placed on a white tiled surface. The bag has a design or text printed on it, but it is not fully clear what it says. The setting appears to be outdoors or in a semi-open area, with a rough, uneven ground visible in the background. A person's legs and feet wearing dark footwear can be partially seen in the upper right corner of the image. The focus is mainly on the yellow bag resting on the tiles.",
+    "The image shows a close-up of a small yellow plastic bag placed on a white marble or tiled surface with some dirt and markings on it. The bag appears to have some black printed symbols or text on it. The background includes a concrete or stone floor, and part of a person's leg and foot, wearing dark clothing and black footwear, is visible in the top right corner.",
+    "The image shows a yellow plastic bag placed on a marble or tiled surface with a visible crack or line on it. A hand is reaching toward the bag, suggesting someone is about to pick it up or place it there. The bag has some printed text or logos on it, but the details are not clearly visible. The setting appears to be outdoors or in a semi-open area.",
+    "This frame shows a person’s hand touching or holding a small yellow plastic bag placed on a flat, white marble surface. The marble surface is cracked, with a visible crack running across it. The scene appears to be outdoors or in a minimally furnished area. The bag seems to be lightweight and partially translucent.",
+    "This frame shows a person holding a yellow balloon over a flat, rectangular marble or stone surface. The balloon is decorated with small logos or designs, which appear white, and the person's hand is about to touch or press the balloon on the surface. The surface has a notable crack or line running through it. The scene appears to be set indoors or in a shaded area.",
+    "The frame shows a close-up of a person holding a yellow plastic bag with a repeating pattern of a logo or symbol on it. The bag is being placed or lifted near a gap between three square tiles on the ground. The tiles are white or light-colored and have visible dirt or stains around the edges and the gap. The person's hand is partially visible gripping the bag, and they seem to be wearing dark-colored clothing. The scene appears to be outdoors.",
+    "This frame shows a close-up of a piece of yellow paper or tape being peeled off from a white surface that is cracked. The white surface, possibly a tile or a slab, has visible dirt or stains and a significant crack running across it. The setting seems to be indoors, possibly a workshop or a storage area, judging by the concrete floor and the lighting reflections on the surface.",
+    "The image shows a plastic blue bottle placed on the edge of a white tiled surface. The tiles appear to be old or dirty, with visible stains and cracks. The background is somewhat unclear but seems to be a dimly lit area with a rough floor surface. There is a partial view of a person's leg and foot wearing black footwear in the right part of the image."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The yellow bag on the table has shifted slightly to the right.",
+    "In the current frame, a hand has appeared, reaching towards and touching the yellow bag that was stationary on the table in the previous frame.",
+    "The hand has moved closer to grasp the top of the yellow plastic bag. The bag has slightly shifted its position accordingly.",
+    "In the current frame, the hand has moved slightly downward and is pulling the top of the yellow plastic bag more taut compared to the previous frame. The bag itself is becoming more stretched near where the hand is gripping it.",
+    "The yellow plastic bag, held by the hand, has been lifted and is now partially upright and more inflated compared to the previous frame where it was lying more flat on the surface. The hand's position shifted slightly to accommodate this change in the bag's orientation.",
+    "In the current frame, the yellow plastic bag has shifted downward and is more crumpled, covering more of the object beneath it. The hand holding the bag has also moved slightly lower and closer to the surface.",
+    "The yellow plastic bottle covering the blue bottle is removed, revealing the blue bottle standing alone on the tiled surface."
+  ],
+  "baseline_tokens": 648,
+  "diff_tokens": 244,
+  "lexical_redundancy_baseline_avg": 0.31595804208521194,
+  "lexical_redundancy_diff_avg": 0.23247691933916423,
+  "lexical_redundancy_baseline_all": [
+    0.41025641025641024,
+    0.32,
+    0.3382352941176471,
+    0.46774193548387094,
+    0.23809523809523808,
+    0.23255813953488372,
+    0.20481927710843373
+  ],
+  "lexical_redundancy_diff_all": [
+    0.06666666666666667,
+    0.25,
+    0.15625,
+    0.3142857142857143,
+    0.3469387755102041,
+    0.32653061224489793,
+    0.16666666666666666
+  ],
+  "info_density_baseline": 0.001524390243902439,
+  "info_density_diff": 0.02412514884015414,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.012195121951219513,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.045454545454545456,
+    0.04878048780487805,
+    0.021739130434782608,
+    0.02702702702702703,
+    0.05
+  ]
+}

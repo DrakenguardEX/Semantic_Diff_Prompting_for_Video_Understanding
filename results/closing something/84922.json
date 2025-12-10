@@ -1,0 +1,81 @@
+{
+  "video_id": "84922",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/84922.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/84922",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This image shows a close-up of a makeup storage unit with multiple drawers. The top drawer is open, revealing various makeup products such as compacts, powders, and other cosmetics. The drawers are white with clear panels or sections, and each has a small round knob for opening. The storage unit appears to be placed on a countertop or table, and there are additional makeup products and tools around it. The overall scene suggests an organized makeup collection or vanity setup.",
+    "This frame shows a close-up of a person's hand with painted pink nails opening a white drawer. The drawer appears to be part of a storage unit and contains various items inside, including some that look like makeup products or tools. In the background, there are additional makeup brushes and other cosmetic items placed on a surface, suggesting this is a makeup or vanity area.",
+    "The image shows a hand pulling open a white drawer with a round, pearl-like knob. The drawer appears to be part of a multi-tiered storage unit, likely meant for organizing cosmetics or small items. On top of the storage unit, there are various makeup products such as brushes, bottles, and containers. The surrounding area has several more makeup brushes and tools, suggesting this is a makeup or vanity setup.",
+    "This frame shows a person's hand pulling open a drawer from a multi-drawer organizer or cart. Inside the drawer, there are various makeup items such as brushes, palettes, and containers, indicating that this is likely a makeup storage unit. In the background, additional makeup products and brushes are visible on a counter or table. The setting appears to be a makeup station or vanity area.",
+    "This frame shows a close-up of a hand opening a drawer of a multi-tiered storage cart. The cart is white and has several drawers, some of which are partially open or closed. The top surface of the cart holds a round tray with various bottles and containers, likely for cosmetics or personal care products. To the left, there are makeup brushes and additional beauty tools visible on the adjacent surface. The setting appears to be a vanity or makeup station.",
+    "The frame shows a close-up of a person’s hand opening or closing a white drawer in a multi-drawer storage unit. The storage unit has several drawers with white fronts and round silver knobs. On top of the unit, there are various small bottles, containers, and items, likely cosmetics or personal care products. The storage unit itself appears to be metallic with a dark-colored frame. The background includes a desk with a cup holding pens or pencils and some other items, as well as part of a bed or couch with greenish bedding or a cover.",
+    "The image shows a close-up of a hand reaching to open a white plastic drawer in a metal-framed organizer. The organizer appears to have multiple white drawers stacked vertically, four of which are visible in the image. The top of the organizer has some items placed on it, including what looks like bottles or containers. To the right side of the organizer, part of a bed with pillows and blankets is visible. The background is a room with light-colored walls.",
+    "The image shows a storage unit with four white drawers. The drawers appear to be plastic and have round white knobs for handles. The frame of the unit is metallic with a shiny chrome finish. Various items, such as tools or makeup products, are visible on the top surface of the storage unit. The background includes part of a green cushioned surface, possibly a bed or chair, and other household items. The storage unit looks utilitarian and is likely used to organize small personal or household items."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a hand has appeared and is reaching towards the drawer handle. The drawer itself remains in the same open position as in the previous frame.",
+    "The hand moved from just before the drawer's knob to gripping and turning the knob, causing the drawer to begin opening.",
+    "The hand has moved slightly upward and the fingers have changed their grip on the makeup brush.",
+    "The drawer is being pulled open further by the hand holding the knob.",
+    "The hand is pulling the drawer further open compared to the previous frame.",
+    "The hand is pulling the top drawer open slightly more in the current frame compared to the previous one.",
+    "The main object, a drawer, has been pulled slightly open in the current frame compared to the previous one. The person's hand has moved away from the drawer handle."
+  ],
+  "baseline_tokens": 753,
+  "diff_tokens": 172,
+  "lexical_redundancy_baseline_avg": 0.3655749771972223,
+  "lexical_redundancy_diff_avg": 0.26064290362609693,
+  "lexical_redundancy_baseline_all": [
+    0.35714285714285715,
+    0.4025974025974026,
+    0.4246575342465753,
+    0.4025974025974026,
+    0.4044943820224719,
+    0.2978723404255319,
+    0.2696629213483146
+  ],
+  "lexical_redundancy_diff_all": [
+    0.08,
+    0.12121212121212122,
+    0.14814814814814814,
+    0.08333333333333333,
+    0.375,
+    0.5882352941176471,
+    0.42857142857142855
+  ],
+  "info_density_baseline": 0.016711498122396293,
+  "info_density_diff": 0.08216613463757694,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.015384615384615385,
+    0.028985507246376812,
+    0.03076923076923077,
+    0.025,
+    0.021052631578947368,
+    0.0125,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.034482758620689655,
+    0.047619047619047616,
+    0.058823529411764705,
+    0.15384615384615385,
+    0.15384615384615385,
+    0.10526315789473684,
+    0.10344827586206896
+  ]
+}

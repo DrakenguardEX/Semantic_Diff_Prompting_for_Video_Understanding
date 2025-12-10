@@ -1,0 +1,81 @@
+{
+  "video_id": "9755",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/9755.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/9755",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The frame shows a hand holding a small rectangular object that appears to be a USB flash drive or a similar electronic device. The device has a blue label or casing on one side with some white and possibly other colored elements, but the text or details on the label are not clearly visible due to the image blur. The background is plain and light-colored, possibly a wall. The image focuses closely on the hand and the object being held.",
+    "The image shows a close-up of a hand holding a small rectangular box with a black cap. The box appears to be a cosmetic or personal care item, possibly a small bottle or container like an eye dropper, lipstick, or similar product. The background is a plain wall with a power outlet and some cords visible near the bottom right. The image is slightly out of focus.",
+    "The image shows a close-up of a hand holding a small rectangular object. The object appears to be a blue USB flash drive with a black cap, and some text is slightly visible on its surface. The background reveals part of a plain, light-colored wall, an electrical outlet, and a patch on the wall. The setting appears to be indoors.",
+    "The image shows a close-up of a person's hand holding a blue marker pen, pointing towards the camera or the viewer. The background appears to be a plain wall with a small framed item hanging, possibly a piece of artwork or a small decorative item. There is also a visible power outlet and some cables on the wall. The person's arm is bare, indicating they might be wearing short sleeves or no sleeves.",
+    "In this frame, a person is holding a blue tube-shaped marker or highlighter in one hand while the other hand is holding the cap of the marker. The person appears to be in the process of opening or closing the marker. The background features a plain light-colored wall with a visible electrical outlet and some markings on the wall. The person's arm and hand are the main focus of the image.",
+    "This frame shows a close-up of a hand holding a blue-cased black marker pen with the cap removed. The other hand appears to be holding the cap. The background is a plain white or light-colored wall with a small, slightly visible patch or object on it. The lighting is somewhat diffused, creating a soft highlight on the wall.",
+    "The frame shows a close-up of a person's hands holding a tube with a blue label. The person is gripping the tube in one hand, with the cap removed and held in the other hand. The tube appears to be a type of cream or ointment container. The background is plain and slightly out of focus, with part of the person's forearm visible.",
+    "In this image, a person is holding a blue highlighter marker with their left hand. The cap of the highlighter is removed and is being held in the right hand, positioned near the tip of the marker. The background is plain, likely a wall, and the person's forearm is visible. The image seems to capture the moment just before or after the cap is placed on or taken off the highlighter."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand holding the blue object has moved slightly to the right and the fingers have shifted position.",
+    "The main object, a lighter held in the hand, has shifted slightly to the right in the current frame compared to the previous one. The motion is a small horizontal movement.",
+    "The main object, a blue marker, has rotated so that its cap is removed and the black tip is now visible. The hand holding the marker has extended the arm outward.",
+    "In the current frame, the person has moved the black cap away from the blue highlighter, holding it in their other hand. The highlighter is now uncapped.",
+    "The cap has been removed from the marker and is now held in the other hand. The marker tip is exposed.",
+    "There is no noticeable change in the position or motion of the main object (the hand holding the blue highlighter and the cap) between the two frames.",
+    "The right hand moved closer to the right side of the frame and slightly rotated while holding the black marker cap. The left hand and marker position remained mostly the same."
+  ],
+  "baseline_tokens": 644,
+  "diff_tokens": 229,
+  "lexical_redundancy_baseline_avg": 0.3459579654352373,
+  "lexical_redundancy_diff_avg": 0.20568348961206104,
+  "lexical_redundancy_baseline_all": [
+    0.2716049382716049,
+    0.4090909090909091,
+    0.3287671232876712,
+    0.33783783783783783,
+    0.36923076923076925,
+    0.3770491803278688,
+    0.328125
+  ],
+  "lexical_redundancy_diff_all": [
+    0.05,
+    0.26666666666666666,
+    0.175,
+    0.25,
+    0.32142857142857145,
+    0.1875,
+    0.1891891891891892
+  ],
+  "info_density_baseline": 0.009349150458305387,
+  "info_density_diff": 0.025590971155487283,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.016666666666666666,
+    0.0,
+    0.028169014084507043,
+    0.0,
+    0.015873015873015872,
+    0.014084507042253521
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05555555555555555,
+    0.0,
+    0.03225806451612903,
+    0.037037037037037035,
+    0.047619047619047616,
+    0.0,
+    0.03225806451612903
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "16316",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/16316.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/16316",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up of a plastic water bottle pouring water into a white mug with a dark exterior. The pouring action is captured mid-flow, and the mug is placed on a table covered with a light-colored tablecloth. There is a floral-patterned cloth or napkin visible in the background.",
+    "The frame shows a plastic water bottle pouring water into a white ceramic mug. The mug is placed on a table with a light-colored tablecloth that has a floral design featuring red flowers. The bottle is tilted towards the mug, and the mouth of the bottle is close to the mug's opening, with water visible flowing into the mug.",
+    "This frame shows a plastic bottle labeled \"Spring Water\" being used to pour water into a white mug with dark blue and red designs. The scene is set on a table covered with a plastic or vinyl tablecloth that has a floral pattern, including red poinsettias. Some cutlery and part of a blue object are visible in the background.",
+    "The frame shows a close-up of a plastic bottle of Spring Water being poured into a ceramic mug. The scene appears to be on a table covered with a light-colored cloth that has a floral pattern. The water is mid-pour into the mug, with some water splashing slightly outside the mug.",
+    "This frame shows a close-up of a plastic bottle labeled \"Spring water\" being poured into a white mug with a dark exterior. The mug is placed on a surface covered with a floral-patterned tablecloth, featuring red and beige flowers. The water is mid-pour, with a visible stream flowing from the bottle into the mug.",
+    "The image shows a close-up of a plastic bottle labeled \"Spring Water\" being poured into a ceramic mug. The mug is positioned on a table with a light-colored tablecloth that has a floral design near the top edge of the frame. The water is mid-pour, flowing from the bottle into the mug.",
+    "This frame shows water being poured from a large plastic bottle labeled \"Spring Water\" into a cup. The cup is partially filled, and there is some water spilled on the surface beneath it. The scene appears to be on a table covered with a light-colored tablecloth or surface protector. There is a decorative item with floral elements visible in the background.",
+    "This frame shows a bottle of spring water being poured into a white cup. The water is actively flowing from the bottle into the cup. The surface underneath appears to have a light-colored tablecloth with a floral design, primarily featuring red and green colors."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "Water is being poured from the bottle into the cup, and the bottle is tilted more downward compared to the previous frame.",
+    "The water bottle's opening has tilted further into the mug, and water is now pouring out from the bottle into the mug.",
+    "In the current frame, the water being poured from the bottle into the cup has increased in volume and is splashing more visibly inside the cup compared to the previous frame.",
+    "In the current frame, water is being poured into the cup and has accumulated more inside, creating visible ripples and bubbles. The angle of the bottle has shifted slightly downward as more water flows out.",
+    "The water poured from the bottle into the cup has increased, with more water visible inside the cup and a more pronounced splash effect.",
+    "The water being poured from the bottle into the cup has increased, causing more visible splashes and bubbles inside the cup in the current frame compared to the previous one.",
+    "The water stream being poured from the bottle into the cup has increased, filling the cup with more water in the current frame compared to the previous one. The position of the bottle's spout is slightly tilted downward, directing the flow more into the cup."
+  ],
+  "baseline_tokens": 530,
+  "diff_tokens": 249,
+  "lexical_redundancy_baseline_avg": 0.4058523754614649,
+  "lexical_redundancy_diff_avg": 0.34196846366240935,
+  "lexical_redundancy_baseline_all": [
+    0.4444444444444444,
+    0.3709677419354839,
+    0.4166666666666667,
+    0.39285714285714285,
+    0.4807692307692308,
+    0.3387096774193548,
+    0.39655172413793105
+  ],
+  "lexical_redundancy_diff_all": [
+    0.15,
+    0.32,
+    0.25806451612903225,
+    0.4166666666666667,
+    0.3142857142857143,
+    0.4482758620689655,
+    0.4864864864864865
+  ],
+  "info_density_baseline": 0.03540869192516709,
+  "info_density_diff": 0.04870668086393893,
+  "info_density_baseline_per_frame": [
+    0.04,
+    0.05084745762711865,
+    0.01694915254237288,
+    0.0196078431372549,
+    0.05555555555555555,
+    0.038461538461538464,
+    0.01639344262295082,
+    0.045454545454545456
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.045454545454545456,
+    0.09090909090909091,
+    0.03225806451612903,
+    0.05714285714285714,
+    0.041666666666666664,
+    0.03333333333333333,
+    0.08888888888888889
+  ]
+}

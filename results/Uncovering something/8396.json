@@ -1,0 +1,81 @@
+{
+  "video_id": "8396",
+  "class": "Uncovering something",
+  "video_path": "test_videos/Uncovering something/8396.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Uncovering something/8396",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a close-up of a person's hand on a textured white fabric with a purple or lavender stripe visible along the edge. The fabric appears to be placed on an orange surface. The hand is positioned in a way that partially obscures the fabric, and nothing else is clearly visible in the frame.",
+    "This frame shows a close-up of a person's hand resting on a white textured fabric with a small purple stripe near the edge. The background surface appears to be orange. The image focuses mainly on the hand and the fabric.",
+    "This frame shows a close-up of a person's hand writing or drawing on a white cloth or paper with a purple stripe on top and an orange surface beneath. The hand appears to be in motion, likely creating something on the surface. The image is somewhat blurred, emphasizing the action rather than the specific details of the writing or drawing.",
+    "The frame shows a single whole red onion resting on a wooden surface or cutting board. The onion is centered in the image and appears unpeeled. The lighting creates a slight reflection on the wooden surface.",
+    "The frame shows a single whole red onion placed on an orange surface or cutting board. The onion has a purplish-red color with a slightly shiny outer skin. The surface beneath the onion appears smooth and reflective.",
+    "The frame shows a single red onion placed on an orange surface, which appears to be a cutting board or table. The onion has a purplish-red outer skin with a small dried stem at the top. The lighting creates a slight shadow under the onion.",
+    "This frame shows a single red onion sitting on an orange surface. The onion is whole and has its papery outer skin intact. The surface has a slightly glossy finish, and the lighting creates a shadow behind the onion.",
+    "This frame shows a single red onion placed on a wooden cutting board. The background is not fully visible, but part of a light-colored surface can be seen at the edge. The onion is whole and unpeeled."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand in the current frame has moved slightly downward and to the right compared to the previous frame.",
+    "The hand moved slightly closer to the camera and shifted downward, causing a more blurred appearance in the current frame compared to the previous one.",
+    "The main object, previously held by a hand and positioned on a white towel, is now placed on an orange surface with the hand no longer visible. The object is more clearly shown in the current frame.",
+    "The onion has moved from a tilted position to a more upright, stable position on the surface.",
+    "The onion has rotated slightly clockwise in the current frame compared to the previous one.",
+    "The main object, a red onion, has shifted slightly to the right in the current frame compared to the previous one.",
+    "The onion has slightly rotated and shifted position a bit upwards on the surface."
+  ],
+  "baseline_tokens": 414,
+  "diff_tokens": 179,
+  "lexical_redundancy_baseline_avg": 0.37800809196912827,
+  "lexical_redundancy_diff_avg": 0.28901789548771456,
+  "lexical_redundancy_baseline_all": [
+    0.5208333333333334,
+    0.42592592592592593,
+    0.2033898305084746,
+    0.375,
+    0.4883720930232558,
+    0.3617021276595745,
+    0.2708333333333333
+  ],
+  "lexical_redundancy_diff_all": [
+    0.17647058823529413,
+    0.5217391304347826,
+    0.19047619047619047,
+    0.13157894736842105,
+    0.17391304347826086,
+    0.5789473684210527,
+    0.25
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.01893188854489164,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05263157894736842,
+    0.04,
+    0.0,
+    0.058823529411764705,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

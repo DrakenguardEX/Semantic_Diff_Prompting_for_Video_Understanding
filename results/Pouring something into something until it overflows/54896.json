@@ -1,0 +1,81 @@
+{
+  "video_id": "54896",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/54896.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/54896",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a kitchen sink area. There is a white appliance, likely an electric kettle, being poured or tilted over the sink. Below it, there is a small, translucent turquoise or green plastic cup placed near the drain of the sink. The sink has a cream-colored or light beige plastic grid or mat around the drain. The drain itself is circular and metallic. The setting appears to be indoors, likely in a kitchen.",
+    "This frame shows a close-up view of a white PUR water filter pitcher being poured, likely over a light blue cup or container. The scene is set near a sink drain with a metal strainer, and the surface underneath appears to be a beige or off-white textured mat. The image captures the action of pouring filtered water.",
+    "This frame shows a close-up of a white electric kettle positioned near a sink drain. Water is pouring from the kettle’s spout into a translucent turquoise cup that is placed in the sink. The sink has a beige or off-white grid pattern at the bottom. The image captures the moment of water being dispensed from the kettle.",
+    "This frame shows a close-up view of water being poured from a blue and white pitcher into a turquoise cup or container placed on a drying rack next to a metal sink drain. The draining rack has a beige or off-white color with a wavy pattern. The perspective is angled, focusing on the action of pouring water.",
+    "This frame shows water being poured from a container or tap into a blue water jug or bottle. The jug is positioned over a drain with a metal grate, and the background appears to be a plastic or rubber mat with a wavy pattern designed to allow water drainage. The focus is on the water flow entering the jug.",
+    "This frame shows a close-up view of a sink with a drain. Water, which appears to be tinted blue, is being poured into the sink from a container or jug. The background of the sink has a textured, wavy pattern around the drain area.",
+    "This frame shows an up-close view of a kitchen sink drain with a blue-green spherical object, likely a cleaning or deodorizing ball, positioned near the drain. The object appears to be wet, and there is also a white and blue item, possibly a water filter or a container, tilted above the sink, as if pouring or positioned near the object. The sink has a wavy patterned plastic mat on its surface around the drain.",
+    "This frame shows water being poured from a white and blue electric kettle into a light blue glass. The glass is positioned over a beige sink with a drain that has a metal grate cover. The background features a textured surface with a wavy pattern around the sink area."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The main object, the electric kettle, has moved slightly closer to the edge of the frame toward the right side.",
+    "The main object, a white pitcher, has moved downward closer to the sink area in the current frame compared to the previous one.",
+    "The main object, a white and blue electric kettle, has moved forward and tilted downward, pouring water into the transparent blue cup below.",
+    "The water is flowing from the kettle's spout into the green cup, and the water level in the cup has risen.",
+    "The main object, the water pouring from the kettle, has flowed further into the basin in the current frame compared to the previous one. The water appears more extended and dynamic as it moves downward.",
+    "In the current frame, the water from the kettle has flowed further out, now forming small splashes as it pours into the sink. The water stream appears more dispersed and dynamic compared to the previous frame.",
+    "The blue water bubbles have moved slightly downward along the stream pouring out from the container."
+  ],
+  "baseline_tokens": 573,
+  "diff_tokens": 215,
+  "lexical_redundancy_baseline_avg": 0.3538650663706629,
+  "lexical_redundancy_diff_avg": 0.25572597612876286,
+  "lexical_redundancy_baseline_all": [
+    0.32432432432432434,
+    0.3333333333333333,
+    0.4098360655737705,
+    0.3492063492063492,
+    0.45098039215686275,
+    0.359375,
+    0.25
+  ],
+  "lexical_redundancy_diff_all": [
+    0.1,
+    0.2962962962962963,
+    0.25806451612903225,
+    0.2413793103448276,
+    0.2222222222222222,
+    0.5405405405405406,
+    0.13157894736842105
+  ],
+  "info_density_baseline": 0.021779525837605358,
+  "info_density_diff": 0.0652626811594203,
+  "info_density_baseline_per_frame": [
+    0.013513513513513514,
+    0.017543859649122806,
+    0.017543859649122806,
+    0.03508771929824561,
+    0.03389830508474576,
+    0.022727272727272728,
+    0.013513513513513514,
+    0.02040816326530612
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05,
+    0.043478260869565216,
+    0.08695652173913043,
+    0.047619047619047616,
+    0.08571428571428572,
+    0.08333333333333333,
+    0.125
+  ]
+}

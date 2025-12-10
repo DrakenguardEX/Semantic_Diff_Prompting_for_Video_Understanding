@@ -1,0 +1,81 @@
+{
+  "video_id": "62186",
+  "class": "Pouring something into something until it overflows",
+  "video_path": "test_videos/Pouring something into something until it overflows/62186.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something until it overflows/62186",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up view of two white ceramic coffee cups. A hand is holding one of the cups tilted over the other cup positioned below it on a dark wooden surface. Both cups appear to be empty or nearly empty. The background is plain, focusing mainly on the cups and the hand.",
+    "The image shows a hand holding a white cup tilted and pouring what appears to be milk or cream into another white cup placed on a dark wooden surface. The cup below is filled with a frothy liquid, possibly coffee or tea with milk. The scene suggests someone preparing a hot beverage by adding milk or cream.",
+    "The frame shows a close-up of a hand holding a white cup and pouring liquid into another white cup placed on a dark wooden surface. The liquid being poured appears to be a milky or creamy beverage, possibly coffee or tea with milk. The cup on the surface is filled with the same type of liquid. The setup suggests someone is in the process of serving or mixing a drink.",
+    "The image shows a person pouring liquid from a white cup into another white cup placed on a dark wooden surface. The cup on the surface appears to be catching the liquid being poured from the cup held above it. The hand holding the top cup is visible in the frame.",
+    "This image shows a close-up view of a hand pouring milk or cream from a small container into a white cup placed on a dark wooden surface. The cup already contains some liquid, and the pouring is creating a swirling effect inside the cup. The overall setting suggests preparation of a beverage like coffee or tea with milk or cream.",
+    "The image shows a close-up of a hand pouring a white liquid from a small container into a white cup placed on a dark brown wooden surface. The liquid appears to be milk or cream. The hand holding the container is positioned above the cup, and the liquid is mid-pour, creating a visible splash inside the cup.",
+    "The frame shows a close-up view of a person's hand pouring a white liquid, possibly milk or cream, from a small container into a white cup. The cup is placed on a dark wooden surface or table. The liquid is captured mid-pour, creating a sense of motion in the image.",
+    "This frame shows a close-up view of a hand pouring liquid, likely milk, from one white cup into another white cup that is placed on a dark wooden surface. The liquid is shown flowing into the cup below, and some of the liquid has spilled onto the surface around the cup. The scene appears to be informal and taken from above."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The liquid from the upper cup is being poured into the lower cup, and the level of liquid inside the lower cup is rising.",
+    "The liquid is being poured from the container into the cup, with the liquid now flowing into the cup.",
+    "In the current frame, liquid is being poured from the top cup into the bottom cup, with a visible stream of liquid flowing down.",
+    "The liquid poured from the upper container into the cup below has increased, causing ripples and bubbles to form on the surface inside the cup.",
+    "In the current frame, more liquid has been poured from the container into the cup, with the liquid level rising inside the cup. The angle of the container has also slightly changed as it continues to pour.",
+    "The liquid being poured into the cup has increased, with more of it flowing from the container above into the cup below. A few droplets are now seen splashing outside the cup.",
+    "In the current frame, the liquid being poured into the cup has increased, with more liquid visible flowing from the container into the cup. The liquid inside the cup has risen slightly compared to the previous frame."
+  ],
+  "baseline_tokens": 524,
+  "diff_tokens": 237,
+  "lexical_redundancy_baseline_avg": 0.42809476528244783,
+  "lexical_redundancy_diff_avg": 0.28482393086550545,
+  "lexical_redundancy_baseline_all": [
+    0.296875,
+    0.5344827586206896,
+    0.42857142857142855,
+    0.2833333333333333,
+    0.509090909090909,
+    0.5714285714285714,
+    0.3728813559322034
+  ],
+  "lexical_redundancy_diff_all": [
+    0.0,
+    0.42105263157894735,
+    0.45454545454545453,
+    0.17647058823529413,
+    0.2702702702702703,
+    0.3,
+    0.37142857142857144
+  ],
+  "info_density_baseline": 0.03184524111629121,
+  "info_density_diff": 0.05563677987197724,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.03508771929824561,
+    0.04285714285714286,
+    0.0392156862745098,
+    0.03333333333333333,
+    0.03508771929824561,
+    0.02,
+    0.04918032786885246
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.041666666666666664,
+    0.10526315789473684,
+    0.08333333333333333,
+    0.04,
+    0.02702702702702703,
+    0.09375,
+    0.05405405405405406
+  ]
+}

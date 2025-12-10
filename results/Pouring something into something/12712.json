@@ -1,0 +1,81 @@
+{
+  "video_id": "12712",
+  "class": "Pouring something into something",
+  "video_path": "test_videos/Pouring something into something/12712.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/Pouring something into something/12712",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "The image shows a can of NOS energy drink and an empty clear glass placed on a light-colored surface. The can is purple with yellow and white text, displaying nutritional information and branding. The glass has an intricate pattern, likely made of cut or pressed glass, and is positioned to the right of the can. The background appears to be a plain, slightly worn wall.",
+    "This image shows a hand about to grab or place down a can of NOS energy drink on a flat surface, such as a table or countertop. Next to the can is a clear, empty glass with a decorative, textured pattern. The background wall is plain and off-white. The scene appears to be indoors.",
+    "The image shows a hand holding a purple and silver can of NOS energy drink near an empty, clear, textured drinking glass placed on a surface. The background is plain and appears to be a wall or a similar flat surface. The hand is positioned as if about to pour the beverage into the glass.",
+    "The image shows a hand holding a purple can above an empty glass on a surface, possibly preparing to pour a drink. The can is labeled \"Nitro,\" and the glass has a decorative pattern. The hand has a black wristband or watch on the wrist. The background is plain with a wall.",
+    "The image shows a close-up of a hand pouring a purple can of an energy drink into a tall, clear, textured glass filled with ice. The hand has a tattoo on the wrist and is wearing a black wristband. The scene appears to be taking place on a countertop or table with a plain background.",
+    "The image shows a hand pouring a dark blue or purple beverage from a can into a clear glass. The can and the liquid both have a vibrant purple color, suggesting the drink might be an energy drink or a soda. The glass is transparent, allowing the liquid's color to be clearly visible as it fills. The background appears to be a plain wall and a light-colored flat surface like a table or countertop. The person pouring the drink is wearing a black wristband or bracelet.",
+    "The image shows a hand pouring a blue liquid from a small, colorful can into a clear glass on a white surface. The background appears to be a plain wall with some discoloration or stains. The glass is about half full with the blue liquid.",
+    "The image shows a person's hand pouring a blue liquid from a purple can into a clear, empty glass on a light-colored surface. The label on the can is partially visible but not readable. The background consists of an off-white wall."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "In the current frame, a hand has entered the scene and is reaching towards the can. The can itself remains in the same position.",
+    "The main object, a purple energy drink can, has been lifted and tilted slightly to the right by the hand. The hand position changed from above and to the side of the can to grasping the can around its middle.",
+    "In the current frame, the hand holding the can has moved, tilting the can over the glass as if pouring the contents into it. The position of the can has changed from upright to angled.",
+    "In the current frame, the can has moved closer to the glass and is now positioned right above its opening, tilted further downward as if preparing to pour. The liquid inside the can appears to be ready to be poured into the glass. The position of the hand holding the can has also adjusted accordingly.",
+    "In the current frame, a blue liquid is being poured from the can into the glass, filling it. The hand and can have tilted forward compared to the previous frame to allow the liquid to flow out.",
+    "The blue liquid being poured from the can has flowed further into the glass, increasing the liquid level inside it.",
+    "The blue liquid is pouring further into the glass, filling it more compared to the previous frame."
+  ],
+  "baseline_tokens": 536,
+  "diff_tokens": 269,
+  "lexical_redundancy_baseline_avg": 0.40292287549940614,
+  "lexical_redundancy_diff_avg": 0.23211028102332448,
+  "lexical_redundancy_baseline_all": [
+    0.40625,
+    0.5,
+    0.4074074074074074,
+    0.4,
+    0.38571428571428573,
+    0.3333333333333333,
+    0.3877551020408163
+  ],
+  "lexical_redundancy_diff_all": [
+    0.043478260869565216,
+    0.1794871794871795,
+    0.20454545454545456,
+    0.3333333333333333,
+    0.2692307692307692,
+    0.30303030303030304,
+    0.2916666666666667
+  ],
+  "info_density_baseline": 0.017955562981796677,
+  "info_density_diff": 0.04858290060495943,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.01818181818181818,
+    0.019230769230769232,
+    0.03636363636363636,
+    0.023255813953488372,
+    0.022222222222222223,
+    0.024390243902439025
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.0,
+    0.025,
+    0.02857142857142857,
+    0.03636363636363636,
+    0.08108108108108109,
+    0.1,
+    0.11764705882352941
+  ]
+}

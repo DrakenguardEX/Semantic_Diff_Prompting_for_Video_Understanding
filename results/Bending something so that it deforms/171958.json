@@ -1,0 +1,67 @@
+{
+  "video_id": "171958",
+  "class": "Bending something so that it deforms",
+  "video_path": "test_videos/Bending something so that it deforms/171958.webm",
+  "num_frames": 6,
+  "frame_dir": "frames/Bending something so that it deforms/171958",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up of a person's hand turning a key inserted into a wooden lock or keyhole. The lighting suggests it might be taken indoors, and the focus is on the hand and the key. The hand appears to be in the process of unlocking or locking the object.",
+    "The frame shows a close-up of a hand holding a metal tool or object near a wooden surface with a glossy finish. The hand appears to be engaged in some sort of detailed work or manipulation on the wood, possibly involving a small screw or a delicate task. The lighting is dim, with the focus on the hand and the wooden material.",
+    "The image shows a close-up of a person's right hand forming a fist. The hand is positioned over a wooden surface, possibly a table or countertop. The lighting is moderate, with some shadows around the hand. The background seems to be simple and doesn't contain any distinct or notable objects.",
+    "This frame shows a close-up of a hand playing a piano or keyboard. The hand appears to be either plucking or holding a piano string inside the instrument, suggesting that the person may be engaging in a technique called \"string piano,\" where the strings inside the piano are directly manipulated to produce sound. The image is somewhat blurred, indicating motion. The wooden interior of the piano is visible in the background.",
+    "The frame shows a close-up of a hand holding a broken piece of clear glass or plastic. The background appears to be a wooden surface, possibly part of furniture or a fixture. The lighting is dim, and the image quality is somewhat low or blurry.",
+    "The image shows a close-up of a person's hand holding a small, thin metal object with a spiral or looped end. The background appears to be a dark wooden surface, possibly a piece of furniture like a headboard or cabinet. The person's fingers are partially visible, and the object is held delicately between the thumb and forefinger. The lighting is soft, focusing on the hand and the metal object."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand has moved slightly downward and rotated clockwise, causing the metal object it holds to also shift position accordingly.",
+    "The hand has moved closer to the surface, changing from holding a thin object outwardly to a clenched fist, with the thin object no longer visible.",
+    "The hand moved from a closed fist position to an open position, releasing or flicking a small metallic object forward. The motion suggests the object is being thrown or flipped away from the hand.",
+    "The glass in the hand has shattered, with large broken pieces visible, indicating the glass was crushed or smashed between the frames. The hand is also positioned slightly lower and more open in the current frame.",
+    "The main object, held by the hand, has changed from a broken glass piece in the previous frame to a metallic wire or string-like object with a spiral end in the current frame. The hand itself has shifted position slightly to hold the new object."
+  ],
+  "baseline_tokens": 413,
+  "diff_tokens": 196,
+  "lexical_redundancy_baseline_avg": 0.29278420209927053,
+  "lexical_redundancy_diff_avg": 0.15367150545721975,
+  "lexical_redundancy_baseline_all": [
+    0.3333333333333333,
+    0.2727272727272727,
+    0.2054794520547945,
+    0.2857142857142857,
+    0.36666666666666664
+  ],
+  "lexical_redundancy_diff_all": [
+    0.041666666666666664,
+    0.18181818181818182,
+    0.21621621621621623,
+    0.10416666666666667,
+    0.22448979591836735
+  ],
+  "info_density_baseline": 0.0,
+  "info_density_diff": 0.03407910172616055,
+  "info_density_baseline_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.05,
+    0.038461538461538464,
+    0.08823529411764706,
+    0.027777777777777776,
+    0.0
+  ]
+}

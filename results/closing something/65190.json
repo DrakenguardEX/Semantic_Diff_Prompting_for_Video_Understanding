@@ -1,0 +1,81 @@
+{
+  "video_id": "65190",
+  "class": "closing something",
+  "video_path": "test_videos/closing something/65190.webm",
+  "num_frames": 8,
+  "frame_dir": "frames/closing something/65190",
+  "frame_files": [
+    "frame_000.jpg",
+    "frame_001.jpg",
+    "frame_002.jpg",
+    "frame_003.jpg",
+    "frame_004.jpg",
+    "frame_005.jpg",
+    "frame_006.jpg",
+    "frame_007.jpg"
+  ],
+  "baseline_texts": [
+    "This frame shows a close-up view of an open notebook or journal being held by a hand. The notebook is open to mostly blank or lightly colored pages, with the left page seemingly blank and the right page showing faint lines. The background features a wooden surface, which appears to be a desk or table. Additionally, some torn pieces of white paper or napkin are visible on the table in the upper-right part of the image.",
+    "The image shows a hand holding open a notebook. The notebook has blank pages on the left side, and the right side shows lined pages. The notebook is on a wooden surface, and there are some torn pieces of white paper and a small item that looks like a pen or marker in the background.",
+    "The frame shows a person holding open a blank notebook or journal. The pages appear to be empty, with no writing or drawings on them. The notebook is being held over a wooden table that has some torn pieces of white paper and a small object on it. The overall setting suggests someone might be about to write or sketch in the notebook.",
+    "The frame shows a close-up of a hand holding open a notebook or journal. The notebook is open to reveal two blank pages, one on the left side and one on the right. The right page appears to be a light beige color, while the left page is white. The notebook has a hard cover, and it is resting on a wooden surface. In the background, there are some pieces of torn white paper scattered on the surface. The overall scene suggests someone is about to write or draw in the notebook.",
+    "This frame shows a hand flipping through the blank pages of a notebook. The notebook is open on a desk with a wooden surface. In the background, there are some cables and a small object that appears to be a USB flash drive or similar device, along with a few crumpled pieces of white paper.",
+    "The image shows a close-up of a hand resting on a closed black notebook or journal, which is lying on a wooden desk. There is a white cable plugged into a device off-frame on the left side, and a black cable running across the desk that has a small SD card attached to it. On the right side of the desk, there are some crumpled pieces of white paper. The overall scene suggests a workspace or study area.",
+    "The image shows a hand holding a closed black notebook or journal on a wooden table. There are some items on the table including a memory card, a white cable, some wires, and a piece of crumpled tissue or paper on the right side. The setting appears to be a workspace or desk.",
+    "The image shows a person holding a closed black notebook or journal on a wooden table. The notebook appears to have a hard cover. On the table, there are also some cables and power adapters, along with some crumpled white tissues or paper towels. The setting looks like a workspace or desk area."
+  ],
+  "diff_texts": [
+    "Initial frame. No previous frame to compare.",
+    "The hand holding the notebook has moved slightly downward, causing the left page of the notebook to lift a bit higher.",
+    "The main object, the notebook, has its middle pages flipped further to the right compared to the previous frame. The hand appears to be holding the bottom left corner steady while the pages are being turned.",
+    "The main object, the notebook page being turned, has moved further to the left in the current frame, showing more of the blank page. The hand holding the notebook has also shifted slightly to the left following the page movement.",
+    "The page of the notebook is being flipped from left to right, with the hand moving the page forward, causing it to fold closer to the right side of the notebook.",
+    "The hand has flipped the notebook from showing its blank cream-colored pages to its closed black cover. The notebook's position changed from open to closed.",
+    "The hand has moved slightly to the left and is now positioned more on the edge of the black notebook.",
+    "The hand has moved slightly closer to the bottom edge of the black notebook."
+  ],
+  "baseline_tokens": 603,
+  "diff_tokens": 224,
+  "lexical_redundancy_baseline_avg": 0.39247268047366657,
+  "lexical_redundancy_diff_avg": 0.2380721164627087,
+  "lexical_redundancy_baseline_all": [
+    0.37681159420289856,
+    0.359375,
+    0.4189189189189189,
+    0.3698630136986301,
+    0.3287671232876712,
+    0.421875,
+    0.4716981132075472
+  ],
+  "lexical_redundancy_diff_all": [
+    0.045454545454545456,
+    0.1891891891891892,
+    0.325,
+    0.21052631578947367,
+    0.17647058823529413,
+    0.1935483870967742,
+    0.5263157894736842
+  ],
+  "info_density_baseline": 0.018855991752779456,
+  "info_density_diff": 0.04424059139784946,
+  "info_density_baseline_per_frame": [
+    0.02631578947368421,
+    0.01818181818181818,
+    0.015873015873015872,
+    0.021739130434782608,
+    0.01818181818181818,
+    0.01282051282051282,
+    0.018867924528301886,
+    0.018867924528301886
+  ],
+  "info_density_diff_per_frame": [
+    0.0,
+    0.09523809523809523,
+    0.0,
+    0.025,
+    0.03225806451612903,
+    0.08,
+    0.05,
+    0.07142857142857142
+  ]
+}
